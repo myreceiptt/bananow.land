@@ -20,7 +20,7 @@ const Layout = (props: any) => {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <link href="/favicon.ico" rel="shortcut icon" />
+        <link href="/logo32.png" rel="shortcut icon" />
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
