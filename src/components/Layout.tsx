@@ -11,7 +11,7 @@ const Layout = (props: any) => {
   const meta = {
     title: "BANANOW.LAND - A Fun, Non-Intimidating, and Supportive Company",
     description: `BANANOW. LAND is a fun, non-intimidating, supportive company, where farmers can always play, learn, and work according to their resulting revenue and formed value.`,
-    image: "/images/seo/Bananow-Circle-2-1024x793.png",
+    image: "/images/seo/FpVbaX0aMAAC7NI.jpeg",
     type: "website",
     ...customMeta,
   };
