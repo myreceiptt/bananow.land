@@ -1,27 +1,34 @@
 {
-  "name": "init-it",
-  "version": "0.4.7",
-  "description": "Receipt of Initialization",
-  "keywords": [],
-  "author": "MyReceipt",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myreceiptt/myreceiptt.git"
-  },
-  "bugs": {
-    "url": "https://github.com/myreceiptt/myreceiptt/issues"
-  },
-  "homepage": "https://github.com/myreceiptt/myreceiptt#readme",
+  "name": "halley",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@headlessui/react": "^1.7.4",
+    "@heroicons/react": "^2.0.16",
+    "@tailwindcss/typography": "^0.5.8",
+    "@vercel/analytics": "^0.1.11",
+    "next": "^13.0.6",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.39.3",
+    "use-web3forms": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.26.0",
+    "eslint-config-next": "^13.0.6",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "typescript": "4.8.4"
   }
 }
