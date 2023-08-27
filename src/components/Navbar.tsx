@@ -33,7 +33,7 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
-                      src="/images/logos/logo-rose.svg"
+                      src="/images/logos/BananowLogo-169x121.png"
                       alt="Logo Your Company"
                       width={150}
                       height={150}
