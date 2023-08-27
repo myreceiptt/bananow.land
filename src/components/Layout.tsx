@@ -9,9 +9,9 @@ const Layout = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "BANANOW.LAND - A FUN, NON-INTIMIDATING, AND SUPPORTIVE COMPANY",
-    description: `BANANOW. LAND is a fun, non-intimidating, supportive company, where farmers can always play, learn, and work.`,
-    image: "/images/seo/halley-banner.png",
+    title: "BANANOW.LAND - A Fun, Non-Intimidating, and Supportive Company",
+    description: `BANANOW. LAND is a fun, non-intimidating, supportive company, where farmers can always play, learn, and work according to their resulting revenue and formed value.`,
+    image: "/images/seo/Bananow-Circle-2-1024x793.png",
     type: "website",
     ...customMeta,
   };
@@ -24,7 +24,7 @@ const Layout = (props: any) => {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://halley.vercel.app${router.asPath}`}
+          content={`https://bananow.land${router.asPath}`}
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
