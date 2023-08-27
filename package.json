@@ -1,0 +1,27 @@
+{
+  "name": "init-it",
+  "version": "0.4.7",
+  "description": "Receipt of Initialization",
+  "keywords": [],
+  "author": "MyReceipt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myreceiptt/myreceiptt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myreceiptt/myreceiptt/issues"
+  },
+  "homepage": "https://github.com/myreceiptt/myreceiptt#readme",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
