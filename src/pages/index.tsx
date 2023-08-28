@@ -1,19 +1,19 @@
 import Contact from "../components/Contact";
 import { Hero } from "../components/Hero";
 import Layout from "../components/Layout";
-import Pricing from "../components/Pricing";
+import TheHeads from "../components/TheHeads";
 import { Features } from "../components/Features";
-import { Services } from "../components/Services";
+import { BrandProducts } from "../components/BrandProducts";
 import Faq from "../components/Faq";
 import Customers from "../components/Customers";
 
-export default function Home() {
+export default function Land() {
   return (
     <Layout>
       <Hero />
-      <Services />
+      <BrandProducts />
       <Features />
-      <Pricing />
+      <TheHeads />
       <Faq />
       <Contact />
       <Customers />

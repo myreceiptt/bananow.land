@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
 
-export default function Home() {
+export default function Land() {
   return (
     <Layout>
       <div
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="mt-16 text-center">
           <Link href="/">
             <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium">
-              Return Home
+              Return to Land
             </button>
           </Link>
         </div>

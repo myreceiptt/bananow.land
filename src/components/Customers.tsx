@@ -44,7 +44,7 @@ export default function Customers() {
     return (
         <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="faq">
             <h2 className="text-4xl font-bold text-center">
-                Happy Customers
+                The Lovers and The Sprouts
             </h2>
 
             <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto dark:text-neutral-400">

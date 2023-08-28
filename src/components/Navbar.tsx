@@ -7,10 +7,11 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const navigation = [
-  { name: "Home", href: "/", current: false },
-  { name: "Services", href: "#services", current: false },
-  { name: "Pricing", href: "#pricing", current: false },
-  { name: "Faq", href: "#faq", current: false },
+  { name: "Land", href: "/", current: false },
+  { name: "Brands", href: "#brandproducts", current: false },
+  { name: "Features", href: "#features", current: false },
+  { name: "Heads", href: "#theheads", current: false },
+  { name: "F.A.Q.", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
 ];
 

@@ -59,7 +59,7 @@ export default function Contact() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">Contact</h2>
+        <h2 className="text-4xl font-bold">Embassy of <span className="text-rose-500">BANANOW</span>.LAND</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           Want to contact us? Choose an option below and well be happy to show

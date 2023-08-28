@@ -56,10 +56,11 @@ const social = [
 ];
 
 const column1 = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "#services" },
-  { name: "Pricing", href: "#pricing" },
-  { name: "Faq", href: "#faq" },
+  { name: "Land", href: "/" },
+  { name: "Brands", href: "#brandproducts" },
+  { name: "Features", href: "#features" },
+  { name: "Heads", href: "#theheads" },
+  { name: "F.A.Q.", href: "#faq" },
   { name: "Contact", href: "#contact" },
 ];
 

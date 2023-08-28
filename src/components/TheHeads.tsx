@@ -153,13 +153,13 @@ const products = [
 
 type BillingInterval = "year" | "month";
 
-export default function Pricing() {
+export default function TheHeads() {
   const [billingInterval, setBillingInterval] =
     useState<BillingInterval>("month");
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900" id="pricing">
+    <div className="bg-gray-50 dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <h2 className="text-4xl font-bold text-center">Pricing</h2>
+        <h2 className="text-4xl font-bold text-center">The <span className="text-rose-500">BANANOW</span> Heads</h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           We have the perfect product for your business, choose the product that
