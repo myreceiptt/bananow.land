@@ -87,6 +87,11 @@ export default function Embassy() {
             <PhotoIcon className="w-4 h-4" />
             <a href="https://www.bananow.land/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
           </div>
+
+          <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
+            <PhotoIcon className="w-4 h-4" />
+            <a href="https://www.bananow.land/youtube/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> YouTube Channel</span></a>
+          </div>
         </div>
 
         <div>
