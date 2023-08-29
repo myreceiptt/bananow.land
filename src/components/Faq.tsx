@@ -3,24 +3,24 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What is your refund policy?",
+    question: "What does Web3 mean??",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.",
   },
   {
-    question: "Do you offer technical support?",
+    question: "What is the purpose of Web3?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "The major aim of Web3 is to give back the internet power to the users instead of companies. To achieve this, Web3 makes use of blockchain and cryptocurrency technology to create a form of ownership.",
   },
   {
-    question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
+    question: "What are the advantages of Web3?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Web3 is huge and interconnected, which is why it is easier for anyone to gain access to the public and private data that you share online. As Web3-based websites and applications become popular, the pressure will come on existing businesses to upgrade.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "Is Web3 easy to learn?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "Accordingly, BANANOW is here, so you can learn new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start with blockchain and Bitcoin fundamentals by becoming a community member of BANANOW.",
   },
 ];
 
@@ -31,12 +31,11 @@ export default function Faq() {
       id="faq"
     >
       <h2 className="text-4xl font-bold text-center">
-        Frequently Asked Questions
+        F.A.Q. About Web3.
       </h2>
 
       <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        A list of some questions and answers about Web3, especially one giving basic information for the new visitor of this website.
       </p>
       <div className="mx-auto w-full max-w-2xl rounded-2xl bg-transparent dark:bg-transparent">
         {faqitems.map(({ question, response }) => (

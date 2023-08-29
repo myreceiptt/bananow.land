@@ -7,13 +7,12 @@ export default function Land() {
     <Layout>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
-        id="faq"
+        id="404"
       >
         <h2 className="text-4xl font-bold text-center">404 - Not Found</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Im guessing you spelled something wrong. Can you double check that
-          URL?
+          You typed something wrong! Please double-check the URL you try to visit!
         </p>
         <Image
           src="/images/404/404.svg"
@@ -26,8 +25,8 @@ export default function Land() {
         />
         <div className="mt-16 text-center">
           <Link href="/">
-            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium">
-              Return to Land
+            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+              Return to The Land
             </button>
           </Link>
         </div>

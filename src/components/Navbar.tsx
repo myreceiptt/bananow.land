@@ -10,9 +10,10 @@ const navigation = [
   { name: "Land", href: "/", current: false },
   { name: "Brands", href: "#brandproducts", current: false },
   { name: "Features", href: "#features", current: false },
-  { name: "Heads", href: "#theheads", current: false },
+  { name: "Community", href: "#theheads", current: false },
+  { name: "Farmers", href: "#farmers", current: false },
   { name: "F.A.Q.", href: "#faq", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Embassy", href: "#embassy", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -33,9 +34,9 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center md:pl-0">
                   <Link href="/">
                     <Image
-                      className="block h-8 w-auto"
+                      className="block h-11 w-auto"
                       src="/images/logos/BananowLogo-169x121.png"
-                      alt="Logo Your Company"
+                      alt="BANANOW.LAND Logo"
                       width={150}
                       height={150}
                       quality={75}
@@ -66,12 +67,13 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <Link
-                    href="https://github.com/humberni/halley"
+                    href="https://gp.bananow.land/"
                     target="_blank"
                     className="hidden sm:block"
+                    title="Read The Green Print of BANANOW.LAND..."
                   >
                     <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
-                      GitHub
+                      The Green Print
                     </button>
                   </Link>
                   <ThemeSwitchButton />
@@ -80,7 +82,7 @@ export default function Navbar() {
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-neutral-900 dark:text-white ">
-                    <span className="sr-only">Open main menu</span>
+                    <span className="sr-only">Open The Menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                     ) : (
@@ -110,9 +112,9 @@ export default function Navbar() {
                   {item.name}
                 </Disclosure.Button>
               ))}
-              <Link href="https://github.com/humberni/halley" target="_blank">
+              <Link href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
                 <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
-                  GitHub
+                  The Green Print
                 </button>
               </Link>
             </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import { useForm, useWatch } from "react-hook-form";
 
-import { MapIcon } from "@heroicons/react/24/outline";
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
-import { PhoneIcon } from "@heroicons/react/24/outline";
+import { BuildingOffice2Icon } from "@heroicons/react/24/outline";
+import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
+import { PhotoIcon } from "@heroicons/react/24/outline";
 
 type Info = {
   access_key: string;
@@ -15,7 +15,7 @@ type Info = {
   message: string;
 };
 
-export default function Contact() {
+export default function Embassy() {
   const {
     register,
     handleSubmit,
@@ -57,37 +57,35 @@ export default function Contact() {
       });
   };
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900" id="contact">
+    <div className="bg-gray-50 dark:bg-neutral-900" id="embassy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">Embassy of <span className="text-rose-500">BANANOW</span>.LAND</h2>
+        <h2 className="text-4xl font-bold">Embassy of <span className="text-rose-500">BANANOW</span>.</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Want to contact us? Choose an option below and well be happy to show
-          you how Halley can transform her companys web experience.
+          Want to contact us? Please choose an option below and we will be happy to respond to you with any information you need.
         </p>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
-          <h2 className="text-lg font-bold">Contact Halley</h2>
+          <h2 className="text-lg font-bold">Contact <span className="text-rose-500">BANANOW</span></h2>
           <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
-            Have something to say? We are here to help. Fill up the form or send
-            email or call phone.
+            Have something to say? We are always here to respond. Fill up the form on the right to send an email or message us via our social network.
           </p>
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
-            <MapIcon className="w-4 h-4" />
-            <span>Av Tomas Marsano 700, Lima - Perú</span>
+            <BuildingOffice2Icon className="w-4 h-4" />
+            <a href="https://www.bananow.land/discord/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Discord Server</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <EnvelopeIcon className="w-4 h-4" />
-            <a href="mailto:hello@halley.vercel.app">hello@halley.vercel.app</a>
+            <ChatBubbleLeftRightIcon className="w-4 h-4" />
+            <a href="https://www.bananow.land/twitter/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> X (Twitter) Account</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <PhoneIcon className="w-4 h-4" />
-            <a href="tel:51931999999">+51 931999999</a>
+            <PhotoIcon className="w-4 h-4" />
+            <a href="https://www.bananow.land/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
           </div>
         </div>
 
@@ -100,7 +98,7 @@ export default function Contact() {
                 {...register("access_key")}
               />
               <input type="hidden" {...register("subject")} />
-              <input type="hidden" value="Halley" {...register("from_name")} />
+              <input type="hidden" value="BANANOW.LAND" {...register("from_name")} />
               <input
                 type="checkbox"
                 id=""
@@ -120,7 +118,7 @@ export default function Contact() {
                       : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
                   }`}
                   {...register("name", {
-                    required: "Full name is required",
+                    required: "Full name is required!",
                     maxLength: 80,
                   })}
                 />
@@ -147,10 +145,10 @@ export default function Contact() {
                       : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
                   }`}
                   {...register("email", {
-                    required: "Enter your email",
+                    required: "Enter your email address!",
                     pattern: {
                       value: /^\S+@\S+$/i,
-                      message: "Please enter a valid email",
+                      message: "Please enter a valid email address!",
                     },
                   })}
                 />
@@ -170,7 +168,7 @@ export default function Contact() {
                       ? "border-rose-500 focus:border-rose-500 ring-rose-100 dark:ring-0"
                       : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
                   }`}
-                  {...register("message", { required: "Enter your Message" })}
+                  {...register("message", { required: "Write your message!" })}
                 />
                 {errors.message && (
                   <div className="mt-1 text-rose-500">
@@ -181,7 +179,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full py-4 font-semibold text-white transition-colors bg-neutral-900 rounded-md hover:bg-neutral-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-neutral-200 px-7 dark:bg-white dark:text-black "
+                className="w-full py-4 font-semibold text-white transition-colors bg-neutral-900 rounded-md hover:bg-neutral-700 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-neutral-200 px-7 dark:bg-white dark:hover:bg-neutral-200 dark:text-black "
               >
                 {isSubmitting ? (
                   <svg
@@ -238,7 +236,7 @@ export default function Contact() {
                   className="mt-6 py-2 px-4 bg-rose-500 rounded-full focus:outline-none text-neutral-100"
                   onClick={() => reset()}
                 >
-                  Go back
+                  Go Back
                 </button>
               </div>
             </>
@@ -262,7 +260,7 @@ export default function Contact() {
               </svg>
 
               <h3 className=" py-5 text-2xl font-medium text-rose-500">
-                Oops, Something went wrong!
+                Oops!!!! Something went wrong!
               </h3>
               <p className="text-neutral-900 dark:text-neutral-300 md:px-4">
                 {Message}

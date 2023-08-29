@@ -48,10 +48,10 @@ export function BrandProducts() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">What is <span className="text-rose-500">BANANOW</span>.LAND?</h2>
+        <h2 className="text-4xl font-bold">What is <span className="text-rose-500">BANANOW</span>?</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          BANANOW.LAND is a fun, non-intimidating, supportive company, where farmers can always play, learn, and work according to their resulting revenue and formed value.
+          <span className="text-rose-500">BANANOW</span> is a fun, non-intimidating, supportive family, where its members can always play, learn, and work according to their resulting revenue and formed value in Web3 ecosystem.
         </p>
       </div>
 

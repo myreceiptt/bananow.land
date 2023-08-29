@@ -1,11 +1,11 @@
-import Contact from "../components/Contact";
+import Embassy from "../components/Embassy";
 import { Hero } from "../components/Hero";
 import Layout from "../components/Layout";
 import TheHeads from "../components/TheHeads";
 import { Features } from "../components/Features";
 import { BrandProducts } from "../components/BrandProducts";
 import Faq from "../components/Faq";
-import Customers from "../components/Customers";
+import Farmers from "../components/Farmers";
 
 export default function Land() {
   return (
@@ -14,9 +14,9 @@ export default function Land() {
       <BrandProducts />
       <Features />
       <TheHeads />
+      <Farmers />
       <Faq />
-      <Contact />
-      <Customers />
+      <Embassy />
     </Layout>
   );
 }

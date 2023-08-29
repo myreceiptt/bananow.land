@@ -4,192 +4,199 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const products = [
   {
-    title: "Hobby",
-    price: 12,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Sprouts",
+    supplies: "∞",
+    symbol: "👪",
+    universe: "Reality",
+    description: "The Community who are still thinking about whether these bananas will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more bananas.",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "Very Limited Resources",
+      "One of One User",
+      "No Access",
+      "No Support",
     ],
-    href: "#",
-    cta: "Buy Hobby",
-    mostPopular: false,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Sprout",
+    mostWanted: false,
   },
   {
-    title: "Hobby",
-    price: 120,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Sprouts",
+    supplies: "∞",
+    symbol: "👪",
+    universe: "0101",
+    description: "The Community who are still thinking about whether these bananas will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more bananas.",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "Very Limited Resources",
+      "One of One User",
+      "Very Limited Access",
+      "Very Limited Support",
     ],
-    href: "#",
-    cta: "Buy Hobby",
-    mostPopular: false,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Sprout",
+    mostWanted: false,
   },
   {
-    title: "Freelancer",
-    price: 24,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Lovers",
+    supplies: "∞",
+    symbol: "👪",
+    universe: "Reality",
+    description: "The Friends that loves bananas in their ice cream. They are active, crazy, and always spread positive vibes, just like bananas. They also travel companions in navigating the world of Web3 to thrive together.",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "Very Limited Resources",
+      "One of One User",
+      "Very Limited Access",
+      "Very Limited Support",
+      "No Giveaways",
+      "Merchandises",
     ],
-    href: "#",
-    cta: "Buy Freelancer",
-    mostPopular: true,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Lover",
+    mostWanted: false,
   },
   {
-    title: "Freelancer",
-    price: 240,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Lovers",
+    supplies: "∞",
+    symbol: "👪",
+    universe: "0101",
+    description: "The Friends that loves bananas in their ice cream. They are active, crazy, and always spread positive vibes, just like bananas. They also travel companions in navigating the world of Web3 to thrive together.",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "Limited Resources",
+      "One of One User",
+      "Limited Access",
+      "Limited Support",
+      "Giveaways",
+      "Merchandises",
     ],
-    href: "#",
-    cta: "Buy Freelancer",
-    mostPopular: true,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Lover",
+    mostWanted: false,
   },
   {
-    title: "Startup",
-    price: 32,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Heads",
+    supplies: "0000",
+    symbol: "👪",
+    universe: "Reality",
+    description: "The Family, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this land that they backing up, to develop their owned BANANOW as their brand.",
     features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
+      "Limited Resources",
+      "One of One User",
+      "Limited Access",
+      "Limited Support",
+      "Giveaways",
+      "Merchandises",
+      "Limited Media Custom*",
+      "Free Website Service*",
+      "Profit Share*",
     ],
-    href: "#",
-    cta: "Buy Startup",
-    mostPopular: false,
+    href: "https://heads.bananow.land/",
+    cta: "Be a Head",
+    mostWanted: true,
   },
   {
-    title: "Startup",
-    price: 320,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Heads",
+    supplies: 2345,
+    symbol: "👪",
+    universe: "0101",
+    description: "The Family, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this land that they backing up, to develop their owned BANANOW as their brand.",
     features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
+      "Unlimited Resources",
+      "One of Many Users",
+      "Unlimited Access",
+      "Unlimited Support",
+      "Giveaways",
+      "Merchandises",
+      "Limited Media Custom*",
+      "Free Website Service*",
+      "Profit Share*",
     ],
-    href: "#",
-    cta: "Buy Startup",
-    mostPopular: false,
+    href: "https://heads.bananow.land/",
+    cta: "Be a Head",
+    mostWanted: true,
   },
   {
-    title: "Enterprice",
-    price: 48,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
+    title: "Farmers",
+    supplies: 5,
+    symbol: "👪",
+    universe: "Reality",
+    description: "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this land. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
     features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
+      "Unlimited Resources",
+      "Many of Many Users",
+      "Unlimited Access",
+      "Unlimited Support",
+      "No Giveaways",
+      "Free Merchandises",
+      "No Media Custom",
+      "No Website Service",
+      "No Profit Share",
+      "Revenue Share*",
     ],
-    href: "#",
-    cta: "Buy Enterprice",
-    mostPopular: false,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Farmer",
+    mostWanted: false,
   },
   {
-    title: "Enterprice",
-    price: 480,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    title: "Farmers",
+    supplies: 6,
+    symbol: "👪",
+    universe: "0101",
+    description: "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this land. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
     features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
+      "Unlimited Resources",
+      "Many of Many Users",
+      "Unlimited Access",
+      "Unlimited Support",
+      "No Giveaways",
+      "Free Merchandises",
+      "No Media Custom",
+      "No Website Service",
+      "No Profit Share",
+      "Revenue Share*",
     ],
-    href: "#",
-    cta: "Buy Enterprice",
-    mostPopular: false,
+    href: "https://www.bananow.land/discord/",
+    cta: "Be a Farmer",
+    mostWanted: false,
   },
 ];
 
-type BillingInterval = "year" | "month";
+type BillingInterval = "0101" | "Reality";
 
 export default function TheHeads() {
   const [billingInterval, setBillingInterval] =
-    useState<BillingInterval>("month");
+    useState<BillingInterval>("Reality");
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <h2 className="text-4xl font-bold text-center">The <span className="text-rose-500">BANANOW</span> Heads</h2>
+        <h2 className="text-4xl font-bold text-center">Community of <span className="text-rose-500">BANANOW</span>.</h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          We have the perfect product for your business, choose the product that
-          best suits you, Try Halley free for 14 days.
+        <span className="text-rose-500">BANANOW</span> is backed by the perfect community for its Web3 activities, that is the friends and family of <span className="text-rose-500">BANANOW</span> in the 0101 Universe (Digital World of the Internet).
         </p>
       </div>
 
       <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:flex sm:flex-col sm:align-center">
         <div className="relative self-center text-base font-semibold mt-6 bg-neutral-200  dark:bg-neutral-800 rounded-lg flex sm:mt-8">
           <button
-            onClick={() => setBillingInterval("month")}
+            onClick={() => setBillingInterval("Reality")}
             type="button"
             className={`${
-              billingInterval === "month"
+              billingInterval === "Reality"
                 ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Monthly billing
+            Universe of Reality
           </button>
           <button
-            onClick={() => setBillingInterval("year")}
+            onClick={() => setBillingInterval("0101")}
             type="button"
             className={`${
-              billingInterval === "year"
+              billingInterval === "0101"
                 ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
                 : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Yearly billing
+            0101 Universe
           </button>
         </div>
       </div>
@@ -198,22 +205,22 @@ export default function TheHeads() {
         {products.map(
           ({
             title,
-            mostPopular,
+            mostWanted,
             description,
-            currency,
-            price,
-            frecuency,
+            symbol,
+            supplies,
+            universe,
             cta,
             features,
             href,
           }) => {
             return (
               <>
-                {billingInterval === frecuency ? (
+                {billingInterval === universe ? (
                   <div
                     key={title}
                     className={`rounded-lg py-8 relative flex flex-col ${
-                      mostPopular
+                      mostWanted
                         ? "border-rose-300 border-2 border-solid dark:border-rose-500"
                         : "border-neutral-300 border dark:border-neutral-600"
                     }`}
@@ -221,9 +228,9 @@ export default function TheHeads() {
                     <h3 className="px-6 text-lg font-semibold leading-5">
                       {title}
                     </h3>
-                    {mostPopular && (
+                    {mostWanted && (
                       <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-rose-100 text-rose-500  rounded-full text-sm font-semibold tracking-wide shadow-md">
-                        Most popular
+                        Most Wanted
                       </p>
                     )}
 
@@ -232,9 +239,9 @@ export default function TheHeads() {
                     </p>
                     <div className="mt-2 p-6 -mx-6">
                       <p className="px-6 font-medium flex place-items-end">
-                        <span className="text-4xl font-bold">{currency}</span>
-                        <span className="text-4xl font-bold">{price}</span>
-                        <span className="ml-1.5">/{frecuency}</span>
+                        <span className="text-4xl font-bold">{symbol}</span>&nbsp;&nbsp;
+                        <span className="text-4xl font-bold">{supplies}</span>
+                        <span className="ml-1.5">in&nbsp;{universe}</span>
                       </p>
                     </div>
 
@@ -242,9 +249,9 @@ export default function TheHeads() {
                     <Link
                       href={href}
                       target="_blank"
-                      className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-lg ${
-                        mostPopular
-                          ? "bg-rose-500 text-white shadow-md"
+                      className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white ${
+                        mostWanted
+                          ? "bg-rose-500 text-white shadow-md dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black"
                           : "bg-black text-white dark:bg-white dark:text-black"
                       }`}
                     >
@@ -254,7 +261,7 @@ export default function TheHeads() {
                     {/* features */}
                     <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-neutral-300 dark:border-neutral-500">
                       <p className="mt-6 font-semibold dark:text-neutral-300">
-                        What&apos;s included
+                        What&apos;s featured...
                       </p>
                       {features.map((features) => (
                         <li key={features} className="leading-6 flex">

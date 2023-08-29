@@ -9,8 +9,8 @@ const Layout = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "BANANOW.LAND - A Fun, Non-Intimidating, and Supportive Company",
-    description: `BANANOW.LAND is a fun, non-intimidating, supportive company, where farmers can always play, learn, and work according to their resulting revenue and formed value.`,
+    title: "BANANOW.LAND - A Web3 Supportive Family",
+    description: `BANANOW is a fun, non-intimidating, supportive family, where its members can always play, learn, and work according to their resulting revenue and formed value in Web3 ecosystem.`,
     image: "/images/seo/FpVbaX0aMAAC7NI.jpeg",
     type: "website",
     ...customMeta,
