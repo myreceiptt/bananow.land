@@ -8,8 +8,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const navigation = [
   { name: "Land", href: "/", current: false },
-  { name: "Brands", href: "#brandproducts", current: false },
   { name: "Features", href: "#features", current: false },
+  { name: "Brands", href: "#brandproducts", current: false },
   { name: "Community", href: "#theheads", current: false },
   { name: "Farmers", href: "#farmers", current: false },
   { name: "F.A.Q.", href: "#faq", current: false },

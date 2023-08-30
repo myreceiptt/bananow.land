@@ -75,22 +75,22 @@ export default function Embassy() {
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
             <BuildingOffice2Icon className="w-4 h-4" />
-            <a href="https://www.bananow.land/discord/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Discord Server</span></a>
+            <a href="/discord/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Discord Server</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <ChatBubbleLeftRightIcon className="w-4 h-4" />
-            <a href="https://www.bananow.land/twitter/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> X (Twitter) Account</span></a>
+            <a href="/twitter/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> X (Twitter) Account</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhotoIcon className="w-4 h-4" />
-            <a href="https://www.bananow.land/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
+            <a href="/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhotoIcon className="w-4 h-4" />
-            <a href="https://www.bananow.land/youtube/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> YouTube Channel</span></a>
+            <a href="/youtube/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> YouTube Channel</span></a>
           </div>
         </div>
 

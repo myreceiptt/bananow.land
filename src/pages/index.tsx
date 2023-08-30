@@ -11,8 +11,8 @@ export default function Land() {
   return (
     <Layout>
       <Hero />
-      <BrandProducts />
       <Features />
+      <BrandProducts />
       <TheHeads />
       <Farmers />
       <Faq />

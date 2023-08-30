@@ -5,37 +5,25 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/discord/',
-        destination: 'https://discord.gg/PpfGQpKDhs',
-        permanent: true,
-       
-      },
-      {
-        source: '/twitter/',
-        destination: 'https://twitter.com/bananow_land',
-        permanent: true,
-       
-      },
-      {
-        source: '/instagram/',
+        source: '/instagram',
         destination: 'https://instagram.com/bananow.land',
         permanent: true,
        
       },
       {
-        source: '/youtube/',
+        source: '/youtube',
         destination: 'https://www.youtube.com/@bananow_land_',
         permanent: true,
        
       },
       {
-        source: '/opensea/',
+        source: '/opensea',
         destination: 'https://opensea.io/collection/bananow-nfts',
         permanent: true,
        
       },
       {
-        source: '/etherscan/',
+        source: '/etherscan',
         destination: 'https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47',
         permanent: true,
        

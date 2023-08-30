@@ -10,7 +10,7 @@ export default function Prefooter() {
       </div>
 
       <div className="text-center pb-20">
-        <Link href="https://www.bananow.land/discord/" target="_blank">
+        <Link href="/discord/" target="_blank">
           <button className="bg-rose-500 text-white rounded-full px-6 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
             Immigration Check
           </button>

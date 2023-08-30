@@ -251,7 +251,7 @@ export default function TheHeads() {
                       target="_blank"
                       className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white ${
                         mostWanted
-                          ? "bg-rose-500 text-white shadow-md dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black"
+                          ? "bg-rose-500 text-white shadow-md dark:hover:bg-white dark:hover:text-black hover:bg-black hover:text-white"
                           : "bg-black text-white dark:bg-white dark:text-black"
                       }`}
                     >

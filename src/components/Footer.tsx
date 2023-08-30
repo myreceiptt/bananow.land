@@ -5,7 +5,7 @@ import ThemeSwitchOption from "./ThemeSwitchOption";
 const social = [
   {
     name: "discord",
-    href: "https://www.bananow.land/discord/",
+    href: "/discord/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="none">
         <path
@@ -17,7 +17,7 @@ const social = [
   },
   {
     name: "twitter",
-    href: "https://www.bananow.land/twitter/",
+    href: "/twitter/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="none">
         <path
@@ -30,7 +30,7 @@ const social = [
 
   {
     name: "instagram",
-    href: "https://www.bananow.land/instagram/",
+    href: "/instagram/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 436 500" fill="none">
         <path
@@ -43,7 +43,7 @@ const social = [
 
   {
     name: "youtube",
-    href: "https://www.bananow.land/youtube/",
+    href: "/youtube/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="none">
         <path
@@ -57,8 +57,8 @@ const social = [
 
 const column1 = [
   { name: "This Land", href: "/" },
-  { name: "The Brands", href: "#brandproducts" },
   { name: "The Features", href: "#features" },
+  { name: "The Brands", href: "#brandproducts" },
   { name: "The Community", href: "#theheads" },
   { name: "The Farmers", href: "#farmers" },
   { name: "Some F.A.Q.", href: "#faq" },
