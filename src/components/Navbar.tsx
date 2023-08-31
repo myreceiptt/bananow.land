@@ -42,7 +42,7 @@ export default function Navbar() {
     play1();
   };
 
-  const sound2Loc = "/sounds/nguing.mp3";
+  const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(
     sound2Loc,
     { volume: 0.75 }
