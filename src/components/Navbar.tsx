@@ -24,15 +24,31 @@ function classNames(...classes: any) {
 }
 
 export default function Navbar() {
-  const soundLoc = "/sounds/nguing.mp3";
+  const sound0Loc = "/sounds/tiuing.mp3";
+  const [play0] = useSound(
+    sound0Loc,
+    { volume: 1 }
+  );
+  const sound0Click = () => {
+    play0();
+  };
 
-  const [play] = useSound(
-    soundLoc,
+  const sound1Loc = "/sounds/nguing.mp3";
+  const [play1] = useSound(
+    sound1Loc,
     { volume: 0.5 }
   );
-  
-  const soundClick = () => {
-    play();
+  const sound1Click = () => {
+    play1();
+  };
+
+  const sound2Loc = "/sounds/nguing.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
   };
 
   return (
@@ -46,7 +62,7 @@ export default function Navbar() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="flex flex-1 items-center justify-start">
                 <div className="flex flex-shrink-0 items-center md:pl-0">
-                  <Link href="/">
+                  <Link onClick={sound0Click} href="/">
                     <Image
                       className="block h-11 w-auto hover:scale-110 transition"
                       src="/images/logos/BananowLogo-169x121.png"
@@ -63,7 +79,7 @@ export default function Navbar() {
                   <div className="flex space-x-5 items-center">
                     {navigation.map((item) => (
                       <Link
-                        onClick={soundClick}
+                        onClick={sound1Click}
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -82,6 +98,7 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <Link
+                    onClick={sound2Click}
                     href="https://gp.bananow.land/"
                     target="_blank"
                     className="hidden sm:block"
@@ -94,6 +111,7 @@ export default function Navbar() {
                     </button>
                   </Link>
                   <Link
+                    onClick={sound2Click}
                     href="https://heads.bananow.land/"
                     target="_blank"
                     className="hidden sm:block"
@@ -110,7 +128,7 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-neutral-900 dark:text-white ">
+                  <Disclosure.Button onClick={sound0Click} className="inline-flex items-center justify-center rounded-md text-neutral-900 dark:text-white ">
                     <span className="sr-only">Open The Menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -127,7 +145,7 @@ export default function Navbar() {
             <div className="space-y-1 px-4 min-h-screen border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900">
               {navigation.map((item) => (
                 <Disclosure.Button
-                  onClick={soundClick}
+                  onClick={sound1Click}
                   key={item.name}
                   as="a"
                   href={item.href}
@@ -143,12 +161,14 @@ export default function Navbar() {
                 </Disclosure.Button>
               ))}
               <Link
+                onClick={sound2Click}
                 href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
                 <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
                   The Green Print
                 </button>
               </Link>
               <Link
+                onClick={sound2Click}
                 href="https://heads.bananow.land/" target="_blank" title="Be a Head of BANANOW.LAND...">
                 <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
                   Be a Head
