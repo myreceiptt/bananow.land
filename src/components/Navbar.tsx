@@ -28,7 +28,7 @@ export default function Navbar() {
 
   const [play] = useSound(
     soundLoc,
-    { volume: 0.25 }
+    { volume: 0.5 }
   );
   
   const soundClick = () => {
