@@ -5,6 +5,7 @@ import ThemeSwitchOption from "./ThemeSwitchOption";
 const social = [
   {
     name: "discord",
+    title: "Discord server of BANANOW",
     href: "/discord/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="none">
@@ -17,6 +18,7 @@ const social = [
   },
   {
     name: "twitter",
+    title: "X - Twitter account of BANANOW",
     href: "/twitter/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="none">
@@ -30,6 +32,7 @@ const social = [
 
   {
     name: "instagram",
+    title: "Instagram profile of BANANOW",
     href: "/instagram/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 436 500" fill="none">
@@ -43,6 +46,7 @@ const social = [
 
   {
     name: "youtube",
+    title: "YouTube channel of BANANOW",
     href: "/youtube/",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="none">
@@ -57,38 +61,37 @@ const social = [
 
 const column1 = [
   { name: "This Land", href: "/" },
-  { name: "The Features", href: "#features" },
-  { name: "The Brands", href: "#brandproducts" },
-  { name: "The Community", href: "#theheads" },
-  { name: "The Farmers", href: "#farmers" },
-  { name: "Some F.A.Q.", href: "#faq" },
-  { name: "The Embassy", href: "#embassy" },
+  { name: "The Features", href: "/#features" },
+  { name: "The Brands", href: "/#brandproducts" },
+  { name: "The Community", href: "/#theheads" },
+  { name: "The Farmers", href: "/#farmers" },
+  { name: "Some F.A.Q.", href: "/#faq" },
+  { name: "The Embassy", href: "/#embassy" },
 ];
 
 const column2 = [
-  { name: "Green Print", href: "https://gp.bananow.land/", target: "_blank" },
-  { name: "Na Now News", href: "https://news.bananow.land/", target: "_blank" },
-  { name: "Be a Head", href: "https://heads.bananow.land/", target: "_blank" },
-  { name: "Discord Server", href: "/discord/", target: "_blank" },
-  { name: "X Account", href: "/twitter/", target: "_blank" },
-  { name: "Instagram", href: "/instagram/", target: "_blank" },
-  { name: "YouTube", href: "/youtube/", target: "_blank" },
+  { name: "90's Vibes", href: "/vibes/" },
+  { name: "Dermaga NFT", href: "/dermaga/" },
+  { name: "BANANOW Class", href: "/class/" },
+  { name: "Na Na Now", href: "/nananow/" },
+  { name: "Now Movies", href: "/movies/" },
+  { name: "Farmers Delegate", href: "/delegate/" },
 ];
 
 const column3 = [
   { name: "Privacy Policy", href: "/privacy/" },
-  { name: "Terms of Service", href: "/terms/" },
+  { name: "Terms & Conditions", href: "/terms/" },
   { name: "Support Terms", href: "/support/" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral-900 text-neutral-300 dark:text-neutral-400">
+    <footer className="bg-neutral-900 text-neutral-300 dark:text-neutral-400 border-t border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
         <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 2xl:col-span-2">
           <Link href="/">
             <Image
-              className="h-17 w-auto"
+              className="h-17 w-auto hover:scale-110 transition"
               src="/images/logos/BananowLogo-169x121.png"
               alt="BANANOW.LAND Logo"
               width={150}
@@ -104,7 +107,7 @@ export default function Footer() {
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
             {social.map((red) => (
-              <Link key={red.name} href={red.href} target="_blank">
+              <Link key={red.name} href={red.href} title={red.title} target="_blank">
                 <div className="w-9 h-9 p-2 text-white bg-rose-500 hover:opacity-75 rounded-full flex items-center justify-center">
                   {red.icon}
                 </div>
@@ -115,7 +118,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            THE FAMILY
+            BANANOW
           </h3>
           {column1.map((item) => (
             <Link
@@ -130,7 +133,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            RESOURCES
+            BRANDS
           </h3>
           {column2.map((item) => (
             <Link
@@ -145,7 +148,7 @@ export default function Footer() {
 
         <div>
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
-            THE LEGAL
+            LEGAL
           </h3>
           {column3.map((item) => (
             <Link

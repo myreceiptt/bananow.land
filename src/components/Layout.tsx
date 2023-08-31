@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Prefooter from "./Prefooter";
+import { title } from "process";
 
 const Layout = (props: any) => {
   const { children, ...customMeta } = props;
@@ -21,11 +22,8 @@ const Layout = (props: any) => {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <link href="/logo32.png" rel="shortcut icon" />
-        <meta content={meta.description} name="description" />
-        <meta
-          property="og:url"
-          content={`https://bananow.land${router.asPath}`}
-        />
+        <meta key={title} content={meta.description} name="description" />
+        <meta property="og:url" content={`https://bananow.land${router.asPath}`} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />

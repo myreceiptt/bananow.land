@@ -7,7 +7,7 @@ export default function Redirect() {
   return (
     <Layout>
       <Head>
-        <meta httpEquiv="Refresh" content="4; url='https://twitter.com/bananow_land'" />
+        <meta httpEquiv="Refresh" content="4; url='https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47'" />
       </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
@@ -15,7 +15,7 @@ export default function Redirect() {
       >
         <h2 className="text-4xl font-bold text-center">Redirecting...</h2>
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Redirecting to X account of <span className="text-rose-500">BANANOW</span>...
+          Redirecting to <span className="text-rose-500">BANANOW</span> NFTs smart contract on EtherScan.IO blockchain explorer...
         </p>
         <Image
           src="/images/404/404.svg"
@@ -30,9 +30,9 @@ export default function Redirect() {
           <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
             You are being redirected. If nothing happens, please hit the button below!
           </p>
-          <Link href="https://twitter.com/SuwarKainde">
+          <Link href="https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47">
             <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
-              X (Twitter) Account
+              BANANOW NFTs Smart Contract
             </button>
           </Link>
         </div>

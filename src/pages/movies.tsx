@@ -1,21 +1,18 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "../components/Redirect";
+import Layout from "../components/Layout";
 
-export default function Redirect() {
+export default function Movies() {
   return (
     <Layout>
-      <Head>
-        <meta httpEquiv="Refresh" content="4; url='https://twitter.com/bananow_land'" />
-      </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Redirecting...</h2>
+        <h2 className="text-4xl font-bold text-center">Now Movies (e.g.)</h2>
+
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Redirecting to X account of <span className="text-rose-500">BANANOW</span>...
+          Here you will find all the information about Now Movies, from start to finish, from pre-production to distribution. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"
@@ -27,12 +24,9 @@ export default function Redirect() {
           className="w-[350px] md:w-4/12 justify-center text-center mx-auto"
         />
         <div className="mt-16 text-center">
-          <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-            You are being redirected. If nothing happens, please hit the button below!
-          </p>
-          <Link href="https://twitter.com/SuwarKainde">
+          <Link href="/">
             <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
-              X (Twitter) Account
+              Return to The Land
             </button>
           </Link>
         </div>

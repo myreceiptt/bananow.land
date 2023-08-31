@@ -6,14 +6,17 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
+import useSound from "use-sound";
+import React from "react";
+
 const navigation = [
   { name: "Land", href: "/", current: false },
-  { name: "Features", href: "#features", current: false },
-  { name: "Brands", href: "#brandproducts", current: false },
-  { name: "Community", href: "#theheads", current: false },
-  { name: "Farmers", href: "#farmers", current: false },
-  { name: "F.A.Q.", href: "#faq", current: false },
-  { name: "Embassy", href: "#embassy", current: false },
+  { name: "Features", href: "/#features", current: false },
+  { name: "Brands", href: "/#brandproducts", current: false },
+  { name: "Community", href: "/#theheads", current: false },
+  { name: "Farmers", href: "/#farmers", current: false },
+  { name: "F.A.Q.", href: "/#faq", current: false },
+  { name: "Embassy", href: "/#embassy", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -21,10 +24,21 @@ function classNames(...classes: any) {
 }
 
 export default function Navbar() {
+  const soundLoc = "/sounds/nguing.mp3";
+
+  const [play] = useSound(
+    soundLoc,
+    { volume: 0.25 }
+  );
+  
+  const soundClick = () => {
+    play();
+  };
+
   return (
     <Disclosure
       as="nav"
-      className=" fixed top-0 left-0 right-0 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-700 backdrop-blur-sm bg-white/90 dark:bg-neutral-900/80 z-20"
+      className="fixed top-0 left-0 right-0 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-700 backdrop-blur-sm bg-white/90 dark:bg-neutral-900/80 z-20"
     >
       {({ open }: { open: any }) => (
         <>
@@ -34,7 +48,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center md:pl-0">
                   <Link href="/">
                     <Image
-                      className="block h-11 w-auto"
+                      className="block h-11 w-auto hover:scale-110 transition"
                       src="/images/logos/BananowLogo-169x121.png"
                       alt="BANANOW.LAND Logo"
                       width={150}
@@ -49,6 +63,7 @@ export default function Navbar() {
                   <div className="flex space-x-5 items-center">
                     {navigation.map((item) => (
                       <Link
+                        onClick={soundClick}
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -72,8 +87,22 @@ export default function Navbar() {
                     className="hidden sm:block"
                     title="Read The Green Print of BANANOW.LAND..."
                   >
-                    <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
+                    <button
+                      className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full"
+                    >
                       The Green Print
+                    </button>
+                  </Link>
+                  <Link
+                    href="https://heads.bananow.land/"
+                    target="_blank"
+                    className="hidden sm:block"
+                    title="Be a Head of BANANOW.LAND..."
+                  >
+                    <button
+                      className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full"
+                    >
+                      Be a Head
                     </button>
                   </Link>
                   <ThemeSwitchButton />
@@ -98,6 +127,7 @@ export default function Navbar() {
             <div className="space-y-1 px-4 min-h-screen border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900">
               {navigation.map((item) => (
                 <Disclosure.Button
+                  onClick={soundClick}
                   key={item.name}
                   as="a"
                   href={item.href}
@@ -112,9 +142,16 @@ export default function Navbar() {
                   {item.name}
                 </Disclosure.Button>
               ))}
-              <Link href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
+              <Link
+                href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
                 <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
                   The Green Print
+                </button>
+              </Link>
+              <Link
+                href="https://heads.bananow.land/" target="_blank" title="Be a Head of BANANOW.LAND...">
+                <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
+                  Be a Head
                 </button>
               </Link>
             </div>

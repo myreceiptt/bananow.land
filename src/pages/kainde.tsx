@@ -7,7 +7,7 @@ export default function Redirect() {
   return (
     <Layout>
       <Head>
-        <meta httpEquiv="Refresh" content="4; url='https://twitter.com/bananow_land'" />
+        <meta httpEquiv="Refresh" content="4; url='https://twitter.com/SuwarKainde'" />
       </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
@@ -15,7 +15,7 @@ export default function Redirect() {
       >
         <h2 className="text-4xl font-bold text-center">Redirecting...</h2>
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Redirecting to X account of <span className="text-rose-500">BANANOW</span>...
+          Redirecting to X account of Suwar Kainde, a farmers of <span className="text-rose-500">BANANOW</span>...
         </p>
         <Image
           src="/images/404/404.svg"
@@ -32,7 +32,7 @@ export default function Redirect() {
           </p>
           <Link href="https://twitter.com/SuwarKainde">
             <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
-              X (Twitter) Account
+              X Account of Suwar Kainde
             </button>
           </Link>
         </div>

@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Prefooter() {
   return (
-    <div className="bg-gray-50 dark:bg-neutral-800">
+    <div className="bg-gray-50 dark:bg-neutral-800 border-t border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-20 pb-10">
         <h1 className="text-4xl font-bold text-center">
-          Do you want to visit <span className="text-rose-500">BANANOW</span>? Please immediately contact the immigration officer of <span className="text-rose-500">BANANOW</span>!
+          Do you want to visit <span className="text-rose-500">BANANOW</span>?<br />Please immediately contact the immigration officer of <span className="text-rose-500">BANANOW</span>!
         </h1>
       </div>
 
