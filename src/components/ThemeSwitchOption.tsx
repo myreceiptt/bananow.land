@@ -60,7 +60,7 @@ const ThemeSwitchOption = () => {
 
                 )}
             </svg>
-            <select className="bg-neutral-900 dark:bg-neutral-900 cursor-pointer text-lg rounded-md outline-none" value={theme} onChange={e => setTheme(e.target.value)}>
+            <select className="bg-neutral-900 dark:bg-neutral-900 cursor-pointer text-lg rounded-md outline-none" value={theme} onChange={e => {sound3Click(); setTheme(e.target.value)}}>
                 <option value="system">System</option>
                 <option value="dark">Dark</option>
                 <option value="light">Light</option>
