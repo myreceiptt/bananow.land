@@ -62,7 +62,7 @@ export default function Farmers() {
     const sound4Loc = "/sounds/ngung-ngung.mp3";
     const [play4, { stop }] = useSound(
     sound4Loc,
-    { volume: 0.75 }
+    { volume: 1.25 }
     );
     const [isHovering, setIsHovering] = React.useState(
     false
