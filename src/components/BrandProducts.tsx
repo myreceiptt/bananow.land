@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import useSound from "use-sound";
+import React from "react";
 
 const brandProducts = [
   {
@@ -63,6 +64,15 @@ export function BrandProducts() {
   const sound0Click = () => {
     play0();
   };
+
+  const sound4Loc = "/sounds/ngung-ngung.mp3";
+  const [play4, { stop }] = useSound(
+    sound4Loc,
+    { volume: 0.75 }
+  );
+  const [isHovering, setIsHovering] = React.useState(
+    false
+  );
   
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="brandproducts">
@@ -80,6 +90,14 @@ export function BrandProducts() {
             <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
               <Link onClick={sound0Click} href={jump} title={title}>
                 <Image
+                  onMouseEnter={() => {
+                    setIsHovering(true);
+                    play4();
+                  }}
+                  onMouseLeave={() => {
+                    setIsHovering(false);
+                    stop();
+                  }}
                   src={image}
                   alt={alt}
                   width={130}

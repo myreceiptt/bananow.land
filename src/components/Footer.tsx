@@ -3,6 +3,7 @@ import Link from "next/link";
 import ThemeSwitchOption from "./ThemeSwitchOption";
 
 import useSound from "use-sound";
+import React from "react";
 
 const social = [
   {
@@ -114,12 +115,29 @@ export default function Footer() {
     play2();
   };
 
+  const sound4Loc = "/sounds/ngung-ngung.mp3";
+  const [play4, { stop }] = useSound(
+    sound4Loc,
+    { volume: 0.75 }
+  );
+  const [isHovering, setIsHovering] = React.useState(
+    false
+  );
+
   return (
     <footer className="bg-neutral-900 text-neutral-300 dark:text-neutral-400 border-t border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
         <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 2xl:col-span-2">
           <Link onClick={sound0Click} href="/">
             <Image
+              onMouseEnter={() => {
+                setIsHovering(true);
+                play4();
+              }}
+              onMouseLeave={() => {
+                setIsHovering(false);
+                stop();
+              }}
               className="h-17 w-auto hover:scale-110 transition"
               src="/images/logos/BananowLogo-169x121.png"
               alt="BANANOW.LAND Logo"
@@ -136,7 +154,16 @@ export default function Footer() {
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
             {social.map((red) => (
-              <Link onClick={sound2Click} key={red.name} href={red.href} title={red.title} target="_blank">
+              <Link 
+                onMouseEnter={() => {
+                  setIsHovering(true);
+                  play4();
+                }}
+                onMouseLeave={() => {
+                  setIsHovering(false);
+                  stop();
+                }}
+                onClick={sound2Click} key={red.name} href={red.href} title={red.title} target="_blank">
                 <div className="w-9 h-9 p-2 text-white bg-rose-500 hover:opacity-75 rounded-full flex items-center justify-center">
                   {red.icon}
                 </div>

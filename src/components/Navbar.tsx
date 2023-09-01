@@ -51,6 +51,15 @@ export default function Navbar() {
     play2();
   };
 
+  const sound4Loc = "/sounds/ngung-ngung.mp3";
+  const [play4, { stop }] = useSound(
+    sound4Loc,
+    { volume: 0.75 }
+  );
+  const [isHovering, setIsHovering] = React.useState(
+    false
+  );
+
   return (
     <Disclosure
       as="nav"
@@ -64,6 +73,14 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center md:pl-0">
                   <Link onClick={sound0Click} href="/">
                     <Image
+                      onMouseEnter={() => {
+                        setIsHovering(true);
+                        play4();
+                      }}
+                      onMouseLeave={() => {
+                        setIsHovering(false);
+                        stop();
+                      }}
                       className="block h-11 w-auto hover:scale-110 transition"
                       src="/images/logos/BananowLogo-169x121.png"
                       alt="BANANOW.LAND Logo"

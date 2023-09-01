@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import useSound from "use-sound";
+import React from "react";
 
 const farmers = [
     {
@@ -57,6 +58,16 @@ export default function Farmers() {
     const sound0Click = () => {
     play0();
     };
+
+    const sound4Loc = "/sounds/ngung-ngung.mp3";
+    const [play4, { stop }] = useSound(
+    sound4Loc,
+    { volume: 0.75 }
+    );
+    const [isHovering, setIsHovering] = React.useState(
+    false
+    );
+
     return (
         <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="farmers">
             <h2 className="text-4xl font-bold text-center">
@@ -71,6 +82,14 @@ export default function Farmers() {
                     {farmers.map((item) => (
                         <Link onClick={sound0Click} key={item.name} href={item.href} title={item.name} target="_blank">
                             <Image
+                                onMouseEnter={() => {
+                                    setIsHovering(true);
+                                    play4();
+                                }}
+                                onMouseLeave={() => {
+                                    setIsHovering(false);
+                                    stop();
+                                }}
                                 className="h-20 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
                                 src={item.src}
                                 alt={item.alt}
