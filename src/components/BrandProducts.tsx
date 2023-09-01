@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import useSound from "use-sound";
+
 const brandProducts = [
   {
     jump: "/vibes/",
@@ -53,6 +55,15 @@ const brandProducts = [
 ];
 
 export function BrandProducts() {
+  const sound0Loc = "/sounds/tiuing.mp3";
+  const [play0] = useSound(
+    sound0Loc,
+    { volume: 0.75 }
+  );
+  const sound0Click = () => {
+    play0();
+  };
+  
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
@@ -66,8 +77,8 @@ export function BrandProducts() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         {brandProducts.map(({ jump, title, description, image, alt }) => (
           <div key={title}>
-            <div className="h-32 w-32 flex justify-center mx-auto">
-              <Link href={jump} title={title}>
+            <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
+              <Link onClick={sound0Click} href={jump} title={title}>
                 <Image
                   src={image}
                   alt={alt}

@@ -3,7 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Redirect";
 
+import useSound from "use-sound";
+
 export default function Redirect() {
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
+  };
   return (
     <Layout>
       <Head>
@@ -30,7 +40,7 @@ export default function Redirect() {
           <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
             You are being redirected. If nothing happens, please hit the button below!
           </p>
-          <Link href="https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47">
+          <Link onClick={sound2Click} href="https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47">
             <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
               BANANOW NFTs Smart Contract
             </button>

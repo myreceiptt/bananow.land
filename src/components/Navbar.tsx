@@ -27,7 +27,7 @@ export default function Navbar() {
   const sound0Loc = "/sounds/tiuing.mp3";
   const [play0] = useSound(
     sound0Loc,
-    { volume: 1 }
+    { volume: 0.75 }
   );
   const sound0Click = () => {
     play0();
@@ -36,7 +36,7 @@ export default function Navbar() {
   const sound1Loc = "/sounds/nguing.mp3";
   const [play1] = useSound(
     sound1Loc,
-    { volume: 0.5 }
+    { volume: 0.75 }
   );
   const sound1Click = () => {
     play1();

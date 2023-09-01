@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import ThemeSwitchOption from "./ThemeSwitchOption";
 
+import useSound from "use-sound";
+
 const social = [
   {
     name: "discord",
@@ -85,11 +87,38 @@ const column3 = [
 ];
 
 export default function Footer() {
+  const sound0Loc = "/sounds/tiuing.mp3";
+  const [play0] = useSound(
+    sound0Loc,
+    { volume: 0.75 }
+  );
+  const sound0Click = () => {
+    play0();
+  };
+
+  const sound1Loc = "/sounds/nguing.mp3";
+  const [play1] = useSound(
+    sound1Loc,
+    { volume: 0.75 }
+  );
+  const sound1Click = () => {
+    play1();
+  };
+
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
+  };
+
   return (
     <footer className="bg-neutral-900 text-neutral-300 dark:text-neutral-400 border-t border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
         <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 2xl:col-span-2">
-          <Link href="/">
+          <Link onClick={sound0Click} href="/">
             <Image
               className="h-17 w-auto hover:scale-110 transition"
               src="/images/logos/BananowLogo-169x121.png"
@@ -107,7 +136,7 @@ export default function Footer() {
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
             {social.map((red) => (
-              <Link key={red.name} href={red.href} title={red.title} target="_blank">
+              <Link onClick={sound2Click} key={red.name} href={red.href} title={red.title} target="_blank">
                 <div className="w-9 h-9 p-2 text-white bg-rose-500 hover:opacity-75 rounded-full flex items-center justify-center">
                   {red.icon}
                 </div>
@@ -122,6 +151,7 @@ export default function Footer() {
           </h3>
           {column1.map((item) => (
             <Link
+              onClick={sound1Click}
               key={item.name}
               href={item.href}
               className="hover:text-rose-500 md:text-sm my-4 grid"
@@ -137,6 +167,7 @@ export default function Footer() {
           </h3>
           {column2.map((item) => (
             <Link
+              onClick={sound1Click}
               key={item.name}
               href={item.href}
               className="hover:text-rose-500 md:text-sm my-4 grid"
@@ -152,6 +183,7 @@ export default function Footer() {
           </h3>
           {column3.map((item) => (
             <Link
+              onClick={sound1Click}
               key={item.name}
               href={item.href}
               className="hover:text-rose-500 md:text-sm my-4 grid"
@@ -167,8 +199,8 @@ export default function Footer() {
 
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 p-6 text-center border-t border-neutral-800">
         <Link
-          href="https://www.bananow.land/"
-          target="_blank"
+          onClick={sound0Click}
+          href="/"
           className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
         >
           <span className="text-rose-500">BANANOW</span>.LAND &copy; Copyright {new Date().getFullYear()}. All Rights Reserved.

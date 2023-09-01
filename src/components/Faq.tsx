@@ -1,6 +1,8 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
+import useSound from "use-sound";
+
 const faqitems = [
   {
     question: "What does Web3 mean??",
@@ -25,6 +27,15 @@ const faqitems = [
 ];
 
 export default function Faq() {
+  const sound3Loc = "/sounds/jept.mp3";
+  const [play3] = useSound(
+    sound3Loc,
+    { volume: 0.75 }
+  );
+  const sound3Click = () => {
+    play3();
+  };
+
   return (
     <div
       className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16"
@@ -44,6 +55,7 @@ export default function Faq() {
               {({ open }) => (
                 <div className="mt-4">
                   <Disclosure.Button
+                    onClick={sound3Click}
                     className={`${
                       open
                         ? "bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-100 rounded-b-none"

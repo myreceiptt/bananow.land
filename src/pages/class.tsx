@@ -2,7 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
 
+import useSound from "use-sound";
+
 export default function Class() {
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
+  };
   return (
     <Layout>
       <div

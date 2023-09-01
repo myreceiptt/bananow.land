@@ -1,9 +1,9 @@
 import React from "react";
 import { useForm, useWatch } from "react-hook-form";
 
-import { BuildingOffice2Icon } from "@heroicons/react/24/outline";
-import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
-import { PhotoIcon } from "@heroicons/react/24/outline";
+import { BuildingOffice2Icon, ChatBubbleLeftRightIcon, PhotoIcon, PlayIcon } from "@heroicons/react/24/outline";
+
+import useSound from "use-sound";
 
 type Info = {
   access_key: string;
@@ -16,6 +16,28 @@ type Info = {
 };
 
 export default function Embassy() {
+  const sound1Loc = "/sounds/nguing.mp3";
+  const [play1] = useSound(
+    sound1Loc,
+    { volume: 0.75 }
+  );
+  const sound1Click = () => {
+    play1();
+  };
+
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2ClickA = () => {
+    play2();
+  };
+  const sound2ClickB = () => {
+    play2();
+    reset();
+  };
+
   const {
     register,
     handleSubmit,
@@ -75,22 +97,22 @@ export default function Embassy() {
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
             <BuildingOffice2Icon className="w-4 h-4" />
-            <a href="/discord/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Discord Server</span></a>
+            <a onClick={sound1Click} href="/discord/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Discord Server</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <ChatBubbleLeftRightIcon className="w-4 h-4" />
-            <a href="/twitter/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> X (Twitter) Account</span></a>
+            <a onClick={sound1Click} href="/twitter/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> X (Twitter) Account</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhotoIcon className="w-4 h-4" />
-            <a href="/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
+            <a onClick={sound1Click} href="/instagram/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> Instagram Profile</span></a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <PhotoIcon className="w-4 h-4" />
-            <a href="/youtube/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> YouTube Channel</span></a>
+            <PlayIcon className="w-4 h-4" />
+            <a onClick={sound1Click} href="/youtube/" target="_blank" className="hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"><span><span className="text-rose-500">BANANOW</span> YouTube Channel</span></a>
           </div>
         </div>
 
@@ -183,6 +205,7 @@ export default function Embassy() {
               </div>
 
               <button
+                onClick={sound2ClickA}
                 type="submit"
                 className="w-full py-4 font-semibold text-white transition-colors bg-neutral-900 rounded-md hover:bg-neutral-700 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-neutral-200 px-7 dark:bg-white dark:hover:bg-neutral-200 dark:text-black "
               >
@@ -239,7 +262,8 @@ export default function Embassy() {
                 </p>
                 <button
                   className="mt-6 py-2 px-4 bg-rose-500 rounded-full focus:outline-none text-neutral-100"
-                  onClick={() => reset()}
+                  onClick={sound2ClickB}
+                  // onClick={() => reset()}
                 >
                   Go Back
                 </button>
@@ -272,7 +296,8 @@ export default function Embassy() {
               </p>
               <button
                 className="mt-6 py-2 px-4 bg-rose-500 rounded-full focus:outline-none text-neutral-100"
-                onClick={() => reset()}
+                onClick={sound2ClickB}
+                // onClick={() => reset()}
               >
                 Try Again
               </button>

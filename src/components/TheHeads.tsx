@@ -2,6 +2,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 
+import useSound from "use-sound";
+
 const products = [
   {
     title: "Sprouts",
@@ -170,8 +172,32 @@ const products = [
 type BillingInterval = "0101" | "Reality";
 
 export default function TheHeads() {
-  const [billingInterval, setBillingInterval] =
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
+  };
+
+  const sound3Loc = "/sounds/jept.mp3";
+  const [play3] = useSound(
+    sound3Loc,
+    { volume: 0.75 }
+  );
+  const sound3ClickA = () => {
+    play3();
+    setBillingInterval("Reality");
+  };
+  const sound3ClickB = () => {
+    play3();
+    setBillingInterval("0101");
+  };
+
+  const [billingInterval, setBillingInterval,] =
     useState<BillingInterval>("Reality");
+    
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
@@ -190,7 +216,7 @@ export default function TheHeads() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:flex sm:flex-col sm:align-center">
         <div className="relative self-center text-base font-semibold mt-6 bg-neutral-200  dark:bg-neutral-800 rounded-lg flex sm:mt-8">
           <button
-            onClick={() => setBillingInterval("Reality")}
+            onClick={sound3ClickA}
             type="button"
             className={`${
               billingInterval === "Reality"
@@ -201,7 +227,7 @@ export default function TheHeads() {
             Universe of Reality
           </button>
           <button
-            onClick={() => setBillingInterval("0101")}
+            onClick={sound3ClickB}
             type="button"
             className={`${
               billingInterval === "0101"
@@ -261,6 +287,7 @@ export default function TheHeads() {
 
                     {/* Call to action */}
                     <Link
+                      onClick={sound2Click}
                       href={href}
                       target="_blank"
                       className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full ${

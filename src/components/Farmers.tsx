@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import useSound from "use-sound";
+
 const farmers = [
     {
         name: "Mrs. V",
@@ -47,6 +49,14 @@ const farmers = [
 ]
 
 export default function Farmers() {
+    const sound0Loc = "/sounds/tiuing.mp3";
+    const [play0] = useSound(
+    sound0Loc,
+    { volume: 0.75 }
+    );
+    const sound0Click = () => {
+    play0();
+    };
     return (
         <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="farmers">
             <h2 className="text-4xl font-bold text-center">
@@ -59,7 +69,7 @@ export default function Farmers() {
             <div className="mx-auto w-full max-w-4xl bg-white dark:bg-transparent">
                 <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
                     {farmers.map((item) => (
-                        <Link key={item.name} href={item.href} title={item.name} target="_blank">
+                        <Link onClick={sound0Click} key={item.name} href={item.href} title={item.name} target="_blank">
                             <Image
                                 className="h-20 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
                                 src={item.src}

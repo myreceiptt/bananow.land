@@ -1,7 +1,27 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
+import useSound from "use-sound";
+
 const ThemeSwitchOption = () => {
+    const sound0Loc = "/sounds/tiuing.mp3";
+    const [play0] = useSound(
+        sound0Loc,
+        { volume: 0.75 }
+    );
+    const sound0Click = () => {
+        play0();
+    };
+
+    const sound3Loc = "/sounds/jept.mp3";
+    const [play3] = useSound(
+      sound3Loc,
+      { volume: 0.75 }
+    );
+    const sound3Click = () => {
+      play3();
+    };
+
     const [mounted, setMounted] = useState(false)
     const { theme, setTheme } = useTheme()
 
@@ -15,7 +35,7 @@ const ThemeSwitchOption = () => {
     }
 
     return (
-        <div className="inline-flex items-center border border-neutral-400 hover:border-neutral-700 dark:border-neutral-700 dark:hover:border-neutral-400 rounded-md px-2 py-1">
+        <div onClick={sound0Click} className="inline-flex items-center border border-neutral-400 hover:border-neutral-700 dark:border-neutral-700 dark:hover:border-neutral-400 rounded-md px-2 py-1">
             <svg xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

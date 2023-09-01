@@ -1,7 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import useSound from "use-sound";
+
 export function Hero() {
+  const sound2Loc = "/sounds/tinggg.mp3";
+  const [play2] = useSound(
+    sound2Loc,
+    { volume: 0.75 }
+  );
+  const sound2Click = () => {
+    play2();
+  };
   return (
     <div className="bg-white dark:bg-neutral-900">
       <div className="max-w-7xl mx-auto pt-20 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
@@ -15,7 +25,7 @@ export function Hero() {
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
-              <Link href="#features">
+              <Link onClick={sound2Click} href="#features">
                 <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white">
                   The Features
                 </button>
@@ -23,7 +33,7 @@ export function Hero() {
             </div>
 
             <div>
-              <Link href="#brandproducts">
+              <Link onClick={sound2Click} href="#brandproducts">
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
                   The Brands
                 </button>
