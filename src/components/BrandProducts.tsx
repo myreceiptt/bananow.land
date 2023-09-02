@@ -10,7 +10,7 @@ const brandProducts = [
     title: "90's Vibes",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium.",
-    image: "/images/brandproducts/1.svg",
+    image: "/images/brandproducts/learning.svg",
     alt: "Service description",
   },
   {
@@ -18,7 +18,7 @@ const brandProducts = [
     title: "Dermaga NFT",
     description:
       "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam.",
-    image: "/images/brandproducts/2.svg",
+    image: "/images/brandproducts/playing.svg",
     alt: "Service description",
   },
   {
@@ -26,7 +26,7 @@ const brandProducts = [
     title: "BANANOW Class",
     description:
       "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia.",
-    image: "/images/brandproducts/3.svg",
+    image: "/images/brandproducts/working.svg",
     alt: "Service description",
   },
   {
@@ -34,7 +34,7 @@ const brandProducts = [
     title: "Na Na Now (e.g.)",
     description:
       "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo.",
-    image: "/images/brandproducts/4.svg",
+    image: "/images/brandproducts/playing.svg",
     alt: "Service description",
   },
   {
@@ -42,7 +42,7 @@ const brandProducts = [
     title: "Now Movies (e.g.)",
     description:
       "Voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque.",
-    image: "/images/brandproducts/5.svg",
+    image: "/images/brandproducts/working.svg",
     alt: "Service description",
   },
   {
@@ -50,7 +50,7 @@ const brandProducts = [
     title: "Farmers Delegate (e.g.)",
     description:
       "Vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis.",
-    image: "/images/brandproducts/6.svg",
+    image: "/images/brandproducts/learning.svg",
     alt: "Service description",
   },
 ];
@@ -75,11 +75,11 @@ export function BrandProducts() {
   );
   
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900" id="brandproducts">
+    <div className="bg-white dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">What Brands Are in <span className="text-yellow-now">BANANOW</span>?</h2>
+        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">What Brands Are in <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>?</h2>
 
-        <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+        <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Its members always maintain the fertility of each of the plantation crops on this land. Make this space a healthy, fair, and fun place to grow.
         </p>
       </div>
@@ -108,8 +108,8 @@ export function BrandProducts() {
                 />
               </Link>
             </div>
-            <h2 className="font-bold text-lg text-center">{title}</h2>
-            <p className="pt-2 text-base text-center dark:text-neutral-400">
+            <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">{title}</h2>
+            <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
               {description}
             </p>
           </div>

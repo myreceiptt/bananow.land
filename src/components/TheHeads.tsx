@@ -199,29 +199,29 @@ export default function TheHeads() {
     useState<BillingInterval>("Reality");
     
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900" id="theheads">
+    <div className="bg-white dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <h2 className="text-4xl font-bold text-center">
-          Community of <span className="text-yellow-now">BANANOW</span>.
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
+          Community of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.
         </h2>
 
-        <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          <span className="text-yellow-now">BANANOW</span> is backed by the
+        <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+          <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> is backed by the
           perfect community for its Web3 activities, that is the friends and
-          family of <span className="text-yellow-now">BANANOW</span> in the 0101
+          family of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in the 0101
           Universe (Digital World of the Internet).
         </p>
       </div>
 
       <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:flex sm:flex-col sm:align-center">
-        <div className="relative self-center text-base font-semibold mt-6 bg-neutral-200  dark:bg-neutral-800 rounded-lg flex sm:mt-8">
+        <div className="relative self-center text-base font-semibold mt-6 bg-dark-now dark:bg-white-now rounded-lg flex sm:mt-8">
           <button
             onClick={sound3ClickA}
             type="button"
             className={`${
               billingInterval === "Reality"
-                ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
-                : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
+                ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
+                : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
             Universe of Reality
@@ -231,8 +231,8 @@ export default function TheHeads() {
             type="button"
             className={`${
               billingInterval === "0101"
-                ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
-                : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
+                ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
+                : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
             0101 Universe
@@ -260,28 +260,28 @@ export default function TheHeads() {
                     key={title}
                     className={`rounded-lg py-8 relative flex flex-col ${
                       mostWanted
-                        ? "border-rose-300 border-2 border-solid dark:border-yellow-now"
-                        : "border-neutral-300 border dark:border-neutral-600"
+                        ? "border-green-now border-2 border-solid dark:border-yellow-now"
+                        : "border-light-now border dark:border-light-now"
                     }`}
                   >
-                    <h3 className="px-6 text-lg font-semibold leading-5">
+                    <h3 className="px-6 text-lg font-semibold leading-5 text-neutral-900 dark:text-white">
                       {title}
                     </h3>
                     {mostWanted && (
-                      <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-rose-100 text-yellow-now rounded-full text-sm font-semibold tracking-wide shadow-md">
+                      <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full text-sm font-semibold tracking-wide shadow-md">
                         Most Wanted
                       </p>
                     )}
 
-                    <p className="px-6 mt-4 leading-6 dark:text-neutral-400">
+                    <p className="px-6 mt-4 leading-6 text-dark-now dark:text-white-now">
                       {description}
                     </p>
                     <div className="mt-2 p-6 -mx-6">
                       <p className="px-6 font-medium flex place-items-end">
                         <span className="text-4xl font-bold">{symbol}</span>
                         &nbsp;&nbsp;
-                        <span className="text-4xl font-bold">{supplies}</span>
-                        <span className="ml-1.5">in&nbsp;{universe}</span>
+                        <span className="text-4xl font-bold text-neutral-900 dark:text-white">{supplies}</span>
+                        <span className="ml-1.5 text-neutral-900 dark:text-white">in&nbsp;{universe}</span>
                       </p>
                     </div>
 
@@ -292,22 +292,22 @@ export default function TheHeads() {
                       target="_blank"
                       className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full ${
                         mostWanted
-                          ? "bg-yellow-now text-white dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black shadow-md"
-                          : "bg-black text-white dark:bg-white dark:text-black dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-white dark:hover:text-white"
+                          ? "bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900 shadow-md"
+                          : "bg-dark-now text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-green-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white"
                       }`}
                     >
                       {cta}
                     </Link>
 
                     {/* features */}
-                    <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-neutral-300 dark:border-neutral-500">
-                      <p className="mt-6 font-semibold dark:text-neutral-300">
+                    <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-light-now dark:border-light-now">
+                      <p className="mt-6 font-semibold text-dark-now dark:text-white-now">
                         What&apos;s featured...
                       </p>
                       {features.map((features) => (
                         <li key={features} className="leading-6 flex">
-                          <CheckIcon className="mt-2 w-3 h-3 text-yellow-now shrink-0" />
-                          <span className="ml-3 dark:text-neutral-400">
+                          <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
+                          <span className="ml-3 text-dark-now dark:text-white-now">
                             {features}
                           </span>
                         </li>

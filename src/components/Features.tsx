@@ -45,7 +45,7 @@ export function Features() {
     <div className="bg-white dark:bg-neutral-900" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Features of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.</h2>
-        <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+        <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           The family are always fun, never intimidating, and very supportive when playing, learning, and working together on Web3.
         </p>
 
@@ -59,16 +59,16 @@ export function Features() {
                 content.order ? "order-1 md:order-2" : "order-1"
               }`}
             >
-              <h1 className="text-2xl font-bold">{content.title}</h1>
-              <p className="pt-6 pb-6 text-base dark:text-neutral-400">
+              <h1 className="text-2xl font-bold text-neutral-900 dark:text-white">{content.title}</h1>
+              <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
                 {content.description}
               </p>
 
               <ul className="font-medium space-y-1 flex-1">
                 {content.features.map((feature) => (
                   <li key={feature} className="leading-6 flex">
-                    <CheckIcon className="mt-2 w-3 h-3 text-yellow-now shrink-0" />
-                    <span className="ml-3 dark:text-neutral-400">
+                    <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
+                    <span className="ml-3 text-dark-now dark:text-white-now">
                       {feature}
                     </span>
                   </li>
