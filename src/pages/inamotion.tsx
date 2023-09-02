@@ -19,10 +19,10 @@ export default function Movies() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Now Movies (e.g.)</h2>
+        <h2 className="text-4xl font-bold text-center">Ina Motion</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Here you will find all the information about Now Movies, from start to finish, from pre-production to distribution. Stay tuned!
+          Here you will find all the information about Ina Motion, from born to burn, from pre-production to distribution. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"

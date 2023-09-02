@@ -19,7 +19,7 @@ export default function Delegate() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Farmers Delegate (e.g.)</h2>
+        <h2 className="text-4xl font-bold text-center">Farmers Delegate</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           Here you will find all the information about how to access and empower the Farmers of <span className="text-yellow-now">BANANOW</span> for your needs. Stay tuned!

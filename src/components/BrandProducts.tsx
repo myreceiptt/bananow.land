@@ -10,7 +10,7 @@ const brandProducts = [
     title: "90's Vibes",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium.",
-    image: "/images/brandproducts/learning.svg",
+    image: "/images/brandproducts/90svibes.svg",
     alt: "Service description",
   },
   {
@@ -18,7 +18,7 @@ const brandProducts = [
     title: "Dermaga NFT",
     description:
       "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam.",
-    image: "/images/brandproducts/playing.svg",
+    image: "/images/brandproducts/dermaga.svg",
     alt: "Service description",
   },
   {
@@ -26,31 +26,31 @@ const brandProducts = [
     title: "BANANOW Class",
     description:
       "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia.",
-    image: "/images/brandproducts/working.svg",
+    image: "/images/brandproducts/class.svg",
     alt: "Service description",
   },
   {
-    jump: "/nananow/",
-    title: "Na Na Now (e.g.)",
+    jump: "/nftindonesia/",
+    title: "NFT Indonesia",
     description:
       "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo.",
-    image: "/images/brandproducts/playing.svg",
-    alt: "Service description",
-  },
-  {
-    jump: "/movies/",
-    title: "Now Movies (e.g.)",
-    description:
-      "Voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque.",
-    image: "/images/brandproducts/working.svg",
+    image: "/images/brandproducts/nftindonesia.svg",
     alt: "Service description",
   },
   {
     jump: "/delegate/",
-    title: "Farmers Delegate (e.g.)",
+    title: "Farmers Delegate",
+    description:
+      "Voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque.",
+    image: "/images/brandproducts/delegate.svg",
+    alt: "Service description",
+  },
+  {
+    jump: "/inamotion/",
+    title: "Ina Motion",
     description:
       "Vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis.",
-    image: "/images/brandproducts/learning.svg",
+    image: "/images/brandproducts/inamotion.svg",
     alt: "Service description",
   },
 ];

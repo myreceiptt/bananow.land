@@ -19,10 +19,10 @@ export default function Nananow() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Na Na Now (e.g.)</h2>
+        <h2 className="text-4xl font-bold text-center">NFT Indonesia</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Here you will find all the information about how to listen and enjoy any music of the Na Na Now. Stay tuned!
+          Here you will find all the information about what is NFT Indonesia in this Web3 ecosystem. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"

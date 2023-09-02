@@ -90,7 +90,7 @@ export default function Farmers() {
                                     setIsHovering(false);
                                     stop();
                                 }}
-                                className="h-20 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
+                                className="h-auto w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
                                 src={item.src}
                                 alt={item.alt}
                                 width={150}
@@ -98,7 +98,7 @@ export default function Farmers() {
                                 quality={75}
                                 sizes="100vw"
                             />
-                            <p className="pt-1 text-xs text-center text-dark-now dark:text-white-now">
+                            <p className="pt-1 text-xs text-center text-dark-now dark:text-white-now hover:text-green-now dark:hover:text-yellow-now transition duration-300">
                                 {item.name}
                             </p>
                         </Link>
