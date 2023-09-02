@@ -22,7 +22,7 @@ const faqitems = [
   {
     question: "Is Web3 easy to learn?",
     response:
-      "Accordingly, BANANOW is here, so you can learn new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start with blockchain and Bitcoin fundamentals by becoming a community member of BANANOW.",
+      "Accordingly, BANANOW is here, so you can LEARN new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start with blockchain and Bitcoin fundamentals by becoming a community member of BANANOW.",
   },
 ];
 
@@ -42,11 +42,11 @@ export default function Faq() {
       id="faq"
     >
       <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
-        F.A.Q. About Web3.
+        F.A.Q. About <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>
       </h2>
 
       <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-        A list of some questions and answers about Web3, especially one giving basic information for the new visitor of this website.
+        A list of some questions and answers about <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>, especially one giving basic information for the new visitor of this website.
       </p>
       <div className="mx-auto w-full max-w-2xl rounded-2xl bg-transparent dark:bg-transparent">
         {faqitems.map(({ question, response }) => (

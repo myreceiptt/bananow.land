@@ -15,7 +15,7 @@ export default function Prefooter() {
     <div className="bg-white-now dark:bg-dark-now">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-20 pb-10">
         <h1 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
-          Do you want to visit <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>?<br />Please immediately contact the immigration officer of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>!
+          Do you want to visit <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>?<br />Please immediately contact the immigration officer of <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>!
         </h1>
       </div>
 

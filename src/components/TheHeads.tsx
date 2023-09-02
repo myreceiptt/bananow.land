@@ -11,7 +11,7 @@ const products = [
     symbol: "👪",
     universe: "Reality",
     description:
-      "The Community who are still thinking about whether these bananas will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more bananas.",
+      "The Community who are still thinking about whether these BANANAS will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more BANANAS.",
     features: [
       "Very Limited Resources",
       "One of One User",
@@ -26,9 +26,9 @@ const products = [
     title: "Sprouts",
     supplies: "∞",
     symbol: "👪",
-    universe: "0101",
+    universe: "Web3",
     description:
-      "The Community who are still thinking about whether these bananas will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more bananas.",
+      "The Community who are still thinking about whether these BANANAS will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more BANANAS.",
     features: [
       "Very Limited Resources",
       "One of One User",
@@ -45,7 +45,7 @@ const products = [
     symbol: "👪",
     universe: "Reality",
     description:
-      "The Friends that loves bananas in their ice cream. They are active, crazy, and always spread positive vibes, just like bananas. They also travel companions in navigating the world of Web3 to thrive together.",
+      "The Friends that loves BANANAS in their ice cream. They are active, crazy, and always spread positive vibes, just like BANANAS. They also travel companions in navigating the world of Web3 to thrive together.",
     features: [
       "Very Limited Resources",
       "One of One User",
@@ -62,9 +62,9 @@ const products = [
     title: "Lovers",
     supplies: "∞",
     symbol: "👪",
-    universe: "0101",
+    universe: "Web3",
     description:
-      "The Friends that loves bananas in their ice cream. They are active, crazy, and always spread positive vibes, just like bananas. They also travel companions in navigating the world of Web3 to thrive together.",
+      "The Friends that loves BANANAS in their ice cream. They are active, crazy, and always spread positive vibes, just like BANANAS. They also travel companions in navigating the world of Web3 to thrive together.",
     features: [
       "Limited Resources",
       "One of One User",
@@ -83,7 +83,7 @@ const products = [
     symbol: "👪",
     universe: "Reality",
     description:
-      "The Family, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this land that they backing up, to develop their owned BANANOW as their brand.",
+      "The FAMILY, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this LAND that they backing up, to develop their owned BANANOW as their brand.",
     features: [
       "Limited Resources",
       "One of One User",
@@ -103,9 +103,9 @@ const products = [
     title: "Heads",
     supplies: 2345,
     symbol: "👪",
-    universe: "0101",
+    universe: "Web3",
     description:
-      "The Family, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this land that they backing up, to develop their owned BANANOW as their brand.",
+      "The FAMILY, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this LAND that they backing up, to develop their owned BANANOW as their brand.",
     features: [
       "Unlimited Resources",
       "One of Many Users",
@@ -127,7 +127,7 @@ const products = [
     symbol: "👪",
     universe: "Reality",
     description:
-      "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this land. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
+      "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this LAND. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
     features: [
       "Unlimited Resources",
       "Many of Many Users",
@@ -148,9 +148,9 @@ const products = [
     title: "Farmers",
     supplies: 6,
     symbol: "👪",
-    universe: "0101",
+    universe: "Web3",
     description:
-      "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this land. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
+      "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this LAND. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
     features: [
       "Unlimited Resources",
       "Many of Many Users",
@@ -169,7 +169,7 @@ const products = [
   },
 ];
 
-type BillingInterval = "0101" | "Reality";
+type BillingInterval = "Web3" | "Reality";
 
 export default function TheHeads() {
   const sound2Loc = "/sounds/tinggg.mp3";
@@ -192,7 +192,7 @@ export default function TheHeads() {
   };
   const sound3ClickB = () => {
     play3();
-    setBillingInterval("0101");
+    setBillingInterval("Web3");
   };
 
   const [billingInterval, setBillingInterval,] =
@@ -202,14 +202,12 @@ export default function TheHeads() {
     <div className="bg-white dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
-          Community of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.
+          Community of <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>
         </h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> is backed by the
-          perfect community for its Web3 activities, that is the friends and
-          family of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in the 0101
-          Universe (Digital World of the Internet).
+          perfect community for its Web3 activities, that is the friends and <span className="text-yellow-now dark:text-green-now font-bold">FAMILY</span> of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in both universes, the Universe of Reality and the Web3 Universe.
         </p>
       </div>
 
@@ -230,12 +228,12 @@ export default function TheHeads() {
             onClick={sound3ClickB}
             type="button"
             className={`${
-              billingInterval === "0101"
+              billingInterval === "Web3"
                 ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
                 : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            0101 Universe
+            Web3 Universe
           </button>
         </div>
       </div>

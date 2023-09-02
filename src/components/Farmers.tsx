@@ -71,11 +71,11 @@ export default function Farmers() {
     return (
         <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="farmers">
             <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
-                Farmers of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.
+                Farmers of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>
             </h2>
 
             <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit nam maxime quas fugiat tempore blanditiis, eveniet quia accusantium.
+                We are a group of people who share the same interests. We appreciate every effort that goes into making things happen in the community, seriously.
             </p>
             <div className="mx-auto w-full max-w-4xl bg-white dark:bg-neutral-900">
                 <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">

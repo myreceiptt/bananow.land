@@ -77,10 +77,10 @@ export function BrandProducts() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">What Brands Are in <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>?</h2>
+        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">Here are <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>'s Growing Brands</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Its members always maintain the fertility of each of the plantation crops on this land. Make this space a healthy, fair, and fun place to grow.
+          Our <span className="text-green-now dark:text-yellow-now font-bold">FAMILY</span> always maintain the fertility of each of the plantation crops on this <span className="text-yellow-now dark:text-green-now font-bold">LAND</span>. Make this space a healthy, fair, and fun place to grow.
         </p>
       </div>
 

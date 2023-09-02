@@ -6,6 +6,7 @@ import { Features } from "../components/Features";
 import { BrandProducts } from "../components/BrandProducts";
 import Faq from "../components/Faq";
 import Farmers from "../components/Farmers";
+// import { NaNowNews } from "@/components/NaNowNews";
 
 export default function Land() {
   return (
@@ -15,6 +16,7 @@ export default function Land() {
       <BrandProducts />
       <TheHeads />
       <Farmers />
+      {/* <NaNowNews /> */}
       <Faq />
       <Embassy />
     </Layout>
