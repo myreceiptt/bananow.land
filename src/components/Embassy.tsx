@@ -79,40 +79,40 @@ export default function Embassy() {
       });
   };
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900" id="embassy">
+    <div className="bg-white dark:bg-neutral-900" id="embassy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">Embassy of <span className="text-yellow-now">BANANOW</span>.</h2>
+        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">Embassy of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.</h2>
 
-        <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+        <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Want to contact us? Please choose an option below and we will be happy to respond to you with any information you need.
         </p>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
-          <h2 className="text-lg font-bold">Contact <span className="text-yellow-now">BANANOW</span></h2>
-          <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
+          <h2 className="text-lg font-bold text-neutral-900 dark:text-white">Contact <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span></h2>
+          <p className="max-w-sm mt-4 mb-4 text-dark-now dark:text-white-now">
             Have something to say? We are always here to respond. Fill up the form on the right to send an email or message us via our social network.
           </p>
 
-          <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
-            <BuildingOffice2Icon className="w-4 h-4" />
-            <a onClick={sound1Click} href="/discord/" target="_blank" className="hover:text-yellow-now dark:hover:text-yellow-now transition duration-300"><span><span className="text-yellow-now">BANANOW</span> Discord Server</span></a>
+          <div className="flex items-center mt-8 space-x-2 text-dark-now dark:text-white-now">
+            <BuildingOffice2Icon className="w-4 h-4 text-green-now dark:text-yellow-now" />
+            <a onClick={sound1Click} href="/discord/" target="_blank" className="hover:text-green-now dark:hover:text-yellow-now">The Discord Server</a>
           </div>
 
-          <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <ChatBubbleLeftRightIcon className="w-4 h-4" />
-            <a onClick={sound1Click} href="/twitter/" target="_blank" className="hover:text-yellow-now dark:hover:text-yellow-now transition duration-300"><span><span className="text-yellow-now">BANANOW</span> X (Twitter) Account</span></a>
+          <div className="flex items-center mt-2 space-x-2 text-dark-now dark:text-white-now">
+            <ChatBubbleLeftRightIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
+            <a onClick={sound1Click} href="/twitter/" target="_blank" className="hover:text-green-now dark:hover:text-yellow-now">The X (Twitter) Account</a>
           </div>
 
-          <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <PhotoIcon className="w-4 h-4" />
-            <a onClick={sound1Click} href="/instagram/" target="_blank" className="hover:text-yellow-now dark:hover:text-yellow-now transition duration-300"><span><span className="text-yellow-now">BANANOW</span> Instagram Profile</span></a>
+          <div className="flex items-center mt-2 space-x-2 text-dark-now dark:text-white-now">
+            <PhotoIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
+            <a onClick={sound1Click} href="/instagram/" target="_blank" className="hover:text-green-now dark:hover:text-yellow-now">The Instagram Profile</a>
           </div>
 
-          <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
-            <PlayIcon className="w-4 h-4" />
-            <a onClick={sound1Click} href="/youtube/" target="_blank" className="hover:text-yellow-now dark:hover:text-yellow-now transition duration-300"><span><span className="text-yellow-now">BANANOW</span> YouTube Channel</span></a>
+          <div className="flex items-center mt-2 space-x-2 text-dark-now dark:text-white-now">
+            <PlayIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
+            <a onClick={sound1Click} href="/youtube/" target="_blank" className="hover:text-green-now dark:hover:text-yellow-now">The YouTube Channel</a>
           </div>
         </div>
 
