@@ -21,21 +21,29 @@ export function Hero() {
             <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>!
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 text-dark-now dark:text-white-now">
-            <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> is a fun, non-intimidating, supportive family, where its members can always play, learn, and work according to their resulting revenue and formed value in Web3 ecosystem.
+             Welcome to the <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> <span className="text-yellow-now dark:text-green-now font-bold">Family</span>, where the vibes are always hype and the fun never stops! We are your friendly neighborhood from Web3.<br />
+            <br />
+            Yes, we know, Web3 this, Web3 that, Web3 her, Web3 him, Web3 they, what the freak is Web3, right?<br />
+            <br />
+            Take it easy, Fams! We’re not going to push your limit knowing it, but we're here trying our best to show you that diving into the digital world can be as easy as peeling a banana.<br />
+            <br />
+            Whether we're <span className="text-green-now dark:text-yellow-now font-bold">Playing</span>, <span className="text-yellow-now dark:text-green-now font-bold">Learning</span>, or <span className="text-green-now dark:text-yellow-now font-bold">Working</span>, together we've got your back. So, grab your lemon tea and join us for the most a-peeling adventure you'll ever have in the digital jungle!<br />
+            <br />
+            Let's grooowwww!!!!
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
-              <Link onClick={sound2Click} href="#features">
+              <Link onClick={sound2Click} href="#brandproducts">
                 <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-4 p-2 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
-                  The Features
+                  The Brands
                 </button>
               </Link>
             </div>
 
             <div>
-              <Link onClick={sound2Click} href="#brandproducts">
+              <Link onClick={sound2Click} href="#theheads">
                 <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-4 p-2 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
-                  The Brands
+                  The Community
                 </button>
               </Link>
             </div>
