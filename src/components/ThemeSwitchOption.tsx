@@ -35,13 +35,13 @@ const ThemeSwitchOption = () => {
     }
 
     return (
-        <div onClick={sound0Click} className="inline-flex items-center border border-neutral-400 hover:border-neutral-700 dark:border-neutral-700 dark:hover:border-neutral-400 rounded-md px-2 py-1">
+        <div onClick={sound0Click} className="inline-flex items-center border border-light-now hover:border-yellow-now rounded-md px-2 py-1">
             <svg xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-6 h-6 text-neutral-300 dark:text-amber-400">
+                className="w-6 h-6 text-white-now">
 
                 {theme === "dark" ? (
                     <path

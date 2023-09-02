@@ -21,7 +21,7 @@ export default function Prefooter() {
 
       <div className="text-center pb-20">
         <Link onClick={sound2Click} href="/discord/" target="_blank">
-          <button className="bg-yellow-now text-white rounded-full px-6 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+          <button className="bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white rounded-full px-6 p-3 font-medium dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900">
             Immigration Check
           </button>
         </Link>
