@@ -19,14 +19,14 @@ export default function Terms() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Terms and Conditions</h2>
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Terms and Conditions</h2>
 
-        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Here you can read all the information about the Terms and Conditions of <span className="text-yellow-now">BANANOW</span>. Stay tuned!
+        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+          Here you can read all the information about the Terms and Conditions of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"
-          alt="Image 404"
+          alt="Terms & Conditions"
           width={1920}
           height={1080}
           quality={75}
@@ -35,7 +35,7 @@ export default function Terms() {
         />
         <div className="mt-16 text-center">
           <Link onClick={sound2Click} href="/">
-            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               Return to The Land
             </button>
           </Link>

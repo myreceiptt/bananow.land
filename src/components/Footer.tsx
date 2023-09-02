@@ -76,9 +76,9 @@ const column2 = [
   { name: "90's Vibes", href: "/vibes/" },
   { name: "Dermaga NFT", href: "/dermaga/" },
   { name: "BANANOW Class", href: "/class/" },
-  { name: "Na Na Now", href: "/nananow/" },
-  { name: "Now Movies", href: "/movies/" },
+  { name: "NFT Indonesia", href: "/nftindonesia/" },
   { name: "Farmers Delegate", href: "/delegate/" },
+  { name: "Ina Motion", href: "/inamotion/" },
 ];
 
 const column3 = [

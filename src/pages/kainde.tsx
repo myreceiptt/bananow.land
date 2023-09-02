@@ -23,13 +23,13 @@ export default function Redirect() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Redirecting...</h2>
-        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Redirecting to X account of Suwar Kainde, a farmers of <span className="text-yellow-now">BANANOW</span>...
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Redirecting...</h2>
+        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+          Redirecting to X account of Suwar Kainde, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/404/404.svg"
-          alt="Image 404"
+          src="/images/redirects/404.svg"
+          alt="Suwar Kainde"
           width={1920}
           height={1080}
           quality={75}
@@ -37,11 +37,11 @@ export default function Redirect() {
           className="w-[350px] md:w-4/12 justify-center text-center mx-auto"
         />
         <div className="mt-16 text-center">
-          <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+          <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
             You are being redirected. If nothing happens, please hit the button below!
           </p>
           <Link onClick={sound2Click} href="https://twitter.com/SuwarKainde">
-            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               X Account of Suwar Kainde
             </button>
           </Link>

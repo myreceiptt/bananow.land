@@ -19,14 +19,14 @@ export default function Movies() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center">Ina Motion</h2>
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Ina Motion</h2>
 
-        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+        <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Here you will find all the information about Ina Motion, from born to burn, from pre-production to distribution. Stay tuned!
         </p>
         <Image
-          src="/images/404/404.svg"
-          alt="Image 404"
+          src="/images/brandproducts/inamotion.svg"
+          alt="Ina Motion"
           width={1920}
           height={1080}
           quality={75}
@@ -35,7 +35,7 @@ export default function Movies() {
         />
         <div className="mt-16 text-center">
           <Link onClick={sound2Click} href="/">
-            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               Return to The Land
             </button>
           </Link>
