@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Always Playing",
+    title: "Let's Play!",
     description:
       "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
     features: [
@@ -44,7 +44,7 @@ export function Features() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Features of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.</h2>
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Let's Go Bananas!</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           The family are always fun, never intimidating, and very supportive when playing, learning, and working together on Web3.
         </p>
