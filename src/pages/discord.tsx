@@ -25,7 +25,7 @@ export default function Redirect() {
       >
         <h2 className="text-4xl font-bold text-center">Redirecting...</h2>
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Redirecting to Discord server of <span className="text-rose-500">BANANOW</span>...
+          Redirecting to Discord server of <span className="text-yellow-now">BANANOW</span>...
         </p>
         <Image
           src="/images/404/404.svg"
@@ -41,7 +41,7 @@ export default function Redirect() {
             You are being redirected. If nothing happens, please hit the button below!
           </p>
           <Link onClick={sound2Click} href="https://discord.gg/PpfGQpKDhs">
-            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
               Discord Server
             </button>
           </Link>

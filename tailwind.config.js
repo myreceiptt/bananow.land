@@ -12,6 +12,30 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+      //  white
+      //  neutral-100
+      //  neutral-200
+        "white-now": "#E2E2E2",
+      //  neutral-300
+      //  neutral-400
+        "light-now": "#C0BFBF",
+
+        "dark-now": "#5C5C5C",
+      //  neutral-600
+      //  neutral-700
+      //  neutral-800
+      //  neutral-900
+      //  black
+
+      //  gray-50
+      //  dark-600
+
+      //  rose-500
+        "yellow-now": "#FBB22D",
+        "green-now": "#36A749",
+      //  rose-100
+      },
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
       },
@@ -22,3 +46,4 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography")],
 };
+ 

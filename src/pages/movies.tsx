@@ -35,7 +35,7 @@ export default function Movies() {
         />
         <div className="mt-16 text-center">
           <Link onClick={sound2Click} href="/">
-            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
               Return to The Land
             </button>
           </Link>

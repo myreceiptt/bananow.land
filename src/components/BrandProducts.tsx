@@ -77,7 +77,7 @@ export function BrandProducts() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">What Brands Are in <span className="text-rose-500">BANANOW</span>?</h2>
+        <h2 className="text-4xl font-bold">What Brands Are in <span className="text-yellow-now">BANANOW</span>?</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           Its members always maintain the fertility of each of the plantation crops on this land. Make this space a healthy, fair, and fun place to grow.

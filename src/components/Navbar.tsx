@@ -92,7 +92,7 @@ export default function Navbar() {
                   </Link>
                 </div>
 
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden lg:ml-6 lg:block">
                   <div className="flex space-x-5 items-center">
                     {navigation.map((item) => (
                       <Link
@@ -101,8 +101,8 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "text-neutral-900 dark:text-neutral-400 "
-                            : "text-neutral-900 dark:text-neutral-400 hover:underline",
+                            ? "text-neutral-900 dark:text-white "
+                            : "text-dark-now dark:text-white-now hover:underline hover:text-neutral-900 dark:hover:text-white",
                           "text-base font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -113,39 +113,39 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
-                  <Link
-                    onClick={sound2Click}
-                    href="https://gp.bananow.land/"
-                    target="_blank"
-                    className="hidden sm:block"
-                    title="Read The Green Print of BANANOW.LAND..."
-                  >
-                    <button
-                      className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full"
-                    >
-                      The Green Print
-                    </button>
-                  </Link>
+                <div className="absolute inset-y-0 right-10 lg:right-0 flex items-center gap-2">
                   <Link
                     onClick={sound2Click}
                     href="https://heads.bananow.land/"
                     target="_blank"
-                    className="hidden sm:block"
+                    className="hidden lg:block"
                     title="Be a Head of BANANOW.LAND..."
                   >
                     <button
-                      className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full"
+                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full"
                     >
                       Be a Head
+                    </button>
+                  </Link>
+                  <Link
+                    onClick={sound2Click}
+                    href="https://gp.bananow.land/"
+                    target="_blank"
+                    className="hidden lg:block"
+                    title="Read The Green Print of BANANOW.LAND..."
+                  >
+                    <button
+                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
+                    >
+                      The Green Print
                     </button>
                   </Link>
                   <ThemeSwitchButton />
                 </div>
 
-                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button onClick={sound0Click} className="inline-flex items-center justify-center rounded-md text-neutral-900 dark:text-white ">
+                  <Disclosure.Button onClick={sound0Click} className="inline-flex items-center justify-center rounded-md text-dark-now dark:text-light-now ">
                     <span className="sr-only">Open The Menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -158,7 +158,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-4 min-h-screen border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -168,8 +168,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "text-neutral-900 dark:text-neutral-400"
-                      : "text-neutral-900 dark:text-neutral-400",
+                      ? "text-neutral-900 dark:text-white"
+                      : "text-dark-now dark:text-white-now",
                     "block py-4 text-base font-medium border-b border-neutral-200 dark:border-neutral-700"
                   )}
                   aria-current={item.current ? "page" : undefined}
@@ -179,16 +179,16 @@ export default function Navbar() {
               ))}
               <Link
                 onClick={sound2Click}
-                href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
-                <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
-                  The Green Print
+                href="https://heads.bananow.land/" target="_blank" title="Be a Head of BANANOW.LAND...">
+                <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
+                  Be a Head
                 </button>
               </Link>
               <Link
                 onClick={sound2Click}
-                href="https://heads.bananow.land/" target="_blank" title="Be a Head of BANANOW.LAND...">
-                <button className="mt-12 bg-rose-500 text-white px-4 p-3 font-medium rounded-full w-full">
-                  Be a Head
+                href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
+                <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
+                  The Green Print
                 </button>
               </Link>
             </div>

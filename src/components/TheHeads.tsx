@@ -202,13 +202,13 @@ export default function TheHeads() {
     <div className="bg-gray-50 dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         <h2 className="text-4xl font-bold text-center">
-          Community of <span className="text-rose-500">BANANOW</span>.
+          Community of <span className="text-yellow-now">BANANOW</span>.
         </h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          <span className="text-rose-500">BANANOW</span> is backed by the
+          <span className="text-yellow-now">BANANOW</span> is backed by the
           perfect community for its Web3 activities, that is the friends and
-          family of <span className="text-rose-500">BANANOW</span> in the 0101
+          family of <span className="text-yellow-now">BANANOW</span> in the 0101
           Universe (Digital World of the Internet).
         </p>
       </div>
@@ -260,7 +260,7 @@ export default function TheHeads() {
                     key={title}
                     className={`rounded-lg py-8 relative flex flex-col ${
                       mostWanted
-                        ? "border-rose-300 border-2 border-solid dark:border-rose-500"
+                        ? "border-rose-300 border-2 border-solid dark:border-yellow-now"
                         : "border-neutral-300 border dark:border-neutral-600"
                     }`}
                   >
@@ -268,7 +268,7 @@ export default function TheHeads() {
                       {title}
                     </h3>
                     {mostWanted && (
-                      <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-rose-100 text-rose-500 rounded-full text-sm font-semibold tracking-wide shadow-md">
+                      <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-rose-100 text-yellow-now rounded-full text-sm font-semibold tracking-wide shadow-md">
                         Most Wanted
                       </p>
                     )}
@@ -292,8 +292,8 @@ export default function TheHeads() {
                       target="_blank"
                       className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full ${
                         mostWanted
-                          ? "bg-rose-500 text-white dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black shadow-md"
-                          : "bg-black text-white dark:bg-white dark:text-black dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white"
+                          ? "bg-yellow-now text-white dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black shadow-md"
+                          : "bg-black text-white dark:bg-white dark:text-black dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-white dark:hover:text-white"
                       }`}
                     >
                       {cta}
@@ -306,7 +306,7 @@ export default function TheHeads() {
                       </p>
                       {features.map((features) => (
                         <li key={features} className="leading-6 flex">
-                          <CheckIcon className="mt-2 w-3 h-3 text-rose-500 shrink-0" />
+                          <CheckIcon className="mt-2 w-3 h-3 text-yellow-now shrink-0" />
                           <span className="ml-3 dark:text-neutral-400">
                             {features}
                           </span>

@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Always Fun (e.g.)",
+    title: "Always Playing",
     description:
       "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
     features: [
@@ -11,11 +11,11 @@ const contents = [
       "Lorem ipsum dolor sit amet consectetur!",
       "Lacus eu mauris quisque tortor torquent!",
     ],
-    image: "/images/features/dashboard.svg",
+    image: "/images/features/playing.svg",
     order: false,
   },
   {
-    title: "Never Intimidating (e.g.)",
+    title: "Never Stop Learning",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
     features: [
@@ -23,11 +23,11 @@ const contents = [
       "Voluptatum deleniti atque corrupti quos.",
       "He endures pains to avoid worse pains.",
     ],
-    image: "/images/features/product.svg",
+    image: "/images/features/learning.svg",
     order: true,
   },
   {
-    title: "Very Supportive (e.g.)",
+    title: "Very Hard Working",
     description:
       "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
     features: [
@@ -35,7 +35,7 @@ const contents = [
       "Quis autem vel eum iure reprehenderit!",
       "Consequuntur magni dolores eos qui ratione!",
     ],
-    image: "/images/features/inventory.svg",
+    image: "/images/features/working.svg",
     order: false,
   },
 ];
@@ -44,7 +44,7 @@ export function Features() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
-        <h2 className="text-4xl font-bold text-center">Features of <span className="text-rose-500">BANANOW</span>.</h2>
+        <h2 className="text-4xl font-bold text-center">Features of <span className="text-yellow-now">BANANOW</span>.</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           The family are always fun, never intimidating, and very supportive when playing, learning, and working together on Web3.
         </p>
@@ -67,7 +67,7 @@ export function Features() {
               <ul className="font-medium space-y-1 flex-1">
                 {content.features.map((feature) => (
                   <li key={feature} className="leading-6 flex">
-                    <CheckIcon className="mt-2 w-3 h-3 text-rose-500 shrink-0" />
+                    <CheckIcon className="mt-2 w-3 h-3 text-yellow-now shrink-0" />
                     <span className="ml-3 dark:text-neutral-400">
                       {feature}
                     </span>

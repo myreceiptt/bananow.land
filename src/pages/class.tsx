@@ -19,10 +19,10 @@ export default function Class() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center"><span className="text-rose-500">BANANOW</span> Class</h2>
+        <h2 className="text-4xl font-bold text-center"><span className="text-yellow-now">BANANOW</span> Class</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Here you will find all the information about the <span className="text-rose-500">BANANOW</span> Class held in both Universe of Reality, and 0101 Universe. Stay tuned!
+          Here you will find all the information about the <span className="text-yellow-now">BANANOW</span> Class held in both Universe of Reality, and 0101 Universe. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"
@@ -35,7 +35,7 @@ export default function Class() {
         />
         <div className="mt-16 text-center">
           <Link href="/">
-            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
               Return to The Land
             </button>
           </Link>

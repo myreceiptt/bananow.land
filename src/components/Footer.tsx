@@ -149,7 +149,7 @@ export default function Footer() {
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            <span className="text-rose-500">BANANOW</span>.LAND - A Web3 Supportive Family
+            <span className="text-yellow-now">BANANOW</span>.LAND - A Web3 Supportive Family
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
@@ -164,7 +164,7 @@ export default function Footer() {
                   stop();
                 }}
                 onClick={sound2Click} key={red.name} href={red.href} title={red.title} target="_blank">
-                <div className="w-9 h-9 p-2 text-white bg-rose-500 hover:opacity-75 rounded-full flex items-center justify-center">
+                <div className="w-9 h-9 p-2 text-white bg-yellow-now hover:opacity-75 rounded-full flex items-center justify-center">
                   {red.icon}
                 </div>
               </Link>
@@ -181,7 +181,7 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
-              className="hover:text-rose-500 md:text-sm my-4 grid"
+              className="hover:text-yellow-now md:text-sm my-4 grid"
             >
               {item.name}
             </Link>
@@ -197,7 +197,7 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
-              className="hover:text-rose-500 md:text-sm my-4 grid"
+              className="hover:text-yellow-now md:text-sm my-4 grid"
             >
               {item.name}
             </Link>
@@ -213,7 +213,7 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
-              className="hover:text-rose-500 md:text-sm my-4 grid"
+              className="hover:text-yellow-now md:text-sm my-4 grid"
             >
               {item.name}
             </Link>
@@ -228,9 +228,9 @@ export default function Footer() {
         <Link
           onClick={sound0Click}
           href="/"
-          className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-rose-500 dark:hover:text-rose-500 transition duration-300"
+          className="text-neutral-300 dark:text-neutral-400 text-sm hover:text-yellow-now dark:hover:text-yellow-now transition duration-300"
         >
-          <span className="text-rose-500">BANANOW</span>.LAND &copy; Copyright {new Date().getFullYear()}. All Rights Reserved.
+          <span className="text-yellow-now">BANANOW</span>.LAND &copy; Copyright {new Date().getFullYear()}. All Rights Reserved.
         </Link>
       </div>
     </footer>

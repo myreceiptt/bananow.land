@@ -22,7 +22,7 @@ export default function Privacy() {
         <h2 className="text-4xl font-bold text-center">Privacy Policy</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Here you can read all the information about the Privacy Policy of <span className="text-rose-500">BANANOW</span>. Stay tuned!
+          Here you can read all the information about the Privacy Policy of <span className="text-yellow-now">BANANOW</span>. Stay tuned!
         </p>
         <Image
           src="/images/404/404.svg"
@@ -35,7 +35,7 @@ export default function Privacy() {
         />
         <div className="mt-16 text-center">
           <Link onClick={sound2Click} href="/">
-            <button className="bg-rose-500 text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
+            <button className="bg-yellow-now text-white text-base rounded-full px-16 p-3 font-medium dark:hover:bg-white hover:bg-black hover:text-white dark:hover:text-black">
               Return to The Land
             </button>
           </Link>
