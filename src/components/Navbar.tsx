@@ -10,7 +10,7 @@ import useSound from "use-sound";
 import React from "react";
 
 const navigation = [
-  { name: "Land", href: "/", current: false },
+  { name: "Home", href: "/", current: false },
   { name: "Features", href: "/#features", current: false },
   { name: "Brands", href: "/#brandproducts", current: false },
   { name: "Community", href: "/#theheads", current: false },

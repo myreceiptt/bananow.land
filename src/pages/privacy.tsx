@@ -36,7 +36,7 @@ export default function Privacy() {
         <div className="mt-16 text-center">
           <Link onClick={sound2Click} href="/">
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
-              Return to The Land
+              Return to Home Page
             </button>
           </Link>
         </div>

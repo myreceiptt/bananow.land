@@ -63,7 +63,7 @@ const social = [
 ];
 
 const column1 = [
-  { name: "This Land", href: "/" },
+  { name: "Home Page", href: "/" },
   { name: "The Features", href: "/#features" },
   { name: "The Brands", href: "/#brandproducts" },
   { name: "The Community", href: "/#theheads" },
