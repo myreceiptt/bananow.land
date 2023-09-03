@@ -48,10 +48,48 @@ const contents = [
 ];
 
 export function News1() {
+  const sound0Loc = "/sounds/tiuing.mp3";
+  const [play0] = useSound(
+    sound0Loc,
+    { volume: 0.75 }
+  );
+  const sound0Click = () => {
+    play0();
+  };
+
+  const sound4Loc = "/sounds/ngung-ngung.mp3";
+  const [play4, { stop }] = useSound(
+    sound4Loc,
+    { volume: 1.25 }
+  );
+  const [isHovering, setIsHovering] = React.useState(
+    false
+  );
   return (
     <div className="bg-white dark:bg-neutral-900" id="news1">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">The Latest News from <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span></h2>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-0 pb-16">
+        <div className="h-48 w-38 flex justify-center mx-auto hover:scale-110 transition">
+          <Link onClick={sound0Click} href="https://news.bananow.land/" title="Na Now News of BANANOW" target="_blank">
+            <Image
+              onMouseEnter={() => {
+                setIsHovering(true);
+                play4();
+              }}
+              onMouseLeave={() => {
+                setIsHovering(false);
+                stop();
+              }}
+              src="/images/404/404.svg"
+              alt="Na Now News of BANANOW"
+              width={240}
+              height={240}
+              quality={75}
+              sizes="100vw"
+              priority
+            />
+          </Link>
+        </div>
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Na Now News</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!
         </p>

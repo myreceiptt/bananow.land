@@ -76,9 +76,9 @@ const column2 = [
   { name: "90's Vibes", href: "/vibes/" },
   { name: "Dermaga NFT", href: "/dermaga/" },
   { name: "BANANOW Class", href: "/class/" },
-  { name: "NFT Indonesia", href: "/nftindonesia/" },
-  { name: "Farmers Delegate", href: "/delegate/" },
   { name: "Ina Motion", href: "/inamotion/" },
+  { name: "Agent Now", href: "/delegate/" },
+  { name: "NOTA's Dept.", href: "/professor/" },
 ];
 
 const column3 = [
@@ -202,6 +202,14 @@ export default function Footer() {
               {item.name}
             </Link>
           ))}
+          <Link
+            onClick={sound1Click}
+            href="https://news.bananow.land/"
+            target="_blank"
+            className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
+          >
+            Na Now News
+          </Link>
         </div>
 
         <div>

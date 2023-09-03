@@ -22,7 +22,7 @@ const faqitems = [
   {
     question: "How I can get BANANOW NFTs? Is worth it in today's market condition?",
     response:
-      "You can get BANANOW NFTs on OpenSea.IO, the biggest NFTs marketplace, or you can just hit the \"Be a Head\" button above, all information about how to get BANANOW NFTs is provided there. One important thing should be noted, BANANOW NFTs are not suitable for those of you who are cash grabbers. However, if you are willing to grow with us, be a BANANOW Head now!",
+      "You can get BANANOW NFTs by hit the \"Be a Head\" button above, all information about how to get BANANOW NFTs is provided there. One important thing should be noted, BANANOW NFTs are not suitable for those of you who are cash grabbers. However, if you are willing to grow with us, be a BANANOW Head now!",
   },
   {
     question: "As a BANANOW Head, do you think I'm good-looking?",

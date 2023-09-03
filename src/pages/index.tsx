@@ -15,10 +15,10 @@ export default function Land() {
       <Hero />
       <Features />
       <BrandProducts />
-      <TheHeads />
-      <Farmers />
       {/* <News1 /> */}
       {/* <News2 /> */}
+      <TheHeads />
+      <Farmers />
       <Faq />
       <Embassy />
     </Layout>
