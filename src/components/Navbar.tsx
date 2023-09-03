@@ -15,6 +15,8 @@ const navigation = [
   { name: "Brands", href: "/#brandproducts", current: false },
   { name: "Community", href: "/#theheads", current: false },
   { name: "Farmers", href: "/#farmers", current: false },
+  // { name: "News", href: "/#news1", current: false },
+  // { name: "News", href: "/#news2", current: false },
   { name: "F.A.Q.", href: "/#faq", current: false },
   { name: "Embassy", href: "/#embassy", current: false },
 ];

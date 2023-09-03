@@ -19,14 +19,14 @@ export default function Dermaga() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Dermaga NFT</h2>
+        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Dermaga Web3</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Here you will find all the information about the Dermaga NFT event held by <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>. Stay tuned!
+          Here you will find all the information about the Dermaga Web3 event held by <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>. Stay tuned!
         </p>
         <Image
           src="/images/brandproducts/dermaga.svg"
-          alt="Dermaga NFT"
+          alt="Dermaga NFT is Part of Dermaga Web3"
           width={1920}
           height={1080}
           quality={75}

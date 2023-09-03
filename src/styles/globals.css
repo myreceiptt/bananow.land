@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 ::selection {
-    @apply bg-yellow-now text-white ;
+    @apply dark:bg-green-now dark:text-white bg-yellow-now text-neutral-900 ;
 }

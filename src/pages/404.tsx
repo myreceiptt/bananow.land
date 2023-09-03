@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 import useSound from "use-sound";
 
-export default function Land() {
+export default function NotFound() {
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(
     sound2Loc,
@@ -27,7 +27,7 @@ export default function Land() {
         </p>
         <Image
           src="/images/404/404.svg"
-          alt="Image 404"
+          alt="Image 404 - Nof Found"
           width={1920}
           height={1080}
           quality={75}

@@ -5,7 +5,7 @@ import Layout from "../components/Redirect";
 
 import useSound from "use-sound";
 
-export default function Redirect() {
+export default function Twitter() {
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(
     sound2Loc,

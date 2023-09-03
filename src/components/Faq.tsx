@@ -5,24 +5,29 @@ import useSound from "use-sound";
 
 const faqitems = [
   {
-    question: "What does Web3 mean??",
+    question: "Why BANANA? Is it will change the world?",
     response:
-      "Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.",
+      "It is nutritious, organic way, easy, non-intimidating flavor, and available in any season. But we do not intend to change the world, we just want to make a better place - just like Michael Jackson said.",
   },
   {
-    question: "What is the purpose of Web3?",
+    question: "So, why Web3? What does Web3 mean?",
     response:
-      "The major aim of Web3 is to give back the internet power to the users instead of companies. To achieve this, Web3 makes use of blockchain and cryptocurrency technology to create a form of ownership.",
+      "Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics. The major aim of Web3 is to give back the internet power to the users instead of companies. To achieve this, Web3 makes use of blockchain and cryptocurrency technology to create a form of ownership. One of them is the use of NFT at BANANOW.",
   },
   {
-    question: "What are the advantages of Web3?",
+    question: "What are the advantages of Web3? Is Web3 easy to learn?",
     response:
-      "Web3 is huge and interconnected, which is why it is easier for anyone to gain access to the public and private data that you share online. As Web3-based websites and applications become popular, the pressure will come on existing businesses to upgrade.",
+      "Web3 is huge and interconnected, which is why it is easier for anyone to gain access to the public and private data that you share online. As Web3-based websites and applications become popular, the pressure will come on existing businesses to upgrade. Accordingly, BANANOW is here, so you can LEARN new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start by becoming a community member of BANANOW.",
   },
   {
-    question: "Is Web3 easy to learn?",
+    question: "How I can get BANANOW NFTs? Is worth it in today's market condition?",
     response:
-      "Accordingly, BANANOW is here, so you can LEARN new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start with blockchain and Bitcoin fundamentals by becoming a community member of BANANOW.",
+      "You can get BANANOW NFTs on OpenSea.IO, the biggest NFTs marketplace, or you can just hit the \"Be a Head\" button above, all information about how to get BANANOW NFTs is provided there. One important thing should be noted, BANANOW NFTs are not suitable for those of you who are cash grabbers. However, if you are willing to grow with us, be a BANANOW Head now!",
+  },
+  {
+    question: "As a BANANOW Head, do you think I'm good-looking?",
+    response:
+      "Yes, absolutely you are!!!! 😉😉😉😉 - 47 -",
   },
 ];
 

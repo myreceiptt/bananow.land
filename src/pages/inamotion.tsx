@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 import useSound from "use-sound";
 
-export default function Movies() {
+export default function InaMotion() {
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(
     sound2Loc,
@@ -26,7 +26,7 @@ export default function Movies() {
         </p>
         <Image
           src="/images/brandproducts/inamotion.svg"
-          alt="Ina Motion"
+          alt="Ina Motion Creative Agency"
           width={1920}
           height={1080}
           quality={75}

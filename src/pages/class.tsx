@@ -26,7 +26,7 @@ export default function Class() {
         </p>
         <Image
           src="/images/brandproducts/class.svg"
-          alt="BANANOW Class"
+          alt="Discord Class is Part of BANANOW Class"
           width={1920}
           height={1080}
           quality={75}
