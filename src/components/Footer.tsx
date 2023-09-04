@@ -82,9 +82,10 @@ const column2 = [
 ];
 
 const column3 = [
-  { name: "Privacy Policy", href: "/privacy/" },
-  { name: "Terms & Conditions", href: "/terms/" },
-  { name: "Support Terms", href: "/support/" },
+  { name: "BANANOW Heads", href: "https://heads.bananow.land/", target: "_target" },
+  { name: "The Green Print", href: "https://gp.bananow.land/", target: "_target" },
+  { name: "Privacy Policy", href: "/privacy/", target: "_self" },
+  { name: "Terms & Conditions", href: "/terms/", target: "_self" },
 ];
 
 export default function Footer() {
@@ -197,6 +198,7 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
+              target={item.target}
               className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
             >
               {item.name}
