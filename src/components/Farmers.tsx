@@ -6,14 +6,14 @@ import React from "react";
 
 const farmers = [
     {
-        name: "Mrs. V",
+        name: "V",
         // href: "https://twitter.com/Bananow_V",
         href: "/v/",
         src: "/images/farmers/vanny.svg",
         alt: "BANANOW PFP of V",
     },
     {
-        name: "Mr. Pung",
+        name: "Pung",
         // href: "https://twitter.com/Inamotion21",
         href: "/pung/",
         src: "/images/farmers/pung.svg",
