@@ -28,7 +28,7 @@ export default function Novrizkynorman() {
           Redirecting to X account of Novrizky Norman, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/novrizky.svg"
           alt="Novrizky Norman"
           width={1920}
           height={1080}

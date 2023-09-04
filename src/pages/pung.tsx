@@ -28,7 +28,7 @@ export default function Pung() {
           Redirecting to X account of Mr. Pung, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/pung.svg"
           alt="Mr. Pung"
           width={1920}
           height={1080}

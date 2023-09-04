@@ -28,7 +28,7 @@ export default function ProfessorNota() {
           Redirecting to X account of Prof. NOTA, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/nota.svg"
           alt="Prof. NOTA"
           width={1920}
           height={1080}
