@@ -28,7 +28,7 @@ export default function LadyMe() {
           Redirecting to Lady ME NFTs collection on OBJKT.com marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/ladyme.svg"
           alt="Lady ME NFTs"
           width={1920}
           height={1080}

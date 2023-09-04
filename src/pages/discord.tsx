@@ -28,7 +28,7 @@ export default function Discord() {
           Redirecting to Discord server of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/discord.svg"
           alt="Discord Server"
           width={1920}
           height={1080}

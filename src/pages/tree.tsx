@@ -28,7 +28,7 @@ export default function BananaTree() {
           Redirecting to <span className="text-green-now dark:text-yellow-now font-bold">BANANA</span> Tree NFTs collection on OpenSea.IO marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/tree.svg"
           alt="BANANA Tree NFTs"
           width={1920}
           height={1080}

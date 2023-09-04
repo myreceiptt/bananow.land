@@ -28,7 +28,7 @@ export default function YouTube() {
           Redirecting to YouTube channel of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/youtube.svg"
           alt="YouTube Channel"
           width={1920}
           height={1080}

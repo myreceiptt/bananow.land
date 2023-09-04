@@ -28,7 +28,7 @@ export default function Escapeace() {
           Redirecting to Escapeace NFTs collection on Foundation.App marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/escapeace.svg"
           alt="Escapeace NFTs"
           width={1920}
           height={1080}

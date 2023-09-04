@@ -28,7 +28,7 @@ export default function LordBananow() {
           Redirecting to Lord of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> NFTs collection on OpenSea.IO marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/lord.svg"
           alt="Lord of BANANOW NFTs"
           width={1920}
           height={1080}

@@ -28,7 +28,7 @@ export default function RotyBroi() {
           Redirecting to The ROTY BROI NFTs collection on OpenSea.IO marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/rotybroi.svg"
           alt="The ROTY BROI NFTs"
           width={1920}
           height={1080}

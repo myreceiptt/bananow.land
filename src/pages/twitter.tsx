@@ -28,7 +28,7 @@ export default function Twitter() {
           Redirecting to X account of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/twitter.svg"
           alt="X - Twitter Account"
           width={1920}
           height={1080}

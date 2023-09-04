@@ -25,7 +25,7 @@ export default function Vanny() {
       >
         <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Redirecting...</h2>
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Redirecting to X account of Mrs. V, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
+          Redirecting to X account of SirineV, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
           src="/images/redirects/vanny.png"

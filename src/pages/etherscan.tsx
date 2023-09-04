@@ -28,7 +28,7 @@ export default function EtherScan() {
           Redirecting to <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> NFTs smart contract on EtherScan.IO blockchain explorer...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/etherscan.svg"
           alt="EtherScan.IO"
           width={1920}
           height={1080}

@@ -28,7 +28,7 @@ export default function BornBurn() {
           Redirecting to Born 2 Burn NFTs collection on OBJKT.com marketplace...
         </p>
         <Image
-          src="/images/redirects/404.svg"
+          src="/images/redirects/born2burn.svg"
           alt="Born 2 Burn NFTs"
           width={1920}
           height={1080}
