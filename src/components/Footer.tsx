@@ -198,7 +198,6 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
-              target={item.target}
               className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
             >
               {item.name}
@@ -223,6 +222,7 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
+              target={item.target}
               className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
             >
               {item.name}
