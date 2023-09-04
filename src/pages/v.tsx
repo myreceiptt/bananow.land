@@ -28,7 +28,7 @@ export default function Vanny() {
           Redirecting to X account of Mrs. V, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/vanny.svg"
+          src="/images/redirects/vanny.png"
           alt="Mrs. V"
           width={1920}
           height={1080}

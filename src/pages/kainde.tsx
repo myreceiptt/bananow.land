@@ -28,7 +28,7 @@ export default function SuwarKainde() {
           Redirecting to X account of Suwar Kainde, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/kainde.svg"
+          src="/images/redirects/kainde.png"
           alt="Suwar Kainde"
           width={1920}
           height={1080}

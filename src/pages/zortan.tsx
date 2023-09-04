@@ -28,7 +28,7 @@ export default function Zortan() {
           Redirecting to X account of ZORTAN, a farmers of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>...
         </p>
         <Image
-          src="/images/redirects/zortan.svg"
+          src="/images/redirects/zortan.png"
           alt="ZORTAN"
           width={1920}
           height={1080}
