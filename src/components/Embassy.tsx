@@ -81,7 +81,7 @@ export default function Embassy() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="embassy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">Embassy of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.</h2>
+        <h2 className="text-4xl font-judul font-bold text-neutral-900 dark:text-white">Embassy of <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>.</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Want to contact us? Please choose an option below and we will be happy to respond to you with any information you need.
@@ -90,7 +90,7 @@ export default function Embassy() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
-          <h2 className="text-lg font-bold text-neutral-900 dark:text-white">Contact <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span></h2>
+          <h2 className="text-lg font-judul font-bold text-neutral-900 dark:text-white">Contact <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span></h2>
           <p className="max-w-sm mt-4 mb-4 text-dark-now dark:text-white-now">
             Have something to say? We are always here to respond. Fill up the form on the right to send an email or message us via our social network.
           </p>
@@ -141,8 +141,8 @@ export default function Embassy() {
                   autoComplete="false"
                   className={`w-full px-4 py-3 border-2 placeholder:text-neutral-800 dark:text-white rounded-md outline-none dark:placeholder:text-neutral-200 dark:bg-neutral-900 focus:ring-4 ${
                     errors.name
-                      ? "border-yellow-now focus:border-yellow-now ring-rose-100 dark:ring-0"
-                      : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
+                      ? "dark:border-yellow-now dark:focus:border-yellow-now border-green-now focus:border-green-now ring-white dark:ring-0"
+                      : "border-light-now focus:border-dark-now ring-neutral-100 dark:border-light-now dark:focus:border-white-now dark:ring-0"
                   }`}
                   {...register("name", {
                     required: "Full name is required!",
@@ -150,7 +150,7 @@ export default function Embassy() {
                   })}
                 />
                 {errors.name && (
-                  <div className="mt-1 text-yellow-now">
+                  <div className="mt-1 text-green-now dark:text-yellow-now">
                     <small>{errors.name.message}</small>
                   </div>
                 )}
@@ -168,8 +168,8 @@ export default function Embassy() {
                   autoComplete="false"
                   className={`w-full px-4 py-3 border-2 placeholder:text-neutral-800 dark:text-white rounded-md outline-none dark:placeholder:text-neutral-200 dark:bg-neutral-900 focus:ring-4 ${
                     errors.email
-                      ? "border-yellow-now focus:border-yellow-now ring-rose-100 dark:ring-0"
-                      : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
+                      ? "dark:border-yellow-now dark:focus:border-yellow-now border-green-now focus:border-green-now ring-white dark:ring-0"
+                      : "border-light-now focus:border-dark-now ring-neutral-100 dark:border-light-now dark:focus:border-white-now dark:ring-0"
                   }`}
                   {...register("email", {
                     required: "Enter your email address!",
@@ -180,7 +180,7 @@ export default function Embassy() {
                   })}
                 />
                 {errors.email && (
-                  <div className="mt-1 text-yellow-now">
+                  <div className="mt-1 text-green-now dark:text-yellow-now">
                     <small>{errors.email.message}</small>
                   </div>
                 )}
@@ -192,13 +192,13 @@ export default function Embassy() {
                   placeholder="Your Message"
                   className={`w-full px-4 py-3 border-2 placeholder:text-neutral-800 dark:text-white dark:placeholder:text-neutral-200 dark:bg-neutral-900 rounded-md outline-none h-36 focus:ring-4  ${
                     errors.message
-                      ? "border-yellow-now focus:border-yellow-now ring-rose-100 dark:ring-0"
-                      : "border-neutral-300 focus:border-neutral-600 ring-neutral-100 dark:border-neutral-600 dark:focus:border-white dark:ring-0"
+                      ? "dark:border-yellow-now dark:focus:border-yellow-now border-green-now focus:border-green-now ring-white dark:ring-0"
+                      : "border-light-now focus:border-dark-now ring-neutral-100 dark:border-light-now dark:focus:border-white-now dark:ring-0"
                   }`}
                   {...register("message", { required: "Write your message!" })}
                 />
                 {errors.message && (
-                  <div className="mt-1 text-yellow-now">
+                  <div className="mt-1 text-green-now dark:text-yellow-now">
                     <small>{errors.message.message}</small>
                   </div>
                 )}
@@ -207,7 +207,7 @@ export default function Embassy() {
               <button
                 onClick={sound2ClickA}
                 type="submit"
-                className="w-full py-4 font-semibold text-white transition-colors bg-neutral-900 rounded-md hover:bg-neutral-700 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-neutral-200 px-7 dark:bg-white dark:hover:bg-neutral-200 dark:text-black "
+                className="w-full py-4 font-semibold text-white transition-colors bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-md hover:bg-green-now hover:text-neutral-900 dark:hover:bg-yellow-now dark:hover:text-white focus:outline-none focus:ring-offset-2 focus:ring focus:ring-neutral-200 px-7 dark:hover:bg-neutral-200 "
               >
                 {isSubmitting ? (
                   <svg
@@ -257,11 +257,11 @@ export default function Embassy() {
                 <h3 className="py-5 text-2xl font-medium text-green-500">
                   Success
                 </h3>
-                <p className="text-neutral-900 dark:text-neutral-300 md:px-4">
+                <p className="text-dark-now dark:text-white-now md:px-4">
                   {Message}
                 </p>
                 <button
-                  className="mt-6 py-2 px-4 bg-yellow-now rounded-full focus:outline-none text-neutral-100"
+                  className="mt-6 py-2 px-4 bg-green-now dark:bg-yellow-now rounded-full focus:outline-none text-neutral-900 dark:text-white"
                   onClick={sound2ClickB}
                   // onClick={() => reset()}
                 >

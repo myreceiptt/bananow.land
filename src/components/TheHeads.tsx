@@ -201,7 +201,7 @@ export default function TheHeads() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="theheads">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
+        <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           Community of <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>
         </h2>
 
@@ -262,7 +262,7 @@ export default function TheHeads() {
                         : "border-light-now border dark:border-light-now"
                     }`}
                   >
-                    <h3 className="px-6 text-lg font-semibold leading-5 text-neutral-900 dark:text-white">
+                    <h3 className="px-6 text-lg font-judul font-semibold leading-5 text-neutral-900 dark:text-white">
                       {title}
                     </h3>
                     {mostWanted && (

@@ -26,7 +26,7 @@ export function BrandProducts() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="brandproducts">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">Here are <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>'s Growing Brands</h2>
+        <h2 className="text-4xl font-judul font-bold text-neutral-900 dark:text-white">Here are <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>'s Growing Brands</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Our <span className="text-green-now dark:text-yellow-now font-bold">FAMILY</span> always maintain the fertility of each of the plantation crops on this <span className="text-yellow-now dark:text-green-now font-bold">LAND</span>. Make this space a healthy, fair, and fun place to grow.
@@ -56,7 +56,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">90's Vibes</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">90's Vibes</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The space (mostly on X - Twitter and Discord) where we can sing, chat, share, shill, or laugh with the fun of 90's spirit. Speak up your voices, make a lot of noise, and don't be silent!
           </p>
@@ -83,7 +83,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">Dermaga Web3</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Dermaga Web3</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The offline event that shares and exchanges knowledge about the Web3 world. The bridge between Web2 and Web3 community.
           </p>
@@ -110,7 +110,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">Now Class</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">d'Class</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             An intimate education approach for the community. The room to share about love, life, and technology. It can be on a Discord channel or in any physical room in the Universe of Reality.
           </p>
@@ -137,7 +137,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">Ina Motion</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Ina Motion</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The creative agency that accommodates the creative needs of other brands/products/entities, and is a profitable employer for creative people in the <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> community.
           </p>
@@ -164,7 +164,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">Agent Now</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Agent Now</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The talent coordinator agency of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> which is delegates the demand from other entities to farmers in <span className="text-yellow-now dark:text-green-now font-bold">BANANOW</span> <span className="text-green-now dark:text-yellow-now font-bold">FAMILY</span>.
           </p>
@@ -191,7 +191,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">NOTA's Dept.</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">NOTA's Dept.</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The Web3 tech support department which makes the engine run smoothly in <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>. Doing tech strategy, Web3 philosophical research, blockchain exploration, and even soul analytics.
           </p>

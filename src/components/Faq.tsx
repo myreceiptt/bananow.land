@@ -46,7 +46,7 @@ export default function Faq() {
       className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16"
       id="faq"
     >
-      <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">
+      <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
         F.A.Q. About <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>
       </h2>
 
