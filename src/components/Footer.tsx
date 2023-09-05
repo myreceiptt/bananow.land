@@ -75,7 +75,7 @@ const column1 = [
 const column2 = [
   { name: "90's Vibes", href: "/vibes/" },
   { name: "Dermaga Web3", href: "/dermaga/" },
-  { name: "d'Class Now", href: "/class/" },
+  { name: "Class Now", href: "/class/" },
   { name: "Ina Motion", href: "/inamotion/" },
   { name: "Agent Now", href: "/delegate/" },
   { name: "NOTA's Dept.", href: "/professor/" },
