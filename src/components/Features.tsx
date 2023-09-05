@@ -5,7 +5,7 @@ export function Features() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Let's GO <span className="text-yellow-now dark:text-green-now font-extrabold">BANANAS</span></h2>
+        <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">Let's GO <span className="text-yellow-now dark:text-green-now font-extrabold">BANANAS</span></h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Here we can be whoever we want. We can do crazy things with dignity. There are no laws, only consequences. Let's thrive together!
         </p>
@@ -17,7 +17,7 @@ export function Features() {
             className="pt-8 md:pt-16 order-1" // on the left
             // className="pt-8 md:pt-16 order-1 md:order-2" // on the right
           >
-            <h1 className="text-2xl font-bold text-neutral-900 dark:text-white"><span className="text-green-now dark:text-yellow-now font-extrabold">PLAYING</span> Always Fun</h1>
+            <h1 className="text-2xl font-judul font-bold text-neutral-900 dark:text-white"><span className="text-green-now dark:text-yellow-now font-extrabold">PLAYING</span> Always Fun</h1>
             <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
               Diane Ackerman says, "<span className="text-green-now dark:text-yellow-now font-bold">PLAY</span> is our brain's favorite way of <span className="text-yellow-now dark:text-green-now font-bold">LEARNING</span>." So, to us <span className="text-green-now dark:text-yellow-now font-bold">PLAY</span> it's not just a word that we try to say, but it is our way of life! We're here to share the secret sauce to a happier, less stressful journey.<br />
               <br />
@@ -57,7 +57,7 @@ export function Features() {
             // className="pt-8 md:pt-16 order-1" // on the left
             className="pt-8 md:pt-16 order-1 md:order-2" // on the right
           >
-            <h1 className="text-2xl font-bold text-neutral-900 dark:text-white">Never Stop <span className="text-yellow-now dark:text-green-now font-extrabold">LEARNING</span></h1>
+            <h1 className="text-2xl font-judul font-bold text-neutral-900 dark:text-white">Never Stop <span className="text-yellow-now dark:text-green-now font-extrabold">LEARNING</span></h1>
             <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
               Curiosity is our compass! And in every journey comes a fresh chapter we wrote on the book of discovery. Yes! We are writing a story of the ever-evolving world of Web3.<br />
               <br />
@@ -97,7 +97,7 @@ export function Features() {
             className="pt-8 md:pt-16 order-1" // on the left
             // className="pt-8 md:pt-16 order-1 md:order-2" // on the right
           >
-            <h1 className="text-2xl font-bold text-neutral-900 dark:text-white"><span className="text-green-now dark:text-yellow-now font-extrabold">WORKING</span> with All You Got</h1>
+            <h1 className="text-2xl font-judul font-bold text-neutral-900 dark:text-white"><span className="text-green-now dark:text-yellow-now font-extrabold">WORKING</span> with All You Got</h1>
             <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
               Meet the <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> <span className="text-yellow-now dark:text-green-now font-bold">FAMILY</span>, where "Very Hard <span className="text-green-now dark:text-yellow-now font-bold">WORKING</span>" isn't just a trait, it's our superpower! We're not your average crew - we <span className="text-yellow-now dark:text-green-now font-bold">PLAY</span> hard, but we <span className="text-green-now dark:text-yellow-now font-bold">WORK</span> even harder, and yes, we've got the "Smart <span className="text-yellow-now dark:text-green-now font-bold">WORKING</span>" badge too.<br />
               <br />

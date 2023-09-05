@@ -16,9 +16,9 @@ export function Hero() {
     <div className="bg-white dark:bg-neutral-900">
       <div className="max-w-7xl mx-auto pt-20 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
-          <h1 className="text-5xl font-bold text-neutral-900 dark:text-white">
+          <h1 className="text-5xl font-bold text-neutral-900 dark:text-white font-judul">
             <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>...<br />{" "}
-            <span className="text-yellow-now dark:text-green-now font-extrabold">LAND</span> of Nutrition
+            The <span className="text-yellow-now dark:text-green-now font-extrabold">LAND</span> of Nutrition
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 text-dark-now dark:text-white-now">
              Welcome to the <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span>.<span className="text-yellow-now dark:text-green-now font-bold">LAND</span>, where the vibes are always hype and the fun never stops! We are your friendly neighborhood from Web3.<br />

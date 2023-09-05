@@ -38,6 +38,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
+        judul: "FontJudul",
       },
     },
   },

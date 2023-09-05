@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: FontJudul;
+    src: url("/moongloss/MoonGlossDisplayMedium.otf") format("opentype");
+}
+
 ::selection {
     @apply dark:bg-green-now dark:text-white bg-yellow-now text-neutral-900 ;
 }
