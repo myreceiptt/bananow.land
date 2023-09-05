@@ -29,6 +29,7 @@ const Redirect = (props: any) => {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
+        <link rel="canonical" href="https://www.bananow.land/" />
       </Head>
       
       <main id="skip" className="bg-white dark:bg-neutral-900">

@@ -22,7 +22,7 @@ export default function Class() {
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">Class Now</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Here you will find all the information about the Class Now held in both Universe of Reality, and Web3 Universe. Stay tuned!
+          Here you will find all the information about the Class Now that is held in both the Universe of Reality and Web3 Universe. Stay tuned!
         </p>
         <Image
           src="/images/brandproducts/class.svg"
