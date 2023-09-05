@@ -19,7 +19,7 @@ export default function Privacy() {
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="404"
       >
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Privacy Policy</h2>
+        <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">Privacy Policy</h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Last updated on September 4, 2023.
