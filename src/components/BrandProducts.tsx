@@ -110,7 +110,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">d'Class</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">d'Class Now</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             An intimate education approach for the community. The room to share about love, life, and technology. It can be on a Discord channel or in any physical room in the Universe of Reality.
           </p>

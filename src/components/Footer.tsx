@@ -74,15 +74,15 @@ const column1 = [
 
 const column2 = [
   { name: "90's Vibes", href: "/vibes/" },
-  { name: "Dermaga NFT", href: "/dermaga/" },
-  { name: "NOW Class", href: "/class/" },
+  { name: "Dermaga Web3", href: "/dermaga/" },
+  { name: "d'Class Now", href: "/class/" },
   { name: "Ina Motion", href: "/inamotion/" },
   { name: "Agent Now", href: "/delegate/" },
   { name: "NOTA's Dept.", href: "/professor/" },
 ];
 
 const column3 = [
-  { name: "BANANOW Heads", href: "https://heads.bananow.land/", target: "_target" },
+  { name: "Be a Head Now", href: "https://heads.bananow.land/", target: "_target" },
   { name: "The Green Print", href: "https://gp.bananow.land/", target: "_target" },
   { name: "Privacy Policy", href: "/privacy/", target: "_self" },
   { name: "Terms & Conditions", href: "/terms/", target: "_self" },
