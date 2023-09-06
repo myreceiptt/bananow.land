@@ -137,7 +137,7 @@ export function BrandProducts() {
               />
             </Link>
           </div>
-          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Inamotion</h2>
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">InAMotion</h2>
           <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
             The creative agency that accommodates the creative needs of other brands/products/entities, and is a profitable employer for creative people in the <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> community.
           </p>
