@@ -14,7 +14,7 @@ export function Hero() {
   };
   return (
     <div className="bg-white dark:bg-neutral-900">
-      <div className="max-w-7xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
+      <div className="max-w-7xl mx-auto pt-16 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold text-neutral-900 dark:text-white font-judul">
             <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>...<br />{" "}
