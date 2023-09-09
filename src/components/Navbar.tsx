@@ -103,7 +103,7 @@ export default function Navbar() {
                           item.current
                             ? "text-neutral-900 dark:text-white "
                             : "text-dark-now dark:text-white-now hover:underline hover:text-neutral-900 dark:hover:text-white",
-                          "text-base font-medium"
+                          "xl:text-base xl:font-medium text-sm font-normal"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -122,7 +122,7 @@ export default function Navbar() {
                     title="Be a Head of BANANOW.LAND..."
                   >
                     <button
-                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full"
+                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full"
                     >
                       Be a Head
                     </button>
@@ -135,7 +135,7 @@ export default function Navbar() {
                     title="Read The Green Print of BANANOW.LAND..."
                   >
                     <button
-                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
+                      className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
                     >
                       The Green Print
                     </button>

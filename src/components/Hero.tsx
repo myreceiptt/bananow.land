@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <div className="bg-white dark:bg-neutral-900">
       <div className="max-w-7xl mx-auto pt-16 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
-        <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
+        <div className="pt-6 sm:pt-8 justify-start sm:text-start">
           <h1 className="text-5xl font-bold text-neutral-900 dark:text-white font-judul">
             <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>...<br />{" "}
             The <span className="text-yellow-now dark:text-green-now font-extrabold">LAND</span> of Nutrition
@@ -31,10 +31,10 @@ export function Hero() {
             <br />
             Let's grooowwww!!!!
           </p>
-          <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
+          <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-start">
             <div>
               <Link onClick={sound2Click} href="#brandproducts">
-                <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-4 p-2 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
+                <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
                   The Brands
                 </button>
               </Link>
@@ -42,7 +42,7 @@ export function Hero() {
 
             <div>
               <Link onClick={sound2Click} href="#theheads">
-                <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-4 p-2 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
+                <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
                   The Community
                 </button>
               </Link>

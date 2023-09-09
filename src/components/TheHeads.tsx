@@ -6,6 +6,7 @@ import useSound from "use-sound";
 
 const products = [
   {
+    key: "1a",
     title: "Sprouts",
     supplies: "∞",
     symbol: "👪",
@@ -23,6 +24,7 @@ const products = [
     mostWanted: false,
   },
   {
+    key: "1b",
     title: "Sprouts",
     supplies: "∞",
     symbol: "👪",
@@ -40,6 +42,7 @@ const products = [
     mostWanted: false,
   },
   {
+    key: "2a",
     title: "Lovers",
     supplies: "∞",
     symbol: "👪",
@@ -59,6 +62,7 @@ const products = [
     mostWanted: false,
   },
   {
+    key: "2b",
     title: "Lovers",
     supplies: "∞",
     symbol: "👪",
@@ -78,6 +82,7 @@ const products = [
     mostWanted: false,
   },
   {
+    key: "3a",
     title: "Heads",
     supplies: "0000",
     symbol: "👪",
@@ -100,6 +105,7 @@ const products = [
     mostWanted: true,
   },
   {
+    key: "3b",
     title: "Heads",
     supplies: 2345,
     symbol: "👪",
@@ -122,6 +128,7 @@ const products = [
     mostWanted: true,
   },
   {
+    key: "4a",
     title: "Farmers",
     supplies: 5,
     symbol: "👪",
@@ -145,6 +152,7 @@ const products = [
     mostWanted: false,
   },
   {
+    key: "4b",
     title: "Farmers",
     supplies: 6,
     symbol: "👪",
@@ -238,9 +246,10 @@ export default function TheHeads() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-16 grid lg:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-16">
         {products.map(
           ({
+            key,
             title,
             mostWanted,
             description,
@@ -255,7 +264,7 @@ export default function TheHeads() {
               <>
                 {billingInterval === universe ? (
                   <div
-                    key={title}
+                    key={key}
                     className={`rounded-lg py-8 relative flex flex-col ${
                       mostWanted
                         ? "border-green-now border-2 border-solid dark:border-yellow-now"
@@ -288,7 +297,7 @@ export default function TheHeads() {
                       onClick={sound2Click}
                       href={href}
                       target="_blank"
-                      className={`mt-4 mx-6 block px-6 py-3 font-medium leading-4 text-center rounded-full ${
+                      className={`mt-4 mx-6 block px-6 py-3 xl:text-base xl:font-medium text-sm font-normal leading-4 text-center rounded-full ${
                         mostWanted
                           ? "bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900 shadow-md"
                           : "bg-dark-now text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-green-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white"
