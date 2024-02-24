@@ -6,7 +6,7 @@ import { Features } from "../components/Features";
 import { BrandProducts } from "../components/BrandProducts";
 import Faq from "../components/Faq";
 import Farmers from "../components/Farmers";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 // import { News1 } from "@/components/News";
 // import { News2 } from "@/components/News";
 
