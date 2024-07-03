@@ -5,7 +5,7 @@ import Layout from "../components/Redirect";
 
 import useSound from "use-sound";
 
-export default function EtherScan() {
+export default function BaseScan() {
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(
     sound2Loc,
@@ -17,19 +17,19 @@ export default function EtherScan() {
   return (
     <Layout>
       <Head>
-        <meta httpEquiv="Refresh" content="4; url='https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47'" />
+        <meta httpEquiv="Refresh" content="4; url='https://basescan.org/address/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a'" />
       </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
-        id="etherscan"
+        id="basescan"
       >
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">Redirecting...</h2>
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Redirecting to <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> NFTs smart contract on EtherScan.IO blockchain explorer...
+          Redirecting to <span className="text-green-now dark:text-yellow-now font-bold">BANANOW BASED</span> NFTs smart contract on BaseScan.Org blockchain explorer...
         </p>
         <Image
           src="/images/redirects/etherscan.svg"
-          alt="EtherScan.IO"
+          alt="BaseScan.Org"
           width={1920}
           height={1080}
           quality={75}
@@ -40,7 +40,7 @@ export default function EtherScan() {
           <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
             You are being redirected. If nothing happens, please hit the button below!
           </p>
-          <Link onClick={sound2Click} href="https://etherscan.io/address/0xAe278341f6ACa1358FF67DFcE937F577F9BD8F47">
+          <Link onClick={sound2Click} href="https://basescan.org/address/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a">
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               BANANOW NFTs Smart Contract
             </button>

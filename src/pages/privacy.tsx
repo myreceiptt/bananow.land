@@ -94,6 +94,7 @@ export default function Privacy() {
           YouTube.Com<br />
           MetaMask.IO<br />
           EtherScan.IO<br />
+          BaseScan.Org<br />
           TZKT.IO<br />
           PolygonScan.Com<br />
           OpenSea.IO<br />
@@ -101,6 +102,7 @@ export default function Privacy() {
           Foundation.App<br />
           thirdweb.Com<br />
           Ethereum blockchain<br />
+          Base Blockchain<br />
           Tezos blockchain<br />
           Polygon blockchain<br />
           GitBook.Com<br />
