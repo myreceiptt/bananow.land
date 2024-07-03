@@ -28,7 +28,7 @@ export default function BaseScan() {
           Redirecting to <span className="text-green-now dark:text-yellow-now font-bold">BANANOW BASED</span> NFTs smart contract on BaseScan.Org blockchain explorer...
         </p>
         <Image
-          src="/images/redirects/etherscan.svg"
+          src="/images/redirects/basescan.svg"
           alt="BaseScan.Org"
           width={1920}
           height={1080}
