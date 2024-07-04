@@ -17,7 +17,7 @@ export default function BaseScan() {
   return (
     <Layout>
       <Head>
-        <meta httpEquiv="Refresh" content="4; url='https://basescan.org/address/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a'" />
+        <meta httpEquiv="Refresh" content="4; url='https://basescan.org/token/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a'" />
       </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
@@ -40,7 +40,7 @@ export default function BaseScan() {
           <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
             You are being redirected. If nothing happens, please hit the button below!
           </p>
-          <Link onClick={sound2Click} href="https://basescan.org/address/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a">
+          <Link onClick={sound2Click} href="https://basescan.org/token/0xfd039ac57cc8e646802dba4b7cf6bc561e13a09a">
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               BANANOW NFTs Smart Contract
             </button>
