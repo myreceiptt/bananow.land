@@ -87,9 +87,9 @@ export default function Privacy() {
           STRAIGHT-LINE.ORG<br />
           ENDHONESA.COM<br />
           Vercel.Com<br />
-          DigitalOcean.Com<br />
           Discord.Com<br />
           Twitter.Com<br />
+          X.Com<br />
           Instagram.Com<br />
           YouTube.Com<br />
           MetaMask.IO<br />
@@ -107,8 +107,6 @@ export default function Privacy() {
           Polygon blockchain<br />
           GitBook.Com<br />
           GitHub.Com<br />
-          SpinupWP.App<br />
-          WordPress.Org<br />
           Google.Com<br />
           <br />
           External links:<br />
