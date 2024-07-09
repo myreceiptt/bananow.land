@@ -84,30 +84,29 @@ export default function Privacy() {
           <br />
           Once you leave our store’s website or are redirected to a third-party website or application, you are no longer governed by this Privacy Policy or our website’s Terms and Conditions of Use. The following is a list of Data Processors engaged by <span className="text-yellow-now dark:text-green-now font-bold">BANANOW</span> who may receive Personal Data:<br />
           <br />
-          STRAIGHT-LINE.ORG<br />
-          ENDHONESA.COM<br />
-          Vercel.Com<br />
-          Discord.Com<br />
-          Twitter.Com<br />
-          X.Com<br />
-          Instagram.Com<br />
-          YouTube.Com<br />
-          MetaMask.IO<br />
-          EtherScan.IO<br />
           BaseScan.Org<br />
-          TZKT.IO<br />
-          PolygonScan.Com<br />
-          OpenSea.IO<br />
-          OBJKT.Com<br />
-          Foundation.App<br />
-          thirdweb.Com<br />
-          Ethereum blockchain<br />
           Base Blockchain<br />
-          Tezos blockchain<br />
-          Polygon blockchain<br />
+          Discord.Com<br />
+          EtherScan.IO<br />
+          Ethereum blockchain<br />
+          Foundation.App<br />
           GitBook.Com<br />
           GitHub.Com<br />
           Google.Com<br />
+          Instagram.Com<br />
+          MetaMask.IO<br />
+          OBJKT.Com<br />
+          OpenSea.IO<br />
+          PolygonScan.Com<br />
+          Polygon blockchain<br />
+          Tezos blockchain<br />
+          thirdweb.Com<br />
+          Twitter.Com<br />
+          TZKT.IO<br />
+          Vercel.Com<br />
+          Web3Forms.Com<br />
+          X.Com<br />
+          YouTube.Com<br />
           <br />
           External links:<br />
           When you click on links and/or hyperlinked buttons on our store, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.<br />
