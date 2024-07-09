@@ -79,6 +79,7 @@ const column2 = [
   { name: "InAMotion", href: "/inamotion/" },
   { name: "Agent Now", href: "/delegate/" },
   { name: "NOTA's Dept.", href: "/professor/" },
+  { name: "Na Now News", href: "https://news.bananow.land/" }
 ];
 
 const column3 = [
@@ -198,19 +199,12 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
+              target="_blank"
               className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
             >
               {item.name}
             </Link>
           ))}
-          <Link
-            onClick={sound1Click}
-            href="https://news.bananow.land/"
-            target="_blank"
-            className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
-          >
-            Na Now News
-          </Link>
         </div>
 
         <div>

@@ -36,7 +36,7 @@ export function BrandProducts() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/vibes/" title="The 90's Vibes Space">
+            <Link onClick={sound0Click} href="/vibes/" title="The 90's Vibes Space" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -63,7 +63,7 @@ export function BrandProducts() {
         </div>
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/dermaga/" title="Dermaga NFT is Part of Dermaga Web3">
+            <Link onClick={sound0Click} href="/dermaga/" title="Dermaga NFT is Part of Dermaga Web3" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -90,7 +90,7 @@ export function BrandProducts() {
         </div>
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/class/" title="Discord Class is Part of BANANOW Class">
+            <Link onClick={sound0Click} href="/class/" title="Discord Class is Part of BANANOW Class" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -117,7 +117,7 @@ export function BrandProducts() {
         </div>
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/inamotion/" title="Ina Motion Creative Agency">
+            <Link onClick={sound0Click} href="/inamotion/" title="Ina Motion Creative Agency" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -144,7 +144,7 @@ export function BrandProducts() {
         </div>
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/delegate/" title="Agent Now is Farmers Delegate">
+            <Link onClick={sound0Click} href="/delegate/" title="Agent Now is Farmers Delegate" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -171,7 +171,7 @@ export function BrandProducts() {
         </div>
         <div>
           <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-            <Link onClick={sound0Click} href="/professor/" title="Prof. NOTA's Department">
+            <Link onClick={sound0Click} href="/professor/" title="Prof. NOTA's Department" target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);
