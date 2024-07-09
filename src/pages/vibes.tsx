@@ -16,7 +16,7 @@ export default function Vibes() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://opensea.io/collection/bananow-based-nfts'"
+          content="4; url='https://gp.bananow.land/the-ecosystem/the-brands/90s-vibes'"
         />
       </Head>
       <div
