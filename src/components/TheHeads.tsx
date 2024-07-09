@@ -28,7 +28,7 @@ const products = [
     title: "Sprouts",
     supplies: "∞",
     symbol: "👪",
-    universe: "Web3",
+    universe: "0101",
     description:
       "The Community who are still thinking about whether these BANANAS will be eaten now or taken home? They can interact like any other, but still in different boats with the same goal. They can level up by going more BANANAS.",
     features: [
@@ -66,7 +66,7 @@ const products = [
     title: "Lovers",
     supplies: "∞",
     symbol: "👪",
-    universe: "Web3",
+    universe: "0101",
     description:
       "The Friends that loves BANANAS in their ice cream. They are active, crazy, and always spread positive vibes, just like BANANAS. They also travel companions in navigating the world of Web3 to thrive together.",
     features: [
@@ -109,7 +109,7 @@ const products = [
     title: "Heads",
     supplies: 2345,
     symbol: "👪",
-    universe: "Web3",
+    universe: "0101",
     description:
       "The FAMILY, which is all holders of BANANOW NFTs, gets full support and becomes a priority in obtaining benefits from the potential of this LAND that they backing up, to develop their owned BANANOW as their brand.",
     features: [
@@ -156,7 +156,7 @@ const products = [
     title: "Farmers",
     supplies: 6,
     symbol: "👪",
-    universe: "Web3",
+    universe: "0101",
     description:
       "The Holders of BANANOW NFTs who maintain the fertility of each of the plantation crops on this LAND. Make this space as always a healthy, fair, and fun place. You can call them, the administrator of the plantation.",
     features: [
@@ -177,7 +177,7 @@ const products = [
   },
 ];
 
-type BillingInterval = "Web3" | "Reality";
+type BillingInterval = "0101" | "Reality";
 
 export default function TheHeads() {
   const sound2Loc = "/sounds/tinggg.mp3";
@@ -200,7 +200,7 @@ export default function TheHeads() {
   };
   const sound3ClickB = () => {
     play3();
-    setBillingInterval("Web3");
+    setBillingInterval("0101");
   };
 
   const [billingInterval, setBillingInterval,] =
@@ -215,7 +215,7 @@ export default function TheHeads() {
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> is backed by the
-          perfect community for its Web3 activities, that is the friends and <span className="text-yellow-now dark:text-green-now font-bold">FAMILY</span> of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in both universes, the Universe of Reality and the Web3 Universe.
+          perfect community for its Web3 activities, that is the friends and <span className="text-yellow-now dark:text-green-now font-bold">FAMILY</span> of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in both universes, the Universe of Reality and the 0101 Universe.
         </p>
       </div>
 
@@ -236,12 +236,12 @@ export default function TheHeads() {
             onClick={sound3ClickB}
             type="button"
             className={`${
-              billingInterval === "Web3"
+              billingInterval === "0101"
                 ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
                 : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
-            Web3 Universe
+            0101 Universe
           </button>
         </div>
       </div>
