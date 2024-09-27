@@ -49,99 +49,111 @@ const contents = [
 
 export function News1() {
   const sound0Loc = "/sounds/tiuing.mp3";
-  const [play0] = useSound(
-    sound0Loc,
-    { volume: 0.75 }
-  );
+  const [play0] = useSound(sound0Loc, { volume: 0.75 });
   const sound0Click = () => {
     play0();
   };
 
   const sound4Loc = "/sounds/ngung-ngung.mp3";
-  const [play4, { stop }] = useSound(
-    sound4Loc,
-    { volume: 1.25 }
-  );
-  const [isHovering, setIsHovering] = React.useState(
-    false
-  );
+  const [play4, { stop }] = useSound(sound4Loc, { volume: 1.25 });
+  const [isHovering, setIsHovering] = React.useState(false);
   return (
     <div className="bg-white dark:bg-neutral-900" id="news1">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-0 pb-16">
-        <div className="h-48 w-38 flex justify-center mx-auto hover:scale-110 transition">
-          <Link onClick={sound0Click} href="https://news.bananow.land/" title="Na Now News of BANANOW" target="_blank">
-            <Image
-              onMouseEnter={() => {
-                setIsHovering(true);
-                play4();
-              }}
-              onMouseLeave={() => {
-                setIsHovering(false);
-                stop();
-              }}
-              src="/images/hero/hero.svg"
-              alt="Na Now News of BANANOW"
-              width={240}
-              height={240}
-              quality={75}
-              sizes="100vw"
-              priority
-            />
-          </Link>
-        </div>
-        {/* <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Na Now News</h2> */}
-        <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Na Now News</h2>
-        <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
-        Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 pb-16 gap-x-40"> */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-1 lg:grid-cols-1 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
+        <div>
+          <div className="h-48 w-38 flex justify-center mx-auto hover:scale-110 transition">
+            {/* <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition"> */}
+            <Link
+              onClick={sound0Click}
+              href="https://news.bananow.land/"
+              title="Na Now News of BANANOW"
+              target="_blank"
+            >
+              <Image
+                onMouseEnter={() => {
+                  setIsHovering(true);
+                  play4();
+                }}
+                onMouseLeave={() => {
+                  setIsHovering(false);
+                  stop();
+                }}
+                src="/images/hero/hero.svg"
+                alt="Na Now News of BANANOW"
+                width={240}
+                height={240}
+                quality={75}
+                sizes="100vw"
+                priority
+              />
+            </Link>
+          </div>
+          {/* <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Na Now News</h2> */}
+          <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">
+            Na Now News
+          </h2>
+          <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
+            We share whatever we have done.
           </p>
-        {/* <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+          <p className="text-base text-center text-dark-now dark:text-white-now">
+            It can be crazy nothing or ordinary something.
+          </p>
+          <p className="text-base text-center text-dark-now dark:text-white-now">
+            There are a lot of them.
+          </p>
+          <p className="text-base text-center text-dark-now dark:text-white-now">
+            Let's dig in!
+          </p>
+          {/* <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!
-        </p> */}
+          </p> */}
 
-        {/* {contents.map((content) => (
-          <div
-            key={content.title}
-            className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-28 items-center"
-          >
+          {/* {contents.map((content) => (
             <div
-              className={`pt-8 md:pt-16 ${
-                content.order ? "order-1 md:order-2" : "order-1"
-              }`}
+              key={content.title}
+              className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-28 items-center"
             >
-              <h1 className="text-2xl font-bold text-neutral-900 dark:text-white">{content.title}</h1>
-              <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
-                {content.description}
-              </p>
-              <ul className="font-medium space-y-1 flex-1">
-                {content.features.map((feature) => (
-                  <li key={feature} className="leading-6 flex">
-                    <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
-                    <span className="ml-3 text-dark-now dark:text-white-now">
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`order-1 pt-8 md:pt-16 ${
-                content.order ? "ml-0 2xl:-ml-40" : "mr-0 2xl:-mr-40"
-              }`}
-            >
-              <div className="flex items-center">
-                <Image
-                  src={content.image}
-                  alt={content.imagealt}
-                  width={1920}
-                  height={1080}
-                  quality={75}
-                  sizes="100vw"
-                  priority
-                />
+              <div
+                className={`pt-8 md:pt-16 ${
+                  content.order ? "order-1 md:order-2" : "order-1"
+                }`}
+              >
+                <h1 className="text-2xl font-bold text-neutral-900 dark:text-white">{content.title}</h1>
+                <p className="pt-6 pb-6 text-base text-dark-now dark:text-white-now">
+                  {content.description}
+                </p>
+                <ul className="font-medium space-y-1 flex-1">
+                  {content.features.map((feature) => (
+                    <li key={feature} className="leading-6 flex">
+                      <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
+                      <span className="ml-3 text-dark-now dark:text-white-now">
+                        {feature}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div
+                className={`order-1 pt-8 md:pt-16 ${
+                  content.order ? "ml-0 2xl:-ml-40" : "mr-0 2xl:-mr-40"
+                }`}
+              >
+                <div className="flex items-center">
+                  <Image
+                    src={content.image}
+                    alt={content.imagealt}
+                    width={1920}
+                    height={1080}
+                    quality={75}
+                    sizes="100vw"
+                    priority
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        ))} */}
+          ))} */}
+        </div>
       </div>
     </div>
   );
@@ -200,30 +212,36 @@ const listNews = [
 
 export function News2() {
   const sound0Loc = "/sounds/tiuing.mp3";
-  const [play0] = useSound(
-    sound0Loc,
-    { volume: 0.75 }
-  );
+  const [play0] = useSound(sound0Loc, { volume: 0.75 });
   const sound0Click = () => {
     play0();
   };
 
   const sound4Loc = "/sounds/ngung-ngung.mp3";
-  const [play4, { stop }] = useSound(
-    sound4Loc,
-    { volume: 1.25 }
-  );
-  const [isHovering, setIsHovering] = React.useState(
-    false
-  );
-  
+  const [play4, { stop }] = useSound(sound4Loc, { volume: 1.25 });
+  const [isHovering, setIsHovering] = React.useState(false);
+
   return (
     <div className="bg-white dark:bg-neutral-900" id="new2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">Here are <span className="text-green-now dark:text-yellow-now font-extrabold">BANANOW</span>'s Growing Brands</h2>
+        <h2 className="text-4xl font-bold text-neutral-900 dark:text-white">
+          Here are{" "}
+          <span className="text-green-now dark:text-yellow-now font-extrabold">
+            BANANOW
+          </span>
+          's Growing Brands
+        </h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          Our <span className="text-green-now dark:text-yellow-now font-bold">FAMILY</span> always maintain the fertility of each of the plantation crops on this <span className="text-yellow-now dark:text-green-now font-bold">LAND</span>. Make this space a healthy, fair, and fun place to grow.
+          Our{" "}
+          <span className="text-green-now dark:text-yellow-now font-bold">
+            FAMILY
+          </span>{" "}
+          always maintain the fertility of each of the plantation crops on this{" "}
+          <span className="text-yellow-now dark:text-green-now font-bold">
+            LAND
+          </span>
+          . Make this space a healthy, fair, and fun place to grow.
         </p>
       </div>
 
@@ -251,7 +269,9 @@ export function News2() {
                 />
               </Link>
             </div>
-            <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">{title}</h2>
+            <h2 className="font-bold text-lg text-center text-neutral-900 dark:text-white">
+              {title}
+            </h2>
             <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
               {description}
             </p>
