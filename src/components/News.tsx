@@ -79,7 +79,7 @@ export function News1() {
                 setIsHovering(false);
                 stop();
               }}
-              src="/images/404/404.svg"
+              src="/images/hero/hero.svg"
               alt="Na Now News of BANANOW"
               width={240}
               height={240}
@@ -89,12 +89,16 @@ export function News1() {
             />
           </Link>
         </div>
-        <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Na Now News</h2>
-        <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+        {/* <h2 className="text-4xl font-bold text-center text-neutral-900 dark:text-white">Na Now News</h2> */}
+        <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">Na Now News</h2>
+        <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
+        Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!
+          </p>
+        {/* <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!
-        </p>
+        </p> */}
 
-        {contents.map((content) => (
+        {/* {contents.map((content) => (
           <div
             key={content.title}
             className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-28 items-center"
@@ -137,7 +141,7 @@ export function News1() {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

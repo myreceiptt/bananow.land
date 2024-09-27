@@ -311,11 +311,11 @@ export default function TheHeads() {
                       <p className="mt-6 font-semibold text-dark-now dark:text-white-now">
                         What&apos;s featured...
                       </p>
-                      {features.map((feature, index) => (
-                        <li key={index} className="leading-6 flex">
+                      {features.map((features) => (
+                        <li key={features} className="leading-6 flex">
                           <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
                           <span className="ml-3 text-dark-now dark:text-white-now">
-                            {feature}
+                            {features}
                           </span>
                         </li>
                       ))}
