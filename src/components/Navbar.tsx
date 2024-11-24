@@ -116,7 +116,7 @@ export default function Navbar() {
                 <div className="absolute inset-y-0 right-10 lg:right-0 flex items-center gap-2">
                   <Link
                     onClick={sound2Click}
-                    href="https://heads.bananow.land/"
+                    href="https://bananownfts.endhonesa.com/"
                     target="_blank"
                     className="hidden lg:block"
                     title="Be a Head of BANANOW.LAND..."
@@ -129,7 +129,7 @@ export default function Navbar() {
                   </Link>
                   <Link
                     onClick={sound2Click}
-                    href="https://gp.bananow.land/"
+                    href="https://bananowgp.endhonesa.com/"
                     target="_blank"
                     className="hidden lg:block"
                     title="Read The Green Print of BANANOW.LAND..."
@@ -179,14 +179,14 @@ export default function Navbar() {
               ))}
               <Link
                 onClick={sound2Click}
-                href="https://heads.bananow.land/" target="_blank" title="Be a Head of BANANOW.LAND...">
+                href="https://bananownfts.endhonesa.com/" target="_blank" title="Be a Head of BANANOW.LAND...">
                 <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
                   Be a Head
                 </button>
               </Link>
               <Link
                 onClick={sound2Click}
-                href="https://gp.bananow.land/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
+                href="https://bananowgp.endhonesa.com/" target="_blank" title="Read The Green Print of BANANOW.LAND...">
                 <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
                   The Green Print
                 </button>
