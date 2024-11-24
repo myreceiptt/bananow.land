@@ -280,7 +280,7 @@ export function BrandProducts() {
           <div className="h-36 w-48 flex justify-center mx-auto hover:scale-110 transition">
             <Link
               onClick={sound0Click}
-              href="https://news.bananow.land/"
+              href="https://nanownews.endhonesa.com/"
               title="Na Now News of BANANOW"
               target="_blank"
             >
