@@ -16,7 +16,7 @@ export default function Dermaga() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://gp.bananow.land/the-ecosystem/the-brands/dermaga-web3'"
+          content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-brands/dermaga-web3'"
         />
       </Head>
       <div
@@ -50,7 +50,7 @@ export default function Dermaga() {
           </p>
           <Link
             onClick={sound2Click}
-            href="https://gp.bananow.land/the-ecosystem/the-brands/dermaga-web3"
+            href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/dermaga-web3"
           >
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               Dermaga Web3 on The Green Print
