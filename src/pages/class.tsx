@@ -16,7 +16,7 @@ export default function Class() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://gp.bananow.land/the-ecosystem/the-brands/class-now'"
+          content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-brands/class-now'"
         />
       </Head>
       <div
@@ -44,7 +44,7 @@ export default function Class() {
             You are being redirected. If nothing happens, please hit the button
             below!
           </p>
-          <Link href="https://gp.bananow.land/the-ecosystem/the-brands/class-now">
+          <Link href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/class-now">
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               Class Now on The Green Print
             </button>
