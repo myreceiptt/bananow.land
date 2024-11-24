@@ -79,12 +79,12 @@ const column2 = [
   { name: "InAMotion", href: "/inamotion/" },
   { name: "Agent Now", href: "/delegate/" },
   { name: "NOTA's Dept.", href: "/professor/" },
-  { name: "Na Now News", href: "https://news.bananow.land/" }
+  { name: "Na Now News", href: "https://nanownews.endhonesa.com/" }
 ];
 
 const column3 = [
-  { name: "Be a Head Now", href: "https://heads.bananow.land/", target: "_target" },
-  { name: "The Green Print", href: "https://gp.bananow.land/", target: "_target" },
+  { name: "Be a Head Now", href: "https://bananownfts.endhonesa.com/", target: "_target" },
+  { name: "The Green Print", href: "https://bananowgp.endhonesa.com/", target: "_target" },
   { name: "Privacy Policy", href: "/privacy/", target: "_self" },
   { name: "Terms & Conditions", href: "/terms/", target: "_self" },
 ];
