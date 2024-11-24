@@ -16,7 +16,7 @@ export default function Vibes() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://gp.bananow.land/the-ecosystem/the-brands/90s-vibes'"
+          content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-brands/90s-vibes'"
         />
       </Head>
       <div
@@ -50,7 +50,7 @@ export default function Vibes() {
           </p>
           <Link
             onClick={sound2Click}
-            href="https://gp.bananow.land/the-ecosystem/the-brands/90s-vibes"
+            href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/90s-vibes"
           >
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               90's Vibes on The Green Print
