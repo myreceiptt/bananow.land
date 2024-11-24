@@ -16,7 +16,7 @@ export default function Delegate() {
     <Head>
       <meta
         httpEquiv="Refresh"
-        content="4; url='https://gp.bananow.land/the-ecosystem/the-brands/agent-now'"
+        content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-brands/agent-now'"
       />
     </Head>
       <div
@@ -49,7 +49,7 @@ export default function Delegate() {
             You are being redirected. If nothing happens, please hit the button
             below!
           </p>
-          <Link onClick={sound2Click} href="/">
+          <Link onClick={sound2Click} href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/agent-now">
             <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
               Agent Now on The Green Print
             </button>
