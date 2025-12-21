@@ -260,17 +260,19 @@ export default function TheHeads() {
             features,
             href,
           }) => {
+            if (billingInterval !== universe) {
+              return null;
+            }
+
             return (
-              <>
-                {billingInterval === universe ? (
-                  <div
-                    key={key}
-                    className={`rounded-lg py-8 relative flex flex-col ${
-                      mostWanted
-                        ? "border-green-now border-2 border-solid dark:border-yellow-now"
-                        : "border-light-now border dark:border-light-now"
-                    }`}
-                  >
+              <div
+                key={key}
+                className={`rounded-lg py-8 relative flex flex-col ${
+                  mostWanted
+                    ? "border-green-now border-2 border-solid dark:border-yellow-now"
+                    : "border-light-now border dark:border-light-now"
+                }`}
+              >
                     <h3 className="px-6 text-lg font-judul font-semibold leading-5 text-neutral-900 dark:text-white">
                       {title}
                     </h3>
@@ -320,9 +322,7 @@ export default function TheHeads() {
                         </li>
                       ))}
                     </ul>
-                  </div>
-                ) : null}
-              </>
+              </div>
             );
           }
         )}

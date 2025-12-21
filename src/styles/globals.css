@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.js";
 
 @font-face {
     font-family: FontJudul;
@@ -8,5 +7,5 @@
 }
 
 ::selection {
-    @apply dark:bg-green-now dark:text-white bg-yellow-now text-neutral-900 ;
+    @apply dark:bg-green-now dark:text-white bg-yellow-now text-neutral-900;
 }
