@@ -9,28 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@heroicons/react": "^2.0.16",
-    "@tailwindcss/typography": "^0.5.8",
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^0.1.11",
-    "next": "^14.2.13",
+    "next": "^14.2.35",
     "next-themes": "^0.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.39.3",
-    "use-sound": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "7.43.5",
+    "use-sound": "^4.0.4",
     "use-web3forms": "^1.2.1"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.19.130",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.23",
     "eslint": "8.26.0",
-    "eslint-config-next": "^13.0.6",
+    "eslint-config-next": "^13.5.11",
     "file-loader": "^6.2.0",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
     "typescript": "4.8.4"
   }
 }

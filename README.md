@@ -1,3 +1,76 @@
+# BANANOW.LAND Landing Page
+
+---
+
+---
+
+## Maintenance by Prof. NOTA Evergreen Standard
+
+This repo is intended to stay evergreen while remaining production-safe.
+
+### Runtime
+
+- Node: **24.x** (see `.nvmrc` and `package.json#engines`)
+
+  - ~~example alternatives: 22.x / 20.x (adjust if platform requires)~~
+
+- Package manager:
+
+  - **NPM** (lockfile: `package-lock.json`)
+  - ~~Yarn (lockfile: `yarn.lock`)~~
+  - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
+
+- Deploy target:
+
+  - **Vercel**
+  - ~~Netlify~~
+  - ~~Self-hosted / Docker~~
+  - ~~Other platform (document explicitly)~~
+
+### Monthly Safe Updates (recommended)
+
+1. Check what’s outdated:
+
+   - `npm outdated`
+   - ~~yarn outdated~~
+   - ~~pnpm outdated~~
+
+2. Upgrade safe (patch/minor) versions:
+
+   - `npm update`
+   - ~~yarn upgrade~~
+   - ~~pnpm update~~
+   - or upgrade specific packages shown as non-major
+
+3. Verify:
+
+   - `npm audit --audit-level=moderate`
+   - ~~yarn audit~~
+   - ~~pnpm audit~~
+   - `npm run build`
+   - ~~yarn build~~
+   - ~~pnpm build~~
+
+4. Deploy:
+
+   - **Vercel auto-deploy from `main`**
+   - ~~manual deploy according to platform workflow~~
+
+### Major Updates (quarterly / scheduled)
+
+Major upgrades (framework, runtime, or core tooling) must be done one at a time, with a dedicated PR and full testing.
+
+Examples:
+
+- Node major version
+- Next.js / React major version
+- Tailwind CSS major version
+- Package manager major version
+
+---
+
+---
+
 > Shush, I'm playing, learning, and working. 🤫 🤫 🤫 🤫
 
 - 😄 &nbsp; I'm [Prof. NOTA](https://deeplinks.straight-line.org/), per/pers.
@@ -79,7 +152,10 @@ const Layout = (props: any) => {
         <meta name="robots" content="follow, index" />
         <link href="/logo32.png" rel="shortcut icon" />
         <meta key={title} content={meta.description} name="description" />
-        <meta property="og:url" content={`https://bananow.land${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://bananow.land${router.asPath}`}
+        />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
@@ -100,9 +176,7 @@ export default Layout;
 ```
 
 > Regards
-> 
+>
 > [Prof. NOTA](https://deeplinks.straight-line.org/)
-> 
+>
 > [init.straight-line.org](https://init.straight-line.org/)
-> 
-
