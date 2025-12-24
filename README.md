@@ -146,7 +146,7 @@ const Layout = (props: any) => {
     ...customMeta,
   };
   return (
-    <div className="min-w-[350px] overflow-x-hidden">
+    <div className="min-w-87.5 overflow-x-hidden">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
