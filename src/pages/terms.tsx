@@ -35,7 +35,7 @@ export default function Terms() {
           <br />
           Please read these Terms carefully before accessing or using our website, or buying any of our products. By accessing or using any part of the site, you agree to be bound by these Terms. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms are considered an offer, acceptance is expressly limited to these Terms.<br />
           <br />
-          Any new features or tools that are added to the current site shall also be subject to the Terms. You can review the most current version of the Terms at any time on this page. We reserve the right to update, change, or replace any part of these Terms by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes. Our website is hosted on STRAIGHT-LINE.ORG.<br />
+          Any new features or tools that are added to the current site shall also be subject to the Terms. You can review the most current version of the Terms at any time on this page. We reserve the right to update, change, or replace any part of these Terms by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes. Our website is hosted on ENDHONESA.COM.<br />
           <br />
           SECTION 1 - ONLINE TERMS<br />
           <br />
