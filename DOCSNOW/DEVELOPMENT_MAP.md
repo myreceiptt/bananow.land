@@ -1,4 +1,4 @@
-# BANANOW LAND Development Map v1 — Prof. NOTA Inc.
+# BANANOW LAND Development Map — Prof. NOTA Inc.
 
 Dokumen ini adalah peta pengembangan BANANOW LAND untuk mengubah `https://land.endhonesa.com` dari landing page dan redirect hub menjadi portal utama BANANOW untuk brand, komunitas, NFT, publikasi, edukasi/program, dan AI parenting.
 
@@ -553,7 +553,7 @@ Contoh struktur konseptual:
 
 ---
 
-## 8. Stage 4 — Legal Update v1
+## 8. Stage 4 — Legal Update
 
 ### 8.1. Tujuan
 
@@ -1233,7 +1233,7 @@ Fitur/konten:
 5. Sponsorship package.
 6. Funding inquiry.
 
-### 13.8. Memory Concept v1
+### 13.8. Memory Concept
 
 Memory Claps harus dibagi dua:
 
@@ -1368,7 +1368,7 @@ Storage dibutuhkan untuk:
 5. Claps memory source files.
 6. NFT metadata cache jika diperlukan.
 
-### 14.6. Admin Dashboard v1
+### 14.6. Admin Dashboard
 
 Admin Dashboard tidak perlu lengkap di awal.
 
@@ -1518,7 +1518,7 @@ Fase awal hanya membersihkan pintu masuk BANANOW LAND.
 
 ## 16. Milestone Versi
 
-### 16.1. v1.0 — Website Update
+### 16.1. v1.47 — Website Update
 
 Isi:
 
@@ -1542,7 +1542,7 @@ Definition of done:
 6. Footer dan navbar konsisten.
 7. Perubahan sudah dicommit.
 
-### 16.2. v1.1 — App Foundation
+### 16.2. v1.51 — App Foundation
 
 Isi:
 
@@ -1563,7 +1563,7 @@ Definition of done:
 6. Data link tidak tersebar acak.
 7. Build sukses.
 
-### 16.3. v1.2 — Na Now News MVP
+### 16.3. v1.62 — Na Now News MVP
 
 Isi:
 
@@ -1583,7 +1583,7 @@ Definition of done:
 6. Published article tampil publik.
 7. SEO dasar berjalan.
 
-### 16.4. v1.3 — Skool Now MVP
+### 16.4. v1.74 — Skool Now MVP
 
 Isi:
 
@@ -1603,7 +1603,7 @@ Definition of done:
 5. Partner dan sponsor punya CTA jelas.
 6. Safety note tersedia.
 
-### 16.5. v1.4 — NFT Marketplace Testnet
+### 16.5. v1.85 — NFT Marketplace Testnet
 
 Isi:
 
@@ -1624,7 +1624,7 @@ Definition of done:
 7. Paused state berjalan.
 8. Test transaction terdokumentasi.
 
-### 16.6. v1.5 — NFT Marketplace Mainnet Controlled Launch
+### 16.6. v1.92 — NFT Marketplace Mainnet Controlled Launch
 
 Isi:
 
@@ -1643,7 +1643,7 @@ Definition of done:
 5. Royalty payout benar.
 6. Public launch dilakukan bertahap.
 
-### 16.7. v1.6 — Claps Alpha
+### 16.7. v2.00 — Claps Alpha
 
 Isi:
 
@@ -1664,7 +1664,7 @@ Definition of done:
 6. Dangerous parenting request ditolak aman.
 7. Feedback tersimpan atau terkirim.
 
-### 16.8. v2.0 — BANANOW LAND Operating Portal
+### 16.8. v2.11 — BANANOW LAND Operating Portal
 
 Isi:
 
@@ -2002,7 +2002,7 @@ Cek:
 
 ---
 
-## 20. Codex Execution Rules
+## 20. Agent Now Execution Rules
 
 Saat nanti dikerjakan, instruksi harus ketat agar tidak melebar dari scope.
 
@@ -2224,9 +2224,9 @@ Pencegahan:
 
 ---
 
-## 22. Definisi Selesai untuk Development Map v1
+## 22. Definisi Selesai untuk Development Map
 
-Development Map v1 dianggap selesai jika sudah memuat:
+Development Map dianggap selesai jika sudah memuat:
 
 1. Tujuan besar.
 2. Prinsip pengembangan.
@@ -2261,11 +2261,11 @@ Setelah dokumen ini, dokumen turunan yang perlu dibuat:
 
 ## 23. Langkah Berikutnya
 
-Langkah berikutnya yang paling tepat adalah menyusun dokumen turunan pertama: **BANANOW LAND Update Task Spec v1**
+Langkah berikutnya yang paling tepat adalah menyusun dokumen turunan pertama: **BANANOW LAND Update Task Spec**
 
 Dokumen itu harus lebih teknis dan langsung bisa diberikan untuk eksekusi pembaruan awal.
 
-Scope BANANOW LAND Update Task Spec v1:
+Scope BANANOW LAND Update Task Spec:
 
 1. Repo audit.
 2. Dependency update.
@@ -2278,7 +2278,7 @@ Scope BANANOW LAND Update Task Spec v1:
 9. Build/test.
 10. Commit/report format.
 
-BANANOW LAND Update Task Spec v1 harus lebih pendek dari Development Map ini, tetapi lebih presisi untuk eksekusi.
+BANANOW LAND Update Task Spec harus lebih pendek dari Development Map ini, tetapi lebih presisi untuk eksekusi.
 
 Isi minimalnya:
 
@@ -2293,13 +2293,13 @@ Isi minimalnya:
 9. Manual QA checklist.
 10. Report format.
 
-Setelah BANANOW LAND Update Task Spec v1 selesai, barulah pekerjaan bisa masuk ke eksekusi dengan risiko lebih kecil untuk melenceng.
+Setelah BANANOW LAND Update Task Spec selesai, barulah pekerjaan bisa masuk ke eksekusi dengan risiko lebih kecil untuk melenceng.
 
 ---
 
 ## 24. Penutup
 
-BANANOW LAND Development Map v1 adalah peta induk.
+BANANOW LAND Development Map adalah peta induk.
 
 Menjelaskan fondasi, halaman, stage awal, The Green Print, update homepage, `/oldbrands`, legal, app foundation, News, Skool, NFT Marketplace, Claps, dan backend/admin direction.
 
