@@ -22,6 +22,7 @@
 - UI: **Tailwind CSS** + component libraries where appropriate
 - Tooling: **npm**, **ESLint**, **TypeScript**
 - Deployment: **Vercel**
+- Current Evergreen baseline: **Next.js 16.2.6**, **React 19.2.6**, **Tailwind CSS 4.3.0**, **Node.js 24.x**, **npm 11.x**
 
 ### How We Maintain Quality
 
@@ -44,7 +45,7 @@ This repo is intended to stay evergreen while remaining production-safe.
 
 - Package manager:
 
-  - **NPM** (lockfile: `package-lock.json`)
+  - **NPM 11.x** (lockfile: `package-lock.json`)
   - ~~Yarn (lockfile: `yarn.lock`)~~
   - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
 
@@ -75,6 +76,7 @@ This repo is intended to stay evergreen while remaining production-safe.
    - `npm audit --audit-level=moderate`
    - ~~yarn audit~~
    - ~~pnpm audit~~
+   - `npm run lint`
    - `npm run build`
    - ~~yarn build~~
    - ~~pnpm build~~
@@ -94,6 +96,18 @@ Examples:
 - Next.js / React major version
 - Tailwind CSS major version
 - Package manager major version
+
+### Environment
+
+Copy `env.local.example` to `.env.local` and fill the public client-side values used by the contact form:
+
+```bash
+NEXT_PUBLIC_FORM_CONTACT_API=
+NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=
+NEXT_PUBLIC_TW_CLIENT_ID=
+```
+
+Do not put private secrets in `NEXT_PUBLIC_*` variables because they are exposed to browser clients.
 
 ---
 

@@ -9,35 +9,33 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.9",
-    "@heroicons/react": "^2.2.0",
-    "@tailwindcss/typography": "^0.5.19",
-    "@vercel/analytics": "^1.6.1",
-    "next": "^16.1.1",
-    "next-themes": "^0.4.6",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-hook-form": "^7.70.0",
-    "use-sound": "^5.0.0",
-    "use-web3forms": "^1.2.1"
+    "@headlessui/react": "2.2.10",
+    "@heroicons/react": "2.2.0",
+    "@tailwindcss/typography": "0.5.19",
+    "@vercel/analytics": "2.0.1",
+    "next": "16.2.6",
+    "next-themes": "0.4.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-hook-form": "7.76.1",
+    "use-sound": "5.0.0",
+    "use-web3forms": "1.2.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "24.10.7",
-    "@types/react": "^19.2.8",
-    "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/parser": "^8.52.0",
-    "autoprefixer": "^10.4.23",
-    "eslint": "^9.39.2",
-    "file-loader": "^6.2.0",
-    "globals": "^17.0.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
+    "@tailwindcss/postcss": "4.3.0",
+    "@types/node": "24.12.4",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "@typescript-eslint/parser": "8.60.0",
+    "eslint": "10.4.1",
+    "globals": "17.6.0",
+    "postcss": "8.5.15",
+    "tailwindcss": "4.3.0",
+    "typescript": "6.0.3"
   },
   "engines": {
     "node": "24.x",
     "npm": "11.x"
   },
-  "packageManager": "npm@11.7.0"
+  "packageManager": "npm@11.8.0"
 }
