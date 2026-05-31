@@ -124,8 +124,8 @@ Status: sudah dilakukan.
 
 Yang harus dipastikan:
 
-1. **BANANOW LAND Development Map v1 — Part 1** sudah tersimpan.
-2. **BANANOW LAND Development Map v1 — Part 2** sudah tersimpan.
+1. **BANANOW LAND Development Map — Part 1** sudah tersimpan.
+2. **BANANOW LAND Development Map — Part 2** sudah tersimpan.
 3. Keduanya bisa dijadikan rujukan.
 4. Tidak perlu diedit dulu kecuali ada perubahan arah besar.
 
@@ -135,7 +135,7 @@ Gate selesai:
 - [ ] Part 2 tersimpan.
 - [ ] Dokumen bisa dibaca ulang.
 
-#### 2.4.2. Simpan Daftar Runut v1
+#### 2.4.2. Simpan Daftar Runut
 
 Status: dokumen ini.
 
@@ -148,7 +148,7 @@ Yang harus dipastikan:
 
 Gate selesai:
 
-- [ ] Daftar Runut v1 tersimpan.
+- [ ] Daftar Runut tersimpan.
 - [ ] Urutan besar disetujui.
 - [ ] Item Urutan Besar 1 dipahami.
 
@@ -267,7 +267,7 @@ Gate selesai:
 - [ ] Scope tidak boleh disetujui.
 - [ ] Batasan ini siap dimasukkan ke prompt Agent Now.
 
-#### 2.4.7. Susun BANANOW LAND Update Task Spec v1
+#### 2.4.7. Susun BANANOW LAND Update Task Spec
 
 Ini adalah dokumen turunan berikutnya.
 
@@ -292,7 +292,7 @@ Ini masih dokumen instruksi untuk Agent Now.
 
 Gate selesai:
 
-- [ ] BANANOW LAND Update Task Spec v1 selesai.
+- [ ] BANANOW LAND Update Task Spec selesai.
 - [ ] Scope jelas.
 - [ ] Non-goals jelas.
 - [ ] Testing jelas.
@@ -300,7 +300,7 @@ Gate selesai:
 
 #### 2.4.8. Susun Agent Now Prompt untuk Stage Awal
 
-Prompt Agent Now dibuat setelah Update Task Spec v1 selesai.
+Prompt Agent Now dibuat setelah Update Task Spec selesai.
 
 Prompt harus memuat:
 
@@ -339,10 +339,10 @@ Checklist review:
 Item Urutan Besar 1 dianggap selesai jika:
 
 - [ ] Development Map Part 1 dan Part 2 tersimpan.
-- [ ] Daftar Runut v1 disetujui.
+- [ ] Daftar Runut disetujui.
 - [ ] Data/asset pembaruan awal diketahui.
 - [ ] Scope Agent Now pembaruan awal disetujui.
-- [ ] BANANOW LAND Update Task Spec v1 sudah disusun.
+- [ ] BANANOW LAND Update Task Spec sudah disusun.
 - [ ] Prompt Agent Now Stage Awal sudah siap.
 
 Setelah semua checklist di atas selesai, baru lanjut ke:
@@ -448,7 +448,7 @@ Selesai jika homepage, footer, `/oldbrands`, dan `/pung` bekerja benar di lokal 
 
 ---
 
-## 6. Item Urutan Besar 5 — Redirect Audit dan Browser QA v1
+## 6. Item Urutan Besar 5 — Redirect Audit dan Browser QA
 
 ### 6.1. Target Milestone
 
@@ -848,17 +848,17 @@ Item Sisipan hanya untuk membuka hambatan agar urutan besar bisa lanjut.
 
 Status terakhir berdasarkan obrolan:
 
-1. BANANOW LAND Development Map v1 sudah dibuat dan dipecah menjadi Part 1 dan Part 2.
+1. BANANOW LAND Development Map sudah dibuat dan dipecah menjadi Part 1 dan Part 2.
 2. Ilustrasi visual untuk Na Now News, Skool Now, Skate Skool Now, NFT Marketplace, dan Claps sudah dibuat sebagai inspirasi arah visual.
 3. Belum masuk ke Agent Now.
-4. Belum menyusun BANANOW LAND Update Task Spec v1.
+4. Belum menyusun BANANOW LAND Update Task Spec.
 5. Belum menyusun prompt Agent Now eksekusi awal.
 
 Urutan berikutnya:
 
-1. Review Daftar Runut v1.
+1. Review Daftar Runut.
 2. Selesaikan data/asset minimum untuk pembaruan awal.
-3. Susun BANANOW LAND Update Task Spec v1.
+3. Susun BANANOW LAND Update Task Spec.
 4. Susun Agent Now Prompt Stage Awal.
 5. Baru masuk ke repo dengan Agent Now.
 
@@ -868,7 +868,7 @@ Urutan berikutnya:
 
 Next action setelah dokumen ini disetujui:
 
-**Susun BANANOW LAND Update Task Spec v1.**
+**Susun BANANOW LAND Update Task Spec.**
 
 Dokumen itu akan menjadi jembatan antara Daftar Runut dan prompt Agent Now.
 
