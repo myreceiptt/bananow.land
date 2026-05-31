@@ -114,7 +114,7 @@ Item ini mencegah eksekusi teknis dilakukan terlalu cepat tanpa arah yang jelas.
 
 Tidak perlu Agent Now.
 
-Dikerjakan oleh Prof. NOTA bersama ChatGPT.
+Dikerjakan oleh Farmer bersama ChatGPT.
 
 ### 2.4. Item yang Harus Dieksekusi
 
