@@ -98,6 +98,46 @@ Aturan utamanya:
 
 ---
 
+### 1.2. Status Eksekusi Saat Ini
+
+| No. | Item Urutan Besar | Target | Status |
+|---|---|---|---|
+| 1 | Kunci Arah dan Dokumen Kerja | Pre-v1.0 | 🟡 Hampir selesai |
+| 2 | Audit Repo dan Lingkungan Kerja | v1.0 preparation | ⏳ Belum mulai |
+| 3 | Dependency Update Aman | v1.0 preparation | ⏳ Belum mulai |
+| 4 | Pembaruan Website Dasar | v1.0 | ⏳ Belum mulai |
+| 5 | Redirect Audit dan Browser QA | v1.0 | ⏳ Belum mulai |
+| 6 | The Green Print Finalization | v1.0 / v1.1 | ⏳ Belum mulai |
+| 7 | Legal Update Minimum | v1.1 | ⏳ Belum mulai |
+| 8 | App Foundation dan Struktur Data Terpusat | v1.1 | ⏳ Belum mulai |
+| 9 | Na Now News MVP | v1.2 | ⏳ Belum mulai |
+| 10 | Skool Now MVP | v1.3 | ⏳ Belum mulai |
+| 11 | BANANOW NFT Marketplace Testnet | v1.4 | ⏳ Belum mulai |
+| 12 | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.5 | ⏳ Belum mulai |
+| 13 | Claps Alpha | v1.6 | ⏳ Belum mulai |
+| 14 | Admin Dashboard Perluasan | v1.7 / v2.0 preparation | ⏳ Belum mulai |
+| 15 | BANANOW LAND Operating Portal v2.0 | v2.0 | ⏳ Belum mulai |
+
+Keterangan status:
+
+- ✅ Selesai: item sudah tuntas dan tidak menghalangi item berikutnya.
+- 🟡 Hampir selesai: sebagian besar sudah selesai, tetapi masih ada gate kecil yang belum tuntas.
+- 🔜 Berikutnya: item terdekat yang akan dikerjakan.
+- ⏳ Belum mulai: belum dieksekusi.
+- 🧩 Item Sisipan: item tambahan yang muncul karena hambatan di luar rencana.
+
+Status penting saat ini:
+
+1. Development Map sudah selesai dan sudah dipecah menjadi Part 1 dan Part 2.
+2. Daftar Runut sudah dibuat dan diperbarui dengan istilah Farmer dan Agent Now.
+3. Data/asset pembaruan awal sudah dikumpulkan.
+4. Strategi The Green Print sudah diputuskan.
+5. Scope pembaruan awal untuk Agent Now sudah disetujui.
+6. BANANOW LAND Update Task Spec sudah disusun dan disetujui.
+7. Yang belum selesai dari Item Urutan Besar 1 adalah menyusun **Agent Now Prompt Stage Awal**.
+
+---
+
 ## 2. Item Urutan Besar 1 — Kunci Arah dan Dokumen Kerja
 
 ### 2.1. Target Milestone
@@ -116,11 +156,38 @@ Tidak perlu Agent Now.
 
 Dikerjakan oleh Farmer bersama ChatGPT.
 
+### 2.4. Status Item yang Harus Dieksekusi
+
+| Sub-item | Nama Item | Status |
+|---|---|---|
+| 2.4.1 | Simpan Development Map | ✅ Selesai |
+| 2.4.2 | Simpan Daftar Runut | ✅ Selesai |
+| 2.4.3 | Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now | ✅ Selesai |
+| 2.4.4 | Kumpulkan Data dan Asset untuk Pembaruan Awal | ✅ Selesai |
+| 2.4.5 | Putuskan Strategi The Green Print | ✅ Selesai |
+| 2.4.6 | Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now | ✅ Selesai |
+| 2.4.7 | Susun BANANOW LAND Update Task Spec | ✅ Selesai |
+| 2.4.8 | Susun Agent Now Prompt untuk Stage Awal | 🔜 Berikutnya |
+
+Catatan status:
+
+Item Urutan Besar 1 belum bisa dinyatakan penuh sebagai ✅ Selesai karena **Agent Now Prompt untuk Stage Awal** belum disusun.
+
+Namun seluruh bahan penting untuk menyusun prompt tersebut sudah tersedia:
+
+1. Development Map.
+2. Daftar Runut.
+3. Active Brands data.
+4. Old Brands data.
+5. Link update confirmation.
+6. The Green Print dependency rule.
+7. BANANOW LAND Update Task Spec yang sudah disetujui.
+
 ### 2.4. Item yang Harus Dieksekusi
 
 #### 2.4.1. Simpan Development Map
 
-Status: sudah dilakukan.
+Status: ✅ Selesai.
 
 Yang harus dipastikan:
 
@@ -131,13 +198,13 @@ Yang harus dipastikan:
 
 Gate selesai:
 
-- [ ] Part 1 tersimpan.
-- [ ] Part 2 tersimpan.
-- [ ] Dokumen bisa dibaca ulang.
+- [x] Part 1 tersimpan.
+- [x] Part 2 tersimpan.
+- [x] Dokumen bisa dibaca ulang.
 
 #### 2.4.2. Simpan Daftar Runut
 
-Status: dokumen ini.
+Status: ✅ Selesai.
 
 Yang harus dipastikan:
 
@@ -148,9 +215,9 @@ Yang harus dipastikan:
 
 Gate selesai:
 
-- [ ] Daftar Runut tersimpan.
-- [ ] Urutan besar disetujui.
-- [ ] Item Urutan Besar 1 dipahami.
+- [x] Daftar Runut tersimpan.
+- [x] Urutan besar disetujui.
+- [x] Item Urutan Besar 1 dipahami.
 
 #### 2.4.3. Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now
 
@@ -180,9 +247,9 @@ Dikerjakan dengan Agent Now:
 
 Gate selesai:
 
-- [ ] Daftar kerja manual dipahami.
-- [ ] Daftar kerja Agent Now dipahami.
-- [ ] Tidak ada ekspektasi bahwa Agent Now mengambil keputusan brand/legal utama.
+- [x] Daftar kerja manual dipahami.
+- [x] Daftar kerja Agent Now dipahami.
+- [x] Tidak ada ekspektasi bahwa Agent Now mengambil keputusan brand/legal utama.
 
 #### 2.4.4. Kumpulkan Data dan Asset untuk Pembaruan Awal
 
@@ -207,11 +274,11 @@ Data/asset minimum:
 
 Gate selesai:
 
-- [ ] Logo/asset aktif tersedia atau diputuskan memakai placeholder lama dulu.
-- [ ] Deskripsi singkat tiga active brands tersedia.
-- [ ] Copy `/oldbrands` tersedia.
-- [ ] Target link final tersedia.
-- [ ] Screenshot before tersedia.
+- [x] Logo/asset aktif tersedia atau diputuskan memakai placeholder lama dulu.
+- [x] Deskripsi singkat tiga active brands tersedia.
+- [x] Copy `/oldbrands` tersedia.
+- [x] Target link final tersedia.
+- [x] Screenshot before tersedia.
 
 #### 2.4.5. Putuskan Strategi The Green Print
 
@@ -230,9 +297,9 @@ Website dasar boleh diupdate dulu, tetapi The Green Print harus minimal “ready
 
 Gate selesai:
 
-- [ ] Strategi The Green Print diputuskan.
-- [ ] Istilah publik diputuskan.
-- [ ] Tidak ada copy publik yang terlalu sensitif.
+- [x] Strategi The Green Print diputuskan.
+- [x] Istilah publik diputuskan.
+- [x] Tidak ada copy publik yang terlalu sensitif.
 
 #### 2.4.6. Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now
 
@@ -263,11 +330,13 @@ Scope yang tidak boleh:
 
 Gate selesai:
 
-- [ ] Scope boleh disetujui.
-- [ ] Scope tidak boleh disetujui.
-- [ ] Batasan ini siap dimasukkan ke prompt Agent Now.
+- [x] Scope boleh disetujui.
+- [x] Scope tidak boleh disetujui.
+- [x] Batasan ini siap dimasukkan ke prompt Agent Now.
 
 #### 2.4.7. Susun BANANOW LAND Update Task Spec
+
+Status: ✅ Selesai.
 
 Ini adalah dokumen turunan berikutnya.
 
@@ -292,13 +361,15 @@ Ini masih dokumen instruksi untuk Agent Now.
 
 Gate selesai:
 
-- [ ] BANANOW LAND Update Task Spec selesai.
-- [ ] Scope jelas.
-- [ ] Non-goals jelas.
-- [ ] Testing jelas.
-- [ ] Report format jelas.
+- [x] BANANOW LAND Update Task Spec selesai.
+- [x] Scope jelas.
+- [x] Non-goals jelas.
+- [x] Testing jelas.
+- [x] Report format jelas.
 
 #### 2.4.8. Susun Agent Now Prompt untuk Stage Awal
+
+Status: 🔜 Berikutnya.
 
 Prompt Agent Now dibuat setelah Update Task Spec selesai.
 
@@ -328,21 +399,21 @@ Karena item ini belum menyentuh repo, testing-nya adalah review dokumen.
 
 Checklist review:
 
-- [ ] Apakah urutan besar sudah masuk akal?
-- [ ] Apakah item pertama sudah cukup jelas?
-- [ ] Apakah data/asset awal sudah diketahui?
-- [ ] Apakah batas Agent Now sudah jelas?
-- [ ] Apakah ada item yang masih membingungkan?
+- [x] Apakah urutan besar sudah masuk akal?
+- [x] Apakah item pertama sudah cukup jelas?
+- [x] Apakah data/asset awal sudah diketahui?
+- [x] Apakah batas Agent Now sudah jelas?
+- [x] Apakah ada item yang masih membingungkan?
 
 ### 2.6. Gate Selesai Item Urutan Besar 1
 
 Item Urutan Besar 1 dianggap selesai jika:
 
-- [ ] Development Map Part 1 dan Part 2 tersimpan.
-- [ ] Daftar Runut disetujui.
-- [ ] Data/asset pembaruan awal diketahui.
-- [ ] Scope Agent Now pembaruan awal disetujui.
-- [ ] BANANOW LAND Update Task Spec sudah disusun.
+- [x] Development Map Part 1 dan Part 2 tersimpan.
+- [x] Daftar Runut disetujui.
+- [x] Data/asset pembaruan awal diketahui.
+- [x] Scope Agent Now pembaruan awal disetujui.
+- [x] BANANOW LAND Update Task Spec sudah disusun.
 - [ ] Prompt Agent Now Stage Awal sudah siap.
 
 Setelah semua checklist di atas selesai, baru lanjut ke:
@@ -846,21 +917,32 @@ Item Sisipan hanya untuk membuka hambatan agar urutan besar bisa lanjut.
 
 ## 18. Status Saat Ini
 
-Status terakhir berdasarkan obrolan:
+Status terakhir berdasarkan eksekusi Daftar Runut:
 
-1. BANANOW LAND Development Map sudah dibuat dan dipecah menjadi Part 1 dan Part 2.
-2. Ilustrasi visual untuk Na Now News, Skool Now, Skate Skool Now, NFT Marketplace, dan Claps sudah dibuat sebagai inspirasi arah visual.
-3. Belum masuk ke Agent Now.
-4. Belum menyusun BANANOW LAND Update Task Spec.
-5. Belum menyusun prompt Agent Now eksekusi awal.
+1. **BANANOW LAND Development Map** sudah dibuat dan dipecah menjadi Part 1 dan Part 2. ✅ Selesai
+2. **BANANOW LAND Daftar Runut** sudah dibuat. ✅ Selesai
+3. Istilah dokumen sudah diperbarui: “Prof. NOTA” menjadi “Farmer” dan “Codex” menjadi “Agent Now”. ✅ Selesai
+4. Ilustrasi visual untuk Na Now News, Skool Now, Skate Skool Now, NFT Marketplace, dan Claps sudah dibuat sebagai inspirasi arah visual. ✅ Selesai
+5. Data active brands untuk homepage sudah dikumpulkan. ✅ Selesai
+6. Data old brands untuk `/oldbrands` sudah dikumpulkan. ✅ Selesai
+7. Perubahan link utama sudah dikonfirmasi:
+   - Semua `Be a Head` menuju `/nfts/`.
+   - `/pung` menuju `@OrdinalyPeople`.
+   - Footer Brands menu menjadi Skool Now, Claps, Na Now News, The Old Brands. ✅ Selesai
+8. Strategi The Green Print sudah diputuskan:
+   - Website update dasar boleh jalan dulu.
+   - The Green Print harus diselesaikan sampai selesai sebelum mulai Legal Update Minimum, App Foundation dan Struktur Data Terpusat, dan stage setelahnya. ✅ Selesai
+9. **BANANOW LAND Update Task Spec** sudah disusun dan disetujui. ✅ Selesai
+10. Belum masuk ke repo dengan Agent Now. ⏳ Belum mulai
+11. Belum menyusun Agent Now Prompt Stage Awal. 🔜 Berikutnya
+12. Belum menjalankan Audit Repo dan Lingkungan Kerja. ⏳ Belum mulai
 
 Urutan berikutnya:
 
-1. Review Daftar Runut.
-2. Selesaikan data/asset minimum untuk pembaruan awal.
-3. Susun BANANOW LAND Update Task Spec.
-4. Susun Agent Now Prompt Stage Awal.
-5. Baru masuk ke repo dengan Agent Now.
+1. Susun **Agent Now Prompt Stage Awal**.
+2. Setelah prompt siap, masuk ke **Item Urutan Besar 2 — Audit Repo dan Lingkungan Kerja**.
+3. Agent Now menjalankan audit repo sesuai BANANOW LAND Update Task Spec.
+4. Setelah audit repo selesai dan dilaporkan, baru lanjut ke **Item Urutan Besar 3 — Dependency Update Aman**.
 
 ---
 
@@ -883,9 +965,3 @@ Update Task Spec menjawab:
 Agent Now Prompt menjawab:
 
 “Bagaimana menyuruh Agent Now mengeksekusinya di repo tanpa melebar?”
-
----
-
-P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.
-
----
