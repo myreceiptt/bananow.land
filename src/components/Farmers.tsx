@@ -14,7 +14,7 @@ const farmers = [
     },
     {
         name: "Pung",
-        // href: "https://twitter.com/Inamotion21",
+        // href: "https://x.com/OrdinalyPeople",
         href: "/pung/",
         src: "/images/farmers/pung.png",
         alt: "BANANOW PFP of Pung",
@@ -109,4 +109,3 @@ export default function Farmers() {
 
     );
 }
-

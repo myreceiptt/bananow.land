@@ -73,17 +73,14 @@ const column1 = [
 ];
 
 const column2 = [
-  { name: "90's Vibes", href: "/vibes/" },
-  { name: "Dermaga Web3", href: "/dermaga/" },
-  { name: "Class Now", href: "/class/" },
-  { name: "InAMotion", href: "/inamotion/" },
-  { name: "Agent Now", href: "/delegate/" },
-  { name: "NOTA's Dept.", href: "/professor/" },
-  { name: "Na Now News", href: "https://nanownews.endhonesa.com/" }
+  { name: "Skool Now", href: "/skool/" },
+  { name: "Claps", href: "/claps/" },
+  { name: "Na Now News", href: "/news/" },
+  { name: "The Old Brands", href: "/oldbrands" },
 ];
 
 const column3 = [
-  { name: "Be a Head Now", href: "https://bananownfts.endhonesa.com/", target: "_target" },
+  { name: "Be a Head Now", href: "/nfts/", target: "_self" },
   { name: "The Green Print", href: "https://bananowgp.endhonesa.com/", target: "_target" },
   { name: "Privacy Policy", href: "/privacy/", target: "_self" },
   { name: "Terms & Conditions", href: "/terms/", target: "_self" },
@@ -199,7 +196,6 @@ export default function Footer() {
               onClick={sound1Click}
               key={item.name}
               href={item.href}
-              target="_blank"
               className="hover:text-yellow-now hover:underline md:text-sm my-4 grid"
             >
               {item.name}
