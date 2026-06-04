@@ -6,6 +6,13 @@ import React from "react";
 
 const activeBrands = [
   {
+    name: "Na Now News",
+    url: "/news/",
+    description:
+      "Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!",
+    icon: "/images/brandproducts/nanownews.svg",
+  },
+  {
     name: "Skool Now",
     url: "/skool/",
     description:
@@ -16,15 +23,8 @@ const activeBrands = [
     name: "Claps",
     url: "/claps/",
     description:
-      "Claps is BANANOW's AI companion for parents and caregivers—here to listen, reflect, and help you grow with confidence, compassion, and a little more calm.",
+      "AI companion for parents and caregivers—here to listen, reflect, and help you grow with confidence, compassion, and a little more calm.",
     icon: "/images/brandproducts/claps.svg",
-  },
-  {
-    name: "Na Now News",
-    url: "/news/",
-    description:
-      "Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!",
-    icon: "/images/brandproducts/nanownews.svg",
   },
 ];
 
@@ -73,8 +73,7 @@ export function BrandProducts() {
                 onClick={sound0Click}
                 href={brand.url}
                 title={brand.name}
-                target="_blank"
-              >
+                target="_blank">
                 <Image
                   onMouseEnter={() => {
                     setIsHovering(true);
