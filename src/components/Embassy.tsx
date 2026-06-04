@@ -125,7 +125,7 @@ export default function Embassy() {
                 {...register("access_key")}
               />
               <input type="hidden" {...register("subject")} />
-              <input type="hidden" value="BANANOW.LAND" {...register("from_name")} />
+              <input type="hidden" value="BANANOW Land" {...register("from_name")} />
               <input
                 type="checkbox"
                 id=""

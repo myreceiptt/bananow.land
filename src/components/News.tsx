@@ -66,7 +66,7 @@ export function News1() {
             {/* <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition"> */}
             <Link
               onClick={sound0Click}
-              href="https://news.bananow.land/"
+              href="https://news.endhonesa.com/"
               title="Na Now News of BANANOW"
               target="_blank"
             >

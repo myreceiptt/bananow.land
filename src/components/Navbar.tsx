@@ -68,7 +68,7 @@ export default function Navbar() {
                       }}
                       className="block h-11 w-auto hover:scale-110 transition"
                       src="/images/logos/BananowLogo-169x121.png"
-                      alt="BANANOW.LAND Logo"
+                      alt="BANANOW Land Logo"
                       width={150}
                       height={150}
                       quality={75}
@@ -102,7 +102,7 @@ export default function Navbar() {
                     onClick={sound2Click}
                     href="/nfts/"
                     className="hidden lg:block"
-                    title="Be a Head of BANANOW.LAND...">
+                    title="Be a Head of BANANOW Land...">
                     <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full">
                       Be a Head
                     </button>
@@ -112,7 +112,7 @@ export default function Navbar() {
                     href="https://bananowgp.endhonesa.com/"
                     target="_blank"
                     className="hidden lg:block"
-                    title="Read The Green Print of BANANOW.LAND...">
+                    title="Read The Green Print of BANANOW Land...">
                     <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full">
                       The Green Print
                     </button>
@@ -158,7 +158,7 @@ export default function Navbar() {
               <Link
                 onClick={sound2Click}
                 href="/nfts/"
-                title="Be a Head of BANANOW.LAND...">
+                title="Be a Head of BANANOW Land...">
                 <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
                   Be a Head
                 </button>
@@ -167,7 +167,7 @@ export default function Navbar() {
                 onClick={sound2Click}
                 href="https://bananowgp.endhonesa.com/"
                 target="_blank"
-                title="Read The Green Print of BANANOW.LAND...">
+                title="Read The Green Print of BANANOW Land...">
                 <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
                   The Green Print
                 </button>

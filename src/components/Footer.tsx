@@ -139,7 +139,7 @@ export default function Footer() {
               }}
               className="h-17 w-auto hover:scale-110 transition"
               src="/images/logos/BananowLogo-169x121.png"
-              alt="BANANOW.LAND Logo"
+              alt="BANANOW Land Logo"
               width={150}
               height={150}
               quality={75}

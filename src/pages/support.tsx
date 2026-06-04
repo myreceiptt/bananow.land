@@ -16,7 +16,7 @@ export default function Support() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://gp.bananow.land/the-embassy'"
+          content="4; url='https://bananowgp.endhonesa.com/the-embassy'"
         />
       </Head>
       <div
