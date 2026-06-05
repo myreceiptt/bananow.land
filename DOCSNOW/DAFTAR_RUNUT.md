@@ -49,92 +49,100 @@ Aturan utamanya:
    - Status: Agent Now-assisted, tapi perlu keputusan manual jika ada breaking change.
 
 4. **Pembaruan Website Dasar**
-   - Target: v1.0
+   - Target: v1.47
    - Isi: homepage, footer, Be a Head link, Pung redirect, oldbrands.
 
 5. **Redirect Audit dan Browser QA v1**
-   - Target: v1.0
+   - Target: v1.47
    - Isi: cek semua link dan route lama/baru.
 
 6. **The Green Print Finalization**
-   - Target: v1.0 atau v1.1, tergantung kesiapan konten.
+   - Target: v1.47 / v1.51, tergantung kesiapan konten.
    - Bisa berjalan paralel secara konten, tetapi tidak boleh mengganggu update website dasar.
 
 7. **Legal Update Minimum**
-   - Target: v1.1
+   - Target: v1.51
    - Isi: privacy/terms minimum untuk arah fitur baru.
 
 8. **App Foundation dan Struktur Data Terpusat**
-   - Target: v1.1
+   - Target: v1.51
    - Isi: komponen reusable, data config, layout, template.
 
 9. **Na Now News MVP**
-   - Target: v1.2
+   - Target: v1.62
    - Isi: news list, article detail, admin sederhana.
 
 10. **Skool Now MVP**
-    - Target: v1.3
+    - Target: v1.74
     - Isi: parent page, program detail, Skate Skool Now, forms/inquiry.
 
 11. **BANANOW NFT Marketplace Testnet**
-    - Target: v1.4
+    - Target: v1.85
     - Isi: marketplace contract testnet dan frontend testnet.
 
 12. **BANANOW NFT Marketplace Mainnet Controlled Launch**
-    - Target: v1.5
+    - Target: v1.92
     - Isi: mainnet, controlled opening, fee/royalty validation.
 
 13. **Claps Alpha**
-    - Target: v1.6
+    - Target: v2.00
     - Isi: landing, chat UI, AI Gateway, safety prompt, memory alpha.
 
 14. **Admin Dashboard Perluasan**
-    - Target: v1.7 atau v2.0 preparation
+    - Target: v2.00 preparation / v2.11
     - Isi: admin lintas modul.
 
 15. **BANANOW LAND Operating Portal v2.0**
-    - Target: v2.0
+    - Target: v2.11
     - Isi: semua modul matang dan terhubung.
 
 ---
 
 ### 1.2. Status Eksekusi Saat Ini
 
-| No. | Item Urutan Besar                                 | Target                  | Status            |
-| --- | ------------------------------------------------- | ----------------------- | ----------------- |
-| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.0                | 🟡 Hampir selesai |
-| 2   | Audit Repo dan Lingkungan Kerja                   | v1.0 preparation        | ⏳ Belum mulai    |
-| 3   | Dependency Update Aman                            | v1.0 preparation        | ⏳ Belum mulai    |
-| 4   | Pembaruan Website Dasar                           | v1.0                    | ⏳ Belum mulai    |
-| 5   | Redirect Audit dan Browser QA                     | v1.0                    | ⏳ Belum mulai    |
-| 6   | The Green Print Finalization                      | v1.0 / v1.1             | ⏳ Belum mulai    |
-| 7   | Legal Update Minimum                              | v1.1                    | ⏳ Belum mulai    |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.1                    | ⏳ Belum mulai    |
-| 9   | Na Now News MVP                                   | v1.2                    | ⏳ Belum mulai    |
-| 10  | Skool Now MVP                                     | v1.3                    | ⏳ Belum mulai    |
-| 11  | BANANOW NFT Marketplace Testnet                   | v1.4                    | ⏳ Belum mulai    |
-| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.5                    | ⏳ Belum mulai    |
-| 13  | Claps Alpha                                       | v1.6                    | ⏳ Belum mulai    |
-| 14  | Admin Dashboard Perluasan                         | v1.7 / v2.0 preparation | ⏳ Belum mulai    |
-| 15  | BANANOW LAND Operating Portal v2.0                | v2.0                    | ⏳ Belum mulai    |
+| No. | Item Urutan Besar                                 | Target                    | Status                                    |
+| --- | ------------------------------------------------- | ------------------------- | ----------------------------------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.0                  | ✅ Selesai                                |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.0 preparation          | ✅ Selesai                                |
+| 3   | Dependency Update Aman                            | v1.0 preparation          | ✅ Selesai                                |
+| 4   | Pembaruan Website Dasar                           | v1.47                     | ✅ Selesai                                |
+| 5   | Redirect Audit dan Browser QA                     | v1.47                     | ✅ Selesai                                |
+| 6   | The Green Print Finalization                      | v1.47 / v1.51             | 🔜 Berikutnya                             |
+| 7   | Legal Update Minimum                              | v1.51                     | ⏳ Ditahan sampai The Green Print selesai |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51                     | ⏳ Ditahan sampai The Green Print selesai |
+| 9   | Na Now News MVP                                   | v1.62                     | ⏳ Belum mulai                            |
+| 10  | Skool Now MVP                                     | v1.74                     | ⏳ Belum mulai                            |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.85                     | ⏳ Belum mulai                            |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92                     | ⏳ Belum mulai                            |
+| 13  | Claps Alpha                                       | v2.00                     | ⏳ Belum mulai                            |
+| 14  | Admin Dashboard Perluasan                         | v2.00 preparation / v2.11 | ⏳ Belum mulai                            |
+| 15  | BANANOW LAND Operating Portal v2.0                | v2.11                     | ⏳ Belum mulai                            |
 
 Keterangan status:
 
 - ✅ Selesai: item sudah tuntas dan tidak menghalangi item berikutnya.
-- 🟡 Hampir selesai: sebagian besar sudah selesai, tetapi masih ada gate kecil yang belum tuntas.
+- 🟡 Sedang berjalan: item sedang dikerjakan atau sedang menunggu hasil dari cabang obrolan.
 - 🔜 Berikutnya: item terdekat yang akan dikerjakan.
 - ⏳ Belum mulai: belum dieksekusi.
+- ⏳ Ditahan: belum boleh dimulai karena menunggu gate sebelumnya selesai.
 - 🧩 Item Sisipan: item tambahan yang muncul karena hambatan di luar rencana.
 
 Status penting saat ini:
 
-1. Development Map sudah selesai dan sudah dipecah menjadi Part 1 dan Part 2.
-2. Daftar Runut sudah dibuat dan diperbarui dengan istilah Farmer dan Agent Now.
-3. Data/asset pembaruan awal sudah dikumpulkan.
-4. Strategi The Green Print sudah diputuskan.
-5. Scope pembaruan awal untuk Agent Now sudah disetujui.
-6. BANANOW LAND Update Task Spec sudah disusun dan disetujui.
-7. Yang belum selesai dari Item Urutan Besar 1 adalah menyusun **Agent Now Prompt Stage Awal**.
+1. Development Map sudah selesai dan tersimpan di repo.
+2. Daftar Runut sudah selesai dan tersimpan di repo.
+3. Update Task Spec sudah selesai dan tersimpan di repo.
+4. Agent Now Prompt Stage Awal sudah selesai.
+5. Agent Now sudah menjalankan Stage Awal.
+6. Repo sudah diaudit.
+7. Dependency update aman sudah dilakukan.
+8. Website update dasar sudah selesai.
+9. Redirect audit dan Browser QA sudah selesai.
+10. Hasil sudah direview di localhost dan deployed Vercel.
+11. Perubahan sudah dicommit dan dimerge ke branch `main`.
+12. Tahap berikutnya adalah The Green Print Finalization.
+13. The Green Print Finalization akan dikerjakan di cabang obrolan terpisah.
+14. Hasil final The Green Print akan dibawa kembali ke obrolan induk ini dalam bentuk Markdown.
 
 ---
 
@@ -158,30 +166,22 @@ Dikerjakan oleh Farmer bersama ChatGPT.
 
 ### 2.4. Status Item yang Harus Dieksekusi
 
-| Sub-item | Nama Item                                                            | Status        |
-| -------- | -------------------------------------------------------------------- | ------------- |
-| 2.4.1    | Simpan Development Map                                               | ✅ Selesai    |
-| 2.4.2    | Simpan Daftar Runut                                                  | ✅ Selesai    |
-| 2.4.3    | Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now | ✅ Selesai    |
-| 2.4.4    | Kumpulkan Data dan Asset untuk Pembaruan Awal                        | ✅ Selesai    |
-| 2.4.5    | Putuskan Strategi The Green Print                                    | ✅ Selesai    |
-| 2.4.6    | Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now      | ✅ Selesai    |
-| 2.4.7    | Susun BANANOW LAND Update Task Spec                                  | ✅ Selesai    |
-| 2.4.8    | Susun Agent Now Prompt untuk Stage Awal                              | 🔜 Berikutnya |
+| Sub-item | Nama Item                                                            | Status     |
+| -------- | -------------------------------------------------------------------- | ---------- |
+| 2.4.1    | Simpan Development Map                                               | ✅ Selesai |
+| 2.4.2    | Simpan Daftar Runut                                                  | ✅ Selesai |
+| 2.4.3    | Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now | ✅ Selesai |
+| 2.4.4    | Kumpulkan Data dan Asset untuk Pembaruan Awal                        | ✅ Selesai |
+| 2.4.5    | Putuskan Strategi The Green Print                                    | ✅ Selesai |
+| 2.4.6    | Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now      | ✅ Selesai |
+| 2.4.7    | Susun BANANOW LAND Update Task Spec                                  | ✅ Selesai |
+| 2.4.8    | Susun Agent Now Prompt untuk Stage Awal                              | ✅ Selesai |
 
 Catatan status:
 
-Item Urutan Besar 1 belum bisa dinyatakan penuh sebagai ✅ Selesai karena **Agent Now Prompt untuk Stage Awal** belum disusun.
+Item Urutan Besar 1 sudah bisa dinyatakan ✅ Selesai.
 
-Namun seluruh bahan penting untuk menyusun prompt tersebut sudah tersedia:
-
-1. Development Map.
-2. Daftar Runut.
-3. Active Brands data.
-4. Old Brands data.
-5. Link update confirmation.
-6. The Green Print dependency rule.
-7. BANANOW LAND Update Task Spec yang sudah disetujui.
+Agent Now Prompt Stage Awal sudah disusun, digunakan, dan Agent Now sudah menjalankan stage awal berdasarkan prompt tersebut.
 
 ### 2.4. Item yang Harus Dieksekusi
 
@@ -369,7 +369,7 @@ Gate selesai:
 
 #### 2.4.8. Susun Agent Now Prompt untuk Stage Awal
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
 Prompt Agent Now dibuat setelah Update Task Spec selesai.
 
@@ -388,10 +388,10 @@ Prompt harus memuat:
 
 Gate selesai:
 
-- [ ] Prompt Agent Now Stage Awal selesai.
-- [ ] Prompt tidak terlalu luas.
-- [ ] Prompt tidak meminta fitur besar.
-- [ ] Prompt siap ditempel ke Agent Now.
+- [x] Prompt Agent Now Stage Awal selesai.
+- [x] Prompt tidak terlalu luas.
+- [x] Prompt tidak meminta fitur besar.
+- [x] Prompt siap ditempel ke Agent Now.
 
 ### 2.5. Testing untuk Item Urutan Besar 1
 
@@ -414,7 +414,11 @@ Item Urutan Besar 1 dianggap selesai jika:
 - [x] Data/asset pembaruan awal diketahui.
 - [x] Scope Agent Now pembaruan awal disetujui.
 - [x] BANANOW LAND Update Task Spec sudah disusun.
-- [ ] Prompt Agent Now Stage Awal sudah siap.
+- [x] Prompt Agent Now Stage Awal sudah siap.
+
+Status akhir:
+
+Item Urutan Besar 1 — Kunci Arah dan Dokumen Kerja sudah ✅ Selesai.
 
 Setelah semua checklist di atas selesai, baru lanjut ke:
 
@@ -430,13 +434,13 @@ v1.0 preparation
 
 ### 3.2. Status Breakdown
 
-Tentative.
+✅ Selesai.
 
-Detail breakdown dilakukan setelah Item Urutan Besar 1 selesai dan prompt Agent Now Stage Awal siap.
+Audit repo dan lingkungan kerja sudah dilakukan oleh Agent Now. Hasil audit menunjukkan repo menggunakan Next.js Pages Router, npm, Node 24.x, npm 11.x, dan build/lint lulus.
 
 ### 3.3. Gambaran Isi
 
-Item ini kemungkinan mencakup:
+Item ini mencakup:
 
 1. Buka repo di VS Code.
 2. Pastikan branch kerja.
@@ -452,9 +456,18 @@ Item ini kemungkinan mencakup:
 12. Jalankan lint/typecheck jika ada.
 13. Buat laporan kondisi awal.
 
-### 3.4. Gate Sementara
+### 3.4. Gate Selesai
 
-Belum bisa dianggap selesai sebelum Agent Now membaca repo dan menghasilkan laporan audit.
+Item ini sudah ✅ Selesai.
+
+Gate selesai:
+
+- [x] Repo dibuka dan diaudit.
+- [x] Framework teridentifikasi sebagai Next.js Pages Router.
+- [x] Package manager teridentifikasi sebagai npm.
+- [x] Node/npm target diketahui.
+- [x] Struktur route, komponen utama, asset, dan script teridentifikasi.
+- [x] Agent Now menghasilkan laporan audit.
 
 ---
 
@@ -466,13 +479,15 @@ v1.0 preparation
 
 ### 4.2. Status Breakdown
 
-Tentative.
+✅ Selesai.
 
-Detail breakdown dilakukan setelah hasil audit repo diketahui.
+Dependency update aman sudah dilakukan oleh Agent Now. Build dan lint lulus. Tidak ada breaking change yang menjadi blocker.
+
+Known issue `npm audit` dari internal dependency Next/PostCSS dicatat sebagai backlog dan bukan blocker karena `npm audit fix --force` tidak direkomendasikan.
 
 ### 4.3. Gambaran Isi
 
-Item ini kemungkinan mencakup:
+Item ini mencakup:
 
 1. Catat dependency lama.
 2. Identifikasi dependency deprecated/obsolete.
@@ -482,9 +497,19 @@ Item ini kemungkinan mencakup:
 6. Cek layout dan sound effect.
 7. Jika terjadi breaking change, buat Item Sisipan.
 
-### 4.4. Gate Sementara
+### 4.4. Gate Selesai
 
-Dependency update selesai hanya jika build sukses dan website lama tetap tampil normal.
+Item ini sudah ✅ Selesai.
+
+Gate selesai:
+
+- [x] Dependency diperiksa.
+- [x] Safe dependency update dilakukan.
+- [x] `npm install` lulus.
+- [x] `npm run lint` lulus.
+- [x] `npm run build` lulus.
+- [x] Tidak ada breaking change yang menjadi blocker.
+- [x] Known security/dependency issue dicatat sebagai backlog.
 
 ---
 
@@ -492,17 +517,17 @@ Dependency update selesai hanya jika build sukses dan website lama tetap tampil 
 
 ### 5.1. Target Milestone
 
-v1.0
+v1.47
 
 ### 5.2. Status Breakdown
 
-Tentative.
+✅ Selesai.
 
-Detail breakdown dilakukan setelah repo sehat dan dependency update aman.
+Homepage, footer, `Be a Head` link, `/pung` redirect, `/oldbrands`, dan placeholder `/nfts`, `/skool`, `/claps`, `/news` sudah diperbarui.
 
 ### 5.3. Gambaran Isi
 
-Item ini kemungkinan mencakup:
+Item ini mencakup:
 
 1. Update `Be a Head` links ke `/nfts/`.
 2. Update homepage Brand Ecosystem.
@@ -513,9 +538,21 @@ Item ini kemungkinan mencakup:
 7. Pastikan sound effect tetap aktif.
 8. Build/test.
 
-### 5.4. Gate Sementara
+### 5.4. Gate Selesai
 
-Selesai jika homepage, footer, `/oldbrands`, dan `/pung` bekerja benar di lokal dan preview.
+Item ini sudah ✅ Selesai.
+
+Gate selesai:
+
+- [x] Homepage Brand Ecosystem diperbarui.
+- [x] Footer Brands menu diperbarui.
+- [x] Semua `Be a Head` link mengarah ke `/nfts/`.
+- [x] `/pung` mengarah ke `https://x.com/OrdinalyPeople`.
+- [x] `/oldbrands` dibuat.
+- [x] `/nfts`, `/skool`, `/claps`, dan `/news` placeholder tersedia.
+- [x] Visual utama tetap dipertahankan.
+- [x] Sound effect tetap dipertahankan.
+- [x] Build dan lint lulus.
 
 ---
 
@@ -523,17 +560,17 @@ Selesai jika homepage, footer, `/oldbrands`, dan `/pung` bekerja benar di lokal 
 
 ### 6.1. Target Milestone
 
-v1.0
+v1.47
 
 ### 6.2. Status Breakdown
 
-Tentative.
+✅ Selesai.
 
-Detail breakdown dilakukan setelah Pembaruan Website Dasar selesai.
+Redirect audit dan browser QA sudah dilakukan. Route penting lulus di localhost dan deployed Vercel.
 
 ### 6.3. Gambaran Isi
 
-Item ini kemungkinan mencakup:
+Item ini mencakup:
 
 1. Cek semua halaman redirect.
 2. Cek semua tombol manual redirect.
@@ -546,9 +583,19 @@ Item ini kemungkinan mencakup:
 9. Cek sound effect.
 10. Cek production/preview domain.
 
-### 6.4. Gate Sementara
+### 6.4. Gate Selesai
 
-Selesai jika tidak ada broken route penting dan semua link yang berubah sudah sesuai target.
+Item ini sudah ✅ Selesai.
+
+Gate selesai:
+
+- [x] Semua redirect route penting dicek.
+- [x] Route QA lokal lulus.
+- [x] Review localhost dilakukan oleh Farmer.
+- [x] Review deployed Vercel dilakukan oleh Farmer.
+- [x] `/twitter` redirect mismatch diperbaiki.
+- [x] `/class` manual redirect sudah memiliki click-sound handler.
+- [x] Perubahan sudah dicommit dan dimerge ke branch `main`.
 
 ---
 
@@ -556,13 +603,13 @@ Selesai jika tidak ada broken route penting dan semua link yang berubah sudah se
 
 ### 7.1. Target Milestone
 
-v1.0 atau v1.1
+v1.47 / v1.51
 
 ### 7.2. Status Breakdown
 
-Tentative.
+🔜 Berikutnya.
 
-Detail breakdown dilakukan setelah keputusan strategi The Green Print dikunci.
+The Green Print Finalization akan dikerjakan di cabang obrolan terpisah. Hasil finalnya akan dibawa kembali ke obrolan induk dalam bentuk Markdown.
 
 ### 7.3. Gambaran Isi
 
@@ -586,13 +633,13 @@ Selesai jika The Green Print siap menjadi rujukan publik utama BANANOW.
 
 ### 8.1. Target Milestone
 
-v1.1
+v1.51
 
 ### 8.2. Status Breakdown
 
-Tentative.
+⏳ Ditahan sampai The Green Print selesai.
 
-Detail breakdown dilakukan setelah update website dasar dan arah fitur publik dikunci.
+Detail breakdown dilakukan setelah The Green Print Finalization selesai dan hasil finalnya dibawa kembali ke obrolan induk.
 
 ### 8.3. Gambaran Isi
 
@@ -616,13 +663,13 @@ Selesai jika legal pages tidak lagi terlalu tertinggal dari arah pengembangan.
 
 ### 9.1. Target Milestone
 
-v1.1
+v1.51
 
 ### 9.2. Status Breakdown
 
-Tentative.
+⏳ Ditahan sampai The Green Print selesai.
 
-Detail breakdown dilakukan setelah update website dasar stabil.
+Detail breakdown dilakukan setelah The Green Print Finalization selesai dan Legal Update Minimum sudah siap masuk tahap eksekusi.
 
 ### 9.3. Gambaran Isi
 
@@ -648,7 +695,7 @@ Selesai jika halaman baru bisa dibuat lebih cepat tanpa hardcode tersebar.
 
 ### 10.1. Target Milestone
 
-v1.2
+v1.62
 
 ### 10.2. Status Breakdown
 
@@ -680,7 +727,7 @@ Selesai jika artikel bisa dibuat, dipublish, dan dibuka publik.
 
 ### 11.1. Target Milestone
 
-v1.3
+v1.74
 
 ### 11.2. Status Breakdown
 
@@ -713,7 +760,7 @@ Selesai jika user bisa memahami program dan mengirim inquiry/pendaftaran.
 
 ### 12.1. Target Milestone
 
-v1.4
+v1.85
 
 ### 12.2. Status Breakdown
 
@@ -747,7 +794,7 @@ Selesai jika marketplace testnet berhasil menjalankan list, cancel, buy, fee, da
 
 ### 13.1. Target Milestone
 
-v1.5
+v1.92
 
 ### 13.2. Status Breakdown
 
@@ -777,7 +824,7 @@ Selesai jika marketplace mainnet bisa dibuka publik secara bertahap dan aman.
 
 ### 14.1. Target Milestone
 
-v1.6
+v2.00
 
 ### 14.2. Status Breakdown
 
@@ -810,7 +857,7 @@ Selesai jika Claps bisa dicoba terbatas dengan safety guardrail yang jelas.
 
 ### 15.1. Target Milestone
 
-v1.7 atau v2.0 preparation
+v2.00 preparation / v2.11
 
 ### 15.2. Status Breakdown
 
@@ -841,7 +888,7 @@ Selesai jika admin tidak perlu mengelola semuanya secara manual dari database/ex
 
 ### 16.1. Target Milestone
 
-v2.0
+v2.11
 
 ### 16.2. Status Breakdown
 
@@ -919,49 +966,103 @@ Item Sisipan hanya untuk membuka hambatan agar urutan besar bisa lanjut.
 
 Status terakhir berdasarkan eksekusi Daftar Runut:
 
-1. **BANANOW LAND Development Map** sudah dibuat dan dipecah menjadi Part 1 dan Part 2. ✅ Selesai
-2. **BANANOW LAND Daftar Runut** sudah dibuat. ✅ Selesai
-3. Istilah dokumen sudah diperbarui: “Prof. NOTA” menjadi “Farmer” dan “Codex” menjadi “Agent Now”. ✅ Selesai
-4. Ilustrasi visual untuk Na Now News, Skool Now, Skate Skool Now, NFT Marketplace, dan Claps sudah dibuat sebagai inspirasi arah visual. ✅ Selesai
-5. Data active brands untuk homepage sudah dikumpulkan. ✅ Selesai
-6. Data old brands untuk `/oldbrands` sudah dikumpulkan. ✅ Selesai
-7. Perubahan link utama sudah dikonfirmasi:
-   - Semua `Be a Head` menuju `/nfts/`.
-   - `/pung` menuju `@OrdinalyPeople`.
-   - Footer Brands menu menjadi Skool Now, Claps, Na Now News, The Old Brands. ✅ Selesai
-8. Strategi The Green Print sudah diputuskan:
-   - Website update dasar boleh jalan dulu.
-   - The Green Print harus diselesaikan sampai selesai sebelum mulai Legal Update Minimum, App Foundation dan Struktur Data Terpusat, dan stage setelahnya. ✅ Selesai
-9. **BANANOW LAND Update Task Spec** sudah disusun dan disetujui. ✅ Selesai
-10. Belum masuk ke repo dengan Agent Now. ⏳ Belum mulai
-11. Belum menyusun Agent Now Prompt Stage Awal. 🔜 Berikutnya
-12. Belum menjalankan Audit Repo dan Lingkungan Kerja. ⏳ Belum mulai
+1. **BANANOW LAND Development Map** sudah dibuat, diperbarui, dan disimpan di repo. ✅ Selesai
+2. **BANANOW LAND Daftar Runut** sudah dibuat, diperbarui, dan disimpan di repo. ✅ Selesai
+3. **BANANOW LAND Update Task Spec** sudah dibuat dan disimpan di repo. ✅ Selesai
+4. **Agent Now Prompt Stage Awal** sudah disusun dan digunakan. ✅ Selesai
+5. Agent Now sudah menjalankan Stage Awal. ✅ Selesai
+6. Repo audit sudah dilakukan. ✅ Selesai
+7. Dependency update aman sudah dilakukan. ✅ Selesai
+8. Homepage Brand Ecosystem sudah diperbarui menjadi:
+   - Na Now News
+   - Skool Now
+   - Claps
+     ✅ Selesai
+
+9. Footer Brands menu sudah diperbarui menjadi:
+   - Na Now News
+   - Skool Now
+   - Claps
+   - Older Brands → `/oldbrands`
+     ✅ Selesai
+
+10. Semua `Be a Head` link sudah mengarah ke `/nfts/`. ✅ Selesai
+11. `/oldbrands` sudah dibuat. ✅ Selesai
+12. `/nfts`, `/skool`, `/claps`, dan `/news` placeholder sudah tersedia. ✅ Selesai
+13. `/pung` sudah mengarah ke `https://x.com/OrdinalyPeople`. ✅ Selesai
+14. `/twitter` redirect mismatch sudah diperbaiki. ✅ Selesai
+15. `/class` manual redirect sudah memiliki click-sound handler. ✅ Selesai
+16. Lint lulus. ✅ Selesai
+17. Build lulus. ✅ Selesai
+18. Route QA lokal lulus. ✅ Selesai
+19. Review localhost sudah dilakukan oleh Farmer. ✅ Selesai
+20. Review deployed Vercel sudah dilakukan oleh Farmer. ✅ Selesai
+21. Perubahan sudah dicommit dan dimerge ke branch `main`. ✅ Selesai
+22. Known issue: `npm audit` masih melaporkan dua moderate vulnerabilities dari internal dependency Next/PostCSS, tetapi `npm audit fix --force` tidak direkomendasikan karena masuk jalur breaking/downgrade. 🟡 Dicatat sebagai backlog, bukan blocker.
+23. Known issue: major update `@types/node` tidak diambil karena target repo masih Node `24.x`. 🟡 Dicatat sebagai backlog, bukan blocker.
+24. Tahap berikutnya adalah **The Green Print Finalization**. 🔜 Berikutnya
 
 Urutan berikutnya:
 
-1. Susun **Agent Now Prompt Stage Awal**.
-2. Setelah prompt siap, masuk ke **Item Urutan Besar 2 — Audit Repo dan Lingkungan Kerja**.
-3. Agent Now menjalankan audit repo sesuai BANANOW LAND Update Task Spec.
-4. Setelah audit repo selesai dan dilaporkan, baru lanjut ke **Item Urutan Besar 3 — Dependency Update Aman**.
+1. Cabangkan obrolan ini untuk menuntaskan **The Green Print Finalization**.
+2. Di cabang obrolan tersebut, Farmer akan membagikan existing The Green Print.
+3. Farmer dan ChatGPT akan mendiskusikan dan menuntaskan isi The Green Print.
+4. Hasil final disimpan sebagai Markdown.
+5. Obrolan cabang diarsipkan.
+6. Markdown final The Green Print dibawa kembali ke obrolan induk ini.
+7. Setelah The Green Print selesai, baru lanjut ke **Legal Update Minimum**.
 
 ---
 
 ## 19. Next Action yang Paling Dekat
 
-Next action setelah dokumen ini disetujui:
+Next action setelah update dasar website selesai:
 
-**Susun BANANOW LAND Update Task Spec.**
+**Tuntaskan The Green Print Finalization di cabang obrolan terpisah.**
 
-Dokumen itu akan menjadi jembatan antara Daftar Runut dan prompt Agent Now.
+Alasan:
 
-Daftar Runut menjawab:
+Daftar Runut sudah menetapkan bahwa website update dasar boleh jalan dulu, tetapi The Green Print harus selesai sebelum masuk ke:
 
-“Apa urutan kerjanya?”
+1. Legal Update Minimum.
+2. App Foundation dan Struktur Data Terpusat.
+3. Na Now News MVP.
+4. Skool Now MVP.
+5. BANANOW NFT Marketplace.
+6. Claps Alpha.
+7. Modul dinamis lain setelahnya.
 
-Update Task Spec menjawab:
+Cara menjalankan tahap berikutnya:
 
-“Apa persisnya yang harus dikerjakan di fase update website dasar?”
+1. Buat cabang obrolan khusus The Green Print Finalization.
+2. Bagikan existing The Green Print di cabang tersebut.
+3. Audit struktur dan isi The Green Print.
+4. Tentukan struktur final.
+5. Rapikan atau tulis ulang isi yang perlu.
+6. Pastikan The Green Print menjadi root/canonical document BANANOW.
+7. Simpan hasil final dalam bentuk Markdown.
+8. Arsipkan obrolan cabang.
+9. Bawa file Markdown final kembali ke obrolan induk.
+10. Setelah itu, update Daftar Runut lagi dan lanjut ke **Item Urutan Besar 7 — Legal Update Minimum**.
 
-Agent Now Prompt menjawab:
+Status next action: **The Green Print Finalization — 🔜 Berikutnya**
 
-“Bagaimana menyuruh Agent Now mengeksekusinya di repo tanpa melebar?”
+---
+
+## 20. Catatan Review Terakhir
+
+Dokumen ini sudah disinkronkan dengan status terbaru setelah Stage Awal selesai dieksekusi oleh Agent Now dan direview oleh Farmer.
+
+Status final saat ini:
+
+1. Item Urutan Besar 1 sampai 5 sudah ✅ Selesai.
+2. Item Urutan Besar 6 — The Green Print Finalization adalah 🔜 Berikutnya.
+3. Item Urutan Besar 7 dan 8 ditahan sampai The Green Print selesai.
+4. Known issue dependency/security dicatat sebagai backlog dan bukan blocker.
+5. Dokumen ini siap menjadi pegangan sebelum cabang obrolan The Green Print Finalization dimulai.
+
+---
+
+P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.
+
+---
