@@ -21,6 +21,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Sprout",
+    target: "_blank",
     mostWanted: false,
   },
   {
@@ -39,6 +40,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Sprout",
+    target: "_blank",
     mostWanted: false,
   },
   {
@@ -59,6 +61,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Lover",
+    target: "_blank",
     mostWanted: false,
   },
   {
@@ -79,6 +82,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Lover",
+    target: "_blank",
     mostWanted: false,
   },
   {
@@ -102,6 +106,7 @@ const products = [
     ],
     href: "/nfts/",
     cta: "Be a Head",
+    target: "",
     mostWanted: true,
   },
   {
@@ -125,6 +130,7 @@ const products = [
     ],
     href: "/nfts/",
     cta: "Be a Head",
+    target: "",
     mostWanted: true,
   },
   {
@@ -149,6 +155,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Farmer",
+    target: "_blank",
     mostWanted: false,
   },
   {
@@ -173,6 +180,7 @@ const products = [
     ],
     href: "/discord/",
     cta: "Be a Farmer",
+    target: "_blank",
     mostWanted: false,
   },
 ];
@@ -181,19 +189,13 @@ type BillingInterval = "0101" | "Reality";
 
 export default function TheHeads() {
   const sound2Loc = "/sounds/tinggg.mp3";
-  const [play2] = useSound(
-    sound2Loc,
-    { volume: 0.75 }
-  );
+  const [play2] = useSound(sound2Loc, { volume: 0.75 });
   const sound2Click = () => {
     play2();
   };
 
   const sound3Loc = "/sounds/jept.mp3";
-  const [play3] = useSound(
-    sound3Loc,
-    { volume: 0.75 }
-  );
+  const [play3] = useSound(sound3Loc, { volume: 0.75 });
   const sound3ClickA = () => {
     play3();
     setBillingInterval("Reality");
@@ -203,19 +205,33 @@ export default function TheHeads() {
     setBillingInterval("0101");
   };
 
-  const [billingInterval, setBillingInterval,] =
+  const [billingInterval, setBillingInterval] =
     useState<BillingInterval>("Reality");
-    
+
   return (
     <div className="bg-white dark:bg-neutral-900" id="theheads">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32">
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
-          Community of <span className="text-yellow-now dark:text-green-now font-extrabold">BANANOW</span>
+          Community of{" "}
+          <span className="text-yellow-now dark:text-green-now font-extrabold">
+            BANANOW
+          </span>
         </h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> is backed by the
-          perfect community for its Web3 activities, that is the friends and <span className="text-yellow-now dark:text-green-now font-bold">FAMILY</span> of <span className="text-green-now dark:text-yellow-now font-bold">BANANOW</span> in both universes, the Universe of Reality and the 0101 Universe.
+          <span className="text-green-now dark:text-yellow-now font-bold">
+            BANANOW
+          </span>{" "}
+          is backed by the perfect community for its Web3 activities, that is
+          the friends and{" "}
+          <span className="text-yellow-now dark:text-green-now font-bold">
+            FAMILY
+          </span>{" "}
+          of{" "}
+          <span className="text-green-now dark:text-yellow-now font-bold">
+            BANANOW
+          </span>{" "}
+          in both universes, the Universe of Reality and the 0101 Universe.
         </p>
       </div>
 
@@ -228,8 +244,7 @@ export default function TheHeads() {
               billingInterval === "Reality"
                 ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
                 : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
-            } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
-          >
+            } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8 cursor-pointer`}>
             Universe of Reality
           </button>
           <button
@@ -239,8 +254,7 @@ export default function TheHeads() {
               billingInterval === "0101"
                 ? "relative w-1/2 bg-white-now dark:bg-dark-now text-neutral-900 dark:text-white"
                 : "ml-0.5 relative w-1/2 text-white-now dark:text-dark-now hover:underline hover:text-white dark:hover:text-neutral-900"
-            } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
-          >
+            } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8 cursor-pointer`}>
             0101 Universe
           </button>
         </div>
@@ -259,6 +273,7 @@ export default function TheHeads() {
             cta,
             features,
             href,
+            target,
           }) => {
             if (billingInterval !== universe) {
               return null;
@@ -271,60 +286,62 @@ export default function TheHeads() {
                   mostWanted
                     ? "border-green-now border-2 border-solid dark:border-yellow-now"
                     : "border-light-now border dark:border-light-now"
-                }`}
-              >
-                    <h3 className="px-6 text-lg font-judul font-semibold leading-5 text-neutral-900 dark:text-white">
-                      {title}
-                    </h3>
-                    {mostWanted && (
-                      <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full text-sm font-semibold tracking-wide shadow-md">
-                        Most Wanted
-                      </p>
-                    )}
+                }`}>
+                <h3 className="px-6 text-lg font-judul font-semibold leading-5 text-neutral-900 dark:text-white">
+                  {title}
+                </h3>
+                {mostWanted && (
+                  <p className="mx-6 absolute top-0 px-4 py-1 -translate-y-1/2 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full text-sm font-semibold tracking-wide shadow-md">
+                    Most Wanted
+                  </p>
+                )}
 
-                    <p className="px-6 mt-4 leading-6 text-dark-now dark:text-white-now">
-                      {description}
-                    </p>
-                    <div className="mt-2 p-6 -mx-6">
-                      <p className="px-6 font-medium flex place-items-end">
-                        <span className="text-4xl font-bold">{symbol}</span>
-                        &nbsp;&nbsp;
-                        <span className="text-4xl font-bold text-neutral-900 dark:text-white">{supplies}</span>
-                        <span className="ml-1.5 text-neutral-900 dark:text-white">in&nbsp;{universe}</span>
-                      </p>
-                    </div>
+                <p className="px-6 mt-4 leading-6 text-dark-now dark:text-white-now">
+                  {description}
+                </p>
+                <div className="mt-2 p-6 -mx-6">
+                  <p className="px-6 font-medium flex place-items-end">
+                    <span className="text-4xl font-bold">{symbol}</span>
+                    &nbsp;&nbsp;
+                    <span className="text-4xl font-bold text-neutral-900 dark:text-white">
+                      {supplies}
+                    </span>
+                    <span className="ml-1.5 text-neutral-900 dark:text-white">
+                      in&nbsp;{universe}
+                    </span>
+                  </p>
+                </div>
 
-                    {/* Call to action */}
-                    <Link
-                      onClick={sound2Click}
-                      href={href}
-                      target="_blank"
-                      className={`mt-4 mx-6 block px-6 py-3 xl:text-base xl:font-medium text-sm font-normal leading-4 text-center rounded-full ${
-                        mostWanted
-                          ? "bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900 shadow-md"
-                          : "bg-dark-now text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-green-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white"
-                      }`}
-                    >
-                      {cta}
-                    </Link>
+                {/* Call to action */}
+                <Link
+                  onClick={sound2Click}
+                  href={href}
+                  target={target}
+                  className={`mt-4 mx-6 block px-6 py-3 xl:text-base xl:font-medium text-sm font-normal leading-4 text-center rounded-full ${
+                    mostWanted
+                      ? "bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900 shadow-md"
+                      : "bg-dark-now text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-green-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white"
+                  }`}>
+                  {cta}
+                </Link>
 
-                    {/* features */}
-                    <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-light-now dark:border-light-now">
-                      <p className="mt-6 font-semibold text-dark-now dark:text-white-now">
-                        What&apos;s featured...
-                      </p>
-                      {features.map((features) => (
-                        <li key={features} className="leading-6 flex">
-                          <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
-                          <span className="ml-3 text-dark-now dark:text-white-now">
-                            {features}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
+                {/* features */}
+                <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-light-now dark:border-light-now">
+                  <p className="mt-6 font-semibold text-dark-now dark:text-white-now">
+                    What&apos;s featured...
+                  </p>
+                  {features.map((features) => (
+                    <li key={features} className="leading-6 flex">
+                      <CheckIcon className="mt-2 w-3 h-3 text-green-now dark:text-yellow-now shrink-0" />
+                      <span className="ml-3 text-dark-now dark:text-white-now">
+                        {features}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             );
-          }
+          },
         )}
       </div>
     </div>

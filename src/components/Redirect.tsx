@@ -10,20 +10,23 @@ const Redirect = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "BANANOW Land - A Web3 Supportive Family",
+    title: "BANANOW LAND - A Web3 Supportive Family",
     description: `BANANOW is a fun, non-intimidating, supportive family, where its members can always play, learn, and work according to their resulting revenue and formed value in Web3 ecosystem.`,
     image: "/images/seo/FpVbaX0aMAAC7NI.jpeg",
     type: "website",
     ...customMeta,
   };
   return (
-    <div className="min-w-[350px] overflow-x-hidden">
+    <div className="min-w-87.5 overflow-x-hidden">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <link href="/logo32.png" rel="shortcut icon" />
         <meta key={title} content={meta.description} name="description" />
-        <meta property="og:url" content={`https://land.endhonesa.com${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://land.endhonesa.com${router.asPath}`}
+        />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
@@ -31,7 +34,7 @@ const Redirect = (props: any) => {
         <meta property="og:image" content={meta.image} />
         <link rel="canonical" href="https://land.endhonesa.com/" />
       </Head>
-      
+
       <main id="skip" className="bg-white dark:bg-neutral-900">
         <Navbar />
         {children}
@@ -40,5 +43,5 @@ const Redirect = (props: any) => {
     </div>
   );
 };
- 
+
 export default Redirect;

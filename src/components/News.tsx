@@ -9,7 +9,7 @@ const contents = [
   {
     title: "Title Na Now News",
     description:
-      "Diane Ackerman says “Play is our brain’s favorite way of Learning.” So, to us Play it’s not just a word that we try to say, but it is our way of life! We're here to share the secret sauce to a happier, less stressful journey.",
+      "Diane Ackerman says “Play is our brain's favorite way of Learning.” So, to us Play it's not just a word that we try to say, but it is our way of life! We're here to share the secret sauce to a happier, less stressful journey.",
     features: [
       "Date: xx/xx/xxxx",
       "Category: BANANOW, 90s Vibes",
@@ -35,7 +35,7 @@ const contents = [
   {
     title: "Title Na Now News",
     description:
-      "Diane Ackerman says “Play is our brain’s favorite way of Learning.” So, to us Play it’s not just a word that we try to say, but it is our way of life! We're here to share the secret sauce to a happier, less stressful journey.",
+      "Diane Ackerman says “Play is our brain's favorite way of Learning.” So, to us Play it's not just a word that we try to say, but it is our way of life! We're here to share the secret sauce to a happier, less stressful journey.",
     features: [
       "Date: xx/xx/xxxx",
       "Category: BANANOW, BANANOW Class",
@@ -68,8 +68,7 @@ export function News1() {
               onClick={sound0Click}
               href="https://news.endhonesa.com/"
               title="Na Now News of BANANOW"
-              target="_blank"
-            >
+              target="_blank">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);

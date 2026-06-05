@@ -77,7 +77,7 @@ export default function OldBrands() {
           <span className="text-green-now dark:text-yellow-now font-extrabold">
             BANANOW
           </span>
-          's Old Brands
+          's Older Brands
         </h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
@@ -96,7 +96,7 @@ export default function OldBrands() {
           But time goes by. What is planted grows. What is born also grows to
           maturity. What is young grows old. What is old eventually fertilizes
           the soil, making everything planted can grow. If you want to know more
-          about what we do in the early times, click on our old brands below.
+          about what we do in the early times, click on our older brands below.
         </p>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">

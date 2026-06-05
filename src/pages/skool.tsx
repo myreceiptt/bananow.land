@@ -14,14 +14,19 @@ export default function Skool() {
     <Layout>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
-        id="skool"
-      >
+        id="skool">
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
-          Skool Now
+          Skool{" "}
+          <span className="text-yellow-now dark:text-green-now font-extrabold">
+            Now
+          </span>
         </h2>
 
         <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          BANANOW&apos;s home for learning programs, playing communities, and
+          <span className="text-green-now dark:text-yellow-now font-bold">
+            BANANOW
+          </span>
+          &apos;s home for learning programs, playing communities, and
           real-world growth is being prepared.
         </p>
 
@@ -29,8 +34,7 @@ export default function Skool() {
           <Link
             onClick={sound2Click}
             href="/"
-            className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white"
-          >
+            className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
             Back to BANANOW LAND
           </Link>
         </div>
