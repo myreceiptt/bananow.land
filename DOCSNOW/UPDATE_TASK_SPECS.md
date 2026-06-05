@@ -156,7 +156,7 @@ The descriptions must stay the same.
 }
 ```
 
-### 4.6. NOTA’s Dept.
+### 4.6. NOTA’s Department
 
 ```ts
 {

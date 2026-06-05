@@ -21,8 +21,7 @@ export default function Dermaga() {
       </Head>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
-        id="404"
-      >
+        id="404">
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           Dermaga Web3
         </h2>
@@ -41,7 +40,8 @@ export default function Dermaga() {
           height={1080}
           quality={75}
           sizes="100vw"
-          className="w-[350px] md:w-4/12 justify-center text-center mx-auto"
+          loading="eager"
+          className="w-87.5 md:w-4/12 justify-center text-center mx-auto"
         />
         <div className="mt-16 text-center">
           <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
@@ -51,10 +51,8 @@ export default function Dermaga() {
           <Link
             onClick={sound2Click}
             href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/dermaga-web3"
-          >
-            <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
-              Dermaga Web3 on The Green Print
-            </button>
+            className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
+            Dermaga Web3 on The Green Print
           </Link>
         </div>
       </div>

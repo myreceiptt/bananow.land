@@ -1,4 +1,4 @@
-# BANANOW LAND Development Map — Prof. NOTA Inc.
+# BANANOW LAND Development Map — Prof. NOTA Incorporated
 
 Dokumen ini adalah peta pengembangan BANANOW LAND untuk mengubah `https://land.endhonesa.com` dari landing page dan redirect hub menjadi portal utama BANANOW untuk brand, komunitas, NFT, publikasi, edukasi/program, dan AI parenting.
 

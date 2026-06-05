@@ -49,13 +49,13 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="fixed top-0 left-0 right-0 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-700 backdrop-blur-sm bg-white/90 dark:bg-neutral-900/80 z-20">
+      className="fixed top-0 left-0 right-0 text-neutral-900 dark:text-neutral-400 border-b border-neutral-200 dark:border-neutral-700 backdrop-blur-sm bg-white/90 dark:bg-neutral-900/80 z-20">
       {({ open }: { open: any }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="flex flex-1 items-center justify-start">
-                <div className="flex flex-shrink-0 items-center md:pl-0">
+                <div className="flex shrink-0 items-center md:pl-0">
                   <Link onClick={sound0Click} href="/">
                     <Image
                       onMouseEnter={() => {
@@ -68,7 +68,7 @@ export default function Navbar() {
                       }}
                       className="block h-11 w-auto hover:scale-110 transition"
                       src="/images/logos/BananowLogo-169x121.png"
-                      alt="BANANOW.LAND Logo"
+                      alt="BANANOW LAND Logo"
                       width={150}
                       height={150}
                       quality={75}
@@ -101,21 +101,17 @@ export default function Navbar() {
                   <Link
                     onClick={sound2Click}
                     href="/nfts/"
-                    className="hidden lg:block"
-                    title="Be a Head of BANANOW.LAND...">
-                    <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full">
-                      Be a Head
-                    </button>
+                    title="Be a Head of BANANOW LAND..."
+                    className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full">
+                    Be a Head
                   </Link>
                   <Link
                     onClick={sound2Click}
                     href="https://bananowgp.endhonesa.com/"
                     target="_blank"
-                    className="hidden lg:block"
-                    title="Read The Green Print of BANANOW.LAND...">
-                    <button className="bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full">
-                      The Green Print
-                    </button>
+                    className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
+                    title="Read The Green Print of BANANOW LAND...">
+                    The Green Print
                   </Link>
                   <ThemeSwitchButton />
                 </div>
@@ -158,19 +154,17 @@ export default function Navbar() {
               <Link
                 onClick={sound2Click}
                 href="/nfts/"
-                title="Be a Head of BANANOW.LAND...">
-                <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
-                  Be a Head
-                </button>
+                title="Be a Head of BANANOW LAND..."
+                className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
+                Be a Head
               </Link>
               <Link
                 onClick={sound2Click}
                 href="https://bananowgp.endhonesa.com/"
                 target="_blank"
-                title="Read The Green Print of BANANOW.LAND...">
-                <button className="mt-12 bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full">
-                  The Green Print
-                </button>
+                title="Read The Green Print of BANANOW LAND..."
+                className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
+                The Green Print
               </Link>
             </div>
           </Disclosure.Panel>

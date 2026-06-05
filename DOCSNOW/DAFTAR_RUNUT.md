@@ -100,23 +100,23 @@ Aturan utamanya:
 
 ### 1.2. Status Eksekusi Saat Ini
 
-| No. | Item Urutan Besar | Target | Status |
-|---|---|---|---|
-| 1 | Kunci Arah dan Dokumen Kerja | Pre-v1.0 | 🟡 Hampir selesai |
-| 2 | Audit Repo dan Lingkungan Kerja | v1.0 preparation | ⏳ Belum mulai |
-| 3 | Dependency Update Aman | v1.0 preparation | ⏳ Belum mulai |
-| 4 | Pembaruan Website Dasar | v1.0 | ⏳ Belum mulai |
-| 5 | Redirect Audit dan Browser QA | v1.0 | ⏳ Belum mulai |
-| 6 | The Green Print Finalization | v1.0 / v1.1 | ⏳ Belum mulai |
-| 7 | Legal Update Minimum | v1.1 | ⏳ Belum mulai |
-| 8 | App Foundation dan Struktur Data Terpusat | v1.1 | ⏳ Belum mulai |
-| 9 | Na Now News MVP | v1.2 | ⏳ Belum mulai |
-| 10 | Skool Now MVP | v1.3 | ⏳ Belum mulai |
-| 11 | BANANOW NFT Marketplace Testnet | v1.4 | ⏳ Belum mulai |
-| 12 | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.5 | ⏳ Belum mulai |
-| 13 | Claps Alpha | v1.6 | ⏳ Belum mulai |
-| 14 | Admin Dashboard Perluasan | v1.7 / v2.0 preparation | ⏳ Belum mulai |
-| 15 | BANANOW LAND Operating Portal v2.0 | v2.0 | ⏳ Belum mulai |
+| No. | Item Urutan Besar                                 | Target                  | Status            |
+| --- | ------------------------------------------------- | ----------------------- | ----------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.0                | 🟡 Hampir selesai |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.0 preparation        | ⏳ Belum mulai    |
+| 3   | Dependency Update Aman                            | v1.0 preparation        | ⏳ Belum mulai    |
+| 4   | Pembaruan Website Dasar                           | v1.0                    | ⏳ Belum mulai    |
+| 5   | Redirect Audit dan Browser QA                     | v1.0                    | ⏳ Belum mulai    |
+| 6   | The Green Print Finalization                      | v1.0 / v1.1             | ⏳ Belum mulai    |
+| 7   | Legal Update Minimum                              | v1.1                    | ⏳ Belum mulai    |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.1                    | ⏳ Belum mulai    |
+| 9   | Na Now News MVP                                   | v1.2                    | ⏳ Belum mulai    |
+| 10  | Skool Now MVP                                     | v1.3                    | ⏳ Belum mulai    |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.4                    | ⏳ Belum mulai    |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.5                    | ⏳ Belum mulai    |
+| 13  | Claps Alpha                                       | v1.6                    | ⏳ Belum mulai    |
+| 14  | Admin Dashboard Perluasan                         | v1.7 / v2.0 preparation | ⏳ Belum mulai    |
+| 15  | BANANOW LAND Operating Portal v2.0                | v2.0                    | ⏳ Belum mulai    |
 
 Keterangan status:
 
@@ -158,16 +158,16 @@ Dikerjakan oleh Farmer bersama ChatGPT.
 
 ### 2.4. Status Item yang Harus Dieksekusi
 
-| Sub-item | Nama Item | Status |
-|---|---|---|
-| 2.4.1 | Simpan Development Map | ✅ Selesai |
-| 2.4.2 | Simpan Daftar Runut | ✅ Selesai |
-| 2.4.3 | Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now | ✅ Selesai |
-| 2.4.4 | Kumpulkan Data dan Asset untuk Pembaruan Awal | ✅ Selesai |
-| 2.4.5 | Putuskan Strategi The Green Print | ✅ Selesai |
-| 2.4.6 | Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now | ✅ Selesai |
-| 2.4.7 | Susun BANANOW LAND Update Task Spec | ✅ Selesai |
-| 2.4.8 | Susun Agent Now Prompt untuk Stage Awal | 🔜 Berikutnya |
+| Sub-item | Nama Item                                                            | Status        |
+| -------- | -------------------------------------------------------------------- | ------------- |
+| 2.4.1    | Simpan Development Map                                               | ✅ Selesai    |
+| 2.4.2    | Simpan Daftar Runut                                                  | ✅ Selesai    |
+| 2.4.3    | Tentukan Mana yang Dikerjakan Sendiri dan Mana yang Dengan Agent Now | ✅ Selesai    |
+| 2.4.4    | Kumpulkan Data dan Asset untuk Pembaruan Awal                        | ✅ Selesai    |
+| 2.4.5    | Putuskan Strategi The Green Print                                    | ✅ Selesai    |
+| 2.4.6    | Tentukan Scope Pembaruan Awal yang Boleh Diberikan ke Agent Now      | ✅ Selesai    |
+| 2.4.7    | Susun BANANOW LAND Update Task Spec                                  | ✅ Selesai    |
+| 2.4.8    | Susun Agent Now Prompt untuk Stage Awal                              | 🔜 Berikutnya |
 
 Catatan status:
 

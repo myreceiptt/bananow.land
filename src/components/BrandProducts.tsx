@@ -16,7 +16,7 @@ const activeBrands = [
     name: "Skool Now",
     url: "/skool/",
     description:
-      "BANANOW's home for learning programs, playing communities, and real-world growth.",
+      "The home for learning programs, playing communities, and real-world growth.",
     icon: "/images/brandproducts/skoolnow.svg",
   },
   {
@@ -41,7 +41,7 @@ export function BrandProducts() {
 
   return (
     <div className="bg-white dark:bg-neutral-900" id="brandproducts">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 text-center">
         <h2 className="text-4xl font-judul font-bold text-neutral-900 dark:text-white">
           Here are{" "}
           <span className="text-green-now dark:text-yellow-now font-extrabold">
@@ -69,11 +69,7 @@ export function BrandProducts() {
         {activeBrands.map((brand) => (
           <div key={brand.name}>
             <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-              <Link
-                onClick={sound0Click}
-                href={brand.url}
-                title={brand.name}
-                target="_blank">
+              <Link onClick={sound0Click} href={brand.url} title={brand.name}>
                 <Image
                   onMouseEnter={() => {
                     setIsHovering(true);

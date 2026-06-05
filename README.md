@@ -1,8 +1,8 @@
-# BANANOW.LAND Landing Page
+# BANANOW LAND Landing Page
 
 ## About This Repo
 
-`bananow.land` is the landing page and navigation hub for the BANANOW NFT universe. It provides a fast, user-friendly entry point for exploring project destinations (pages, links, and resources) and for routing users to the right on-chain and off-chain experiences.
+`BANANOW LAND` is the landing page and navigation hub for the BANANOW NFT universe. It provides a fast, user-friendly entry point for exploring project destinations (pages, links, and resources) and for routing users to the right on-chain and off-chain experiences.
 
 ### Purpose & Scope
 
@@ -40,17 +40,14 @@ This repo is intended to stay evergreen while remaining production-safe.
 ### Runtime
 
 - Node: **24.x** (see `.nvmrc` and `package.json#engines`)
-
   - ~~example alternatives: 22.x / 20.x (adjust if platform requires)~~
 
 - Package manager:
-
   - **NPM 11.x** (lockfile: `package-lock.json`)
   - ~~Yarn (lockfile: `yarn.lock`)~~
   - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
 
 - Deploy target:
-
   - **Vercel**
   - ~~Netlify~~
   - ~~Self-hosted / Docker~~
@@ -59,20 +56,17 @@ This repo is intended to stay evergreen while remaining production-safe.
 ### Monthly Safe Updates (recommended)
 
 1. Check what’s outdated:
-
    - `npm outdated`
    - ~~yarn outdated~~
    - ~~pnpm outdated~~
 
 2. Upgrade safe (patch/minor) versions:
-
    - `npm update`
    - ~~yarn upgrade~~
    - ~~pnpm update~~
    - or upgrade specific packages shown as non-major
 
 3. Verify:
-
    - `npm audit --audit-level=moderate`
    - ~~yarn audit~~
    - ~~pnpm audit~~
@@ -82,7 +76,6 @@ This repo is intended to stay evergreen while remaining production-safe.
    - ~~pnpm build~~
 
 4. Deploy:
-
    - **Vercel auto-deploy from `main`**
    - ~~manual deploy according to platform workflow~~
 
