@@ -1,8 +1,10 @@
-# BANANOW LAND Update Task Spec
+# BANANOW LAND Update Task Spec — Website Update v1.47
 
-Dokumen ini adalah instruksi teknis untuk eksekusi pembaruan awal BANANOW LAND.
+Dokumen ini adalah **instruction package fix** untuk eksekusi pembaruan awal BANANOW LAND.
 
-Scope dokumen ini hanya untuk fase update dasar website. Tidak membangun fitur besar seperti News CMS, Skool forms, NFT marketplace contract, Claps chatbot, auth, database, payment, subscription, atau admin dashboard.
+Scope dokumen ini hanya untuk **Website Update v1.47**. Dokumen ini tidak dipakai untuk mencatat status pekerjaan setelah eksekusi. Status aktual dicatat di **DAFTAR_RUNUT.md**.
+
+Tidak membangun fitur besar seperti News CMS, Skool forms, NFT marketplace contract, Claps chatbot, auth, database, payment, subscription, atau admin dashboard.
 
 ---
 
@@ -19,18 +21,17 @@ Target update:
    - Skool Now
    - Claps
    - Na Now News
-
 5. Mengubah Footer Brands menu menjadi:
    - Skool Now
    - Claps
    - Na Now News
-   - The Old Brands
-
+   - Older Brands
 6. Mengubah redirect `/pung` menuju akun baru `@OrdinalyPeople`.
 7. Membuat halaman baru `/oldbrands`.
-8. Melakukan redirect audit.
-9. Menjalankan build/test.
-10. Membuat laporan teknis setelah selesai.
+8. Membuat placeholder route `/nfts`, `/skool`, `/claps`, dan `/news` jika diperlukan agar link tidak broken.
+9. Melakukan redirect audit.
+10. Menjalankan build/test.
+11. Membuat laporan teknis setelah selesai.
 
 ---
 
@@ -156,7 +157,7 @@ The descriptions must stay the same.
 }
 ```
 
-### 4.6. NOTA’s Department
+### 4.6. NOTA’s Dept.
 
 ```ts
 {
@@ -217,8 +218,12 @@ Change Footer Brands menu to:
 Skool Now → /skool/
 Claps → /claps/
 Na Now News → /news/
-The Old Brands → /oldbrands
+Older Brands → /oldbrands
 ```
+
+Note:
+
+The page/route remains the old brands archive at `/oldbrands`. The footer label may use `Older Brands`.
 
 ---
 
@@ -371,18 +376,15 @@ After implementation, check:
    - Skool Now
    - Claps
    - Na Now News
-
 3. Each active brand link points correctly:
    - `/skool/`
    - `/claps/`
    - `/news/`
-
 4. Footer Brands menu shows only:
    - Skool Now
    - Claps
    - Na Now News
-   - The Old Brands
-
+   - Older Brands
 5. Footer links point correctly.
 6. Every `Be a Head` link points to `/nfts/`.
 7. `/oldbrands` page loads.
@@ -406,26 +408,21 @@ After work is done, report:
 
 ```md
 ## Summary
-
 - ...
 
 ## Files Changed
-
 - ...
 
 ## Commands Run
-
 - ...
 
 ## Results
-
 - Build:
 - Lint:
 - Typecheck:
 - Dev server:
 
 ## Manual QA
-
 - Homepage:
 - Footer:
 - Be a Head links:
@@ -437,15 +434,12 @@ After work is done, report:
 - Desktop:
 
 ## Not Done
-
 - ...
 
 ## Risks / Notes
-
 - ...
 
 ## Next Step
-
 - ...
 ```
 
@@ -485,7 +479,6 @@ However, The Green Print must be completed before starting:
 7. Any later dynamic module.
 
 After website update dasar and redirect QA are complete, pause and finish The Green Print before moving to the next major stage.
-
 ---
 
 P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.
