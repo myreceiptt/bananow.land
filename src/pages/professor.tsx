@@ -16,7 +16,7 @@ export default function Professor() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-brands/notas-dept./'"
+          content="4; url='https://bananowgp.endhonesa.com/the-ecosystem/the-crops/earlier-crops#notas-department'"
         />
       </Head>
       <div
@@ -54,7 +54,7 @@ export default function Professor() {
           </p>
           <Link
             onClick={sound2Click}
-            href="https://bananowgp.endhonesa.com/the-ecosystem/the-brands/notas-dept./"
+            href="https://bananowgp.endhonesa.com/the-ecosystem/the-crops/earlier-crops#notas-department"
             className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
             NOTA's Department on The Green Print
           </Link>
