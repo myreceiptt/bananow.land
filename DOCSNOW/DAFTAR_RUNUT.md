@@ -44,8 +44,8 @@ Aturan utama:
 | 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                     |
 | 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                     |
 | 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                     |
-| 7   | Legal Update Minimum                              | v1.51      | 🔜 Berikutnya                                  |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ⏳ Ditahan sampai Legal Update Minimum selesai |
+| 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                     |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | 🔜 Berikutnya                                  |
 | 9   | Na Now News MVP                                   | v1.62      | ⏳ Belum mulai                                 |
 | 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                                 |
 | 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                                 |
@@ -76,7 +76,7 @@ Keterangan status:
 7. Dependency update aman sudah dilakukan. ✅ Selesai
 8. Website update dasar sudah selesai. ✅ Selesai
 9. Redirect audit dan Browser QA sudah selesai. ✅ Selesai
-10. Hasil sudah direview di localhost dan deployed Vercel. ✅ Selesai
+10. Hasil Website Update v1.47 sudah direview di localhost dan deployed Vercel. ✅ Selesai
 11. Perubahan Website Update v1.47 sudah dicommit dan dimerge ke branch `main`. ✅ Selesai
 12. The Green Print Finalization v1.50 sudah diterapkan manual. ✅ Selesai
 13. Commit GitBook repo The Green Print: `5459265187fe1f1eccb4f6514d2836fb23e5d617`. ✅ Selesai
@@ -92,8 +92,14 @@ Keterangan status:
     - Embassy terbuka ✅
     - Final Note terbuka ✅
     - Tidak ada placeholder lama di sidebar ✅
-16. Tahap berikutnya adalah **Legal Update Minimum v1.51**. 🔜 Berikutnya
-17. **App Foundation dan Struktur Data Terpusat v1.51** ditahan sampai Legal Update Minimum siap/selesai.
+16. Legal Update Minimum v1.51 sudah diterapkan melalui Agent Now. ✅ Selesai
+17. Privacy Policy v1.51 sudah memakai draft approved dari `DOCSNOW/UPDATE_PRIVACY_POLICY.md`. ✅ Selesai
+18. Terms & Conditions v1.51 sudah memakai draft approved dari `DOCSNOW/UPDATE_TERMS_AND_CONDITIONS.md`. ✅ Selesai
+19. Legal pages sudah menggunakan `Last updated: June 2026`, `land@endhonesa.com`, dan governing law `Republic of Indonesia`. ✅ Selesai
+20. Lint dan build untuk Legal Update Minimum v1.51 lulus. ✅ Selesai
+21. Local route QA untuk `/privacy` dan `/terms` lulus. ✅ Selesai
+22. Production QA untuk `/privacy` dan `/terms` sudah dilakukan oleh Farmer dan lulus. ✅ Selesai
+23. Tahap berikutnya adalah **App Foundation dan Struktur Data Terpusat v1.51**. 🔜 Berikutnya
 
 ---
 
@@ -279,38 +285,49 @@ The Green Print sekarang menjadi root/canonical document BANANOW LAND dan menjad
 
 Target: **v1.51**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
-Akan mulai dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+Hasil:
 
-Tujuan:
+1. Privacy Policy lama sudah direview.
+2. Terms & Conditions lama sudah direview.
+3. Gap legal terhadap arah baru BANANOW LAND sudah diidentifikasi.
+4. Draft Privacy Policy v1.51 sudah disusun dan disetujui oleh Farmer.
+5. Draft Terms & Conditions v1.51 sudah disusun dan disetujui oleh Farmer.
+6. Draft Privacy Policy v1.51 disimpan di `DOCSNOW/UPDATE_PRIVACY_POLICY.md`.
+7. Draft Terms & Conditions v1.51 disimpan di `DOCSNOW/UPDATE_TERMS_AND_CONDITIONS.md`.
+8. Agent Now menerapkan legal update ke:
+   - `src/pages/privacy.tsx`
+   - `src/pages/terms.tsx`
+9. `/privacy` sekarang merender Privacy Policy v1.51.
+10. `/terms` sekarang merender Terms & Conditions v1.51.
+11. Legal pages sudah menggunakan `Last updated: June 2026`.
+12. Legal pages sudah menggunakan contact email `land@endhonesa.com`.
+13. Terms sudah menggunakan governing law `Republic of Indonesia`.
+14. Privacy Policy mencakup forms/inquiry, Web3/NFT data, AI/Claps data, News/content data, Skool/program data, analytics/cookies/local storage, third-party services, data request/contact flow, dan batasan data publik blockchain.
+15. Terms mencakup Official Doors, general-vs-crop-specific rule, forms/inquiry, Web3/NFT risk, AI/Claps disclaimer, News/content disclaimer, Skool/program disclaimer, third-party links, limitation of liability, dan governing law.
+16. `npm run lint` lulus.
+17. `npm run build` lulus.
+18. Local route QA untuk `/privacy` dan `/terms` lulus.
+19. Production QA untuk `/privacy` dan `/terms` sudah dilakukan oleh Farmer dan lulus.
 
-Privacy Policy dan Terms & Conditions harus ditinjau dan diperbarui agar tidak tertinggal dari arah baru BANANOW LAND setelah The Green Print v1.50 selesai.
+Gate selesai:
 
-Gambaran isi:
+- [x] Existing `privacy.tsx` atau konten Privacy Policy dibagikan/diaudit.
+- [x] Existing `terms.tsx` atau konten Terms & Conditions dibagikan/diaudit.
+- [x] Gap legal minimum diidentifikasi.
+- [x] Legal Update Minimum Task Spec disusun.
+- [x] Privacy Policy v1.51 disusun dan disetujui.
+- [x] Terms & Conditions v1.51 disusun dan disetujui.
+- [x] Privacy Policy diperbarui.
+- [x] Terms & Conditions diperbarui.
+- [x] Build/lint lulus.
+- [x] Browser QA legal pages lulus.
+- [x] Production QA legal pages lulus.
 
-1. Review Privacy Policy lama.
-2. Review Terms & Conditions lama.
-3. Identifikasi gap terhadap arah baru BANANOW LAND.
-4. Tambahkan arah fitur baru secara umum.
-5. Tambahkan Web3/NFT risk note minimum.
-6. Tambahkan AI/Claps disclaimer minimum.
-7. Tambahkan forms/data collection note minimum.
-8. Tambahkan third-party infrastructure note jika diperlukan.
-9. Tambahkan data deletion/contact flow jika diperlukan.
-10. Build/test setelah update legal pages.
+Catatan:
 
-Gate sementara:
-
-- [ ] Existing `privacy.tsx` atau konten Privacy Policy dibagikan/diaudit.
-- [ ] Existing `terms.tsx` atau konten Terms & Conditions dibagikan/diaudit.
-- [ ] Gap legal minimum diidentifikasi.
-- [ ] Legal Update Minimum Task Spec disusun jika diperlukan.
-- [ ] Privacy Policy diperbarui.
-- [ ] Terms & Conditions diperbarui.
-- [ ] Build/lint lulus.
-- [ ] Browser QA legal pages lulus.
-- [ ] Perubahan dicommit.
+Legal Update Minimum v1.51 sudah membuka gate untuk mulai **App Foundation dan Struktur Data Terpusat v1.51**.
 
 ---
 
@@ -318,9 +335,13 @@ Gate sementara:
 
 Target: **v1.51**
 
-Status: ⏳ Ditahan sampai Legal Update Minimum siap/selesai.
+Status: 🔜 Berikutnya.
 
-Akan dibreakdown setelah The Green Print Finalization selesai dan Legal Update Minimum siap masuk eksekusi.
+Akan dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+
+Tujuan:
+
+Menyiapkan fondasi teknis agar BANANOW LAND bisa berkembang menjadi aplikasi modular tanpa kehilangan identitas visual, layout, sound effect, dan rasa BANANOW.
 
 Gambaran isi:
 
@@ -329,10 +350,21 @@ Gambaran isi:
 3. Centralize brand config.
 4. Centralize redirect config.
 5. Reusable page template.
-6. Reusable button/sound component.
-7. Reusable card components.
-8. `.env.example` update.
-9. SEO metadata base.
+6. Reusable legal/content page renderer jika diperlukan.
+7. Reusable button/sound component.
+8. Reusable card components.
+9. `.env.example` update.
+10. SEO metadata base.
+11. Review pola Markdown renderer legal pages yang baru ditambahkan.
+12. Catat backlog renderer Markdown jika nanti perlu mendukung nested bullet, table, link Markdown kompleks, blockquote, atau footnote.
+
+Gate sementara:
+
+- [ ] Audit struktur komponen saat ini.
+- [ ] Audit data/link/redirect yang masih hardcoded.
+- [ ] Tentukan scope App Foundation v1.51.
+- [ ] Susun App Foundation Task Spec jika diperlukan.
+- [ ] Jangan masuk ke News CMS, Skool forms, NFT Marketplace, atau Claps implementation sebelum foundation siap.
 
 ---
 
@@ -454,46 +486,41 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 Next action:
 
-**Mulai Item Urutan Besar 7 — Legal Update Minimum v1.51.**
+**Mulai Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat v1.51.**
 
 Alasan:
 
-The Green Print Finalization v1.50 sudah selesai, sudah dipublish di GitBook, dan QA sudah lulus. Dengan demikian gate untuk melanjutkan ke Legal Update Minimum sudah terbuka.
+Legal Update Minimum v1.51 sudah selesai, sudah diterapkan di `/privacy` dan `/terms`, lint/build lulus, local route QA lulus, dan production QA sudah dilakukan oleh Farmer dengan hasil success/lulus. Dengan demikian gate untuk melanjutkan ke App Foundation sudah terbuka.
 
 Urutan kerja paling dekat:
 
-1. Review Privacy Policy sekarang.
-2. Review Terms & Conditions sekarang.
-3. Tentukan gap terhadap arah baru BANANOW LAND:
-   - forms / inquiry,
-   - Web3 / NFT,
-   - AI / Claps,
-   - News/content,
-   - Skool/programs,
-   - third-party services,
-   - analytics,
-   - data deletion/contact flow.
-4. Susun Legal Update Minimum Task Spec jika diperlukan.
-5. Eksekusi update legal pages.
-6. Build/lint/test.
-7. Browser QA.
-8. Commit.
+1. Audit struktur komponen saat ini.
+2. Audit data/link/redirect yang masih hardcoded.
+3. Audit legal Markdown renderer yang baru ditambahkan.
+4. Tentukan scope App Foundation v1.51.
+5. Tentukan apakah perlu Task Spec khusus App Foundation.
+6. Susun prompt Agent Now atau panduan manual untuk App Foundation.
+7. Eksekusi App Foundation secara bertahap.
+8. Build/lint/test.
+9. Browser QA.
+10. Commit.
 
-Status next action: **Legal Update Minimum v1.51 — 🔜 Berikutnya**
+Status next action: **App Foundation dan Struktur Data Terpusat v1.51 — 🔜 Berikutnya**
 
 ---
 
 ## 20. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah The Green Print Finalization v1.50 selesai diterapkan manual dan dipublish di GitBook.
+Dokumen ini sudah diperbarui setelah Legal Update Minimum v1.51 selesai diterapkan dan production QA lulus.
 
 Status final saat ini:
 
-1. Item Urutan Besar 1 sampai 6 sudah ✅ Selesai.
-2. Item Urutan Besar 7 — Legal Update Minimum adalah 🔜 Berikutnya.
-3. Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat ditahan sampai Legal Update Minimum siap/selesai.
+1. Item Urutan Besar 1 sampai 7 sudah ✅ Selesai.
+2. Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat adalah 🔜 Berikutnya.
+3. Item Urutan Besar 9 dan seterusnya tetap belum mulai sampai App Foundation selesai atau sampai ada keputusan baru.
 4. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker.
-5. Dokumen ini siap menjadi pegangan untuk memulai Legal Update Minimum v1.51.
+5. Markdown renderer legal pages yang ditambahkan pada Legal Update Minimum v1.51 cukup untuk draft saat ini, tetapi perlu dicatat sebagai backlog jika nanti legal/content Markdown memakai nested bullet, table, link Markdown kompleks, blockquote, atau footnote.
+6. Dokumen ini siap menjadi pegangan untuk memulai App Foundation dan Struktur Data Terpusat v1.51.
 
 ---
 
