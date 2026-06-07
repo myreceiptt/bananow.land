@@ -157,7 +157,7 @@ The descriptions must stay the same.
 }
 ```
 
-### 4.6. NOTA’s Dept.
+### 4.6. NOTA’s Department
 
 ```ts
 {
@@ -408,21 +408,26 @@ After work is done, report:
 
 ```md
 ## Summary
+
 - ...
 
 ## Files Changed
+
 - ...
 
 ## Commands Run
+
 - ...
 
 ## Results
+
 - Build:
 - Lint:
 - Typecheck:
 - Dev server:
 
 ## Manual QA
+
 - Homepage:
 - Footer:
 - Be a Head links:
@@ -434,12 +439,15 @@ After work is done, report:
 - Desktop:
 
 ## Not Done
+
 - ...
 
 ## Risks / Notes
+
 - ...
 
 ## Next Step
+
 - ...
 ```
 
@@ -478,7 +486,8 @@ However, The Green Print must be completed before starting:
 6. Claps Alpha.
 7. Any later dynamic module.
 
-After website update dasar and redirect QA are complete, pause and finish The Green Print before moving to the next major stage.
+## After website update dasar and redirect QA are complete, pause and finish The Green Print before moving to the next major stage
+
 ---
 
 P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.

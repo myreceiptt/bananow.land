@@ -149,35 +149,35 @@ Dokumen kerja internal dapat menggunakan bahasa Indonesia. Copy publik website B
 
 ### 3.1. Halaman Utama dan Legal
 
-| Halaman | URL | Fungsi |
-|---|---|---|
-| Home | `/` | Portal utama BANANOW LAND |
-| Privacy Policy | `/privacy` | Kebijakan privasi |
-| Terms & Conditions | `/terms` | Syarat dan ketentuan |
+| Halaman            | URL          | Fungsi                                                              |
+| ------------------ | ------------ | ------------------------------------------------------------------- |
+| Home               | `/`          | Portal utama BANANOW LAND                                           |
+| Privacy Policy     | `/privacy`   | Kebijakan privasi                                                   |
+| Terms & Conditions | `/terms`     | Syarat dan ketentuan                                                |
 | Old Brands Archive | `/oldbrands` | Arsip brand lama BANANOW; footer label dapat memakai `Older Brands` |
 
 ### 3.2. Halaman Produk/Brand Baru
 
-| Halaman | URL | Fungsi |
-|---|---|---|
-| Skool Now | `/skool/` | Parent landing page untuk program edukasi/aktivitas BANANOW |
-| Skool Now Program Detail | `/skool/[program]/` | Landing page per program, misalnya Skate Skool Now |
-| BANANOW NFT Marketplace | `/nfts/` | Tempat membeli/menjual NFT BANANOW |
-| Na Now News | `/news/` | Portal artikel/news BANANOW |
-| News Article | `/news/[slug]/` | Halaman detail artikel |
-| Claps | `/claps/` | AI Parenting Chatbot landing/app page |
+| Halaman                  | URL                 | Fungsi                                                      |
+| ------------------------ | ------------------- | ----------------------------------------------------------- |
+| Skool Now                | `/skool/`           | Parent landing page untuk program edukasi/aktivitas BANANOW |
+| Skool Now Program Detail | `/skool/[program]/` | Landing page per program, misalnya Skate Skool Now          |
+| BANANOW NFT Marketplace  | `/nfts/`            | Tempat membeli/menjual NFT BANANOW                          |
+| Na Now News              | `/news/`            | Portal artikel/news BANANOW                                 |
+| News Article             | `/news/[slug]/`     | Halaman detail artikel                                      |
+| Claps                    | `/claps/`           | AI Parenting Chatbot landing/app page                       |
 
 ### 3.3. Halaman Dashboard
 
 Dashboard dibuat setelah fondasi aman.
 
-| Halaman | URL | Fungsi |
-|---|---|---|
-| Admin Dashboard | `/admin/` | Pusat admin umum |
-| News Admin | `/admin/news/` | Create/edit/update artikel |
-| Skool Admin | `/admin/skool/` | Mengelola program, paket, pendaftaran |
-| NFT Admin | `/admin/nfts/` | Mengelola marketplace, fee, collection config |
-| Claps Admin | `/admin/claps/` | Mengelola model, memory, safety, library |
+| Halaman         | URL             | Fungsi                                        |
+| --------------- | --------------- | --------------------------------------------- |
+| Admin Dashboard | `/admin/`       | Pusat admin umum                              |
+| News Admin      | `/admin/news/`  | Create/edit/update artikel                    |
+| Skool Admin     | `/admin/skool/` | Mengelola program, paket, pendaftaran         |
+| NFT Admin       | `/admin/nfts/`  | Mengelola marketplace, fee, collection config |
+| Claps Admin     | `/admin/claps/` | Mengelola model, memory, safety, library      |
 
 ### 3.4. Halaman Redirect yang Tetap Ada
 
@@ -197,23 +197,23 @@ Catatan penting:
 
 Urutan ini menjadi urutan fix Development Map. Status eksekusinya dicatat di Daftar Runut.
 
-| No. | Stage | Target Versi | Output Utama |
-|---|---|---|---|
-| 0 | Kunci Arah dan Dokumen Kerja | Pre-v1.47 | Development Map, Daftar Runut, Task Spec awal |
-| 1 | Audit Repo dan Lingkungan Kerja | v1.47-prep | Repo health diketahui |
-| 2 | Dependency Update Aman | v1.47-prep | Dependency aman, build/lint lulus |
-| 3 | Pembaruan Website Dasar | v1.47 | Homepage/footer/link/placeholder diperbarui |
-| 4 | Redirect Audit dan Browser QA | v1.47 | Route dan redirect lulus QA |
-| 5 | The Green Print Finalization | v1.50 | Root/canonical document BANANOW final |
-| 6 | Legal Update Minimum | v1.51 | Privacy/Terms minimum mengikuti arah baru |
-| 7 | App Foundation dan Struktur Data Terpusat | v1.51 | Layout, config, komponen reusable |
-| 8 | Na Now News MVP | v1.62 | News list, article detail, admin dasar |
-| 9 | Skool Now MVP | v1.74 | Skool parent page dan program pertama |
-| 10 | BANANOW NFT Marketplace Testnet | v1.85 | Marketplace fixed-price testnet |
-| 11 | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92 | Marketplace mainnet bertahap |
-| 12 | Claps Alpha | v2.00 | AI parenting alpha dengan safety |
-| 13 | Admin Dashboard Perluasan | v2.05 | Admin lintas modul |
-| 14 | BANANOW LAND Operating Portal | v2.11 | Portal operasional matang |
+| No. | Stage                                             | Target Versi | Output Utama                                  |
+| --- | ------------------------------------------------- | ------------ | --------------------------------------------- |
+| 0   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47    | Development Map, Daftar Runut, Task Spec awal |
+| 1   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep   | Repo health diketahui                         |
+| 2   | Dependency Update Aman                            | v1.47-prep   | Dependency aman, build/lint lulus             |
+| 3   | Pembaruan Website Dasar                           | v1.47        | Homepage/footer/link/placeholder diperbarui   |
+| 4   | Redirect Audit dan Browser QA                     | v1.47        | Route dan redirect lulus QA                   |
+| 5   | The Green Print Finalization                      | v1.50        | Root/canonical document BANANOW final         |
+| 6   | Legal Update Minimum                              | v1.51        | Privacy/Terms minimum mengikuti arah baru     |
+| 7   | App Foundation dan Struktur Data Terpusat         | v1.51        | Layout, config, komponen reusable             |
+| 8   | Na Now News MVP                                   | v1.62        | News list, article detail, admin dasar        |
+| 9   | Skool Now MVP                                     | v1.74        | Skool parent page dan program pertama         |
+| 10  | BANANOW NFT Marketplace Testnet                   | v1.85        | Marketplace fixed-price testnet               |
+| 11  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92        | Marketplace mainnet bertahap                  |
+| 12  | Claps Alpha                                       | v2.00        | AI parenting alpha dengan safety              |
+| 13  | Admin Dashboard Perluasan                         | v2.05        | Admin lintas modul                            |
+| 14  | BANANOW LAND Operating Portal                     | v2.11        | Portal operasional matang                     |
 
 ---
 
@@ -531,20 +531,20 @@ Output:
 
 ## 20. Milestone Versi Canonical
 
-| Versi | Nama | Ringkasan |
-|---|---|---|
-| Pre-v1.47 | Direction Lock | Development Map, Daftar Runut, Task Spec |
-| v1.47-prep | Repo Preparation | Audit repo dan dependency update |
-| v1.47 | Website Update | Homepage/footer/link/redirect/basic placeholders |
-| v1.50 | The Green Print Finalization | Root/canonical document final |
-| v1.51 | Legal + App Foundation | Legal minimum dan struktur app |
-| v1.62 | Na Now News MVP | News CMS sederhana |
-| v1.74 | Skool Now MVP | Parent page dan program pertama |
-| v1.85 | NFT Marketplace Testnet | Marketplace testnet |
-| v1.92 | NFT Marketplace Mainnet | Controlled mainnet launch |
-| v2.00 | Claps Alpha | AI Parenting Chatbot alpha |
-| v2.05 | Admin Dashboard Expansion | Admin lintas modul |
-| v2.11 | Operating Portal | Portal operasional matang |
+| Versi      | Nama                         | Ringkasan                                        |
+| ---------- | ---------------------------- | ------------------------------------------------ |
+| Pre-v1.47  | Direction Lock               | Development Map, Daftar Runut, Task Spec         |
+| v1.47-prep | Repo Preparation             | Audit repo dan dependency update                 |
+| v1.47      | Website Update               | Homepage/footer/link/redirect/basic placeholders |
+| v1.50      | The Green Print Finalization | Root/canonical document final                    |
+| v1.51      | Legal + App Foundation       | Legal minimum dan struktur app                   |
+| v1.62      | Na Now News MVP              | News CMS sederhana                               |
+| v1.74      | Skool Now MVP                | Parent page dan program pertama                  |
+| v1.85      | NFT Marketplace Testnet      | Marketplace testnet                              |
+| v1.92      | NFT Marketplace Mainnet      | Controlled mainnet launch                        |
+| v2.00      | Claps Alpha                  | AI Parenting Chatbot alpha                       |
+| v2.05      | Admin Dashboard Expansion    | Admin lintas modul                               |
+| v2.11      | Operating Portal             | Portal operasional matang                        |
 
 ---
 
@@ -690,7 +690,8 @@ Development Map ini adalah roadmap fix.
 
 Jika pelaksanaan berubah karena kondisi nyata repo, perubahan status tidak dicatat di sini, tetapi dicatat di **Daftar Runut** atau **Item Sisipan**.
 
-Development Map hanya diubah jika arah besar BANANOW LAND berubah secara fundamental.
+## Development Map hanya diubah jika arah besar BANANOW LAND berubah secara fundamental
+
 ---
 
 P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.

@@ -36,23 +36,23 @@ Aturan utama:
 
 ### 1.1. Urutan Besar Induk
 
-| No. | Item Urutan Besar | Target | Status |
-|---|---|---|---|
-| 1 | Kunci Arah dan Dokumen Kerja | Pre-v1.47 | ✅ Selesai |
-| 2 | Audit Repo dan Lingkungan Kerja | v1.47-prep | ✅ Selesai |
-| 3 | Dependency Update Aman | v1.47-prep | ✅ Selesai |
-| 4 | Pembaruan Website Dasar | v1.47 | ✅ Selesai |
-| 5 | Redirect Audit dan Browser QA | v1.47 | ✅ Selesai |
-| 6 | The Green Print Finalization | v1.50 | 🔜 Berikutnya |
-| 7 | Legal Update Minimum | v1.51 | ⏳ Ditahan sampai The Green Print selesai |
-| 8 | App Foundation dan Struktur Data Terpusat | v1.51 | ⏳ Ditahan sampai The Green Print selesai |
-| 9 | Na Now News MVP | v1.62 | ⏳ Belum mulai |
-| 10 | Skool Now MVP | v1.74 | ⏳ Belum mulai |
-| 11 | BANANOW NFT Marketplace Testnet | v1.85 | ⏳ Belum mulai |
-| 12 | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92 | ⏳ Belum mulai |
-| 13 | Claps Alpha | v2.00 | ⏳ Belum mulai |
-| 14 | Admin Dashboard Perluasan | v2.05 | ⏳ Belum mulai |
-| 15 | BANANOW LAND Operating Portal | v2.11 | ⏳ Belum mulai |
+| No. | Item Urutan Besar                                 | Target     | Status                                    |
+| --- | ------------------------------------------------- | ---------- | ----------------------------------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                |
+| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                |
+| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                |
+| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                |
+| 6   | The Green Print Finalization                      | v1.50      | 🔜 Berikutnya                             |
+| 7   | Legal Update Minimum                              | v1.51      | ⏳ Ditahan sampai The Green Print selesai |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ⏳ Ditahan sampai The Green Print selesai |
+| 9   | Na Now News MVP                                   | v1.62      | ⏳ Belum mulai                            |
+| 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                            |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
+| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
+| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                            |
+| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
 
 Keterangan status:
 
@@ -426,9 +426,7 @@ The Green Print harus selesai sebelum masuk ke:
 6. Claps Alpha.
 7. Modul dinamis lain setelahnya.
 
-Status next action:
-
-**The Green Print Finalization — 🔜 Berikutnya**
+Status next action: **The Green Print Finalization — 🔜 Berikutnya**
 
 ---
 
@@ -443,6 +441,7 @@ Status final saat ini:
 3. Item Urutan Besar 7 dan 8 ditahan sampai The Green Print selesai.
 4. Known issue dependency/security dicatat sebagai backlog dan bukan blocker.
 5. Dokumen ini siap menjadi pegangan sebelum cabang obrolan The Green Print Finalization dimulai.
+
 ---
 
 P.S. Read this document freely for information and guidance. Do not redistribute or restate—no quotes, summaries, paraphrases, or derivatives—without prior written permission from [**Prof. NOTA**](https://nota.endhonesa.com/). Sharing the link is allowed. So, share the link, not the text. Do not discuss or re-tell the contents in any form—written, spoken, or recorded—without prior written permission.
