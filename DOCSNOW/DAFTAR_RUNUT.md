@@ -36,23 +36,23 @@ Aturan utama:
 
 ### 1.1. Urutan Besar Induk
 
-| No. | Item Urutan Besar                                 | Target     | Status                                    |
-| --- | ------------------------------------------------- | ---------- | ----------------------------------------- |
-| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                |
-| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                |
-| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                |
-| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                |
-| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                |
-| 6   | The Green Print Finalization                      | v1.50      | 🔜 Berikutnya                             |
-| 7   | Legal Update Minimum                              | v1.51      | ⏳ Ditahan sampai The Green Print selesai |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ⏳ Ditahan sampai The Green Print selesai |
-| 9   | Na Now News MVP                                   | v1.62      | ⏳ Belum mulai                            |
-| 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                            |
-| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
-| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
-| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
-| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                            |
-| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
+| No. | Item Urutan Besar                                 | Target     | Status                                         |
+| --- | ------------------------------------------------- | ---------- | ---------------------------------------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                     |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                     |
+| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                     |
+| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                     |
+| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                     |
+| 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                     |
+| 7   | Legal Update Minimum                              | v1.51      | 🔜 Berikutnya                                  |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ⏳ Ditahan sampai Legal Update Minimum selesai |
+| 9   | Na Now News MVP                                   | v1.62      | ⏳ Belum mulai                                 |
+| 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                                 |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                                 |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                                 |
+| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                                 |
+| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                                 |
+| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                                 |
 
 Keterangan status:
 
@@ -77,10 +77,23 @@ Keterangan status:
 8. Website update dasar sudah selesai. ✅ Selesai
 9. Redirect audit dan Browser QA sudah selesai. ✅ Selesai
 10. Hasil sudah direview di localhost dan deployed Vercel. ✅ Selesai
-11. Perubahan sudah dicommit dan dimerge ke branch `main`. ✅ Selesai
-12. Tahap berikutnya adalah **The Green Print Finalization**. 🔜 Berikutnya
-13. The Green Print Finalization akan dikerjakan di cabang obrolan terpisah.
-14. Hasil final The Green Print akan dibawa kembali ke obrolan induk ini dalam bentuk Markdown.
+11. Perubahan Website Update v1.47 sudah dicommit dan dimerge ke branch `main`. ✅ Selesai
+12. The Green Print Finalization v1.50 sudah diterapkan manual. ✅ Selesai
+13. Commit GitBook repo The Green Print: `5459265187fe1f1eccb4f6514d2836fb23e5d617`. ✅ Selesai
+14. GitBook sudah published dan tidak ada issue. ✅ Selesai
+15. QA GitBook lulus:
+    - `SUMMARY.md` sesuai struktur final ✅
+    - Halaman utama terbuka ✅
+    - The Map terbuka ✅
+    - Future Proof Crops terbuka ✅
+    - Earlier Crops terbuka ✅
+    - The FAMILY dan role pages terbuka ✅
+    - BANANOW NFT terbuka ✅
+    - Embassy terbuka ✅
+    - Final Note terbuka ✅
+    - Tidak ada placeholder lama di sidebar ✅
+16. Tahap berikutnya adalah **Legal Update Minimum v1.51**. 🔜 Berikutnya
+17. **App Foundation dan Struktur Data Terpusat v1.51** ditahan sampai Legal Update Minimum siap/selesai.
 
 ---
 
@@ -224,31 +237,41 @@ Gate selesai:
 
 Target: **v1.50**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
-Rencana:
+Hasil:
 
-1. Cabangkan obrolan khusus The Green Print Finalization.
-2. Bagikan existing The Green Print.
-3. Audit struktur dan isi.
-4. Tentukan struktur final.
-5. Rapikan atau tulis ulang isi yang perlu.
-6. Pastikan The Green Print menjadi root/canonical document BANANOW.
-7. Simpan hasil final dalam bentuk Markdown.
-8. Arsipkan obrolan cabang.
-9. Bawa file Markdown final kembali ke obrolan induk.
-10. Setelah itu, update Daftar Runut lagi.
+1. The Green Print Finalization v1.50 sudah diterapkan manual.
+2. Commit GitBook repo: `5459265187fe1f1eccb4f6514d2836fb23e5d617`.
+3. GitBook sudah published dan tidak ada issue.
+4. `SUMMARY.md` sudah sesuai struktur final.
+5. Halaman utama sudah terbuka.
+6. The Map sudah terbuka.
+7. Future Proof Crops sudah terbuka.
+8. Earlier Crops sudah terbuka.
+9. The FAMILY dan role pages sudah terbuka.
+10. BANANOW NFT sudah terbuka.
+11. Embassy sudah terbuka.
+12. Final Note sudah terbuka.
+13. Tidak ada placeholder lama di sidebar.
 
 Gate selesai:
 
-- [ ] Existing The Green Print dibagikan.
-- [ ] Struktur final disetujui.
-- [ ] Copy final selesai.
-- [ ] Final note ditambahkan.
-- [ ] Markdown final tersedia.
-- [ ] Link GitBook/website dicek.
-- [ ] Obrolan cabang diarsipkan.
-- [ ] Hasil dibawa kembali ke obrolan induk.
+- [x] Existing The Green Print dibagikan.
+- [x] Struktur final disetujui.
+- [x] Copy final selesai.
+- [x] Final note ditambahkan.
+- [x] Markdown final tersedia.
+- [x] GitBook repo diperbarui manual.
+- [x] Commit GitBook repo dibuat.
+- [x] GitBook sudah published.
+- [x] Link GitBook/website dicek.
+- [x] QA GitBook lulus.
+- [x] Hasil dibawa kembali ke obrolan induk.
+
+Catatan:
+
+The Green Print sekarang menjadi root/canonical document BANANOW LAND dan menjadi gate yang membuka tahap berikutnya: **Legal Update Minimum v1.51**.
 
 ---
 
@@ -256,19 +279,38 @@ Gate selesai:
 
 Target: **v1.51**
 
-Status: ⏳ Ditahan sampai The Green Print selesai.
+Status: 🔜 Berikutnya.
 
-Akan dibreakdown setelah The Green Print Finalization selesai.
+Akan mulai dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+
+Tujuan:
+
+Privacy Policy dan Terms & Conditions harus ditinjau dan diperbarui agar tidak tertinggal dari arah baru BANANOW LAND setelah The Green Print v1.50 selesai.
 
 Gambaran isi:
 
-1. Review Privacy lama.
-2. Review Terms lama.
-3. Tambahkan arah fitur baru secara umum.
-4. Tambahkan Web3/NFT risk note minimum.
-5. Tambahkan AI disclaimer minimum.
-6. Tambahkan forms/data collection note minimum.
-7. Build/test.
+1. Review Privacy Policy lama.
+2. Review Terms & Conditions lama.
+3. Identifikasi gap terhadap arah baru BANANOW LAND.
+4. Tambahkan arah fitur baru secara umum.
+5. Tambahkan Web3/NFT risk note minimum.
+6. Tambahkan AI/Claps disclaimer minimum.
+7. Tambahkan forms/data collection note minimum.
+8. Tambahkan third-party infrastructure note jika diperlukan.
+9. Tambahkan data deletion/contact flow jika diperlukan.
+10. Build/test setelah update legal pages.
+
+Gate sementara:
+
+- [ ] Existing `privacy.tsx` atau konten Privacy Policy dibagikan/diaudit.
+- [ ] Existing `terms.tsx` atau konten Terms & Conditions dibagikan/diaudit.
+- [ ] Gap legal minimum diidentifikasi.
+- [ ] Legal Update Minimum Task Spec disusun jika diperlukan.
+- [ ] Privacy Policy diperbarui.
+- [ ] Terms & Conditions diperbarui.
+- [ ] Build/lint lulus.
+- [ ] Browser QA legal pages lulus.
+- [ ] Perubahan dicommit.
 
 ---
 
@@ -276,7 +318,7 @@ Gambaran isi:
 
 Target: **v1.51**
 
-Status: ⏳ Ditahan sampai The Green Print selesai.
+Status: ⏳ Ditahan sampai Legal Update Minimum siap/selesai.
 
 Akan dibreakdown setelah The Green Print Finalization selesai dan Legal Update Minimum siap masuk eksekusi.
 
@@ -412,35 +454,46 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 Next action:
 
-**Tuntaskan The Green Print Finalization di cabang obrolan terpisah.**
+**Mulai Item Urutan Besar 7 — Legal Update Minimum v1.51.**
 
 Alasan:
 
-The Green Print harus selesai sebelum masuk ke:
+The Green Print Finalization v1.50 sudah selesai, sudah dipublish di GitBook, dan QA sudah lulus. Dengan demikian gate untuk melanjutkan ke Legal Update Minimum sudah terbuka.
 
-1. Legal Update Minimum.
-2. App Foundation dan Struktur Data Terpusat.
-3. Na Now News MVP.
-4. Skool Now MVP.
-5. BANANOW NFT Marketplace.
-6. Claps Alpha.
-7. Modul dinamis lain setelahnya.
+Urutan kerja paling dekat:
 
-Status next action: **The Green Print Finalization — 🔜 Berikutnya**
+1. Review Privacy Policy sekarang.
+2. Review Terms & Conditions sekarang.
+3. Tentukan gap terhadap arah baru BANANOW LAND:
+   - forms / inquiry,
+   - Web3 / NFT,
+   - AI / Claps,
+   - News/content,
+   - Skool/programs,
+   - third-party services,
+   - analytics,
+   - data deletion/contact flow.
+4. Susun Legal Update Minimum Task Spec jika diperlukan.
+5. Eksekusi update legal pages.
+6. Build/lint/test.
+7. Browser QA.
+8. Commit.
+
+Status next action: **Legal Update Minimum v1.51 — 🔜 Berikutnya**
 
 ---
 
 ## 20. Catatan Review Terakhir
 
-Dokumen ini sudah disinkronkan dengan Development Map dan Update Task Spec.
+Dokumen ini sudah diperbarui setelah The Green Print Finalization v1.50 selesai diterapkan manual dan dipublish di GitBook.
 
 Status final saat ini:
 
-1. Item Urutan Besar 1 sampai 5 sudah ✅ Selesai.
-2. Item Urutan Besar 6 — The Green Print Finalization adalah 🔜 Berikutnya.
-3. Item Urutan Besar 7 dan 8 ditahan sampai The Green Print selesai.
-4. Known issue dependency/security dicatat sebagai backlog dan bukan blocker.
-5. Dokumen ini siap menjadi pegangan sebelum cabang obrolan The Green Print Finalization dimulai.
+1. Item Urutan Besar 1 sampai 6 sudah ✅ Selesai.
+2. Item Urutan Besar 7 — Legal Update Minimum adalah 🔜 Berikutnya.
+3. Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat ditahan sampai Legal Update Minimum siap/selesai.
+4. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker.
+5. Dokumen ini siap menjadi pegangan untuk memulai Legal Update Minimum v1.51.
 
 ---
 
