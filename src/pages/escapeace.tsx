@@ -16,7 +16,7 @@ export default function Escapeace() {
       <Head>
         <meta
           httpEquiv="Refresh"
-          content="4; url='https://foundation.app/collection/now-92cf'"
+          content="4; url='https://opensea.io/collection/nowart-1o1'"
         />
       </Head>
       <div
@@ -46,7 +46,7 @@ export default function Escapeace() {
           </p>
           <Link
             onClick={sound2Click}
-            href="https://foundation.app/collection/now-92cf"
+            href="https://opensea.io/collection/nowart-1o1"
             className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
             Escapeace NFTs
           </Link>
