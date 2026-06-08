@@ -1,7 +1,6 @@
 export const officialLinks = {
   site: "https://land.endhonesa.com/",
   greenPrint: "https://bananowgp.endhonesa.com/",
-  newsPrototype: "https://news.endhonesa.com/",
   discord: "/discord/",
   twitter: "/twitter/",
   instagram: "/instagram/",

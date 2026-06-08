@@ -19,6 +19,8 @@ export function getSeoMeta(path: string, customMeta: SeoMeta = {}) {
     image: site.image,
     type: "website",
     canonicalUrl: getCanonicalUrl(path),
-    ...customMeta,
+    ...Object.fromEntries(
+      Object.entries(customMeta).filter(([, value]) => value !== undefined),
+    ),
   };
 }
