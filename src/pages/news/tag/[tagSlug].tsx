@@ -27,18 +27,20 @@ export default function NewsTagPage({
     <Layout title={`${tagName} | Na Now News`} description={description}>
       <div className="bg-white px-4 pb-16 pt-32 dark:bg-neutral-900">
         <div className="mx-auto max-w-4xl text-center">
-          <Link
-            href="/news"
-            className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now"
-          >
-            Back to Na Now News
-          </Link>
-          <h1 className="pt-8 font-judul text-4xl font-bold text-neutral-900 dark:text-white">
+          <h1 className="font-judul text-4xl font-bold text-neutral-900 dark:text-white">
             #{tagName}
           </h1>
           <p className="mx-auto max-w-2xl pt-6 text-base text-dark-now dark:text-white-now">
             {description}
           </p>
+        </div>
+
+        <div className="mx-auto max-w-4xl text-center pt-10">
+          <Link
+            href="/news"
+            className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now">
+            Back to Na Now News
+          </Link>
         </div>
 
         {articles.length ? (

@@ -43,14 +43,8 @@ export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
           />
         </div>
 
-        {tagItems.length ? (
-          <div className="mx-auto max-w-5xl pt-6">
-            <NewsTaxonomyList basePath="/news/tag" items={tagItems} />
-          </div>
-        ) : null}
-
         {articles.length ? (
-          <div className="mx-auto grid max-w-7xl gap-6 pt-12 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-7xl gap-6 pt-10 md:grid-cols-2 lg:grid-cols-3">
             {articles.map((article) => (
               <NewsCard key={article.slug} article={article} />
             ))}
@@ -67,6 +61,13 @@ export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
             </p>
           </div>
         )}
+
+        {tagItems.length ? (
+          <div className="mx-auto max-w-5xl pt-10">
+            <NewsTaxonomyList basePath="/news/tag" items={tagItems} />
+          </div>
+        ) : null}
+
       </div>
     </Layout>
   );

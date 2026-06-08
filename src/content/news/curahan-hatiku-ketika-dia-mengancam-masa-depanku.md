@@ -5,7 +5,7 @@ excerpt: "A reflective story from the voice of a search engine facing the rise o
 date: "2024-09-30"
 updated: "2026-06-08"
 author: "Prof. NOTA"
-status: "published"
+status: "draft"
 primaryCategory: "Technology"
 categories:
   - "Technology"

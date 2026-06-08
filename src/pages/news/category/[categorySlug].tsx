@@ -21,21 +21,24 @@ export default function NewsCategoryPage({
   articles,
 }: NewsCategoryPageProps) {
   return (
-    <Layout title={`${category.name} | Na Now News`} description={category.description}>
+    <Layout
+      title={`${category.name} | Na Now News`}
+      description={category.description}>
       <div className="bg-white px-4 pb-16 pt-32 dark:bg-neutral-900">
-        <div className="mx-auto max-w-4xl text-center">
-          <Link
-            href="/news"
-            className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now"
-          >
-            Back to Na Now News
-          </Link>
-          <h1 className="pt-8 font-judul text-4xl font-bold text-neutral-900 dark:text-white">
+        <div className="mx-auto max-w-7xl text-center">
+          <h1 className="font-judul text-4xl font-bold text-neutral-900 dark:text-white">
             {category.name}
           </h1>
           <p className="mx-auto max-w-2xl pt-6 text-base text-dark-now dark:text-white-now">
             {category.description}
           </p>
+        </div>
+        <div className="mx-auto max-w-4xl text-center pt-10">
+          <Link
+            href="/news"
+            className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now">
+            Back to Na Now News
+          </Link>
         </div>
 
         {articles.length ? (

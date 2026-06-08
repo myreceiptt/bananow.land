@@ -5,7 +5,7 @@ excerpt: "An archival BANANOW reflection on the pre-release conversation around 
 date: "2024-10-04"
 updated: "2026-06-08"
 author: "Prof. NOTA"
-status: "published"
+status: "archived"
 primaryCategory: "Web3"
 categories:
   - "Web3"

@@ -122,6 +122,7 @@ export default function MediaEmbed({ url }: MediaEmbedProps) {
       </p>
       <Link
         href={embed.href}
+        target="_blank"
         className="mt-4 inline-block rounded-full bg-dark-now px-5 py-2 text-sm font-medium text-white hover:bg-green-now hover:text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-yellow-now dark:hover:text-white"
       >
         Open on {embed.provider}

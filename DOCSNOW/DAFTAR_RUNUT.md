@@ -36,23 +36,24 @@ Aturan utama:
 
 ### 1.1. Urutan Besar Induk
 
-| No. | Item Urutan Besar                                 | Target     | Status                                         |
-| --- | ------------------------------------------------- | ---------- | ---------------------------------------------- |
-| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                     |
-| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                     |
-| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                     |
-| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                     |
-| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                     |
-| 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                     |
-| 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                     |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                     |
-| 9   | Na Now News MVP                                   | v1.62      | 🔜 Berikutnya                                  |
-| 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                                 |
-| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                                 |
-| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                                 |
-| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                                 |
-| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                                 |
-| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                                 |
+| No. | Item Urutan Besar                                 | Target     | Status                                    |
+| --- | ------------------------------------------------- | ---------- | ----------------------------------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                |
+| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                |
+| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                |
+| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                |
+| 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                |
+| 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                |
+| 9   | Na Now News MVP                                   | v1.62      | ✅ Selesai                                |
+| 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | 🔜 Berikutnya                             |
+| 10  | Skool Now MVP                                     | v1.74      | ⏳ Ditahan sampai Item Sisipan 9A selesai |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
+| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
+| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                            |
+| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
 
 Keterangan status:
 
@@ -108,7 +109,7 @@ Keterangan status:
     - `PlaceholderPage`
     - `LegalMarkdown`
     - SEO helper route-aware
-    ✅ Selesai
+      ✅ Selesai
 28. `.env.example` minimal sudah ditambahkan. ✅ Selesai
 29. Lint/build dan route QA App Foundation lulus. ✅ Selesai
 30. Branch `app-foundation-v1.51` sudah dipush untuk Vercel Preview. ✅ Selesai
@@ -125,7 +126,56 @@ Keterangan status:
     - Desktop aman ✅
     - Tidak ada broken route ✅
     - Tidak ada visual drift besar ✅
-34. Tahap berikutnya adalah **Na Now News MVP v1.62**. 🔜 Berikutnya
+34. Na Now News MVP v1.62 sudah selesai diterapkan, dipoles, dipush untuk Vercel Preview, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+35. Scope Na Now News MVP v1.62 dikunci sebagai static Markdown news portal di `src/content/news/`. ✅ Selesai
+36. Na Now News tidak memakai database, CMS besar, admin dashboard, auth, newsletter, comments, atau search engine pada MVP ini. ✅ Selesai
+37. Route Na Now News sudah tersedia:
+    - `/news` ✅
+    - `/news/[slug]` ✅
+    - `/news/category/[categorySlug]` ✅
+    - `/news/tag/[tagSlug]` ✅
+38. Article schema minimum sudah diterapkan:
+    - `title`
+    - `slug`
+    - `excerpt`
+    - `date`
+    - `updated`
+    - `author`
+    - `status`
+    - `primaryCategory`
+    - `categories`
+    - `tags`
+    - `coverImage`
+      ✅ Selesai
+39. Article status behavior sudah diterapkan:
+    - `published`
+    - `draft`
+    - `unlisted`
+    - `archived`
+      ✅ Selesai
+40. Category taxonomy Na Now News sudah diterapkan. ✅ Selesai
+41. Multi-category support dan tag pages sudah diterapkan. ✅ Selesai
+42. Markdown renderer artikel sudah mendukung kebutuhan MVP. ✅ Selesai
+43. Standalone media URL embed sudah ditambahkan:
+    - YouTube iframe embed ✅
+    - Vimeo iframe embed ✅
+    - Instagram/Facebook/X external media card ✅
+44. Cover image display sudah dipoles:
+    - card thumbnail seragam di `/news` ✅
+    - card thumbnail seragam di category pages ✅
+    - card thumbnail seragam di tag pages ✅
+    - article hero cover seragam di `/news/[slug]` ✅
+45. Artikel awal Na Now News sudah diperbaiki ke format baru, termasuk full English, kategori/tag, path image, dan copy yang lebih aman. ✅ Selesai
+46. Artikel publik tentang proses pengembangan BANANOW LAND sudah disusun. ✅ Selesai
+47. Cover image artikel pengembangan BANANOW LAND sudah dibuat dan digunakan. ✅ Selesai
+48. Final local validation Na Now News sudah dilakukan oleh Farmer. ✅ Selesai
+49. Final local visual QA Na Now News sudah dilakukan oleh Farmer. ✅ Selesai
+50. Perubahan Na Now News polish sudah dicommit. ✅ Selesai
+51. Branch Na Now News sudah dipush untuk Vercel Preview. ✅ Selesai
+52. Vercel Preview QA Na Now News lulus. ✅ Selesai
+53. Branch Na Now News sudah dimerge ke `main`. ✅ Selesai
+54. Production QA Na Now News lulus. ✅ Selesai
+55. Tahap sisipan berikutnya adalah **Repo-Wide Audit & Maintenance Review v1.63** sebelum masuk ke Skool Now MVP v1.74. 🔜 Berikutnya
 
 ---
 
@@ -445,59 +495,214 @@ Catatan:
 
 Target: **v1.62**
 
-Status: 🔜 Berikutnya.
-
-Akan dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+Status: ✅ Selesai.
 
 Tujuan:
 
-Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW LAND, tanpa langsung overbuild menjadi CMS besar seperti WordPress.
+Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW LAND tanpa langsung overbuild menjadi CMS besar seperti WordPress.
 
-Gambaran awal isi:
+Scope final yang dikunci:
 
-1. Review placeholder `/news` yang sudah ada.
-2. Tentukan scope Na Now News MVP v1.62.
-3. Tentukan apakah konten awal memakai static Markdown di `src/content/news/` atau langsung memakai database/CMS sederhana.
-4. Tentukan struktur artikel:
-   - title,
-   - slug,
-   - excerpt,
-   - date,
-   - author,
-   - category,
-   - tags,
-   - cover image,
-   - body/content.
-5. Buat list page `/news`.
-6. Buat article detail page `/news/[slug]`.
-7. Tentukan kategori awal.
-8. Tentukan apakah admin/create/edit/publish masuk MVP ini atau ditahan ke tahap berikutnya.
-9. Siapkan SEO article dasar.
-10. Build/lint/test.
-11. Browser QA.
-12. Commit.
+1. Na Now News memakai static Markdown di `src/content/news/`.
+2. Tidak memakai database pada MVP ini.
+3. Tidak memakai CMS besar pada MVP ini.
+4. Tidak memakai admin/create/edit/publish dashboard pada MVP ini.
+5. Tidak memakai auth pada MVP ini.
+6. Tidak memakai comments, newsletter, atau search engine pada MVP ini.
+7. Farmer melakukan migrasi artikel lama secara manual dari `.mdx` ke `.md`.
+8. Agent Now tidak diminta fetch, scrape, audit, atau import dari prototype lama `news.endhonesa.com`.
 
-Gate sementara:
+Hasil:
 
-- [ ] Scope Na Now News MVP v1.62 dikunci.
-- [ ] Data/content strategy diputuskan.
-- [ ] Minimal content/article sample disiapkan.
-- [ ] Product/Task Spec Na Now News disusun jika diperlukan.
-- [ ] Jangan masuk ke Skool Now, NFT Marketplace, Claps, auth besar, database besar, atau admin dashboard besar sebelum scope News dikunci.
+1. Placeholder `/news` sudah diganti menjadi portal artikel static Markdown.
+2. Content folder `src/content/news/` sudah tersedia.
+3. Template artikel `_template.md` tersedia dan diabaikan oleh loader.
+4. Article loader dan validasi schema sudah dibuat.
+5. Article schema minimum sudah diterapkan:
+   - `title`
+   - `slug`
+   - `excerpt`
+   - `date`
+   - `updated`
+   - `author`
+   - `status`
+   - `primaryCategory`
+   - `categories`
+   - `tags`
+   - `coverImage`
+6. Article status behavior sudah diterapkan:
+   - `published`: tampil di list/category/tag dan punya public route.
+   - `draft`: tidak tampil dan tidak generate public route.
+   - `unlisted`: tidak tampil di list/category/tag tetapi bisa direct route.
+   - `archived`: tidak tampil di list/category/tag tetapi bisa direct route.
+7. Route Na Now News sudah tersedia:
+   - `/news`
+   - `/news/[slug]`
+   - `/news/category/[categorySlug]`
+   - `/news/tag/[tagSlug]`
+8. Category taxonomy sudah diterapkan:
+   - LAND
+   - Technology
+   - Web3
+   - Arts
+   - Community
+   - Education
+   - Business
+   - Markets
+   - Gaming
+   - Opinion
+   - Reviews
+9. Multi-category support sudah diterapkan.
+10. Tag pages otomatis berdasarkan tag artikel sudah diterapkan.
+11. SEO dasar untuk list, article, category, dan tag pages sudah diterapkan.
+12. Markdown renderer artikel sudah tersedia.
+13. Markdown image syntax sederhana sudah digunakan:
+    - `![Alt text](/images/news/file.jpg)`
+14. Standalone media URL embed sudah ditambahkan:
+    - YouTube URL standalone menjadi iframe embed.
+    - Vimeo URL standalone menjadi iframe embed.
+    - Instagram/Facebook/X URL standalone menjadi external media card.
+15. Card thumbnail cover image sudah dibuat seragam memakai display crop/aspect ratio.
+16. Article hero cover image sudah dibuat seragam memakai display crop/aspect ratio.
+17. Cover image tidak perlu dicrop manual per file.
+18. Artikel awal Na Now News sudah diperbaiki ke format baru:
+    - full English,
+    - kategori sesuai taxonomy,
+    - tags sesuai isi,
+    - path image diarahkan ke `/images/news/`,
+    - copy lebih aman dan selaras BANANOW LAND.
+19. Artikel publik tentang proses pengembangan BANANOW LAND sudah disusun.
+20. Cover image artikel pengembangan BANANOW LAND sudah dibuat dan digunakan.
+21. Final local validation sudah dilakukan oleh Farmer.
+22. Local visual QA sudah dilakukan oleh Farmer.
+23. Perubahan Na Now News polish sudah dicommit.
+24. Branch sudah dipush untuk Vercel Preview.
+25. Vercel Preview QA lulus.
+26. Branch sudah dimerge ke `main`.
+27. Production QA lulus.
+
+Gate selesai:
+
+- [x] Scope Na Now News MVP v1.62 dikunci.
+- [x] Content strategy static Markdown diputuskan.
+- [x] No DB/CMS/admin/auth untuk MVP dikunci.
+- [x] Article schema minimum disusun.
+- [x] Category taxonomy disusun.
+- [x] Multi-category support disetujui.
+- [x] Tag support disetujui.
+- [x] Product/Task Spec Na Now News disusun.
+- [x] Prompt Agent Now implementation disusun.
+- [x] Branch `news-mvp-v1.62` dibuat dari latest `main`.
+- [x] `/news` list page dibuat.
+- [x] `/news/[slug]` article detail dibuat.
+- [x] `/news/category/[categorySlug]` dibuat.
+- [x] `/news/tag/[tagSlug]` dibuat.
+- [x] Static article loader dibuat.
+- [x] Article validation dibuat.
+- [x] Status behavior diterapkan.
+- [x] SEO MVP diterapkan.
+- [x] Markdown renderer tersedia.
+- [x] Media embed patch diterapkan.
+- [x] Cover image display consistency diterapkan.
+- [x] Artikel awal diperbaiki dan digunakan.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Local route QA lulus.
+- [x] Local visual QA lulus.
+- [x] Vercel Preview QA lulus.
+- [x] Merge ke `main` selesai.
+- [x] Production QA lulus.
+
+Catatan:
+
+1. Na Now News MVP v1.62 sudah menjadi Crop publik pertama yang hidup sebagai content/article portal.
+2. Admin/create/edit/publish dashboard tetap ditahan untuk tahap berikutnya jika benar-benar diperlukan.
+3. Search, comments, newsletter, dan database tetap tidak masuk MVP ini.
+4. Full social embed untuk Instagram/Facebook/X belum dibuat. Pada MVP ini ketiganya tampil sebagai external media card.
+5. Jika nanti dibutuhkan caption image, custom cover position, advanced Markdown, table, footnote, atau MDX-like component, perlu task spec tersendiri.
+6. Na Now News sekarang membuka gate untuk lanjut ke tahap berikutnya, tetapi sebelum Skool Now disarankan melakukan **Repo-Wide Audit & Maintenance Review v1.63** sebagai Item Sisipan.
 
 ---
 
-## 12. Item Urutan Besar 10 — Skool Now MVP
+## 12. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review
+
+Target: **v1.63**
+
+Status: 🔜 Berikutnya.
+
+Alasan disisipkan:
+
+Na Now News MVP v1.62 sudah selesai dan sudah production QA. Sebelum masuk ke Skool Now MVP v1.74, repo perlu diperiksa menyeluruh untuk memastikan tidak ada sisa kode/tulisan yang tidak sinambung, tidak digunakan, atau berpotensi menjadi beban teknis pada tahap berikutnya.
+
+Tujuan:
+
+Melakukan pemeriksaan repo secara aman tanpa langsung mengubah kode atau tulisan.
+
+Scope pemeriksaan:
+
+1. Kesehatan repo dan git status.
+2. Struktur route dan halaman.
+3. Kesinambungan copy/tulisan.
+4. Konsistensi data/config di `src/data/`.
+5. Konsistensi content di `src/content/`.
+6. Kode yang tidak digunakan.
+7. File yang tidak digunakan.
+8. Import/export yang tidak digunakan.
+9. Komponen yang berpotensi redundant.
+10. Link internal dan eksternal yang berpotensi tidak sinambung.
+11. Legal/content wording yang sudah tidak sesuai.
+12. Placeholder yang seharusnya masih ada vs yang seharusnya dibersihkan.
+13. Dependencies yang outdated atau perlu diperbarui.
+14. Security/audit warnings.
+15. Lint/build baseline.
+16. Risiko perubahan sebelum Skool Now.
+
+Aturan eksekusi:
+
+1. Agent Now harus membuat branch baru dari latest `main`.
+2. Agent Now hanya melakukan **audit dan laporan dulu**.
+3. Agent Now tidak boleh mengubah kode, tulisan, dependencies, file, route, atau config pada fase audit.
+4. Agent Now harus melaporkan semua temuan, tingkat risiko, dan solusi yang disarankan.
+5. Farmer mereview temuan dan memilih solusi yang boleh dieksekusi.
+6. Agent Now baru boleh mengeksekusi perubahan setelah Farmer memberi perintah eksplisit.
+7. Perubahan dilakukan di branch baru tersebut, bukan langsung di `main`.
+8. Setelah perubahan dilakukan, wajib lint/build/localhost QA.
+9. Farmer melakukan manual review di localhost.
+10. Commit hanya dilakukan setelah Farmer meminta.
+11. Merge ke `main` dilakukan manual oleh Farmer.
+
+Gate selesai:
+
+- [ ] Branch audit dibuat dari latest `main`.
+- [ ] Audit report-only selesai tanpa mengubah file.
+- [ ] Temuan dan rekomendasi solusi dilaporkan.
+- [ ] Farmer mereview dan menyetujui subset perubahan.
+- [ ] Perubahan yang disetujui dieksekusi.
+- [ ] Lint lulus.
+- [ ] Build lulus.
+- [ ] Localhost QA lulus.
+- [ ] Farmer manual review lulus.
+- [ ] Commit dibuat setelah Farmer meminta.
+- [ ] Merge ke `main` dilakukan manual oleh Farmer.
+- [ ] Production QA lulus jika branch sudah merge.
+
+Catatan:
+
+Item Sisipan 9A bukan tempat menambah fitur baru. Item ini hanya untuk maintenance, cleanup, dependency review, dan kesinambungan repo sebelum lanjut ke Skool Now.
+
+---
+
+## 13. Item Urutan Besar 10 — Skool Now MVP
 
 Target: **v1.74**
 
-Status: ⏳ Belum mulai.
+Status: ⏳ Ditahan sampai Item Sisipan 9A selesai.
 
-Tentative sampai Na Now News MVP stabil atau sampai diputuskan Skool Now didahulukan.
+Tentative sampai Repo-Wide Audit & Maintenance Review v1.63 selesai, atau sampai Farmer memutuskan Skool Now didahulukan.
 
 ---
 
-## 13. Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet
+## 14. Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet
 
 Target: **v1.85**
 
@@ -507,7 +712,7 @@ Tentative sampai marketplace technical spec final.
 
 ---
 
-## 14. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
+## 15. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
 
 Target: **v1.92**
 
@@ -517,7 +722,7 @@ Tentative sampai testnet marketplace benar-benar lulus.
 
 ---
 
-## 15. Item Urutan Besar 13 — Claps Alpha
+## 16. Item Urutan Besar 13 — Claps Alpha
 
 Target: **v2.00**
 
@@ -527,7 +732,7 @@ Tentative sampai Claps Safety and Product Spec selesai.
 
 ---
 
-## 16. Item Urutan Besar 14 — Admin Dashboard Perluasan
+## 17. Item Urutan Besar 14 — Admin Dashboard Perluasan
 
 Target: **v2.05**
 
@@ -537,7 +742,7 @@ Tentative sampai minimal dua modul dinamis berjalan.
 
 ---
 
-## 17. Item Urutan Besar 15 — BANANOW LAND Operating Portal
+## 18. Item Urutan Besar 15 — BANANOW LAND Operating Portal
 
 Target: **v2.11**
 
@@ -547,7 +752,7 @@ Tentative sampai semua modul utama punya MVP yang stabil.
 
 ---
 
-## 18. Aturan Item Sisipan
+## 19. Aturan Item Sisipan
 
 Item Sisipan dibuat jika terjadi sesuatu di luar rencana.
 
@@ -591,52 +796,51 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 ---
 
-## 19. Next Action yang Paling Dekat
+## 20. Next Action yang Paling Dekat
 
 Next action:
 
-**Mulai Item Urutan Besar 9 — Na Now News MVP v1.62.**
+**Mulai Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63.**
 
 Alasan:
 
-App Foundation dan Struktur Data Terpusat v1.51 sudah selesai, sudah dipush ke Vercel Preview, preview QA lulus, sudah dimerge ke `main`, dan production QA lulus. Dengan demikian gate untuk melanjutkan ke Na Now News MVP sudah terbuka.
+Na Now News MVP v1.62 sudah selesai, sudah dipush untuk Vercel Preview, preview QA lulus, sudah dimerge ke `main`, dan production QA lulus. Sebelum masuk ke Skool Now MVP v1.74, repo perlu diaudit menyeluruh agar tahap berikutnya tidak membawa sisa masalah teknis, copywriting, dependency, atau kesinambungan struktur dari tahap sebelumnya.
 
 Urutan kerja paling dekat:
 
-1. Review kondisi placeholder `/news`.
-2. Tentukan scope Na Now News MVP v1.62.
-3. Tentukan content strategy:
-   - static Markdown di `src/content/news/`,
-   - atau database/CMS sederhana,
-   - atau pendekatan hybrid bertahap.
-4. Tentukan struktur article schema minimum.
-5. Tentukan kategori/tag awal.
-6. Tentukan apakah admin/create/edit/publish masuk MVP atau ditahan.
-7. Susun Na Now News MVP Task Spec jika diperlukan.
-8. Susun prompt Agent Now atau panduan manual.
-9. Eksekusi bertahap.
-10. Build/lint/test.
-11. Preview QA.
-12. Production QA.
-13. Commit/merge sesuai workflow.
+1. Buat branch baru dari latest `main`.
+2. Lakukan audit report-only tanpa mengubah file.
+3. Periksa kode, tulisan, struktur route, data/config, content, dependency, dan build baseline.
+4. Laporkan semua temuan, risiko, dan solusi.
+5. Tunggu review dan keputusan Farmer.
+6. Eksekusi hanya perubahan yang disetujui Farmer.
+7. Jalankan lint/build/localhost QA.
+8. Farmer melakukan review manual di localhost.
+9. Commit hanya jika Farmer meminta.
+10. Merge ke `main` dilakukan manual oleh Farmer.
+11. Jika Item Sisipan 9A selesai, lanjut ke **Item Urutan Besar 10 — Skool Now MVP v1.74**.
 
-Status next action: **Na Now News MVP v1.62 — 🔜 Berikutnya**
+Status next action: **Repo-Wide Audit & Maintenance Review v1.63 — 🔜 Berikutnya**
 
 ---
 
-## 20. Catatan Review Terakhir
+## 21. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah App Foundation dan Struktur Data Terpusat v1.51 selesai diterapkan, preview QA lulus, merge ke `main` selesai, dan production QA lulus.
+Dokumen ini sudah diperbarui setelah Na Now News MVP v1.62 selesai diterapkan, dipoles, dipush untuk Vercel Preview, lulus Preview QA, dimerge ke `main`, dan lulus Production QA.
 
 Status final saat ini:
 
-1. Item Urutan Besar 1 sampai 8 sudah ✅ Selesai.
-2. Item Urutan Besar 9 — Na Now News MVP adalah 🔜 Berikutnya.
-3. Item Urutan Besar 10 dan seterusnya tetap belum mulai sampai Na Now News MVP selesai atau sampai ada keputusan baru.
-4. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker.
-5. `LegalMarkdown` masih minimal dan cukup untuk kebutuhan legal v1.51 saat ini. Jika nanti konten statis memakai nested bullet, table, link Markdown kompleks, blockquote, atau footnote, renderer perlu diperluas atau diganti.
-6. App Foundation sudah menyiapkan pola `src/data/` dan `src/content/` untuk tahap-tahap berikutnya.
-7. Dokumen ini siap menjadi pegangan untuk memulai Na Now News MVP v1.62.
+1. Item Urutan Besar 1 sampai 9 sudah ✅ Selesai.
+2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 adalah 🔜 Berikutnya.
+3. Item Urutan Besar 10 — Skool Now MVP v1.74 ditahan sampai Item Sisipan 9A selesai atau sampai Farmer memutuskan lain.
+4. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
+5. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker sampai audit v1.63 memberikan rekomendasi baru.
+6. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW LAND.
+7. Admin/create/edit/publish dashboard untuk Na Now News belum masuk MVP dan tetap ditahan.
+8. Search, comments, newsletter, CMS besar, dan database untuk News belum dibuat.
+9. Full social embed untuk Instagram/Facebook/X belum dibuat; MVP hanya memakai external media card.
+10. App Foundation, `src/data/`, dan `src/content/` sekarang menjadi dasar yang dipakai untuk tahap berikutnya.
+11. Dokumen ini siap menjadi pegangan untuk memulai Repo-Wide Audit & Maintenance Review v1.63.
 
 ---
 

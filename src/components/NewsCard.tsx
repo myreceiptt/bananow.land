@@ -21,6 +21,7 @@ export default function NewsCard({ article }: NewsCardProps) {
             fill
             sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
             className="object-cover object-center transition duration-300 hover:scale-105"
+            loading="eager"
           />
         </Link>
       ) : null}

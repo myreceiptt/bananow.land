@@ -5,7 +5,7 @@ excerpt: "A simple education-first guide to spot trading, limit orders, fees, br
 date: "2023-10-20"
 updated: "2026-06-08"
 author: "Prof. NOTA"
-status: "published"
+status: "unlisted"
 primaryCategory: "Education"
 categories:
   - "Education"
