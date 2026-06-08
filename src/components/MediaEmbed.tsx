@@ -117,12 +117,13 @@ export default function MediaEmbed({ url }: MediaEmbedProps) {
       <p className="font-judul text-xl font-bold text-neutral-900 dark:text-white">
         {embed.provider}
       </p>
-      <p className="mt-2 break-words text-sm text-dark-now dark:text-white-now">
+      <p className="mt-2 wrap-break-word text-sm text-dark-now dark:text-white-now">
         {embed.href}
       </p>
       <Link
         href={embed.href}
         target="_blank"
+        rel="noopener noreferrer"
         className="mt-4 inline-block rounded-full bg-dark-now px-5 py-2 text-sm font-medium text-white hover:bg-green-now hover:text-white dark:bg-white-now dark:text-neutral-900 dark:hover:bg-yellow-now dark:hover:text-white"
       >
         Open on {embed.provider}

@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-import { title } from "process";
 import { site } from "../data/site";
 import { getSeoMeta } from "../lib/seo";
 
@@ -18,7 +17,7 @@ const Redirect = (props: any) => {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <link href={site.favicon} rel="shortcut icon" />
-        <meta key={title} content={meta.description} name="description" />
+        <meta key="description" content={meta.description} name="description" />
         <meta property="og:url" content={meta.canonicalUrl} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content={meta.title} />

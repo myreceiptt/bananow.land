@@ -57,7 +57,8 @@ export default function OldBrands() {
                   onClick={sound2Click}
                   href={brand.url}
                   title={brand.title}
-                  target="_blank">
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <Image
                     onMouseEnter={() => {
                       setIsHovering(true);

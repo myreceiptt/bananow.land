@@ -40,7 +40,8 @@ export default function Farmers() {
               key={item.name}
               href={item.href}
               title={item.name}
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);

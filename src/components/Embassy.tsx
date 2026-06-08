@@ -52,7 +52,6 @@ export default function Embassy() {
   const [Message, setMessage] = React.useState("");
 
   const onSubmit = async (data: any, e: any) => {
-    console.log(data);
     await fetch(officialLinks.web3FormsSubmit, {
       method: "POST",
       headers: {
@@ -75,8 +74,7 @@ export default function Embassy() {
       })
       .catch((error) => {
         setIsSuccess(false);
-        setMessage("Client Error. Please check the console.log for more info");
-        console.log(error);
+        setMessage(error?.message || "Client Error. Please try again later.");
       });
   };
   return (
@@ -116,6 +114,7 @@ export default function Embassy() {
               onClick={sound1Click}
               href={footerSocialLinks[0].href}
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The Discord Server
             </a>
@@ -127,6 +126,7 @@ export default function Embassy() {
               onClick={sound1Click}
               href={footerSocialLinks[1].href}
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The X (Twitter) Account
             </a>
@@ -138,6 +138,7 @@ export default function Embassy() {
               onClick={sound1Click}
               href={footerSocialLinks[2].href}
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The Instagram Profile
             </a>
@@ -149,6 +150,7 @@ export default function Embassy() {
               onClick={sound1Click}
               href={footerSocialLinks[3].href}
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The YouTube Channel
             </a>
