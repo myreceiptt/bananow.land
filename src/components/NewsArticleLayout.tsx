@@ -14,8 +14,7 @@ export default function NewsArticleLayout({ article }: NewsArticleLayoutProps) {
     <article className="mx-auto max-w-4xl px-4 pb-16 pt-32 text-dark-now dark:text-white-now sm:px-6 lg:px-8">
       <Link
         href="/news"
-        className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now"
-      >
+        className="font-medium text-green-now hover:text-yellow-now dark:text-yellow-now dark:hover:text-green-now">
         Back to Na Now News
       </Link>
 
@@ -35,14 +34,16 @@ export default function NewsArticleLayout({ article }: NewsArticleLayoutProps) {
       </header>
 
       {article.coverImage ? (
-        <Image
-          src={article.coverImage}
-          alt={article.title}
-          width={1200}
-          height={675}
-          priority
-          className="mt-10 h-auto w-full rounded-lg"
-        />
+        <div className="relative mt-10 aspect-video overflow-hidden rounded-lg bg-yellow-now/20 dark:bg-neutral-900">
+          <Image
+            src={article.coverImage}
+            alt={article.title}
+            fill
+            priority
+            sizes="(min-width: 1024px) 896px, calc(100vw - 2rem)"
+            className="object-cover object-center"
+          />
+        </div>
       ) : null}
 
       <div className="pt-10">

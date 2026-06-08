@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import MediaEmbed, { isStandaloneUrl } from "./MediaEmbed";
 
 type NewsMarkdownProps = {
   markdown: string;
@@ -129,6 +130,11 @@ export default function NewsMarkdown({ markdown }: NewsMarkdownProps) {
           className="h-auto w-full rounded-lg"
         />,
       );
+      return;
+    }
+
+    if (isStandaloneUrl(trimmed)) {
+      blocks.push(<MediaEmbed key={`media-${blocks.length}`} url={trimmed} />);
       return;
     }
 
