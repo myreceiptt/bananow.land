@@ -68,7 +68,8 @@ export function News1() {
               onClick={sound0Click}
               href="/news/"
               title="Na Now News of BANANOW"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer">
               <Image
                 onMouseEnter={() => {
                   setIsHovering(true);

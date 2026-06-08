@@ -31,6 +31,7 @@ export default function Prefooter() {
           onClick={sound2Click}
           href={ctaLinks.discord}
           target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white rounded-full px-16 py-3 xl:text-base font-medium text-sm dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900">
           Immigration Check
         </Link>

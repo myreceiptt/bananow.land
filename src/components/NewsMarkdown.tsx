@@ -30,7 +30,7 @@ function renderInline(text: string) {
       return <em key={index}>{part.slice(1, -1)}</em>;
     }
 
-    const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    const linkMatch = part.match(/^\[([^\]]+)\]\((\S+)(?:\s+["'][^"']*["'])?\)$/);
     if (linkMatch) {
       return (
         <Link

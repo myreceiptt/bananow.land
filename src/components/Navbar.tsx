@@ -101,6 +101,7 @@ export default function Navbar() {
                     onClick={sound2Click}
                     href={ctaLinks.greenPrint}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
                     title="Read The Green Print of BANANOW LAND...">
                     The Green Print
@@ -154,6 +155,7 @@ export default function Navbar() {
                 onClick={sound2Click}
                 href={ctaLinks.greenPrint}
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Read The Green Print of BANANOW LAND..."
                 className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
                 The Green Print

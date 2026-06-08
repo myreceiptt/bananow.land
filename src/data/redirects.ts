@@ -94,7 +94,7 @@ export const redirects = {
     imageAlt: "Agent Now is Farmers Delegate",
     buttonLabel: "Agent Now on The Green Print",
     headingClassName:
-      "text-4xl font-judul sfont-bold text-center text-neutral-900 dark:text-white",
+      "text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white",
   },
   dermaga: {
     slug: "dermaga",

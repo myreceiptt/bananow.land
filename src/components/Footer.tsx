@@ -131,7 +131,8 @@ export default function Footer() {
                 key={red.name}
                 href={red.href}
                 title={red.title}
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div className="w-9 h-9 p-2 text-white bg-yellow-now hover:text-neutral-900 hover:bg-green-now rounded-full flex items-center justify-center">
                   {socialIcons[red.icon]}
                 </div>
