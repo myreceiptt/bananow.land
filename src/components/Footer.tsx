@@ -4,13 +4,16 @@ import ThemeSwitchOption from "./ThemeSwitchOption";
 
 import useSound from "use-sound";
 import React from "react";
+import {
+  footerBananowLinks,
+  footerBrandLinks,
+  footerLegalLinks,
+  footerSocialLinks,
+} from "../data/footer";
+import { site } from "../data/site";
 
-const social = [
-  {
-    name: "discord",
-    title: "Discord server of BANANOW",
-    href: "/discord/",
-    icon: (
+const socialIcons = {
+  discord: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -21,13 +24,8 @@ const social = [
           fill="currentColor"
         />
       </svg>
-    ),
-  },
-  {
-    name: "twitter",
-    title: "X - Twitter account of BANANOW",
-    href: "/twitter/",
-    icon: (
+  ),
+  twitter: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -38,14 +36,8 @@ const social = [
           fill="currentColor"
         />
       </svg>
-    ),
-  },
-
-  {
-    name: "instagram",
-    title: "Instagram profile of BANANOW",
-    href: "/instagram/",
-    icon: (
+  ),
+  instagram: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -56,14 +48,8 @@ const social = [
           fill="currentColor"
         />
       </svg>
-    ),
-  },
-
-  {
-    name: "youtube",
-    title: "YouTube channel of BANANOW",
-    href: "/youtube/",
-    icon: (
+  ),
+  youtube: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -74,37 +60,8 @@ const social = [
           fill="currentColor"
         />
       </svg>
-    ),
-  },
-];
-
-const column1 = [
-  { name: "Home Page", href: "/" },
-  { name: "The Features", href: "/#features" },
-  { name: "The Brands", href: "/#brandproducts" },
-  { name: "The Community", href: "/#theheads" },
-  { name: "The Farmers", href: "/#farmers" },
-  { name: "Some F.A.Q.", href: "/#faq" },
-  { name: "The Embassy", href: "/#embassy" },
-];
-
-const column2 = [
-  { name: "Na Now News", href: "/news/" },
-  { name: "Skool Now", href: "/skool/" },
-  { name: "Claps", href: "/claps/" },
-  { name: "Older Brands", href: "/oldbrands" },
-];
-
-const column3 = [
-  { name: "Be a Head Now", href: "/nfts/", target: "_self" },
-  {
-    name: "The Green Print",
-    href: "https://bananowgp.endhonesa.com/",
-    target: "_target",
-  },
-  { name: "Privacy Policy", href: "/privacy/", target: "_self" },
-  { name: "Terms & Conditions", href: "/terms/", target: "_self" },
-];
+  ),
+};
 
 export default function Footer() {
   const sound0Loc = "/sounds/tiuing.mp3";
@@ -144,7 +101,7 @@ export default function Footer() {
                 stop();
               }}
               className="h-17 w-auto hover:scale-110 transition"
-              src="/images/logos/BananowLogo-169x121.png"
+              src={site.logo}
               alt="BANANOW LAND Logo"
               width={150}
               height={150}
@@ -160,7 +117,7 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-75">
-            {social.map((red) => (
+            {footerSocialLinks.map((red) => (
               <Link
                 onMouseEnter={() => {
                   setIsHovering(true);
@@ -176,7 +133,7 @@ export default function Footer() {
                 title={red.title}
                 target="_blank">
                 <div className="w-9 h-9 p-2 text-white bg-yellow-now hover:text-neutral-900 hover:bg-green-now rounded-full flex items-center justify-center">
-                  {red.icon}
+                  {socialIcons[red.icon]}
                 </div>
               </Link>
             ))}
@@ -187,7 +144,7 @@ export default function Footer() {
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
             BANANOW
           </h3>
-          {column1.map((item) => (
+          {footerBananowLinks.map((item) => (
             <Link
               onClick={sound1Click}
               key={item.name}
@@ -202,7 +159,7 @@ export default function Footer() {
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
             BRANDS
           </h3>
-          {column2.map((item) => (
+          {footerBrandLinks.map((item) => (
             <Link
               onClick={sound1Click}
               key={item.name}
@@ -217,7 +174,7 @@ export default function Footer() {
           <h3 className="text-sm md:text-xs font-bold pb-4 pt-12 lg:pt-0">
             LEGAL
           </h3>
-          {column3.map((item) => (
+          {footerLegalLinks.map((item) => (
             <Link
               onClick={sound1Click}
               key={item.name}

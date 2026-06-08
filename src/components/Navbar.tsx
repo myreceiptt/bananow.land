@@ -8,16 +8,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
 import React from "react";
-
-const navigation = [
-  { name: "Home", href: "/", current: false },
-  { name: "Features", href: "/#features", current: false },
-  { name: "Brands", href: "/#brandproducts", current: false },
-  { name: "Community", href: "/#theheads", current: false },
-  { name: "Farmers", href: "/#farmers", current: false },
-  { name: "F.A.Q.", href: "/#faq", current: false },
-  { name: "Embassy", href: "/#embassy", current: false },
-];
+import { primaryNavigation } from "../data/navigation";
+import { ctaLinks, site } from "../data/site";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -67,7 +59,7 @@ export default function Navbar() {
                         stop();
                       }}
                       className="block h-11 w-auto hover:scale-110 transition"
-                      src="/images/logos/BananowLogo-169x121.png"
+                      src={site.logo}
                       alt="BANANOW LAND Logo"
                       width={150}
                       height={150}
@@ -79,7 +71,7 @@ export default function Navbar() {
 
                 <div className="hidden lg:ml-6 lg:block">
                   <div className="flex space-x-5 items-center">
-                    {navigation.map((item) => (
+                    {primaryNavigation.map((item) => (
                       <Link
                         onClick={sound1Click}
                         key={item.name}
@@ -100,14 +92,14 @@ export default function Navbar() {
                 <div className="absolute inset-y-0 right-10 lg:right-0 flex items-center gap-2">
                   <Link
                     onClick={sound2Click}
-                    href="/nfts/"
+                    href={ctaLinks.beAHead}
                     title="Be a Head of BANANOW LAND..."
                     className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full">
                     Be a Head
                   </Link>
                   <Link
                     onClick={sound2Click}
-                    href="https://bananowgp.endhonesa.com/"
+                    href={ctaLinks.greenPrint}
                     target="_blank"
                     className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
                     title="Read The Green Print of BANANOW LAND...">
@@ -135,7 +127,7 @@ export default function Navbar() {
 
           <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-4 min-h-screen border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900">
-              {navigation.map((item) => (
+              {primaryNavigation.map((item) => (
                 <Disclosure.Button
                   onClick={sound1Click}
                   key={item.name}
@@ -153,14 +145,14 @@ export default function Navbar() {
               ))}
               <Link
                 onClick={sound2Click}
-                href="/nfts/"
+                href={ctaLinks.beAHead}
                 title="Be a Head of BANANOW LAND..."
                 className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
                 Be a Head
               </Link>
               <Link
                 onClick={sound2Click}
-                href="https://bananowgp.endhonesa.com/"
+                href={ctaLinks.greenPrint}
                 target="_blank"
                 title="Read The Green Print of BANANOW LAND..."
                 className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">

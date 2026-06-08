@@ -3,30 +3,7 @@ import Link from "next/link";
 
 import useSound from "use-sound";
 import React from "react";
-
-const activeBrands = [
-  {
-    name: "Na Now News",
-    url: "/news/",
-    description:
-      "Here we share whatever we have done. It can be crazy nothing or ordinary something. There are a lot of them. Let's dig in!",
-    icon: "/images/brandproducts/nanownews.svg",
-  },
-  {
-    name: "Skool Now",
-    url: "/skool/",
-    description:
-      "The home for learning programs, playing communities, and real-world growth.",
-    icon: "/images/brandproducts/skoolnow.svg",
-  },
-  {
-    name: "Claps",
-    url: "/claps/",
-    description:
-      "AI companion for parents and caregivers—here to listen, reflect, and help you grow with confidence, compassion, and a little more calm.",
-    icon: "/images/brandproducts/claps.svg",
-  },
-];
+import { activeBrands } from "../data/brands";
 
 export function BrandProducts() {
   const sound0Loc = "/sounds/tiuing.mp3";

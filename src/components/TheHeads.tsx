@@ -3,6 +3,7 @@ import { useState } from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
+import { ctaLinks } from "../data/site";
 
 const products = [
   {
@@ -19,7 +20,7 @@ const products = [
       "No Access",
       "No Support",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Sprout",
     target: "_blank",
     mostWanted: false,
@@ -38,7 +39,7 @@ const products = [
       "Very Limited Access",
       "Very Limited Support",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Sprout",
     target: "_blank",
     mostWanted: false,
@@ -59,7 +60,7 @@ const products = [
       "No Giveaways",
       "Merchandises",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Lover",
     target: "_blank",
     mostWanted: false,
@@ -80,7 +81,7 @@ const products = [
       "Giveaways",
       "Merchandises",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Lover",
     target: "_blank",
     mostWanted: false,
@@ -104,7 +105,7 @@ const products = [
       "Free Website Service*",
       "Profit Share*",
     ],
-    href: "/nfts/",
+    href: ctaLinks.beAHead,
     cta: "Be a Head",
     target: "",
     mostWanted: true,
@@ -128,7 +129,7 @@ const products = [
       "Free Website Service*",
       "Profit Share*",
     ],
-    href: "/nfts/",
+    href: ctaLinks.beAHead,
     cta: "Be a Head",
     target: "",
     mostWanted: true,
@@ -153,7 +154,7 @@ const products = [
       "No Profit Share",
       "Revenue Share*",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Farmer",
     target: "_blank",
     mostWanted: false,
@@ -178,7 +179,7 @@ const products = [
       "No Profit Share",
       "Revenue Share*",
     ],
-    href: "/discord/",
+    href: ctaLinks.discord,
     cta: "Be a Farmer",
     target: "_blank",
     mostWanted: false,

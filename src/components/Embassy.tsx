@@ -9,6 +9,8 @@ import {
 } from "@heroicons/react/24/outline";
 
 import useSound from "use-sound";
+import { footerSocialLinks } from "../data/footer";
+import { officialLinks } from "../data/officialLinks";
 
 type Info = {
   access_key: string;
@@ -51,7 +53,7 @@ export default function Embassy() {
 
   const onSubmit = async (data: any, e: any) => {
     console.log(data);
-    await fetch("https://api.web3forms.com/submit", {
+    await fetch(officialLinks.web3FormsSubmit, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -112,7 +114,7 @@ export default function Embassy() {
             <BuildingOffice2Icon className="w-4 h-4 text-green-now dark:text-yellow-now" />
             <a
               onClick={sound1Click}
-              href="/discord/"
+              href={footerSocialLinks[0].href}
               target="_blank"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The Discord Server
@@ -123,7 +125,7 @@ export default function Embassy() {
             <ChatBubbleLeftRightIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
             <a
               onClick={sound1Click}
-              href="/twitter/"
+              href={footerSocialLinks[1].href}
               target="_blank"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The X (Twitter) Account
@@ -134,7 +136,7 @@ export default function Embassy() {
             <PhotoIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
             <a
               onClick={sound1Click}
-              href="/instagram/"
+              href={footerSocialLinks[2].href}
               target="_blank"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The Instagram Profile
@@ -145,7 +147,7 @@ export default function Embassy() {
             <PlayIcon className="w-4 h-4 text-green-now dark:text-yellow-now" />
             <a
               onClick={sound1Click}
-              href="/youtube/"
+              href={footerSocialLinks[3].href}
               target="_blank"
               className="hover:text-green-now dark:hover:text-yellow-now">
               The YouTube Channel
