@@ -4,7 +4,6 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
 import React from "react";
-import { officialLinks } from "../data/officialLinks";
 
 const contents = [
   {
@@ -67,7 +66,7 @@ export function News1() {
             {/* <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition"> */}
             <Link
               onClick={sound0Click}
-              href={officialLinks.newsPrototype}
+              href="/news/"
               title="Na Now News of BANANOW"
               target="_blank">
               <Image
