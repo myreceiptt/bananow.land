@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import useSound from "use-sound";
+import { ctaLinks } from "../data/site";
 
 export default function Prefooter() {
   const sound2Loc = "/sounds/tinggg.mp3";
@@ -28,7 +29,7 @@ export default function Prefooter() {
       <div className="text-center pb-20">
         <Link
           onClick={sound2Click}
-          href="/discord/"
+          href={ctaLinks.discord}
           target="_blank"
           className="inline-block bg-green-now dark:bg-yellow-now text-neutral-900 dark:text-white rounded-full px-16 py-3 xl:text-base font-medium text-sm dark:hover:bg-white-now hover:bg-dark-now hover:text-white dark:hover:text-neutral-900">
           Immigration Check

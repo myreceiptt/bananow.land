@@ -3,51 +3,7 @@ import Link from "next/link";
 
 import useSound from "use-sound";
 import React from "react";
-
-const farmers = [
-  {
-    name: "V",
-    // href: "https://twitter.com/Bananow_V",
-    href: "/v/",
-    src: "/images/farmers/vanny.png",
-    alt: "BANANOW PFP of V",
-  },
-  {
-    name: "Pung",
-    // href: "https://x.com/OrdinalyPeople",
-    href: "/pung/",
-    src: "/images/farmers/pung.png",
-    alt: "BANANOW PFP of Pung",
-  },
-  {
-    name: "ZORTAN",
-    // href: "https://twitter.com/zortan_",
-    href: "/zortan/",
-    src: "/images/farmers/zortan.png",
-    alt: "BANANOW PFP of Zortan",
-  },
-  {
-    name: "Prof. NOTA",
-    // href: "https://twitter.com/MyReceiptTT",
-    href: "/nota/",
-    src: "/images/farmers/nota.png",
-    alt: "BANANOW PFP of Prof. NOTA",
-  },
-  {
-    name: "Novrizky Norman",
-    // href: "https://twitter.com/Novrizkynorman",
-    href: "/novrizky/",
-    src: "/images/farmers/novrizky.png",
-    alt: "BANANOW PFP of Novrizky Norman",
-  },
-  {
-    name: "Suwar Kainde",
-    // href: "https://twitter.com/SuwarKainde",
-    href: "/kainde/",
-    src: "/images/farmers/kainde.png",
-    alt: "BANANOW PFP of Suwar Kainde",
-  },
-];
+import { farmers } from "../data/farmers";
 
 export default function Farmers() {
   const sound0Loc = "/sounds/tiuing.mp3";
