@@ -45,8 +45,8 @@ Aturan utama:
 | 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                     |
 | 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                     |
 | 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                     |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | 🔜 Berikutnya                                  |
-| 9   | Na Now News MVP                                   | v1.62      | ⏳ Belum mulai                                 |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                     |
+| 9   | Na Now News MVP                                   | v1.62      | 🔜 Berikutnya                                  |
 | 10  | Skool Now MVP                                     | v1.74      | ⏳ Belum mulai                                 |
 | 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                                 |
 | 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                                 |
@@ -99,7 +99,33 @@ Keterangan status:
 20. Lint dan build untuk Legal Update Minimum v1.51 lulus. ✅ Selesai
 21. Local route QA untuk `/privacy` dan `/terms` lulus. ✅ Selesai
 22. Production QA untuk `/privacy` dan `/terms` sudah dilakukan oleh Farmer dan lulus. ✅ Selesai
-23. Tahap berikutnya adalah **App Foundation dan Struktur Data Terpusat v1.51**. 🔜 Berikutnya
+23. App Foundation dan Struktur Data Terpusat v1.51 sudah diterapkan melalui branch `app-foundation-v1.51`. ✅ Selesai
+24. Commit App Foundation: `14cdef06f2e3f6441499489ef3dc25013a88facb`. ✅ Selesai
+25. Static data/config sudah dicentralize ke `src/data/`. ✅ Selesai
+26. Legal Markdown content sudah dipindahkan ke `src/content/legal/`. ✅ Selesai
+27. Reusable components/helpers sudah ditambahkan:
+    - `RedirectPage`
+    - `PlaceholderPage`
+    - `LegalMarkdown`
+    - SEO helper route-aware
+    ✅ Selesai
+28. `.env.example` minimal sudah ditambahkan. ✅ Selesai
+29. Lint/build dan route QA App Foundation lulus. ✅ Selesai
+30. Branch `app-foundation-v1.51` sudah dipush untuk Vercel Preview. ✅ Selesai
+31. Vercel Preview QA App Foundation lulus. ✅ Selesai
+32. Branch sudah dimerge ke `main`. ✅ Selesai
+33. Production QA App Foundation lulus:
+    - Homepage preview/production aman ✅
+    - `/privacy` aman ✅
+    - `/terms` aman ✅
+    - `/oldbrands` aman ✅
+    - `/nfts`, `/skool`, `/claps`, `/news` aman ✅
+    - Redirect pages aman ✅
+    - Mobile aman ✅
+    - Desktop aman ✅
+    - Tidak ada broken route ✅
+    - Tidak ada visual drift besar ✅
+34. Tahap berikutnya adalah **Na Now News MVP v1.62**. 🔜 Berikutnya
 
 ---
 
@@ -335,36 +361,83 @@ Legal Update Minimum v1.51 sudah membuka gate untuk mulai **App Foundation dan S
 
 Target: **v1.51**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
-Akan dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+Hasil:
 
-Tujuan:
+1. App Foundation dan Struktur Data Terpusat v1.51 sudah diterapkan melalui branch `app-foundation-v1.51`.
+2. Branch dibuat dari latest `main`.
+3. Commit lokal/push/merge: `14cdef06f2e3f6441499489ef3dc25013a88facb`.
+4. Static data/config sudah dicentralize ke `src/data/`, termasuk:
+   - site,
+   - navigation,
+   - footer,
+   - brands,
+   - older brands,
+   - farmers,
+   - redirects,
+   - official links.
+5. Approved legal Markdown content sudah dipindahkan dari `DOCSNOW` ke app content:
+   - `src/content/legal/privacy-policy.md`
+   - `src/content/legal/terms-and-conditions.md`
+6. Live app source sudah tidak membaca legal Markdown dari `DOCSNOW`.
+7. Reusable components/helpers sudah ditambahkan:
+   - `src/components/RedirectPage.tsx`
+   - `src/components/PlaceholderPage.tsx`
+   - `src/components/LegalMarkdown.tsx`
+   - `src/lib/seo.ts`
+8. Redirect pages sudah memakai shared redirect renderer dan mengambil target dari satu sumber config.
+9. Meta refresh dan manual redirect button memakai target yang sama dari redirect config.
+10. Placeholder pages `/nfts`, `/skool`, `/claps`, dan `/news` sudah memakai reusable placeholder shell.
+11. Legal pages `/privacy` dan `/terms` sudah memakai reusable `LegalMarkdown`.
+12. SEO helper sudah dibuat dengan route-aware canonical/OG URL.
+13. `.env.example` minimal sudah ditambahkan dengan `NEXT_PUBLIC_FORM_CONTACT_API=`.
+14. `npm run lint` lulus.
+15. `npm run build` lulus.
+16. Route QA lokal lulus.
+17. Branch `app-foundation-v1.51` sudah dipush untuk Vercel Preview.
+18. Vercel Preview deploy sukses.
+19. Preview QA lulus:
+    - Homepage preview aman.
+    - `/privacy` preview aman.
+    - `/terms` preview aman.
+    - `/oldbrands` preview aman.
+    - `/nfts`, `/skool`, `/claps`, `/news` preview aman.
+    - Redirect pages preview aman.
+    - Mobile preview aman.
+    - Desktop preview aman.
+    - Tidak ada broken route.
+    - Tidak ada visual drift besar.
+20. Branch sudah dimerge ke `main`.
+21. Production QA lulus dengan checklist yang sama seperti preview QA.
 
-Menyiapkan fondasi teknis agar BANANOW LAND bisa berkembang menjadi aplikasi modular tanpa kehilangan identitas visual, layout, sound effect, dan rasa BANANOW.
+Gate selesai:
 
-Gambaran isi:
+- [x] Audit struktur komponen dilakukan.
+- [x] Audit data/link/redirect yang masih hardcoded dilakukan.
+- [x] Scope App Foundation v1.51 dikunci.
+- [x] Agent Now Prompt App Foundation Implementation v1.51 disusun.
+- [x] Branch `app-foundation-v1.51` dibuat dari latest `main`.
+- [x] Static data/config dicentralize ke `src/data/`.
+- [x] Legal content dipindahkan ke `src/content/legal/`.
+- [x] Reusable `RedirectPage` dibuat.
+- [x] Reusable `PlaceholderPage` dibuat.
+- [x] Reusable `LegalMarkdown` dibuat.
+- [x] SEO helper route-aware dibuat.
+- [x] `.env.example` minimal dibuat.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Route QA lokal lulus.
+- [x] Branch dipush untuk Vercel Preview.
+- [x] Preview QA lulus.
+- [x] Branch dimerge ke `main`.
+- [x] Production QA lulus.
 
-1. Centralize navigation config.
-2. Centralize footer config.
-3. Centralize brand config.
-4. Centralize redirect config.
-5. Reusable page template.
-6. Reusable legal/content page renderer jika diperlukan.
-7. Reusable button/sound component.
-8. Reusable card components.
-9. `.env.example` update.
-10. SEO metadata base.
-11. Review pola Markdown renderer legal pages yang baru ditambahkan.
-12. Catat backlog renderer Markdown jika nanti perlu mendukung nested bullet, table, link Markdown kompleks, blockquote, atau footnote.
+Catatan:
 
-Gate sementara:
-
-- [ ] Audit struktur komponen saat ini.
-- [ ] Audit data/link/redirect yang masih hardcoded.
-- [ ] Tentukan scope App Foundation v1.51.
-- [ ] Susun App Foundation Task Spec jika diperlukan.
-- [ ] Jangan masuk ke News CMS, Skool forms, NFT Marketplace, atau Claps implementation sebelum foundation siap.
+1. App Foundation v1.51 sudah membuka gate untuk mulai **Na Now News MVP v1.62**.
+2. `LegalMarkdown` tetap sengaja minimal. Jika nanti konten statis memakai nested bullet, table, link Markdown kompleks, blockquote, atau footnote, renderer perlu diperluas atau diganti dengan Markdown engine yang lebih lengkap.
+3. Data/config sudah lebih siap untuk modul berikutnya, tetapi fitur dinamis belum dibuat.
 
 ---
 
@@ -372,9 +445,45 @@ Gate sementara:
 
 Target: **v1.62**
 
-Status: ⏳ Belum mulai.
+Status: 🔜 Berikutnya.
 
-Tentative sampai App Foundation selesai.
+Akan dibreakdown setelah Daftar Runut ini diperbarui dan disimpan kembali ke repo.
+
+Tujuan:
+
+Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW LAND, tanpa langsung overbuild menjadi CMS besar seperti WordPress.
+
+Gambaran awal isi:
+
+1. Review placeholder `/news` yang sudah ada.
+2. Tentukan scope Na Now News MVP v1.62.
+3. Tentukan apakah konten awal memakai static Markdown di `src/content/news/` atau langsung memakai database/CMS sederhana.
+4. Tentukan struktur artikel:
+   - title,
+   - slug,
+   - excerpt,
+   - date,
+   - author,
+   - category,
+   - tags,
+   - cover image,
+   - body/content.
+5. Buat list page `/news`.
+6. Buat article detail page `/news/[slug]`.
+7. Tentukan kategori awal.
+8. Tentukan apakah admin/create/edit/publish masuk MVP ini atau ditahan ke tahap berikutnya.
+9. Siapkan SEO article dasar.
+10. Build/lint/test.
+11. Browser QA.
+12. Commit.
+
+Gate sementara:
+
+- [ ] Scope Na Now News MVP v1.62 dikunci.
+- [ ] Data/content strategy diputuskan.
+- [ ] Minimal content/article sample disiapkan.
+- [ ] Product/Task Spec Na Now News disusun jika diperlukan.
+- [ ] Jangan masuk ke Skool Now, NFT Marketplace, Claps, auth besar, database besar, atau admin dashboard besar sebelum scope News dikunci.
 
 ---
 
@@ -486,41 +595,48 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 Next action:
 
-**Mulai Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat v1.51.**
+**Mulai Item Urutan Besar 9 — Na Now News MVP v1.62.**
 
 Alasan:
 
-Legal Update Minimum v1.51 sudah selesai, sudah diterapkan di `/privacy` dan `/terms`, lint/build lulus, local route QA lulus, dan production QA sudah dilakukan oleh Farmer dengan hasil success/lulus. Dengan demikian gate untuk melanjutkan ke App Foundation sudah terbuka.
+App Foundation dan Struktur Data Terpusat v1.51 sudah selesai, sudah dipush ke Vercel Preview, preview QA lulus, sudah dimerge ke `main`, dan production QA lulus. Dengan demikian gate untuk melanjutkan ke Na Now News MVP sudah terbuka.
 
 Urutan kerja paling dekat:
 
-1. Audit struktur komponen saat ini.
-2. Audit data/link/redirect yang masih hardcoded.
-3. Audit legal Markdown renderer yang baru ditambahkan.
-4. Tentukan scope App Foundation v1.51.
-5. Tentukan apakah perlu Task Spec khusus App Foundation.
-6. Susun prompt Agent Now atau panduan manual untuk App Foundation.
-7. Eksekusi App Foundation secara bertahap.
-8. Build/lint/test.
-9. Browser QA.
-10. Commit.
+1. Review kondisi placeholder `/news`.
+2. Tentukan scope Na Now News MVP v1.62.
+3. Tentukan content strategy:
+   - static Markdown di `src/content/news/`,
+   - atau database/CMS sederhana,
+   - atau pendekatan hybrid bertahap.
+4. Tentukan struktur article schema minimum.
+5. Tentukan kategori/tag awal.
+6. Tentukan apakah admin/create/edit/publish masuk MVP atau ditahan.
+7. Susun Na Now News MVP Task Spec jika diperlukan.
+8. Susun prompt Agent Now atau panduan manual.
+9. Eksekusi bertahap.
+10. Build/lint/test.
+11. Preview QA.
+12. Production QA.
+13. Commit/merge sesuai workflow.
 
-Status next action: **App Foundation dan Struktur Data Terpusat v1.51 — 🔜 Berikutnya**
+Status next action: **Na Now News MVP v1.62 — 🔜 Berikutnya**
 
 ---
 
 ## 20. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah Legal Update Minimum v1.51 selesai diterapkan dan production QA lulus.
+Dokumen ini sudah diperbarui setelah App Foundation dan Struktur Data Terpusat v1.51 selesai diterapkan, preview QA lulus, merge ke `main` selesai, dan production QA lulus.
 
 Status final saat ini:
 
-1. Item Urutan Besar 1 sampai 7 sudah ✅ Selesai.
-2. Item Urutan Besar 8 — App Foundation dan Struktur Data Terpusat adalah 🔜 Berikutnya.
-3. Item Urutan Besar 9 dan seterusnya tetap belum mulai sampai App Foundation selesai atau sampai ada keputusan baru.
+1. Item Urutan Besar 1 sampai 8 sudah ✅ Selesai.
+2. Item Urutan Besar 9 — Na Now News MVP adalah 🔜 Berikutnya.
+3. Item Urutan Besar 10 dan seterusnya tetap belum mulai sampai Na Now News MVP selesai atau sampai ada keputusan baru.
 4. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker.
-5. Markdown renderer legal pages yang ditambahkan pada Legal Update Minimum v1.51 cukup untuk draft saat ini, tetapi perlu dicatat sebagai backlog jika nanti legal/content Markdown memakai nested bullet, table, link Markdown kompleks, blockquote, atau footnote.
-6. Dokumen ini siap menjadi pegangan untuk memulai App Foundation dan Struktur Data Terpusat v1.51.
+5. `LegalMarkdown` masih minimal dan cukup untuk kebutuhan legal v1.51 saat ini. Jika nanti konten statis memakai nested bullet, table, link Markdown kompleks, blockquote, atau footnote, renderer perlu diperluas atau diganti.
+6. App Foundation sudah menyiapkan pola `src/data/` dan `src/content/` untuk tahap-tahap berikutnya.
+7. Dokumen ini siap menjadi pegangan untuk memulai Na Now News MVP v1.62.
 
 ---
 
