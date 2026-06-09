@@ -47,8 +47,8 @@ Aturan utama:
 | 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                |
 | 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                |
 | 9   | Na Now News MVP                                   | v1.62      | ✅ Selesai                                |
-| 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | 🔜 Berikutnya                             |
-| 10  | Skool Now MVP                                     | v1.74      | ⏳ Ditahan sampai Item Sisipan 9A selesai |
+| 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | ✅ Selesai                                |
+| 10  | Skool Now MVP                                     | v1.74      | 🔜 Berikutnya                             |
 | 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
 | 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
 | 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
@@ -175,7 +175,37 @@ Keterangan status:
 52. Vercel Preview QA Na Now News lulus. ✅ Selesai
 53. Branch Na Now News sudah dimerge ke `main`. ✅ Selesai
 54. Production QA Na Now News lulus. ✅ Selesai
-55. Tahap sisipan berikutnya adalah **Repo-Wide Audit & Maintenance Review v1.63** sebelum masuk ke Skool Now MVP v1.74. 🔜 Berikutnya
+55. Repo-Wide Audit & Maintenance Review v1.63 Phase 1 sudah selesai sebagai audit report-only. ✅ Selesai
+56. Phase 1 audit tidak meninggalkan perubahan source, content, config, dependency, commit, push, atau merge. ✅ Selesai
+57. Phase 2A Safe Maintenance Hygiene Patch sudah selesai. ✅ Selesai
+58. Phase 2A mencakup:
+    - Markdown optional link title parser ✅
+    - `rel="noopener noreferrer"` untuk `target="_blank"` ✅
+    - Embassy `console.log` cleanup ✅
+    - cleanup import `process.title` di Layout dan Redirect ✅
+    - typo `sfont-bold` → `font-bold` ✅
+    - tracked `.DS_Store` cleanup ✅
+59. Phase 2A sudah direview manual, dicommit, dimerge ke `main`, dan QA sukses. ✅ Selesai
+60. Phase 2B Brand / Legal / Content Risk Review sudah selesai sebagai report-only. ✅ Selesai
+61. Phase 2B tidak mengubah file, dependency, commit, push, atau merge. ✅ Selesai
+62. Phase 2C Approved Brand / Legal / Content Patch sudah selesai. ✅ Selesai
+63. Phase 2C mencakup:
+    - rewrite TheHeads NFT/utility wording agar lebih aman ✅
+    - rewrite FAQ NFT wording agar tidak investment-framing ✅
+    - rewrite global site description agar tidak revenue-framing ✅
+    - update Terms Na Now News official door ke `/news/` ✅
+    - normalisasi “The Green Print” wording ✅
+    - align public taxonomy `The Brands` → `The Crops` dan `Older Brands` → `Earlier Crops` ✅
+64. Phase 2C sudah direview manual, dicommit, dimerge ke `main`, dan production QA sukses. ✅ Selesai
+65. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 selesai dan tidak menghalangi tahap berikutnya. ✅ Selesai
+66. Sisa temuan non-blocker dipindahkan ke backlog:
+    - stale `News.tsx` cleanup
+    - `api/hello.ts` cleanup
+    - dependency cleanup/update
+    - DOCSNOW historical cleanup
+    - editorial byline guide
+    - marketplace-specific NFT terms
+67. Tahap berikutnya adalah **Skool Now MVP v1.74**. 🔜 Berikutnya
 
 ---
 
@@ -628,7 +658,7 @@ Catatan:
 
 Target: **v1.63**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
 Alasan disisipkan:
 
@@ -636,59 +666,100 @@ Na Now News MVP v1.62 sudah selesai dan sudah production QA. Sebelum masuk ke Sk
 
 Tujuan:
 
-Melakukan pemeriksaan repo secara aman tanpa langsung mengubah kode atau tulisan.
+Melakukan pemeriksaan repo secara aman, bertahap, dan tidak langsung mengubah kode atau tulisan tanpa review Farmer.
 
-Scope pemeriksaan:
+Hasil Phase 1 — Audit Report Only:
 
-1. Kesehatan repo dan git status.
-2. Struktur route dan halaman.
-3. Kesinambungan copy/tulisan.
-4. Konsistensi data/config di `src/data/`.
-5. Konsistensi content di `src/content/`.
-6. Kode yang tidak digunakan.
-7. File yang tidak digunakan.
-8. Import/export yang tidak digunakan.
-9. Komponen yang berpotensi redundant.
-10. Link internal dan eksternal yang berpotensi tidak sinambung.
-11. Legal/content wording yang sudah tidak sesuai.
-12. Placeholder yang seharusnya masih ada vs yang seharusnya dibersihkan.
-13. Dependencies yang outdated atau perlu diperbarui.
-14. Security/audit warnings.
-15. Lint/build baseline.
-16. Risiko perubahan sebelum Skool Now.
+1. Branch audit dibuat dari latest `main`.
+2. Repo-Wide Audit & Maintenance Review v1.63 Phase 1 selesai sebagai report-only.
+3. Audit memeriksa kesehatan repo, struktur route, kesinambungan copy/tulisan, konsistensi data/content, unused code/file/import/export, link internal/eksternal, legal/content wording, dependencies, security/audit warnings, serta lint/build baseline.
+4. Phase 1 tidak mengubah source code, content, config, dependency, file, commit, push, atau merge.
+5. Lint dan build baseline lulus.
+6. Temuan diklasifikasi menjadi safe maintenance hygiene, brand/legal/content risk review, cleanup candidates, dependency/security backlog, dan postponed tasks.
 
-Aturan eksekusi:
+Hasil Phase 2A — Safe Maintenance Hygiene Patch:
 
-1. Agent Now harus membuat branch baru dari latest `main`.
-2. Agent Now hanya melakukan **audit dan laporan dulu**.
-3. Agent Now tidak boleh mengubah kode, tulisan, dependencies, file, route, atau config pada fase audit.
-4. Agent Now harus melaporkan semua temuan, tingkat risiko, dan solusi yang disarankan.
-5. Farmer mereview temuan dan memilih solusi yang boleh dieksekusi.
-6. Agent Now baru boleh mengeksekusi perubahan setelah Farmer memberi perintah eksplisit.
-7. Perubahan dilakukan di branch baru tersebut, bukan langsung di `main`.
-8. Setelah perubahan dilakukan, wajib lint/build/localhost QA.
-9. Farmer melakukan manual review di localhost.
-10. Commit hanya dilakukan setelah Farmer meminta.
-11. Merge ke `main` dilakukan manual oleh Farmer.
+1. Phase 2A selesai sebagai patch aman.
+2. Perubahan dilakukan hanya pada scope yang disetujui Farmer.
+3. Perubahan mencakup:
+   - fix Markdown optional link title parser,
+   - penambahan `rel="noopener noreferrer"` pada `target="_blank"`,
+   - penghapusan production `console.log` di Embassy,
+   - cleanup import aneh `process.title` di Layout dan Redirect,
+   - fix typo `sfont-bold` menjadi `font-bold`,
+   - tracked `.DS_Store` cleanup.
+4. Phase 2A tidak mengubah legal wording, TheHeads NFT wording, FAQ tone, byline, stale files, atau dependencies.
+5. Lint lulus.
+6. Build lulus.
+7. Route QA lulus.
+8. Manual review Farmer lulus.
+9. Commit selesai.
+10. Merge ke `main` selesai.
+11. QA sukses.
+
+Hasil Phase 2B — Brand / Legal / Content Risk Review:
+
+1. Phase 2B selesai sebagai report-only.
+2. Phase 2B tidak mengubah file, dependency, commit, push, atau merge.
+3. Review mencakup TheHeads NFT/Web3 utility wording, Terms prototype/official door references, FAQ/public tone, public identity/byline consistency, dan brand naming consistency.
+4. Temuan utama diputuskan untuk dieksekusi secara terbatas pada Phase 2C.
+5. Temuan byline dan cleanup lain ditahan sebagai backlog.
+
+Hasil Phase 2C — Approved Brand / Legal / Content Patch:
+
+1. Phase 2C selesai sebagai patch brand/legal/content yang disetujui Farmer.
+2. Perubahan dilakukan hanya pada scope yang disetujui.
+3. Perubahan mencakup:
+   - rewrite TheHeads NFT/utility wording agar tidak profit/revenue/benefit-entitlement framing,
+   - rewrite FAQ NFT wording agar tidak investment-market framing,
+   - rewrite global site description agar tidak revenue-framing,
+   - update Terms Na Now News official door ke `https://land.endhonesa.com/news/`,
+   - normalisasi “The Green Print” wording,
+   - align taxonomy publik:
+     - `The Brands` → `The Crops`,
+     - `Older Brands` → `Earlier Crops`.
+4. Phase 2C tidak mengubah article bylines, stale `News.tsx`, `api/hello.ts`, dependency cleanup/update, DOCSNOW cleanup, atau marketplace-specific legal terms.
+5. Lint lulus.
+6. Build lulus.
+7. Route QA lulus.
+8. Manual review Farmer lulus.
+9. Commit selesai.
+10. Merge ke `main` selesai.
+11. Production QA sukses.
 
 Gate selesai:
 
-- [ ] Branch audit dibuat dari latest `main`.
-- [ ] Audit report-only selesai tanpa mengubah file.
-- [ ] Temuan dan rekomendasi solusi dilaporkan.
-- [ ] Farmer mereview dan menyetujui subset perubahan.
-- [ ] Perubahan yang disetujui dieksekusi.
-- [ ] Lint lulus.
-- [ ] Build lulus.
-- [ ] Localhost QA lulus.
-- [ ] Farmer manual review lulus.
-- [ ] Commit dibuat setelah Farmer meminta.
-- [ ] Merge ke `main` dilakukan manual oleh Farmer.
-- [ ] Production QA lulus jika branch sudah merge.
+- [x] Branch audit dibuat dari latest `main`.
+- [x] Audit report-only selesai tanpa mengubah file.
+- [x] Temuan dan rekomendasi solusi dilaporkan.
+- [x] Farmer mereview dan menyetujui subset perubahan.
+- [x] Phase 2A Safe Maintenance Hygiene Patch dieksekusi.
+- [x] Phase 2A lint/build/QA lulus.
+- [x] Phase 2A commit dan merge ke `main` selesai.
+- [x] Phase 2A QA sukses.
+- [x] Phase 2B Brand / Legal / Content Risk Review report-only selesai.
+- [x] Farmer mereview dan menyetujui subset perubahan Phase 2C.
+- [x] Phase 2C Approved Brand / Legal / Content Patch dieksekusi.
+- [x] Phase 2C lint/build/QA lulus.
+- [x] Phase 2C commit dan merge ke `main` selesai.
+- [x] Phase 2C production QA sukses.
+- [x] Sisa temuan non-blocker dicatat sebagai backlog.
+- [x] Item Sisipan 9A selesai dan tidak menghalangi Skool Now.
+
+Backlog non-blocker dari Item Sisipan 9A:
+
+1. Stale `News.tsx` cleanup.
+2. `api/hello.ts` cleanup.
+3. Dependency cleanup/update.
+4. DOCSNOW historical cleanup.
+5. Editorial byline guide.
+6. Marketplace-specific NFT terms.
+7. Explicit marketplace disclaimers untuk listing, minting, trading, royalties, dan third-party marketplace behavior.
+8. Advanced Markdown/MDX-like renderer jika dibutuhkan nanti.
 
 Catatan:
 
-Item Sisipan 9A bukan tempat menambah fitur baru. Item ini hanya untuk maintenance, cleanup, dependency review, dan kesinambungan repo sebelum lanjut ke Skool Now.
+Item Sisipan 9A tidak menambah fitur baru. Item ini sudah membersihkan maintenance hygiene dan menyelaraskan wording publik yang paling berisiko sebelum masuk ke Skool Now MVP v1.74. Sisa backlog bukan blocker untuk Skool Now.
 
 ---
 
@@ -696,9 +767,68 @@ Item Sisipan 9A bukan tempat menambah fitur baru. Item ini hanya untuk maintenan
 
 Target: **v1.74**
 
-Status: ⏳ Ditahan sampai Item Sisipan 9A selesai.
+Status: 🔜 Berikutnya.
 
-Tentative sampai Repo-Wide Audit & Maintenance Review v1.63 selesai, atau sampai Farmer memutuskan Skool Now didahulukan.
+Tujuan:
+
+Membangun Skool Now sebagai Crop pendidikan/program BANANOW LAND yang menjadi pintu awal untuk program belajar, komunitas, partner, sponsor, dan future literacy.
+
+Arah awal yang sudah diketahui:
+
+1. Skool Now berada di route `/skool/`.
+2. Skool Now menjadi brand/program layer BANANOW untuk pendidikan, latihan, hobi, olahraga, dan skill-building.
+3. Program awal yang mungkin diprioritaskan:
+   - Skate Now Skate Skool,
+   - Skate Skool Now,
+   - atau nama final lain yang diputuskan sebelum implementasi.
+4. Skool Now dapat berkembang menjadi pola “XXXX Skool Now” untuk program olahraga, team, hobby, skill, dan community learning lain.
+5. Skool Now perlu mendukung arah:
+   - B2C participants/packages,
+   - B2B partners,
+   - investor/sponsor layer,
+   - future literacy positioning.
+6. Skool Now tidak boleh masuk ke sistem pembayaran, form kompleks, database, admin dashboard, atau dynamic program management sebelum MVP scope dikunci.
+
+Persiapan yang harus dilakukan sebelum Agent Now implementation:
+
+1. Review existing placeholder `/skool`.
+2. Tentukan scope Skool Now MVP v1.74.
+3. Tentukan apakah MVP cukup landing page statis dulu atau perlu program detail page.
+4. Tentukan nama program pertama:
+   - Skool Now,
+   - Skate Now Skate Skool,
+   - Skate Skool Now,
+   - atau kombinasi naming final.
+5. Tentukan struktur konten MVP:
+   - hero,
+   - what is Skool Now,
+   - who it is for,
+   - first program,
+   - participant path,
+   - partner path,
+   - sponsor/investor path,
+   - safety/age/guardian note jika relevan,
+   - CTA/contact.
+6. Tentukan data/config yang perlu masuk ke `src/data/`.
+7. Tentukan apakah content statis cukup di component/data atau perlu `src/content/skool/`.
+8. Susun Skool Now MVP Task Spec.
+9. Susun prompt Agent Now implementation hanya setelah scope dikunci.
+
+Gate sementara:
+
+- [ ] Existing placeholder `/skool` direview.
+- [ ] Scope Skool Now MVP v1.74 dikunci.
+- [ ] Naming program awal diputuskan.
+- [ ] Struktur konten landing page disetujui.
+- [ ] B2C/B2B/sponsor layer disusun secara aman dan tidak overclaim.
+- [ ] Data/config strategy diputuskan.
+- [ ] Product/Task Spec Skool Now disusun.
+- [ ] Prompt Agent Now implementation disusun.
+- [ ] Jangan masuk ke payment, database, auth, admin dashboard, marketplace, atau Claps implementation sebelum scope Skool Now MVP dikunci.
+
+Catatan:
+
+Skool Now adalah tahap berikutnya setelah Repo-Wide Audit & Maintenance Review v1.63 selesai. Fase ini sebaiknya dimulai dari diskusi produk dan copy terlebih dahulu, bukan langsung implementasi.
 
 ---
 
@@ -800,47 +930,64 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 Next action:
 
-**Mulai Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63.**
+**Mulai Item Urutan Besar 10 — Skool Now MVP v1.74.**
 
 Alasan:
 
-Na Now News MVP v1.62 sudah selesai, sudah dipush untuk Vercel Preview, preview QA lulus, sudah dimerge ke `main`, dan production QA lulus. Sebelum masuk ke Skool Now MVP v1.74, repo perlu diaudit menyeluruh agar tahap berikutnya tidak membawa sisa masalah teknis, copywriting, dependency, atau kesinambungan struktur dari tahap sebelumnya.
+Na Now News MVP v1.62 sudah selesai. Repo-Wide Audit & Maintenance Review v1.63 juga sudah selesai melalui Phase 1 audit, Phase 2A safe maintenance hygiene patch, Phase 2B brand/legal/content review, dan Phase 2C approved content patch. Phase 2C sudah dicommit, dimerge ke `main`, dan production QA sukses. Dengan demikian gate untuk melanjutkan ke Skool Now MVP v1.74 sudah terbuka.
 
 Urutan kerja paling dekat:
 
-1. Buat branch baru dari latest `main`.
-2. Lakukan audit report-only tanpa mengubah file.
-3. Periksa kode, tulisan, struktur route, data/config, content, dependency, dan build baseline.
-4. Laporkan semua temuan, risiko, dan solusi.
-5. Tunggu review dan keputusan Farmer.
-6. Eksekusi hanya perubahan yang disetujui Farmer.
-7. Jalankan lint/build/localhost QA.
-8. Farmer melakukan review manual di localhost.
-9. Commit hanya jika Farmer meminta.
-10. Merge ke `main` dilakukan manual oleh Farmer.
-11. Jika Item Sisipan 9A selesai, lanjut ke **Item Urutan Besar 10 — Skool Now MVP v1.74**.
+1. Review kondisi placeholder `/skool`.
+2. Kunci scope Skool Now MVP v1.74.
+3. Tentukan naming final:
+   - Skool Now,
+   - Skate Now Skate Skool,
+   - Skate Skool Now,
+   - atau struktur brand/program lain.
+4. Tentukan struktur konten landing page.
+5. Tentukan participant path, partner path, dan sponsor/investor path.
+6. Tentukan safety/guardian note jika program menyentuh anak, keluarga, atau peserta muda.
+7. Tentukan data/config strategy.
+8. Susun Skool Now MVP Product/Task Spec.
+9. Susun prompt Agent Now implementation.
+10. Eksekusi bertahap di branch baru dari latest `main`.
+11. Lint/build/local QA.
+12. Vercel Preview QA.
+13. Merge manual ke `main`.
+14. Production QA.
 
-Status next action: **Repo-Wide Audit & Maintenance Review v1.63 — 🔜 Berikutnya**
+Status next action: **Skool Now MVP v1.74 — 🔜 Berikutnya**
 
 ---
 
 ## 21. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah Na Now News MVP v1.62 selesai diterapkan, dipoles, dipush untuk Vercel Preview, lulus Preview QA, dimerge ke `main`, dan lulus Production QA.
+Dokumen ini sudah diperbarui setelah Repo-Wide Audit & Maintenance Review v1.63 selesai. Phase 1 audit, Phase 2A safe maintenance hygiene patch, Phase 2B brand/legal/content review, dan Phase 2C approved content patch sudah tuntas. Phase 2C sudah dicommit, dimerge ke `main`, dan production QA sukses.
 
 Status final saat ini:
 
 1. Item Urutan Besar 1 sampai 9 sudah ✅ Selesai.
-2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 adalah 🔜 Berikutnya.
-3. Item Urutan Besar 10 — Skool Now MVP v1.74 ditahan sampai Item Sisipan 9A selesai atau sampai Farmer memutuskan lain.
+2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 sudah ✅ Selesai.
+3. Item Urutan Besar 10 — Skool Now MVP v1.74 adalah 🔜 Berikutnya.
 4. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
-5. Known issue dependency/security dari Website Update v1.47 tetap dicatat sebagai backlog dan bukan blocker sampai audit v1.63 memberikan rekomendasi baru.
-6. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW LAND.
-7. Admin/create/edit/publish dashboard untuk Na Now News belum masuk MVP dan tetap ditahan.
-8. Search, comments, newsletter, CMS besar, dan database untuk News belum dibuat.
-9. Full social embed untuk Instagram/Facebook/X belum dibuat; MVP hanya memakai external media card.
-10. App Foundation, `src/data/`, dan `src/content/` sekarang menjadi dasar yang dipakai untuk tahap berikutnya.
-11. Dokumen ini siap menjadi pegangan untuk memulai Repo-Wide Audit & Maintenance Review v1.63.
+5. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW LAND.
+6. Maintenance hygiene paling aman sudah diterapkan.
+7. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
+8. Public taxonomy website sudah lebih selaras dengan The Green Print:
+   - `The Brands` → `The Crops`,
+   - `Older Brands` → `Earlier Crops`.
+9. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
+10. Sisa temuan non-blocker dari audit v1.63 dipindahkan ke backlog:
+    - stale `News.tsx` cleanup,
+    - `api/hello.ts` cleanup,
+    - dependency cleanup/update,
+    - DOCSNOW historical cleanup,
+    - editorial byline guide,
+    - marketplace-specific NFT terms,
+    - explicit marketplace disclaimers,
+    - advanced Markdown/MDX-like renderer jika dibutuhkan.
+11. Dokumen ini siap menjadi pegangan untuk memulai Skool Now MVP v1.74.
 
 ---
 
