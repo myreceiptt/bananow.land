@@ -20,10 +20,9 @@ const faqitems = [
       "Web3 is huge and interconnected, which is why it is easier for anyone to gain access to the public and private data that you share online. As Web3-based websites and applications become popular, the pressure will come on existing businesses to upgrade. Accordingly, BANANOW is here, so you can LEARN new knowledge and skills or build on your existing ones, and even complete beginners can become Web3-ready. In fact, we recommend that everyone start by becoming a community member of BANANOW.",
   },
   {
-    question:
-      "How I can get BANANOW NFTs? Is worth it in today's market condition?",
+    question: "How can I learn about BANANOW NFTs?",
     response:
-      'You can get BANANOW NFTs by hit the "Be a Head" button above, all information about how to get BANANOW NFTs is provided there. One important thing should be noted, BANANOW NFTs are not suitable for those of you who are cash grabbers. However, if you are willing to grow with us, be a BANANOW Head now!',
+      'You can start by hitting the "Be a Head" button above and reading the official BANANOW NFT information there. BANANOW NFTs are collectible identity signals connected to the BANANOW community. They are not investment products and should not be bought with an expectation of profit, guaranteed access, guaranteed rewards, or guaranteed benefits.',
   },
   {
     question: "As a BANANOW Head, do you think I'm good-looking?",

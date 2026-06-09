@@ -77,8 +77,8 @@ BANANOW LAND Website:
 BANANOW LAND Green Print:
 `https://bananowgp.endhonesa.com/`
 
-BANANOW LAND Na Now News Prototype:
-`https://news.endhonesa.com/`
+BANANOW LAND Na Now News:
+`https://land.endhonesa.com/news/`
 
 BANANOW.LAND Discord Server:
 `https://land.endhonesa.com/discord/`

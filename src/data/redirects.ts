@@ -72,7 +72,7 @@ export const redirects = {
     heading: "Class Now",
     description: [
       {
-        text: "This page redirects to the green print page where all the information about the Class Now that is held in both the Universe of Reality and 0101 Universe...",
+        text: "This page redirects to The Green Print, where all information about Class Now in both the Universe of Reality and 0101 Universe is documented...",
       },
     ],
     image: "/images/brandproducts/class.svg",
@@ -85,7 +85,7 @@ export const redirects = {
     heading: "Agent Now",
     description: [
       {
-        text: "This page redirects to the green print page where all the information about how to access and empower the Farmers of ",
+        text: "This page redirects to The Green Print, where information about how to access and empower the Farmers of ",
       },
       bananow,
       { text: " for your needs..." },
@@ -102,7 +102,7 @@ export const redirects = {
     heading: "Dermaga Web3",
     description: [
       {
-        text: "This page redirects to the green print page where all the information about the Web3 onboarding events of ",
+        text: "This page redirects to The Green Print, where information about the Web3 onboarding events of ",
       },
       bananow,
       { text: "..." },
@@ -137,7 +137,7 @@ export const redirects = {
     target: greenPrintCropLinks.inamotion,
     heading: "InAMotion",
     description: [
-      { text: "This page redirects to the green print page where all the information about InAMotion Creative Agency..." },
+      { text: "This page redirects to The Green Print, where information about InAMotion Creative Agency is documented..." },
     ],
     image: "/images/brandproducts/inamotion.svg",
     imageAlt: "Ina Motion Creative Agency",
@@ -220,7 +220,7 @@ export const redirects = {
     heading: "NOTA's Dept.",
     description: [
       {
-        text: "This page redirects to the green print page where all the information about the role of Professor NOTA in ",
+        text: "This page redirects to The Green Print, where information about the role of Professor NOTA in ",
       },
       bananow,
       { text: "..." },
@@ -254,7 +254,7 @@ export const redirects = {
     target: greenPrintCropLinks.embassy,
     heading: "Redirecting...",
     description: [
-      { text: "Redirecting to the green print page where all the information about The Embassy of " },
+      { text: "Redirecting to The Green Print, where information about The Embassy of " },
       bananow,
       { text: "..." },
     ],
@@ -299,7 +299,7 @@ export const redirects = {
     heading: "90's Vibes",
     description: [
       {
-        text: "This page redirects to the green print page where all the information about the 90's Vibes...",
+        text: "This page redirects to The Green Print, where information about the 90's Vibes is documented...",
       },
     ],
     image: "/images/brandproducts/90svibes.svg",
