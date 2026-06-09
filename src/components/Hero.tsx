@@ -78,7 +78,7 @@ export function Hero() {
                 onClick={sound2Click}
                 href="#brandproducts"
                 className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 rounded-full px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white">
-                The Brands
+                The Crops
               </Link>
             </div>
 
