@@ -20,7 +20,7 @@ export function Hero() {
             ...
             <br /> The{" "}
             <span className="text-yellow-now dark:text-green-now font-extrabold">
-              LAND
+              Land
             </span>{" "}
             of Nutrition
           </h1>
@@ -31,7 +31,7 @@ export function Hero() {
             </span>
             .
             <span className="text-yellow-now dark:text-green-now font-bold">
-              LAND
+              Land
             </span>
             , where the vibes are always hype and the fun never stops! We are
             your friendly neighborhood from Web3.

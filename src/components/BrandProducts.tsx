@@ -34,7 +34,7 @@ export function BrandProducts() {
           </span>{" "}
           always maintain the fertility of each of the plantation crops on this{" "}
           <span className="text-yellow-now dark:text-green-now font-bold">
-            LAND
+            Land
           </span>
           . Make this space a healthy, fair, and fun place to grow. If you want
           to know more about what we do, which is updated regularly, click on

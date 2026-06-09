@@ -239,7 +239,7 @@ export function News2() {
           </span>{" "}
           always maintain the fertility of each of the plantation crops on this{" "}
           <span className="text-yellow-now dark:text-green-now font-bold">
-            LAND
+            Land
           </span>
           . Make this space a healthy, fair, and fun place to grow.
         </p>

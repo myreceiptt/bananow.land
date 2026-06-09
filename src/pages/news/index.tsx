@@ -14,11 +14,11 @@ type NewsIndexProps = {
 
 const newsDescription =
   activeBrands.find((brand) => brand.name === "Na Now News")?.description ??
-  "Na Now News is BANANOW LAND's space for updates, stories, and ordinary something.";
+  "Na Now News is BANANOW Land's space for updates, stories, and ordinary something.";
 
 export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
   return (
-    <Layout title="Na Now News | BANANOW LAND" description={newsDescription}>
+    <Layout title="Na Now News | BANANOW Land" description={newsDescription}>
       <div className="bg-white px-4 pb-16 pt-32 dark:bg-neutral-900" id="news">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="font-judul text-4xl font-bold text-neutral-900 dark:text-white">

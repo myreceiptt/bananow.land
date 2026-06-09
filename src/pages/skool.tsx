@@ -1,26 +1,14 @@
-import PlaceholderPage from "../components/PlaceholderPage";
+import Embassy from "../components/Embassy";
+import Layout from "../components/Layout";
+import SkoolNow from "../components/skool/SkoolNow";
 
 export default function Skool() {
   return (
-    <PlaceholderPage
-      id="skool"
-      title={
-        <>
-          Skool{" "}
-          <span className="text-yellow-now dark:text-green-now font-extrabold">
-            Now
-          </span>
-        </>
-      }
-      description={
-        <>
-          <span className="text-green-now dark:text-yellow-now font-bold">
-            BANANOW
-          </span>
-          &apos;s home for learning programs, playing communities, and
-          real-world growth is being prepared.
-        </>
-      }
-    />
+    <Layout
+      title="Skool Now - BANANOW Land"
+      description="Skool Now is BANANOW Land's home for learning programs, sports communities, real-world skills, partners, sponsors, and future literacy.">
+      <SkoolNow />
+      <Embassy />
+    </Layout>
   );
 }

@@ -102,7 +102,7 @@ export default function Footer() {
               }}
               className="h-17 w-auto hover:scale-110 transition"
               src={site.logo}
-              alt="BANANOW LAND Logo"
+              alt="BANANOW Land Logo"
               width={150}
               height={150}
               quality={75}
@@ -112,7 +112,7 @@ export default function Footer() {
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
             <span className="text-yellow-now font-bold">BANANOW</span>{" "}
-            <span className="text-green-now font-bold">LAND</span> - A Web3
+            <span className="text-green-now font-bold">Land</span> - A Web3
             Supportive Family
           </p>
 
@@ -197,7 +197,7 @@ export default function Footer() {
           href="/"
           className="text-white-now text-sm hover:text-yellow-now">
           <span className="text-yellow-now font-bold">BANANOW</span>{" "}
-          <span className="text-green-now font-bold">LAND</span> &copy;
+          <span className="text-green-now font-bold">Land</span> &copy;
           Copyright {new Date().getFullYear()}. All Rights Reserved.
         </Link>
       </div>

@@ -9,7 +9,7 @@ export const newsCategories: NewsCategory[] = [
     name: "Land",
     slug: "land",
     description:
-      "Direction, identity, documents, status, and major development of BANANOW LAND.",
+      "Direction, identity, documents, status, and major development of BANANOW Land.",
   },
   {
     name: "Technology",

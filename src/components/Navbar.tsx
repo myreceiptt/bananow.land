@@ -60,7 +60,7 @@ export default function Navbar() {
                       }}
                       className="block h-11 w-auto hover:scale-110 transition"
                       src={site.logo}
-                      alt="BANANOW LAND Logo"
+                      alt="BANANOW Land Logo"
                       width={150}
                       height={150}
                       quality={75}
@@ -93,7 +93,7 @@ export default function Navbar() {
                   <Link
                     onClick={sound2Click}
                     href={ctaLinks.beAHead}
-                    title="Be a Head of BANANOW LAND..."
+                    title="Be a Head of BANANOW Land..."
                     className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-yellow-now hover:bg-yellow-now hover:text-neutral-900 dark:hover:text-white rounded-full">
                     Be a Head
                   </Link>
@@ -103,7 +103,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden lg:block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-2 xl:text-base xl:font-medium text-sm font-normal dark:hover:bg-green-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white rounded-full"
-                    title="Read The Green Print of BANANOW LAND...">
+                    title="Read The Green Print of BANANOW Land...">
                     The Green Print
                   </Link>
                   <ThemeSwitchButton />
@@ -147,7 +147,7 @@ export default function Navbar() {
               <Link
                 onClick={sound2Click}
                 href={ctaLinks.beAHead}
-                title="Be a Head of BANANOW LAND..."
+                title="Be a Head of BANANOW Land..."
                 className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
                 Be a Head
               </Link>
@@ -156,7 +156,7 @@ export default function Navbar() {
                 href={ctaLinks.greenPrint}
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Read The Green Print of BANANOW LAND..."
+                title="Read The Green Print of BANANOW Land..."
                 className="mt-12 block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 px-4 p-3 font-medium rounded-full w-full text-center">
                 The Green Print
               </Link>

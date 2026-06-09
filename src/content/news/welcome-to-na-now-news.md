@@ -1,19 +1,19 @@
 ---
 title: "Hi, OiOi Fams! Welcome to Na Now News"
 slug: "welcome-to-na-now-news"
-excerpt: "Welcome to Na Now News, the BANANOW LAND space for updates, stories, official links, community notes, and whatever grows from the LAND."
+excerpt: "Welcome to Na Now News, the BANANOW Land space for updates, stories, official links, community notes, and whatever grows from the Land."
 date: "2023-09-01"
 updated: "2026-06-08"
 author: "V Bananow"
 status: "published"
-primaryCategory: "LAND"
+primaryCategory: "Land"
 categories:
-  - "LAND"
+  - "Land"
   - "Community"
   - "Web3"
 tags:
   - "Na Now News"
-  - "BANANOW LAND"
+  - "BANANOW Land"
   - "Official Links"
   - "Community"
   - "NFTs"
@@ -23,11 +23,11 @@ coverImage: "/images/news/welcome-to-na-now-news-0.jpg"
 
 Hi, OiOi Fams!
 
-Welcome to [BANANOW LAND](https://land.endhonesa.com/ "BANANOW LAND Official Website").
+Welcome to [BANANOW Land](https://land.endhonesa.com/ "BANANOW Land Official Website").
 
-Na Now News is where we share what has grown from the LAND: updates, stories, community notes, public memories, strange little seeds, ordinary somethings, and maybe even crazy nothings.
+Na Now News is where we share what has grown from the Land: updates, stories, community notes, public memories, strange little seeds, ordinary somethings, and maybe even crazy nothings.
 
-BANANOW LAND was created with a simple spirit: to build a fun, healthy, and mutually supportive FAMILY. With roots in creative culture, community work, and Web3 exploration, BANANOW keeps learning how to help people promote, express, create, gather, and grow.
+BANANOW Land was created with a simple spirit: to build a fun, healthy, and mutually supportive FAMILY. With roots in creative culture, community work, and Web3 exploration, BANANOW keeps learning how to help people promote, express, create, gather, and grow.
 
 We also believe that future literacy should feel friendly. AI, blockchain, digital platforms, and creative tools should not only belong to big platforms or distant experts. They should become easier to understand, easier to question, and easier to use by everyday people in the Universe of Reality and the 0101 Universe.
 
@@ -39,13 +39,13 @@ Because there may be people who try to take advantage of the BANANOW name, pleas
 
 Primary official doors:
 
-1. BANANOW LAND Website: [https://land.endhonesa.com/](https://land.endhonesa.com/ "BANANOW LAND Website")
-2. BANANOW LAND Green Print: [https://bananowgp.endhonesa.com/](https://bananowgp.endhonesa.com/ "BANANOW LAND Green Print")
+1. BANANOW Land Website: [https://land.endhonesa.com/](https://land.endhonesa.com/ "BANANOW Land Website")
+2. BANANOW Land Green Print: [https://bananowgp.endhonesa.com/](https://bananowgp.endhonesa.com/ "BANANOW Land Green Print")
 3. Na Now News: [https://land.endhonesa.com/news/](https://land.endhonesa.com/news/ "Na Now News")
-4. BANANOW.LAND Discord Server: [https://land.endhonesa.com/discord/](https://land.endhonesa.com/discord/ "BANANOW.LAND Discord Server")
-5. BANANOW.LAND X Account: [https://land.endhonesa.com/twitter/](https://land.endhonesa.com/twitter/ "BANANOW.LAND X Account")
-6. BANANOW.LAND Instagram Profile: [https://land.endhonesa.com/instagram/](https://land.endhonesa.com/instagram/ "BANANOW.LAND Instagram Profile")
-7. BANANOW.LAND YouTube Channel: [https://land.endhonesa.com/youtube/](https://land.endhonesa.com/youtube/ "BANANOW.LAND YouTube Channel")
+4. BANANOW.Land Discord Server: [https://land.endhonesa.com/discord/](https://land.endhonesa.com/discord/ "BANANOW.Land Discord Server")
+5. BANANOW.Land X Account: [https://land.endhonesa.com/twitter/](https://land.endhonesa.com/twitter/ "BANANOW.Land X Account")
+6. BANANOW.Land Instagram Profile: [https://land.endhonesa.com/instagram/](https://land.endhonesa.com/instagram/ "BANANOW.Land Instagram Profile")
+7. BANANOW.Land YouTube Channel: [https://land.endhonesa.com/youtube/](https://land.endhonesa.com/youtube/ "BANANOW.Land YouTube Channel")
 
 Current or BANANOW-related NFT doors:
 
@@ -57,9 +57,9 @@ Always double-check every link you open. BANANOW will never ask for your private
 
 > One thing to remember: if there is an important mint, campaign, event, or public update, BANANOW will announce it through official channels. Be careful with surprise links, fake drops, fake mints, and impersonators.
 
-## Come to Our LAND
+## Come to Our Land
 
-BANANOW has many roots, earlier Crops, old experiments, and public memories. Some of them are active. Some of them are historical. Some of them are legacy links. Some of them are part of the soil that helped BANANOW grow into the LAND it is today.
+BANANOW has many roots, earlier Crops, old experiments, and public memories. Some of them are active. Some of them are historical. Some of them are legacy links. Some of them are part of the soil that helped BANANOW grow into the Land it is today.
 
 Historical and legacy NFT doors:
 

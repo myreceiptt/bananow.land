@@ -1,4 +1,4 @@
-# BANANOW LAND — Skool Now MVP Product/Task Spec v1.74
+# BANANOW Land — Skool Now MVP Product/Task Spec v1.74
 
 ## 1. Stage Identity
 
@@ -10,11 +10,11 @@ Status: Scope locked, ready for implementation planning.
 
 ## 2. Objective
 
-Build `/skool/` as the first public landing page for **Skool Now**, the BANANOW LAND education/program Crop.
+Build `/skool/` as the first public landing page for **Skool Now**, the BANANOW Land education/program Crop.
 
 The page should explain Skool Now as a program layer for learning, sports, community growth, real-world skills, partners, sponsors, and investors.
 
-The MVP must remain static, simple, safe, and aligned with the existing BANANOW LAND website.
+The MVP must remain static, simple, safe, and aligned with the existing BANANOW Land website.
 
 ## 3. Source of Truth
 
@@ -503,13 +503,13 @@ Recommended page metadata direction:
 Title:
 
 ```text
-Skool Now — BANANOW LAND
+Skool Now — BANANOW Land
 ```
 
 Description:
 
 ```text
-Skool Now is BANANOW LAND’s home for learning programs, sports communities, real-world skills, partners, sponsors, and future literacy.
+Skool Now is BANANOW Land’s home for learning programs, sports communities, real-world skills, partners, sponsors, and future literacy.
 ```
 
 Avoid SEO copy that promises revenue, guaranteed outcomes, or investment returns.

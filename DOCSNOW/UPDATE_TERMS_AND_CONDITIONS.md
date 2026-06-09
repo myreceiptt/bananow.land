@@ -4,22 +4,22 @@ Last updated: June 2026
 
 ## Overview
 
-This website is operated by BANANOW FAMILY. Throughout these Terms and Conditions of Use, the terms “BANANOW”, “BANANOW LAND”, “BANANOW.LAND”, “we”, “us”, and “our” refer to BANANOW FAMILY and the BANANOW LAND ecosystem.
+This website is operated by BANANOW FAMILY. Throughout these Terms and Conditions of Use, the terms “BANANOW”, “BANANOW Land”, “BANANOW.Land”, “we”, “us”, and “our” refer to BANANOW FAMILY and the BANANOW Land ecosystem.
 
-BANANOW LAND offers this website, its pages, content, links, Crops, community channels, Web3/NFT-related experiences, AI-related features, forms, tools, and future services to you, the user, conditioned upon your acceptance of these Terms, our Privacy Policy, and any other applicable notices, rules, or policies.
+BANANOW Land offers this website, its pages, content, links, Crops, community channels, Web3/NFT-related experiences, AI-related features, forms, tools, and future services to you, the user, conditioned upon your acceptance of these Terms, our Privacy Policy, and any other applicable notices, rules, or policies.
 
-By accessing or using BANANOW LAND, you agree to be bound by these Terms. If you do not agree to these Terms, please do not access or use BANANOW LAND.
+By accessing or using BANANOW Land, you agree to be bound by these Terms. If you do not agree to these Terms, please do not access or use BANANOW Land.
 
-Any new feature, tool, page, Crop, program, community channel, NFT-related experience, AI-related feature, or other service added to BANANOW LAND will also be subject to these Terms unless separate or additional terms are provided.
+Any new feature, tool, page, Crop, program, community channel, NFT-related experience, AI-related feature, or other service added to BANANOW Land will also be subject to these Terms unless separate or additional terms are provided.
 
-You can review the most current version of these Terms at any time on this page. We may update, change, or replace any part of these Terms by posting updates on our website. Your continued use of or access to BANANOW LAND after any changes are posted constitutes acceptance of those changes.
+You can review the most current version of these Terms at any time on this page. We may update, change, or replace any part of these Terms by posting updates on our website. Your continued use of or access to BANANOW Land after any changes are posted constitutes acceptance of those changes.
 
 ## 1. Scope of These Terms
 
-These Terms apply generally to BANANOW LAND and its related services, including but not limited to:
+These Terms apply generally to BANANOW Land and its related services, including but not limited to:
 
-1. the BANANOW LAND website;
-2. official BANANOW LAND pages and links;
+1. the BANANOW Land website;
+2. official BANANOW Land pages and links;
 3. The Green Print and related documentation;
 4. Na Now News and content-related pages;
 5. Skool Now and future program-related pages;
@@ -27,21 +27,21 @@ These Terms apply generally to BANANOW LAND and its related services, including 
 7. Claps and future AI-related features;
 8. community, social, and communication channels;
 9. forms, inquiries, collaboration requests, and support requests;
-10. future Crops, tools, campaigns, or services connected to BANANOW LAND.
+10. future Crops, tools, campaigns, or services connected to BANANOW Land.
 
-BANANOW LAND may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
+BANANOW Land may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
 
 If there is any conflict between these general Terms and crop-specific terms, campaign rules, program terms, marketplace terms, official announcements, or third-party terms, the more specific or more recent official terms will apply for that specific activity.
 
-Where interpretation is required, BANANOW LAND may interpret and apply its terms in the way that best protects the LAND, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
+Where interpretation is required, BANANOW Land may interpret and apply its terms in the way that best protects the Land, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
 
 Nothing in these Terms limits any non-waivable rights granted by applicable law.
 
 ## 2. Online Terms
 
-By using BANANOW LAND, you represent that you are at least the age of majority in your place of residence, or that you are using BANANOW LAND with appropriate consent and supervision from a parent, guardian, or responsible adult where required.
+By using BANANOW Land, you represent that you are at least the age of majority in your place of residence, or that you are using BANANOW Land with appropriate consent and supervision from a parent, guardian, or responsible adult where required.
 
-You may not use BANANOW LAND for any illegal, unauthorized, harmful, abusive, deceptive, or infringing purpose. You must not violate any laws in your jurisdiction, including intellectual property laws, privacy laws, consumer protection laws, financial regulations, child-safety laws, cybersecurity laws, or blockchain-related regulations where applicable.
+You may not use BANANOW Land for any illegal, unauthorized, harmful, abusive, deceptive, or infringing purpose. You must not violate any laws in your jurisdiction, including intellectual property laws, privacy laws, consumer protection laws, financial regulations, child-safety laws, cybersecurity laws, or blockchain-related regulations where applicable.
 
 The headings used in these Terms are included for convenience only and will not limit or otherwise affect these Terms.
 
@@ -49,47 +49,47 @@ The headings used in these Terms are included for convenience only and will not 
 
 You must not transmit any worm, virus, malicious code, exploit, spam, phishing attempt, scam, scraping tool, bot abuse, or any code or behavior of a destructive or harmful nature.
 
-You agree not to reproduce, duplicate, copy, sell, resell, exploit, scrape, or misuse any portion of BANANOW LAND, its content, its Crops, its visual assets, its writing, its code, its systems, its community spaces, or its official links without express written permission from BANANOW.
+You agree not to reproduce, duplicate, copy, sell, resell, exploit, scrape, or misuse any portion of BANANOW Land, its content, its Crops, its visual assets, its writing, its code, its systems, its community spaces, or its official links without express written permission from BANANOW.
 
 A breach or violation of these Terms may result in termination, restriction, blocking, removal, refusal of service, or other protective action.
 
 ## 4. Accuracy, Completeness, and Timeliness of Information
 
-The material on BANANOW LAND is provided for general information, storytelling, education, community communication, and project direction.
+The material on BANANOW Land is provided for general information, storytelling, education, community communication, and project direction.
 
-We do not guarantee that information made available on BANANOW LAND is always accurate, complete, current, or suitable for your specific situation. Any reliance on the material on BANANOW LAND is at your own risk.
+We do not guarantee that information made available on BANANOW Land is always accurate, complete, current, or suitable for your specific situation. Any reliance on the material on BANANOW Land is at your own risk.
 
 We may modify, update, archive, correct, remove, or discontinue any content, page, tool, feature, Crop, program, service, or link at any time without prior notice.
 
-BANANOW is a growing LAND. Some seeds may grow. Some Crops may rest. Some links may change. Some features may appear, disappear, pause, or return when the season is right.
+BANANOW is a growing Land. Some seeds may grow. Some Crops may rest. Some links may change. Some features may appear, disappear, pause, or return when the season is right.
 
 ## 5. Official Doors and Links
 
-BANANOW LAND may provide official links, redirect pages, social links, NFT-related links, documentation links, marketplace links, explorer links, community links, and historical links.
+BANANOW Land may provide official links, redirect pages, social links, NFT-related links, documentation links, marketplace links, explorer links, community links, and historical links.
 
 Always verify official URLs before connecting wallets, signing transactions, sending information, joining communities, or interacting with NFT-related pages.
 
 ### 5.1. Primary Official Doors
 
-BANANOW LAND Website:
+BANANOW Land Website:
 `https://land.endhonesa.com/`
 
-BANANOW LAND Green Print:
+BANANOW Land Green Print:
 `https://bananowgp.endhonesa.com/`
 
-BANANOW LAND Na Now News Prototype:
+BANANOW Land Na Now News Prototype:
 `https://news.endhonesa.com/`
 
-BANANOW.LAND Discord Server:
+BANANOW.Land Discord Server:
 `https://land.endhonesa.com/discord/`
 
-BANANOW.LAND X Account:
+BANANOW.Land X Account:
 `https://land.endhonesa.com/twitter/`
 
-BANANOW.LAND Instagram Profile:
+BANANOW.Land Instagram Profile:
 `https://land.endhonesa.com/instagram/`
 
-BANANOW.LAND YouTube Channel:
+BANANOW.Land YouTube Channel:
 `https://land.endhonesa.com/youtube/`
 
 ### 5.2. Current or BANANOW-Related NFT Doors
@@ -132,9 +132,9 @@ The banana may be playful. Your wallet should stay awake.
 
 ## 6. Third-Party Links and Platforms
 
-Certain content, products, services, pages, and tools available through BANANOW LAND may include or link to third-party websites, platforms, wallets, marketplaces, blockchain explorers, social media platforms, payment providers, AI providers, hosting providers, documentation tools, or community services.
+Certain content, products, services, pages, and tools available through BANANOW Land may include or link to third-party websites, platforms, wallets, marketplaces, blockchain explorers, social media platforms, payment providers, AI providers, hosting providers, documentation tools, or community services.
 
-Third-party links may direct you away from BANANOW LAND. We are not responsible for examining, evaluating, controlling, or guaranteeing third-party content, policies, terms, privacy practices, availability, accuracy, safety, pricing, listings, account actions, or technical behavior.
+Third-party links may direct you away from BANANOW Land. We are not responsible for examining, evaluating, controlling, or guaranteeing third-party content, policies, terms, privacy practices, availability, accuracy, safety, pricing, listings, account actions, or technical behavior.
 
 When you use a third-party platform, you may be subject to that platform’s own terms, privacy policy, community rules, fees, technical risks, and account decisions.
 
@@ -144,7 +144,7 @@ Complaints, claims, concerns, or questions regarding third-party products, servi
 
 ## 7. Forms, Inquiries, and Communication
 
-BANANOW LAND may provide forms, contact flows, inquiry pages, email contact, or other communication methods for:
+BANANOW Land may provide forms, contact flows, inquiry pages, email contact, or other communication methods for:
 
 1. general contact;
 2. program interest;
@@ -192,17 +192,17 @@ Participation in physical, sports, hobby, or real-world activities may involve r
 
 ## 10. Na Now News and Content
 
-Na Now News and other BANANOW LAND content may include stories, updates, articles, announcements, opinions, educational material, community memory, public notes, and other content.
+Na Now News and other BANANOW Land content may include stories, updates, articles, announcements, opinions, educational material, community memory, public notes, and other content.
 
-Content on BANANOW LAND is for general information, storytelling, education, and community communication. It is not professional legal, financial, medical, psychological, investment, or emergency advice.
+Content on BANANOW Land is for general information, storytelling, education, and community communication. It is not professional legal, financial, medical, psychological, investment, or emergency advice.
 
 BANANOW may edit, update, correct, remove, archive, reject, or refuse to publish content at its discretion.
 
-User, author, community, partner, or contributor submissions may be reviewed before publication. BANANOW may refuse or remove content that violates these Terms, harms the LAND, harms the FAMILY, infringes rights, spreads scams, promotes hate, creates legal risk, or damages operational continuity.
+User, author, community, partner, or contributor submissions may be reviewed before publication. BANANOW may refuse or remove content that violates these Terms, harms the Land, harms the FAMILY, infringes rights, spreads scams, promotes hate, creates legal risk, or damages operational continuity.
 
 ## 11. Claps and AI-Related Features
 
-Claps and any AI-related feature that may be offered by BANANOW LAND are provided for conversation, reflection, learning, support, and general informational purposes only.
+Claps and any AI-related feature that may be offered by BANANOW Land are provided for conversation, reflection, learning, support, and general informational purposes only.
 
 AI-generated output may be incomplete, inaccurate, outdated, inappropriate, biased, or unsuitable for your specific situation.
 
@@ -221,11 +221,11 @@ Users should not submit unnecessary sensitive personal data, especially data abo
 
 BANANOW may limit, suspend, change, monitor, improve, or discontinue AI-related features at any time for safety, quality, operational, legal, or community reasons.
 
-If you are facing an emergency, crisis, abuse, violence, self-harm risk, medical issue, legal emergency, or immediate safety concern, do not rely on BANANOW LAND or Claps. Contact the appropriate professional, emergency service, trusted person, or local authority.
+If you are facing an emergency, crisis, abuse, violence, self-harm risk, medical issue, legal emergency, or immediate safety concern, do not rely on BANANOW Land or Claps. Contact the appropriate professional, emergency service, trusted person, or local authority.
 
 ## 12. Web3, NFTs, Crypto Items, and Wallets
 
-BANANOW LAND may include Web3, NFT, blockchain, wallet, marketplace, minting, explorer, collection, and other crypto-related links or experiences.
+BANANOW Land may include Web3, NFT, blockchain, wallet, marketplace, minting, explorer, collection, and other crypto-related links or experiences.
 
 You accept and acknowledge that Web3, NFTs, crypto items, wallets, blockchain networks, marketplace listings, and smart contracts involve significant risks.
 
@@ -313,7 +313,7 @@ However, historical, legacy, or deprecated NFT links should not be treated as:
 6. guaranteed future utility;
 7. evidence of active roadmap promises.
 
-When in doubt, return to the official BANANOW LAND website and official current announcements.
+When in doubt, return to the official BANANOW Land website and official current announcements.
 
 ## 15. Marketplace and Secondary Market
 
@@ -327,7 +327,7 @@ Royalty, fee, or marketplace logic can only be enforced within systems, contract
 
 ## 16. Taxes
 
-You are solely responsible for determining and paying any taxes, duties, fees, reporting obligations, or other costs that may apply to your use of BANANOW LAND, your Web3/NFT transactions, your program participation, or your purchase or sale of any item.
+You are solely responsible for determining and paying any taxes, duties, fees, reporting obligations, or other costs that may apply to your use of BANANOW Land, your Web3/NFT transactions, your program participation, or your purchase or sale of any item.
 
 BANANOW is not responsible for determining your tax obligations.
 
@@ -335,7 +335,7 @@ BANANOW is not responsible for determining your tax obligations.
 
 BANANOW may operate or link to community spaces such as Discord, X, Instagram, YouTube, or other platforms.
 
-BANANOW may reject, remove, block, ban, mute, restrict, or refuse any user or content that violates community rules, harms the LAND, harms the FAMILY, creates legal risk, spreads scams, impersonates others, harasses people, or disrupts operations.
+BANANOW may reject, remove, block, ban, mute, restrict, or refuse any user or content that violates community rules, harms the Land, harms the FAMILY, creates legal risk, spreads scams, impersonates others, harasses people, or disrupts operations.
 
 Ownership of any NFT, participation in any Crop, or previous interaction with BANANOW does not guarantee access to community spaces.
 
@@ -343,13 +343,13 @@ Community platforms may have their own terms, privacy policies, moderation rules
 
 ## 18. Personal Information
 
-Your submission of personal information through BANANOW LAND is governed by our Privacy Policy.
+Your submission of personal information through BANANOW Land is governed by our Privacy Policy.
 
 Please review the Privacy Policy to understand how we may collect, use, process, store, disclose, and protect information.
 
 ## 19. Errors, Inaccuracies, and Omissions
 
-There may be information on BANANOW LAND or related services that contains typographical errors, inaccuracies, omissions, outdated details, broken links, incorrect references, or incomplete information.
+There may be information on BANANOW Land or related services that contains typographical errors, inaccuracies, omissions, outdated details, broken links, incorrect references, or incomplete information.
 
 We reserve the right to correct, update, change, archive, remove, or cancel any information at any time without prior notice.
 
@@ -357,13 +357,13 @@ No specified update or refresh date should be taken to indicate that all informa
 
 ## 20. Prohibited Uses
 
-You are prohibited from using BANANOW LAND, its content, links, community spaces, tools, or services:
+You are prohibited from using BANANOW Land, its content, links, community spaces, tools, or services:
 
 1. for any unlawful purpose;
 2. to solicit others to perform or participate in unlawful acts;
 3. to violate any law, rule, regulation, or ordinance;
 4. to infringe or violate intellectual property rights;
-5. to harass, abuse, insult, harm, defame, slander, intimidate, or discriminate;
+5. to harass, abuse, insult, harm, defame, sLander, intimidate, or discriminate;
 6. to submit false or misleading information;
 7. to impersonate BANANOW, Farmers, users, partners, sponsors, or any third party;
 8. to upload or transmit malicious code;
@@ -373,13 +373,13 @@ You are prohibited from using BANANOW LAND, its content, links, community spaces
 12. to interfere with or circumvent security features;
 13. to misuse AI-related features;
 14. to submit unnecessary sensitive child data or emergency data into general forms or AI features;
-15. to use BANANOW LAND in a way that harms the LAND, the Crops, the FAMILY, or operational continuity.
+15. to use BANANOW Land in a way that harms the Land, the Crops, the FAMILY, or operational continuity.
 
 We reserve the right to terminate, restrict, block, or refuse access for violating prohibited uses.
 
 ## 21. Disclaimer of Warranties
 
-BANANOW LAND is provided “as is” and “as available”.
+BANANOW Land is provided “as is” and “as available”.
 
 We do not guarantee, represent, or warrant that:
 
@@ -393,13 +393,13 @@ We do not guarantee, represent, or warrant that:
 8. all NFT metadata will remain accessible through third-party systems;
 9. any Crop, program, or service will continue forever.
 
-You expressly agree that your use of BANANOW LAND is at your sole risk.
+You expressly agree that your use of BANANOW Land is at your sole risk.
 
 ## 22. Limitation of Liability
 
 To the fullest extent permitted by applicable law, BANANOW, its Farmers, contributors, operators, partners, affiliates, officers, directors, employees, agents, contractors, service providers, licensors, and related parties shall not be liable for any direct, indirect, incidental, punitive, special, consequential, or similar damages arising from or related to:
 
-1. your use of or inability to use BANANOW LAND;
+1. your use of or inability to use BANANOW Land;
 2. errors, omissions, or inaccuracies in content;
 3. website downtime or technical failure;
 4. third-party platforms;
@@ -424,7 +424,7 @@ You agree to indemnify, defend, and hold harmless BANANOW, its Farmers, contribu
 1. your breach of these Terms;
 2. your violation of any law;
 3. your violation of third-party rights;
-4. your misuse of BANANOW LAND;
+4. your misuse of BANANOW Land;
 5. your content or submission;
 6. your wallet activity;
 7. your interaction with third-party platforms;
@@ -438,9 +438,9 @@ Such determination shall not affect the validity and enforceability of any remai
 
 ## 25. Entire Agreement
 
-These Terms, together with our Privacy Policy and any applicable crop-specific terms, program terms, marketplace terms, AI terms, official announcements, or specific notices, constitute the agreement between you and BANANOW regarding your use of BANANOW LAND.
+These Terms, together with our Privacy Policy and any applicable crop-specific terms, program terms, marketplace terms, AI terms, official announcements, or specific notices, constitute the agreement between you and BANANOW regarding your use of BANANOW Land.
 
-These Terms supersede prior versions of the Terms for the general use of BANANOW LAND.
+These Terms supersede prior versions of the Terms for the general use of BANANOW Land.
 
 Failure by BANANOW to exercise or enforce any right or provision of these Terms does not constitute a waiver of such right or provision.
 
@@ -460,11 +460,11 @@ Nothing in this section limits any non-waivable rights granted by applicable law
 
 You can review the most current version of these Terms at any time on this page.
 
-We reserve the right, at our discretion, to update, change, or replace any part of these Terms by posting updates on BANANOW LAND.
+We reserve the right, at our discretion, to update, change, or replace any part of these Terms by posting updates on BANANOW Land.
 
 It is your responsibility to check this page periodically for changes.
 
-Your continued use of or access to BANANOW LAND after any changes are posted constitutes acceptance of those changes.
+Your continued use of or access to BANANOW Land after any changes are posted constitutes acceptance of those changes.
 
 ## 28. Contact Information
 

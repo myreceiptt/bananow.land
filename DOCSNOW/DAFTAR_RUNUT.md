@@ -1,8 +1,8 @@
-# BANANOW LAND Daftar Runut
+# BANANOW Land Daftar Runut
 
-Dokumen ini adalah **dokumen hidup** untuk mencatat urutan kerja dan status eksekusi pengembangan BANANOW LAND.
+Dokumen ini adalah **dokumen hidup** untuk mencatat urutan kerja dan status eksekusi pengembangan BANANOW Land.
 
-Fungsinya bukan menggantikan **BANANOW LAND Development Map**, melainkan menjadi jalur eksekusi praktis: satu item selesai, baru lanjut ke item berikutnya.
+Fungsinya bukan menggantikan **BANANOW Land Development Map**, melainkan menjadi jalur eksekusi praktis: satu item selesai, baru lanjut ke item berikutnya.
 
 Development Map adalah roadmap fix. Daftar Runut adalah dokumen yang terus diperbarui seiring pengerjaan, termasuk status tentative, selesai, ditahan, dan item sisipan.
 
@@ -53,7 +53,7 @@ Aturan utama:
 | 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
 | 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
 | 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                            |
-| 15  | BANANOW LAND Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
+| 15  | BANANOW Land Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
 
 Keterangan status:
 
@@ -163,8 +163,8 @@ Keterangan status:
     - card thumbnail seragam di tag pages ✅ Selesai
     - article hero cover seragam di `/news/[slug]` ✅ Selesai
 45. Artikel awal Na Now News sudah diperbaiki ke format baru, termasuk full English, kategori/tag, path image, dan copy yang lebih aman. ✅ Selesai
-46. Artikel publik tentang proses pengembangan BANANOW LAND sudah disusun. ✅ Selesai
-47. Cover image artikel pengembangan BANANOW LAND sudah dibuat dan digunakan. ✅ Selesai
+46. Artikel publik tentang proses pengembangan BANANOW Land sudah disusun. ✅ Selesai
+47. Cover image artikel pengembangan BANANOW Land sudah dibuat dan digunakan. ✅ Selesai
 48. Final local validation Na Now News sudah dilakukan oleh Farmer. ✅ Selesai
 49. Final local visual QA Na Now News sudah dilakukan oleh Farmer. ✅ Selesai
 50. Perubahan Na Now News polish sudah dicommit. ✅ Selesai
@@ -380,7 +380,7 @@ Gate selesai:
 
 Catatan:
 
-The Green Print sekarang menjadi root/canonical document BANANOW LAND dan menjadi gate yang membuka tahap berikutnya: **Legal Update Minimum v1.51**.
+The Green Print sekarang menjadi root/canonical document BANANOW Land dan menjadi gate yang membuka tahap berikutnya: **Legal Update Minimum v1.51**.
 
 ---
 
@@ -394,7 +394,7 @@ Hasil:
 
 1. Privacy Policy lama sudah direview.
 2. Terms & Conditions lama sudah direview.
-3. Gap legal terhadap arah baru BANANOW LAND sudah diidentifikasi.
+3. Gap legal terhadap arah baru BANANOW Land sudah diidentifikasi.
 4. Draft Privacy Policy v1.51 sudah disusun dan disetujui oleh Farmer.
 5. Draft Terms & Conditions v1.51 sudah disusun dan disetujui oleh Farmer.
 6. Draft Privacy Policy v1.51 disimpan di `DOCSNOW/UPDATE_PRIVACY_POLICY.md`.
@@ -526,7 +526,7 @@ Status: ✅ Selesai.
 
 Tujuan:
 
-Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW LAND tanpa langsung overbuild menjadi CMS besar seperti WordPress.
+Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW Land tanpa langsung overbuild menjadi CMS besar seperti WordPress.
 
 Scope final yang dikunci:
 
@@ -568,7 +568,7 @@ Hasil:
    - `/news/category/[categorySlug]`
    - `/news/tag/[tagSlug]`
 8. Category taxonomy sudah diterapkan:
-   - LAND
+   - Land
    - Technology
    - Web3
    - Arts
@@ -597,9 +597,9 @@ Hasil:
     - kategori sesuai taxonomy,
     - tags sesuai isi,
     - path image diarahkan ke `/images/news/`,
-    - copy lebih aman dan selaras BANANOW LAND.
-19. Artikel publik tentang proses pengembangan BANANOW LAND sudah disusun.
-20. Cover image artikel pengembangan BANANOW LAND sudah dibuat dan digunakan.
+    - copy lebih aman dan selaras BANANOW Land.
+19. Artikel publik tentang proses pengembangan BANANOW Land sudah disusun.
+20. Cover image artikel pengembangan BANANOW Land sudah dibuat dan digunakan.
 21. Final local validation sudah dilakukan oleh Farmer.
 22. Local visual QA sudah dilakukan oleh Farmer.
 23. Perubahan Na Now News polish sudah dicommit.
@@ -768,7 +768,7 @@ Status: 🔜 Berikutnya.
 
 Tujuan:
 
-Membangun Skool Now sebagai Crop pendidikan/program BANANOW LAND yang menjadi pintu awal untuk program belajar, komunitas, partner, sponsor, dan future literacy.
+Membangun Skool Now sebagai Crop pendidikan/program BANANOW Land yang menjadi pintu awal untuk program belajar, komunitas, partner, sponsor, dan future literacy.
 
 Arah awal yang sudah diketahui:
 
@@ -869,7 +869,7 @@ Tentative sampai minimal dua modul dinamis berjalan.
 
 ---
 
-## 18. Item Urutan Besar 15 — BANANOW LAND Operating Portal
+## 18. Item Urutan Besar 15 — BANANOW Land Operating Portal
 
 Target: **v2.11**
 
@@ -968,7 +968,7 @@ Status final saat ini:
 2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 sudah ✅ Selesai.
 3. Item Urutan Besar 10 — Skool Now MVP v1.74 adalah 🔜 Berikutnya.
 4. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
-5. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW LAND.
+5. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
 6. Maintenance hygiene paling aman sudah diterapkan.
 7. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
 8. Public taxonomy website sudah lebih selaras dengan The Green Print:

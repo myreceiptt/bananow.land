@@ -4,7 +4,7 @@ slug: "dari-blockchain-menuju-masa-depan-ritel"
 excerpt: "A BANANOW-style reflection on how blockchain and real-world asset tokenization may reshape retail, funding, loyalty, and ownership models."
 date: "2024-07-01"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.11"
 status: "published"
 primaryCategory: "Web3"
 categories:
@@ -32,7 +32,7 @@ That question is the seed behind real-world asset tokenization.
 
 For retail, it can become more than a buzzword. It can become a new way to think about funding, loyalty, community participation, product provenance, and shared economic coordination.
 
-But like every seed in the LAND, it must be planted carefully.
+But like every seed in the Land, it must be planted carefully.
 
 ## Blockchain as a Business Layer
 
@@ -119,7 +119,7 @@ Bad early questions:
 3. Can we sell future benefits we cannot guarantee?
 4. Can we make people buy because they fear missing out?
 
-BANANOW LAND chooses the healthier route: Web3 as a literacy layer, not a trap.
+BANANOW Land chooses the healthier route: Web3 as a literacy layer, not a trap.
 
 ## Closing
 

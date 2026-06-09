@@ -1,6 +1,6 @@
-# BANANOW LAND — Na Now News MVP Task Spec v1.62
+# BANANOW Land — Na Now News MVP Task Spec v1.62
 
-Dokumen ini adalah instruction package untuk membangun **Na Now News MVP v1.62** di BANANOW LAND.
+Dokumen ini adalah instruction package untuk membangun **Na Now News MVP v1.62** di BANANOW Land.
 
 Stage ini dimulai setelah:
 
@@ -21,7 +21,7 @@ Na Now News MVP v1.62 harus memakai fondasi baru:
 
 ## 1. Objective
 
-Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW LAND.
+Membangun Na Now News sebagai portal artikel/news sederhana milik BANANOW Land.
 
 Target MVP:
 
@@ -82,7 +82,7 @@ Fungsi:
 4. menampilkan category navigation;
 5. menampilkan tag discovery jika relevan;
 6. menampilkan empty state jika belum ada artikel publik;
-7. memakai style BANANOW LAND.
+7. memakai style BANANOW Land.
 
 ### 3.2. `/news/[slug]`
 
@@ -136,7 +136,7 @@ slug: "article-title"
 excerpt: "Short description for listing and SEO."
 date: "2026-06-08"
 updated: "2026-06-08"
-author: "BANANOW LAND"
+author: "BANANOW Land"
 status: "published"
 primaryCategory: "Technology"
 categories:
@@ -291,7 +291,7 @@ src/data/newsCategories.ts
 
 atau file serupa.
 
-### 7.1. LAND
+### 7.1. Land
 
 Slug:
 
@@ -301,7 +301,7 @@ land
 
 Definisi:
 
-Kategori untuk arah, identitas, dokumen, status, dan perkembangan utama BANANOW LAND.
+Kategori untuk arah, identitas, dokumen, status, dan perkembangan utama BANANOW Land.
 
 Masuk kategori ini jika artikel membahas:
 
@@ -310,14 +310,14 @@ Masuk kategori ini jika artikel membahas:
 3. roadmap;
 4. official notes;
 5. identity direction;
-6. update besar BANANOW LAND;
-7. public announcement tentang LAND.
+6. update besar BANANOW Land;
+7. public announcement tentang Land.
 
 Tidak untuk:
 
 1. artikel teknologi umum;
 2. opini pasar umum;
-3. review tools yang tidak langsung terkait BANANOW LAND.
+3. review tools yang tidak langsung terkait BANANOW Land.
 
 ---
 
@@ -441,7 +441,7 @@ Masuk kategori ini jika artikel membahas:
 
 Tidak untuk:
 
-1. announcement resmi besar tentang arah LAND; gunakan LAND.
+1. announcement resmi besar tentang arah Land; gunakan Land.
 2. artikel edukasi/program; gunakan Education.
 
 ---
@@ -504,7 +504,7 @@ Masuk kategori ini jika artikel membahas:
 Tidak untuk:
 
 1. market trend umum; gunakan Markets.
-2. pengumuman LAND; gunakan LAND.
+2. pengumuman Land; gunakan Land.
 
 ---
 
@@ -651,7 +651,7 @@ Satoshi Nakamoto
 Blockchain Gaming
 Base
 NFT
-BANANOW LAND
+BANANOW Land
 Green Print
 ```
 
@@ -712,7 +712,7 @@ Setiap route penting harus punya SEO dasar.
 
 SEO:
 
-1. title: `Na Now News | BANANOW LAND`
+1. title: `Na Now News | BANANOW Land`
 2. description: memakai deskripsi Na Now News yang sudah ada atau versi pendek yang sesuai.
 3. canonical: `/news`
 
@@ -747,7 +747,7 @@ SEO:
 
 ## 12. UI Requirements
 
-Na Now News harus tetap terasa satu dunia dengan BANANOW LAND.
+Na Now News harus tetap terasa satu dunia dengan BANANOW Land.
 
 Wajib:
 

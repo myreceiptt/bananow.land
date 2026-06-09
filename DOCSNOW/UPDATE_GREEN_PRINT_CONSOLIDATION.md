@@ -1,6 +1,6 @@
 # THE GREEN PRINT FINAL CONSOLIDATION PACKAGE
 
-Project: BANANOW LAND
+Project: BANANOW Land
 Stage: The Green Print Finalization
 Document Type: Final Consolidation Package
 Purpose: Repository/GitBook handoff package after final copy batches 01–05.
@@ -16,7 +16,7 @@ Use this as the proposed GitBook navigation structure.
 
 - [🍌 The Green Print](README.md)
 - [🍌 The Abstract](the-abstract.md)
-- [🍌 BANANOW LAND](bananow-land/README.md)
+- [🍌 BANANOW Land](bananow-land/README.md)
   - [🍌 The Roots](bananow-land/the-roots.md)
   - [🍌 The Mission](bananow-land/the-mission/README.md)
     - [🍌 Playing](bananow-land/the-mission/playing.md)
@@ -43,7 +43,7 @@ Use this as the proposed GitBook navigation structure.
 
 ### The Green Print
 
-The root/canonical document of BANANOW LAND.
+The root/canonical document of BANANOW Land.
 
 It explains the soil, seeds, Crops, FAMILY, Future Literacy Layer (Web3 & AI), BANANOW NFT layer, and public direction of BANANOW.
 
@@ -59,11 +59,11 @@ It is not:
 
 ---
 
-### LAND
+### Land
 
 BANANOW’s world, field, portal, and shared growing space.
 
-LAND connects:
+Land connects:
 
 - digital culture,
 - real-world activity,
@@ -81,7 +81,7 @@ LAND connects:
 
 The human community layer of BANANOW.
 
-FAMILY includes people who visit, read, ask, learn, share, hold, build, support, care, and help the LAND stay alive.
+FAMILY includes people who visit, read, ask, learn, share, hold, build, support, care, and help the Land stay alive.
 
 FAMILY is not a rigid hierarchy.
 
@@ -115,7 +115,7 @@ Current Future Proof Crops:
 - Skool Now
 - Claps
 - BANANOW NFT / Heads
-- future programs when the LAND is ready
+- future programs when the Land is ready
 
 Future Proof Crops are directions of growth, not guaranteed finished products or financial promises.
 
@@ -155,7 +155,7 @@ Final phrase:
 
 Newcomers, curious visitors, and early participants.
 
-Sprouts may be discovering BANANOW, Web3, AI, the Crops, the FAMILY, or the LAND itself.
+Sprouts may be discovering BANANOW, Web3, AI, the Crops, the FAMILY, or the Land itself.
 
 Sprouts do not need to hold NFTs, understand blockchain, use AI tools, or perform a role immediately.
 
@@ -167,7 +167,7 @@ Curiosity is enough.
 
 Active supporters and warm community members.
 
-Lovers support the LAND by reading, sharing, joining, inviting, attending, giving feedback, learning together, and keeping the vibe alive.
+Lovers support the Land by reading, sharing, joining, inviting, attending, giving feedback, learning together, and keeping the vibe alive.
 
 Lovers are not defined by NFT ownership.
 
@@ -203,7 +203,7 @@ Heads are not promised:
 
 ### Farmers
 
-Caretakers/operators of BANANOW LAND.
+Caretakers/operators of BANANOW Land.
 
 Farmers help:
 
@@ -264,7 +264,7 @@ BANANOW plays, learns, and works across both.
 | ------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------ |
 | `README.md`                                | `README.md`                                     | Rewrite as canonical root opening.                     |
 | `the-abstract.md`                          | `the-abstract.md`                               | Rewrite as timeless public abstract.                   |
-| `bananow-land/README.md`                   | `bananow-land/README.md`                        | Rewrite LAND definition with Future Literacy Layer.    |
+| `bananow-land/README.md`                   | `bananow-land/README.md`                        | Rewrite Land definition with Future Literacy Layer.    |
 | `bananow-land/the-background.md`           | `bananow-land/the-roots.md`                     | Rename and rewrite as origin/root context.             |
 | `bananow-land/the-mission/README.md`       | `bananow-land/the-mission/README.md`            | Rewrite mission overview.                              |
 | `bananow-land/the-mission/playing.md`      | same                                            | Rewrite Playing pillar.                                |
@@ -321,7 +321,7 @@ BANANOW plays, learns, and works across both.
 1. Reframed The Green Print as a root/canonical document.
 2. Removed corporate whitepaper tone where possible.
 3. Preserved playful BANANOW tone.
-4. Preserved LAND/soil/seed/crop/plantation metaphor.
+4. Preserved Land/soil/seed/crop/plantation metaphor.
 5. Added Future Literacy Layer (Web3 & AI).
 6. Positioned AI and Web3 as companion literacy layers.
 7. Added public explanation that BANANOW plays, learns, and works across both AI and blockchain/Web3.
@@ -378,7 +378,7 @@ To:
 - Web3-friendly,
 - AI-aware,
 - safety-conscious,
-- and LAND/plantation metaphor consistent.
+- and Land/plantation metaphor consistent.
 
 ---
 
@@ -401,7 +401,7 @@ Purpose:
 
 - lock root/canonical opening,
 - define abstract,
-- define LAND,
+- define Land,
 - define map,
 - define Future Proof Crops,
 - define BANANOW NFT safely.
@@ -537,7 +537,7 @@ docs: finalize The Green Print
 ### Copy QA
 
 - [ ] Final public copy is full English.
-- [ ] Tone is playful, warm, Web3-friendly, AI-aware, and LAND/plantation-inspired.
+- [ ] Tone is playful, warm, Web3-friendly, AI-aware, and Land/plantation-inspired.
 - [ ] No religious analogy.
 - [ ] No overly corporate tone.
 - [ ] The Green Print is described as root/canonical document.
@@ -569,7 +569,7 @@ docs: finalize The Green Print
 
 ## 8. Return Package for Parent Conversation
 
-Use this summary when returning to the BANANOW LAND parent conversation.
+Use this summary when returning to the BANANOW Land parent conversation.
 
 ```md
 The Green Print Finalization has been structurally and conceptually finalized.
@@ -595,7 +595,7 @@ Future Literacy Layer (Web3 & AI):
 
 Final copy has been drafted in 5 batches:
 
-- Batch 01: root, abstract, LAND, map, Future Proof Crops, BANANOW NFT.
+- Batch 01: root, abstract, Land, map, Future Proof Crops, BANANOW NFT.
 - Batch 02: roots, ecosystem, crops, Earlier Crops, FAMILY.
 - Batch 03: Sprouts, Lovers, Heads, Farmers.
 - Batch 04: Mission, Playing, Learning, Working.

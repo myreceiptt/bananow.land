@@ -1,8 +1,8 @@
-# BANANOW LAND Landing Page
+# BANANOW Land Landing Page
 
 ## About This Repo
 
-`BANANOW LAND` is the landing page and navigation hub for the BANANOW NFT universe. It provides a fast, user-friendly entry point for exploring project destinations (pages, links, and resources) and for routing users to the right on-chain and off-chain experiences.
+`BANANOW Land` is the landing page and navigation hub for the BANANOW NFT universe. It provides a fast, user-friendly entry point for exploring project destinations (pages, links, and resources) and for routing users to the right on-chain and off-chain experiences.
 
 ### Purpose & Scope
 

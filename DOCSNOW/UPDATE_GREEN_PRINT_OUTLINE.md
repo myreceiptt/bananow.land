@@ -1,24 +1,24 @@
 # The Green Print Final Structure — Page-by-Page Outline
 
 Version: v1.50 Outline
-Project: BANANOW LAND / The Green Print Finalization
+Project: BANANOW Land / The Green Print Finalization
 Purpose: Finalize The Green Print as BANANOW’s root/canonical document.
 
 ## Core Direction
 
-The Green Print should become the root/canonical document of BANANOW LAND.
+The Green Print should become the root/canonical document of BANANOW Land.
 
 It should explain:
 
-- what BANANOW LAND is,
-- why the LAND exists,
+- what BANANOW Land is,
+- why the Land exists,
 - what the Crops are,
 - who the FAMILY is,
 - how BANANOW NFT / Heads fit safely into the ecosystem,
 - how Earlier Crops remain part of the soil,
 - and how BANANOW plays, learns, and works through the **Future Literacy Layer (Web3 & AI)**.
 
-The final public copy should be full English, playful, warm, Web3-friendly, AI-aware, LAND/plantation-inspired, and not too corporate.
+The final public copy should be full English, playful, warm, Web3-friendly, AI-aware, Land/plantation-inspired, and not too corporate.
 
 The Green Print should not become a legal document, financial promise, technical implementation plan, product changelog, tokenomics paper, or marketplace proposal.
 
@@ -34,7 +34,7 @@ the-abstract.md
 🍌 The Abstract
 
 bananow-land/README.md
-🍌 BANANOW LAND
+🍌 BANANOW Land
 
 bananow-land/the-roots.md
 🍌 The Roots
@@ -101,11 +101,11 @@ the-final-note.md
 
 #### `README.md` Function
 
-Root opening page. Introduces The Green Print as the canonical document of BANANOW LAND.
+Root opening page. Introduces The Green Print as the canonical document of BANANOW Land.
 
 #### `README.md` Core Message
 
-The Green Print is the root document that explains what BANANOW is, why the LAND exists, who grows inside it, and how its Crops, FAMILY, BANANOW NFT layer, and Future Literacy Layer (Web3 & AI) connect.
+The Green Print is the root document that explains what BANANOW is, why the Land exists, who grows inside it, and how its Crops, FAMILY, BANANOW NFT layer, and Future Literacy Layer (Web3 & AI) connect.
 
 #### `README.md` Sections to Include
 
@@ -147,7 +147,7 @@ High-level summary of the problem and BANANOW’s answer.
 
 #### `the-abstract.md` Core Message
 
-Creators, families, everyday people, and small communities need more playful, supportive, and understandable ways to grow in the digital world. BANANOW LAND answers this through creative culture, community participation, education, parenting/family support, real-world programs, and the Future Literacy Layer (Web3 & AI).
+Creators, families, everyday people, and small communities need more playful, supportive, and understandable ways to grow in the digital world. BANANOW Land answers this through creative culture, community participation, education, parenting/family support, real-world programs, and the Future Literacy Layer (Web3 & AI).
 
 #### `the-abstract.md` Sections to Include
 
@@ -195,19 +195,19 @@ Keep the theme that creators and everyday people need help with digital transfor
 
 ### 3. `bananow-land/README.md`
 
-#### 🍌 BANANOW LAND
+#### 🍌 BANANOW Land
 
 #### `bananow-land/README.md` Function
 
-Explain the LAND as BANANOW’s world, field, portal, and creative home.
+Explain the Land as BANANOW’s world, field, portal, and creative home.
 
 #### `bananow-land/README.md` Core Message
 
-BANANOW LAND is a playful field where creative people, families, learners, builders, Web3-curious humans, and AI-curious humans can grow together.
+BANANOW Land is a playful field where creative people, families, learners, builders, Web3-curious humans, and AI-curious humans can grow together.
 
 #### `bananow-land/README.md` Sections to Include
 
-- What LAND means:
+- What Land means:
   - world,
   - field,
   - portal,
@@ -217,7 +217,7 @@ BANANOW LAND is a playful field where creative people, families, learners, build
 - The relationship between:
   - the 0101 Universe,
   - the Universe of Reality,
-  - and the LAND between them.
+  - and the Land between them.
 
 - BANANOW as a friendly neighborhood from the future layers of the web.
 - BANANOW grows through:
@@ -238,7 +238,7 @@ Keep:
 
 #### `bananow-land/README.md` Avoid
 
-- Saying BANANOW LAND is funded by NFT sales.
+- Saying BANANOW Land is funded by NFT sales.
 - Saying NFT is the main token to access all privileges.
 - Making BANANOW sound like only an NFT project.
 
@@ -364,7 +364,7 @@ Playing is not childish. It is how humans explore, create, test, connect, and st
   - small rituals,
   - family-friendly activities.
 
-- Playing as a way to keep the LAND warm.
+- Playing as a way to keep the Land warm.
 
 #### `bananow-land/the-mission/playing.md` Use from Existing
 
@@ -479,7 +479,7 @@ Single conceptual map replacing Overview, Mapping, Diagram, and Treasury.
 
 #### `the-map.md` Core Message
 
-The LAND grows through a simple map:
+The Land grows through a simple map:
 
 Roots → Mission → Crops → FAMILY → Future Literacy Layer (Web3 & AI) → Real-world and digital programs.
 
@@ -637,7 +637,7 @@ Keep plantation crop metaphor.
 
 #### `the-ecosystem/the-crops/future-proof-crops.md` Function
 
-Explain the forward-facing crops of BANANOW LAND.
+Explain the forward-facing crops of BANANOW Land.
 
 #### `the-ecosystem/the-crops/future-proof-crops.md` Core Message
 
@@ -647,7 +647,7 @@ Future Proof Crops are the crops prepared to survive change: media, education, W
 
 - Na Now News
   - BANANOW’s news/blog/media crop.
-  - Helps the LAND speak, document, publish, and share updates.
+  - Helps the Land speak, document, publish, and share updates.
   - Connected to storytelling, literacy, and public memory.
 
 - Skool Now
@@ -670,7 +670,7 @@ Future Proof Crops are the crops prepared to survive change: media, education, W
     - not a promise of profit or guaranteed future benefits.
 
 - Future Programs
-  - Additional sports, creative, family, education, AI, or Web3 programs when the LAND is ready.
+  - Additional sports, creative, family, education, AI, or Web3 programs when the Land is ready.
 
 #### `the-ecosystem/the-crops/future-proof-crops.md` Use from Existing
 
@@ -697,7 +697,7 @@ Reframe previous BANANOW brands without calling them dead, failed, old, or aband
 
 #### `the-ecosystem/the-crops/earlier-crops.md` Core Message
 
-Earlier Crops are seeds planted in earlier seasons. Some are quiet in the soil, some may return, and all of them shaped the LAND.
+Earlier Crops are seeds planted in earlier seasons. Some are quiet in the soil, some may return, and all of them shaped the Land.
 
 #### `the-ecosystem/the-crops/earlier-crops.md` Sections to Include
 
@@ -755,7 +755,7 @@ Introduce BANANOW community layers.
 
 #### `the-ecosystem/the-family/README.md` Core Message
 
-The FAMILY is the human layer of BANANOW: people who visit, support, hold, care, build, and grow around the LAND.
+The FAMILY is the human layer of BANANOW: people who visit, support, hold, care, build, and grow around the Land.
 
 #### `the-ecosystem/the-family/README.md` Sections to Include
 
@@ -796,7 +796,7 @@ Define newcomers and curious visitors.
 
 #### `the-ecosystem/the-family/sprouts.md` Core Message
 
-Sprouts are people who are just discovering BANANOW, Web3, AI, the LAND, or one of its Crops.
+Sprouts are people who are just discovering BANANOW, Web3, AI, the Land, or one of its Crops.
 
 #### `the-ecosystem/the-family/sprouts.md` Sections to Include
 
@@ -837,7 +837,7 @@ Define active supporters and warm community members.
 
 #### `the-ecosystem/the-family/lovers.md` Core Message
 
-Lovers are people who like the BANANOW energy, share the vibe, support the Crops, and help the LAND feel alive.
+Lovers are people who like the BANANOW energy, share the vibe, support the Crops, and help the Land feel alive.
 
 #### `the-ecosystem/the-family/lovers.md` Sections to Include
 
@@ -922,7 +922,7 @@ Define caretakers/operators.
 
 #### `the-ecosystem/the-family/farmers.md` Core Message
 
-Farmers are caretakers of the LAND. They help maintain the soil, tend the Crops, guide the rhythm, and keep BANANOW healthy, fair, playful, and useful.
+Farmers are caretakers of the Land. They help maintain the soil, tend the Crops, guide the rhythm, and keep BANANOW healthy, fair, playful, and useful.
 
 #### `the-ecosystem/the-family/farmers.md` Sections to Include
 
@@ -963,7 +963,7 @@ Safe, consolidated NFT explanation.
 
 #### `bananow-nft/README.md` Core Message
 
-BANANOW NFT is the Web3 collectible and identity layer connected to Heads and BANANOW LAND. It may support cultural and community participation, but it is not a promise of profit, revenue, utility, marketplace liquidity, or future access.
+BANANOW NFT is the Web3 collectible and identity layer connected to Heads and BANANOW Land. It may support cultural and community participation, but it is not a promise of profit, revenue, utility, marketplace liquidity, or future access.
 
 #### `bananow-nft/README.md` Sections to Include
 
@@ -1017,7 +1017,7 @@ Official links and contact page.
 
 #### `the-embassy.md` Core Message
 
-The Embassy is where visitors find official doors into BANANOW LAND.
+The Embassy is where visitors find official doors into BANANOW Land.
 
 #### `the-embassy.md` Sections to Include
 
@@ -1059,7 +1059,7 @@ Close the canonical document.
 
 #### `the-final-note.md` Core Message
 
-The Green Print is the root of BANANOW’s public understanding. It explains the soil, the seeds, the Crops, the FAMILY, and the direction of the LAND.
+The Green Print is the root of BANANOW’s public understanding. It explains the soil, the seeds, the Crops, the FAMILY, and the direction of the Land.
 
 #### `the-final-note.md` Sections to Include
 
@@ -1096,7 +1096,7 @@ Keep playful warmth.
 
 ## Final Terminology Decisions
 
-### LAND
+### Land
 
 BANANOW’s world, field, portal, and shared growing space.
 
@@ -1147,7 +1147,7 @@ Includes:
 - Agent Now
 - NOTA’s Dept.
 
-Earlier Crops are not dead, failed, or abandoned. They are part of the soil and may return when the LAND needs them.
+Earlier Crops are not dead, failed, or abandoned. They are part of the soil and may return when the Land needs them.
 
 ---
 
@@ -1171,7 +1171,7 @@ BANANOW NFT holders and Web3 community identity participants.
 
 ### Farmers
 
-Caretakers/operators of the LAND.
+Caretakers/operators of the Land.
 
 ---
 

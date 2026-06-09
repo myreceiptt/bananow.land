@@ -4,7 +4,7 @@ slug: "cara-sebagai-platform-media-sosial-anti-ai-untuk-seniman"
 excerpt: "A reflection on Cara, human-made art, AI training anxiety, and the need for digital spaces where artists can protect their creative identity."
 date: "2024-10-15"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.11"
 status: "published"
 primaryCategory: "Arts"
 categories:
@@ -43,7 +43,7 @@ That gap is the heart of the problem.
 
 The rise of AI art tools has created new possibilities, but it has also created a new kind of fear. Artists are not only worried that a machine can produce images quickly. They are worried that their visual language can be absorbed, imitated, and monetized without them.
 
-Cara exists because some creators want a LAND of their own: not against all technology, but against being swallowed by technology without consent.
+Cara exists because some creators want a Land of their own: not against all technology, but against being swallowed by technology without consent.
 
 ![Cara Platform Media Sosial Anti AI Untuk Seniman](/images/news/platform-media-sosial-anti-ai-untuk-seniman-0.jpg)
 
@@ -61,7 +61,7 @@ It signals that artists still need places where:
 
 This is not a simple “AI versus human” story. It is a story about power. Who owns the archive? Who controls the training data? Who benefits from the output? Who gets credited? Who gets erased?
 
-BANANOW LAND cares about that question because the future should not be built only by platforms that take everything and return only engagement metrics.
+BANANOW Land cares about that question because the future should not be built only by platforms that take everything and return only engagement metrics.
 
 ## What AI Should Learn From Cara
 

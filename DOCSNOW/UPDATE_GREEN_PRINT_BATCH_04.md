@@ -4,19 +4,19 @@
 
 ### 🍌 The Mission
 
-BANANOW LAND grows through three simple mission pillars:
+BANANOW Land grows through three simple mission pillars:
 
 **Playing, Learning, and Working.**
 
-These three words may sound simple, but inside the LAND they are not small.
+These three words may sound simple, but inside the Land they are not small.
 
 They are the rhythm of how BANANOW moves.
 
-Playing keeps the LAND alive.
+Playing keeps the Land alive.
 
-Learning keeps the LAND awake.
+Learning keeps the Land awake.
 
-Working keeps the LAND useful.
+Working keeps the Land useful.
 
 BANANOW believes that people should not enter the future only through pressure, fear, hype, or survival mode.
 
@@ -40,7 +40,7 @@ A community laughs and organizes.
 
 A small idea becomes a class, a story, a tool, a program, a collectible, a ritual, or a Crop.
 
-That is how the LAND grows.
+That is how the Land grows.
 
 #### Playing
 
@@ -62,7 +62,7 @@ The world is moving through AI, Web3, automation, digital ownership, new media, 
 
 BANANOW does not expect everyone to understand all of that immediately.
 
-The LAND exists to make learning feel friendlier.
+The Land exists to make learning feel friendlier.
 
 Learning can happen through stories, programs, classes, conversations, experiments, mistakes, and shared experience.
 
@@ -122,7 +122,7 @@ A banana-shaped reminder that people can still grow with warmth while the world 
 
 ### 🍌 Playing
 
-Playing is the first rhythm of BANANOW LAND.
+Playing is the first rhythm of BANANOW Land.
 
 Not because BANANOW refuses to be serious.
 
@@ -138,7 +138,7 @@ Playing is how communities become less stiff.
 
 Playing is how people enter something new without feeling crushed by the need to master it immediately.
 
-In BANANOW LAND, play is not treated as childish.
+In BANANOW Land, play is not treated as childish.
 
 Play is treated as a living method.
 
@@ -212,7 +212,7 @@ Play makes the first step less lonely.
 
 BANANOW play is not only digital.
 
-The LAND also grows in the Universe of Reality.
+The Land also grows in the Universe of Reality.
 
 Play can happen through skate sessions, art, music, classes, events, community games, family activities, and small rituals that help people reconnect.
 
@@ -232,7 +232,7 @@ serious in the roots.
 
 Playing does not mean being careless.
 
-A playful LAND still needs boundaries.
+A playful Land still needs boundaries.
 
 A playful person still needs responsibility.
 
@@ -254,7 +254,7 @@ Play is how the banana keeps smiling even when the season is strange.
 
 ### 🍌 Learning
 
-Learning is the second rhythm of BANANOW LAND.
+Learning is the second rhythm of BANANOW Land.
 
 If Playing opens the door, Learning helps people walk through it.
 
@@ -276,7 +276,7 @@ Confusion is often the first sign that learning has started.
 
 #### Curiosity Is Our Compass
 
-In BANANOW LAND, curiosity is our compass.
+In BANANOW Land, curiosity is our compass.
 
 Learning does not begin with pretending to know.
 
@@ -355,7 +355,7 @@ Not a mysterious machine that decides everything for them.
 
 #### Learning Through Crops
 
-BANANOW’s Crops help the LAND learn in different ways.
+BANANOW’s Crops help the Land learn in different ways.
 
 **Na Now News** helps people learn through stories, updates, articles, and public memory.
 
@@ -409,7 +409,7 @@ Every layer reveals another layer.
 
 Every answer opens another question.
 
-Every season teaches the LAND something new.
+Every season teaches the Land something new.
 
 So BANANOW keeps learning.
 
@@ -437,7 +437,7 @@ we are still peeling.
 
 ### 🍌 Working
 
-Working is the third rhythm of BANANOW LAND.
+Working is the third rhythm of BANANOW Land.
 
 If Playing opens the door and Learning helps people walk through it, Working gives shape to what matters.
 
@@ -471,7 +471,7 @@ BANANOW believes work should not erase the human behind it.
 
 The future often asks people to move faster, produce more, automate harder, and stay online longer.
 
-But a LAND that only rewards speed will burn its soil.
+But a Land that only rewards speed will burn its soil.
 
 BANANOW wants work to stay connected to dignity.
 
@@ -497,9 +497,9 @@ Creative work is not only decoration.
 
 It is infrastructure for culture.
 
-A LAND without creative work becomes empty.
+A Land without creative work becomes empty.
 
-A LAND with creative work becomes visitable.
+A Land with creative work becomes visitable.
 
 #### Working with AI
 
@@ -569,11 +569,11 @@ Sprouts remind everyone to keep the entrance friendly.
 
 BANANOW does not want work to become a cold machine.
 
-The LAND can use AI.
+The Land can use AI.
 
-The LAND can use Web3.
+The Land can use Web3.
 
-The LAND can use websites, tools, media, and systems.
+The Land can use websites, tools, media, and systems.
 
 But the goal is still human growth.
 

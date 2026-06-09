@@ -1,16 +1,16 @@
 ---
-title: "In Our LAND, All Energy Generation Will Be Solar"
+title: "In Our Land, All Energy Generation Will Be Solar"
 slug: "in-our-land-all-energy-generation-will-be-solar"
 excerpt: "A beginner-friendly BANANOW guide to solar energy, from photovoltaic cells and batteries to DIY planning, safety, and daily-life applications."
 date: "2023-10-11"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v10.74"
 status: "published"
 primaryCategory: "Education"
 categories:
   - "Education"
   - "Technology"
-  - "LAND"
+  - "Land"
 tags:
   - "Solar Energy"
   - "Sustainability"
@@ -24,9 +24,9 @@ Hi, OiOi Fams!
 
 Let us educate ourselves about energy from the Sun: from fundamental concepts to practical daily-life use.
 
-Solar energy is one of the most accessible ways to imagine a cleaner future. It is not only a technology topic. It is also a lifestyle topic, a family topic, a community topic, and a LAND topic.
+Solar energy is one of the most accessible ways to imagine a cleaner future. It is not only a technology topic. It is also a lifestyle topic, a family topic, a community topic, and a Land topic.
 
-If BANANOW is a LAND, then sunlight is one of the oldest teachers.
+If BANANOW is a Land, then sunlight is one of the oldest teachers.
 
 ## What Is Solar Energy?
 
@@ -52,7 +52,7 @@ A simple solar system may include:
 6. mounting hardware;
 7. safety switches or breakers.
 
-![In BANANOW LAND All Energy Generation Will Be Solar](/images/news/all-energy-generation-will-be-solar-0.jpg)
+![In BANANOW Land All Energy Generation Will Be Solar](/images/news/all-energy-generation-will-be-solar-0.jpg)
 
 ## Grid-Tied and Off-Grid Systems
 
@@ -119,6 +119,6 @@ A rough planning method:
 
 Solar energy teaches us something simple: the future is not only built by giant infrastructure. Sometimes it starts with a roof, a panel, a battery, a small light, and a family that wants to understand energy better.
 
-In our LAND, the Sun is not only above us.
+In our Land, the Sun is not only above us.
 
 It is part of the lesson.

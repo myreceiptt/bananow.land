@@ -1,10 +1,10 @@
-# BANANOW LAND Development Map — Prof. NOTA Incorporated
+# BANANOW Land Development Map — Prof. NOTA Incorporated
 
-Dokumen ini adalah **roadmap fix** untuk pengembangan BANANOW LAND. Dokumen ini menjadi pegangan arah besar dan tidak dimaksudkan untuk diperbarui setiap kali pekerjaan selesai.
+Dokumen ini adalah **roadmap fix** untuk pengembangan BANANOW Land. Dokumen ini menjadi pegangan arah besar dan tidak dimaksudkan untuk diperbarui setiap kali pekerjaan selesai.
 
-Dokumen status yang terus diperbarui adalah **BANANOW LAND Daftar Runut**. Dokumen instruksi teknis per tahap dibuat sebagai **Task Spec** terpisah, misalnya **BANANOW LAND Update Task Spec** untuk Website Update v1.47.
+Dokumen status yang terus diperbarui adalah **BANANOW Land Daftar Runut**. Dokumen instruksi teknis per tahap dibuat sebagai **Task Spec** terpisah, misalnya **BANANOW Land Update Task Spec** untuk Website Update v1.47.
 
-BANANOW LAND diarahkan untuk berubah dari `https://land.endhonesa.com` yang awalnya berupa landing page dan redirect hub menjadi portal utama BANANOW untuk brand, komunitas, NFT, publikasi, edukasi/program, dan AI parenting.
+BANANOW Land diarahkan untuk berubah dari `https://land.endhonesa.com` yang awalnya berupa landing page dan redirect hub menjadi portal utama BANANOW untuk brand, komunitas, NFT, publikasi, edukasi/program, dan AI parenting.
 
 ---
 
@@ -54,13 +54,13 @@ Task Spec bersifat fix setelah disetujui, tetapi jumlah Task Spec dapat bertamba
 
 ## 1. Tujuan Besar
 
-BANANOW LAND harus berkembang menjadi portal induk yang tetap mempertahankan identitas awalnya:
+BANANOW Land harus berkembang menjadi portal induk yang tetap mempertahankan identitas awalnya:
 
 1. Style visual yang sudah ada.
 2. Layout dan rasa halaman yang sudah dikenal.
 3. Font dan warna yang sudah dipakai.
 4. Suara/tombol interaktif yang muncul saat user mengklik tombol.
-5. Bahasa brand yang playful, ramah, Web3-friendly, dan berbasis metafora LAND, FAMILY, plantation, crops, seeds, Farmers, Heads, Sprouts, dan Lovers.
+5. Bahasa brand yang playful, ramah, Web3-friendly, dan berbasis metafora Land, FAMILY, plantation, crops, seeds, Farmers, Heads, Sprouts, dan Lovers.
 6. Struktur landing page yang sederhana, tetapi siap berkembang menjadi aplikasi web modular.
 
 Tujuan jangka pendek:
@@ -81,7 +81,7 @@ Tujuan jangka menengah:
 
 Tujuan jangka panjang:
 
-BANANOW LAND menjadi operating portal untuk komunitas, konten, commerce, program, partner, sponsor, investor, dan produk digital BANANOW.
+BANANOW Land menjadi operating portal untuk komunitas, konten, commerce, program, partner, sponsor, investor, dan produk digital BANANOW.
 
 ---
 
@@ -95,7 +95,7 @@ Yang harus dipertahankan:
 
 1. Gaya visual playful.
 2. Tone hangat dan tidak kaku.
-3. Metafora LAND dan plantation.
+3. Metafora Land dan plantation.
 4. CTA yang terasa seperti ajakan masuk ke komunitas.
 5. Footer, navigasi, dan komponen legal yang konsisten.
 6. Efek suara tombol.
@@ -151,7 +151,7 @@ Dokumen kerja internal dapat menggunakan bahasa Indonesia. Copy publik website B
 
 | Halaman            | URL          | Fungsi                                                              |
 | ------------------ | ------------ | ------------------------------------------------------------------- |
-| Home               | `/`          | Portal utama BANANOW LAND                                           |
+| Home               | `/`          | Portal utama BANANOW Land                                           |
 | Privacy Policy     | `/privacy`   | Kebijakan privasi                                                   |
 | Terms & Conditions | `/terms`     | Syarat dan ketentuan                                                |
 | Old Brands Archive | `/oldbrands` | Arsip brand lama BANANOW; footer label dapat memakai `Older Brands` |
@@ -213,7 +213,7 @@ Urutan ini menjadi urutan fix Development Map. Status eksekusinya dicatat di Daf
 | 11  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92        | Marketplace mainnet bertahap                  |
 | 12  | Claps Alpha                                       | v2.00        | AI parenting alpha dengan safety              |
 | 13  | Admin Dashboard Perluasan                         | v2.05        | Admin lintas modul                            |
-| 14  | BANANOW LAND Operating Portal                     | v2.11        | Portal operasional matang                     |
+| 14  | BANANOW Land Operating Portal                     | v2.11        | Portal operasional matang                     |
 
 ---
 
@@ -320,7 +320,7 @@ Tujuan:
 2. Menentukan struktur bab final.
 3. Menentukan istilah final.
 4. Menjelaskan old brands dan active/future direction.
-5. Menjelaskan Heads, Farmers, Sprouts, Lovers, LAND, FAMILY.
+5. Menjelaskan Heads, Farmers, Sprouts, Lovers, Land, FAMILY.
 6. Menjelaskan BANANOW NFT tanpa overpromise.
 7. Menjelaskan relasi BANANOW dengan Web3, creative economy, education, real-world programs, dan parenting/family support.
 8. Menambahkan final note.
@@ -346,7 +346,7 @@ The Green Print harus selesai sebelum masuk ke:
 
 Tujuan:
 
-Privacy Policy dan Terms & Conditions tidak tertinggal dari arah baru BANANOW LAND.
+Privacy Policy dan Terms & Conditions tidak tertinggal dari arah baru BANANOW Land.
 
 Minimal mencakup:
 
@@ -403,7 +403,7 @@ Scope:
 
 Category awal:
 
-1. LAND.
+1. Land.
 2. Community.
 3. Skool Now.
 4. NFTs.
@@ -510,11 +510,11 @@ Scope:
 
 ---
 
-## 19. Stage 14 — BANANOW LAND Operating Portal
+## 19. Stage 14 — BANANOW Land Operating Portal
 
 Tujuan:
 
-BANANOW LAND tidak lagi hanya website, tetapi portal operasional.
+BANANOW Land tidak lagi hanya website, tetapi portal operasional.
 
 Output:
 
@@ -656,7 +656,7 @@ News, Skool, NFT Marketplace, Claps, dan Admin Dashboard masing-masing membutuhk
 ## 24. Risiko Besar dan Pencegahan
 
 1. Scope creep → stage dipisah dan Task Spec sempit.
-2. Identity drift → pertahankan bahasa LAND dan visual playful.
+2. Identity drift → pertahankan bahasa Land dan visual playful.
 3. Technical debt → App Foundation sebelum fitur besar.
 4. Legal/privacy risk → legal update sebelum fitur publik.
 5. Web3 financial risk → testnet dan controlled launch.
@@ -690,7 +690,7 @@ Development Map ini adalah roadmap fix.
 
 Jika pelaksanaan berubah karena kondisi nyata repo, perubahan status tidak dicatat di sini, tetapi dicatat di **Daftar Runut** atau **Item Sisipan**.
 
-## Development Map hanya diubah jika arah besar BANANOW LAND berubah secara fundamental
+## Development Map hanya diubah jika arah besar BANANOW Land berubah secara fundamental
 
 ---
 
