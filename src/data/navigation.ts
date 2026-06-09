@@ -15,7 +15,7 @@ export const primaryNavigation: NavigationItem[] = [
 ];
 
 // export const primaryNavigation: NavigationItem[] = [
-//   - Main Menu: { name: "Home", href: "/", current: false },
+//   - Main Menu: { name: "Land", href: "/", current: false },
 //      - Sub Menu { name: "Features", href: "/#features", current: false },
 //      - Sub Menu { name: "Brands", href: "/#brandproducts", current: false },
 //      - Sub Menu { name: "Community", href: "/#theheads", current: false },
@@ -23,7 +23,7 @@ export const primaryNavigation: NavigationItem[] = [
 //      - Sub Menu { name: "F.A.Q.", href: "/#faq", current: false },
 //      - Sub Menu { name: "Embassy", href: "/#embassy", current: false },
 //   - Main Menu: { name: "News", href: "/news", current: false },
-//      - Sub Menu { name: "LAND", href: "/news/category/land", current: false },
+//      - Sub Menu { name: "Land", href: "/news/category/land", current: false },
 //      - Sub Menu { name: "Technology", href: "/news/category/technology", current: false },
 //      - Sub Menu { name: "Web3", href: "/news/category/web3", current: false },
 //      - Sub Menu { name: "Arts", href: "/news/category/arts", current: false },
@@ -35,6 +35,7 @@ export const primaryNavigation: NavigationItem[] = [
 //      - Sub Menu { name: "Opinion", href: "/news/category/opinion", current: false },
 //      - Sub Menu { name: "Reviews", href: "/news/category/reviews", current: false },
 //   - Main Menu: { name: "Skool", href: "/skool", current: false },
+//      - Sub Menu { name: "Programs", href: "/skool/programs", current: false },
 //   - Main Menu: { name: "Claps", href: "/claps", current: false },
 //   - Main Menu: { name: "NFTs", href: "/nfts", current: false },
 //   - Main Menu: { name: "Privacy", href: "/privacy", current: false },

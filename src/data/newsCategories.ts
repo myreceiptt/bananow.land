@@ -6,7 +6,7 @@ export type NewsCategory = {
 
 export const newsCategories: NewsCategory[] = [
   {
-    name: "LAND",
+    name: "Land",
     slug: "land",
     description:
       "Direction, identity, documents, status, and major development of BANANOW LAND.",
