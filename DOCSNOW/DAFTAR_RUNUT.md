@@ -83,16 +83,16 @@ Keterangan status:
 13. Commit GitBook repo The Green Print: `5459265187fe1f1eccb4f6514d2836fb23e5d617`. ✅ Selesai
 14. GitBook sudah published dan tidak ada issue. ✅ Selesai
 15. QA GitBook lulus:
-    - `SUMMARY.md` sesuai struktur final ✅
-    - Halaman utama terbuka ✅
-    - The Map terbuka ✅
-    - Future Proof Crops terbuka ✅
-    - Earlier Crops terbuka ✅
-    - The FAMILY dan role pages terbuka ✅
-    - BANANOW NFT terbuka ✅
-    - Embassy terbuka ✅
-    - Final Note terbuka ✅
-    - Tidak ada placeholder lama di sidebar ✅
+    - `SUMMARY.md` sesuai struktur final ✅ Selesai
+    - Halaman utama terbuka ✅ Selesai
+    - The Map terbuka ✅ Selesai
+    - Future Proof Crops terbuka ✅ Selesai
+    - Earlier Crops terbuka ✅ Selesai
+    - The FAMILY dan role pages terbuka ✅ Selesai
+    - BANANOW NFT terbuka ✅ Selesai
+    - Embassy terbuka ✅ Selesai
+    - Final Note terbuka ✅ Selesai
+    - Tidak ada placeholder lama di sidebar ✅ Selesai
 16. Legal Update Minimum v1.51 sudah diterapkan melalui Agent Now. ✅ Selesai
 17. Privacy Policy v1.51 sudah memakai draft approved dari `DOCSNOW/UPDATE_PRIVACY_POLICY.md`. ✅ Selesai
 18. Terms & Conditions v1.51 sudah memakai draft approved dari `DOCSNOW/UPDATE_TERMS_AND_CONDITIONS.md`. ✅ Selesai
@@ -105,66 +105,63 @@ Keterangan status:
 25. Static data/config sudah dicentralize ke `src/data/`. ✅ Selesai
 26. Legal Markdown content sudah dipindahkan ke `src/content/legal/`. ✅ Selesai
 27. Reusable components/helpers sudah ditambahkan:
-    - `RedirectPage`
-    - `PlaceholderPage`
-    - `LegalMarkdown`
-    - SEO helper route-aware
-      ✅ Selesai
+    - `RedirectPage` ✅ Selesai
+    - `PlaceholderPage` ✅ Selesai
+    - `LegalMarkdown` ✅ Selesai
+    - SEO helper route-aware ✅ Selesai
 28. `.env.example` minimal sudah ditambahkan. ✅ Selesai
 29. Lint/build dan route QA App Foundation lulus. ✅ Selesai
 30. Branch `app-foundation-v1.51` sudah dipush untuk Vercel Preview. ✅ Selesai
 31. Vercel Preview QA App Foundation lulus. ✅ Selesai
 32. Branch sudah dimerge ke `main`. ✅ Selesai
 33. Production QA App Foundation lulus:
-    - Homepage preview/production aman ✅
-    - `/privacy` aman ✅
-    - `/terms` aman ✅
-    - `/oldbrands` aman ✅
-    - `/nfts`, `/skool`, `/claps`, `/news` aman ✅
-    - Redirect pages aman ✅
-    - Mobile aman ✅
-    - Desktop aman ✅
-    - Tidak ada broken route ✅
-    - Tidak ada visual drift besar ✅
+    - Homepage preview/production aman ✅ Selesai
+    - `/privacy` aman ✅ Selesai
+    - `/terms` aman ✅ Selesai
+    - `/oldbrands` aman ✅ Selesai
+    - `/nfts`, `/skool`, `/claps`, `/news` aman ✅ Selesai
+    - Redirect pages aman ✅ Selesai
+    - Mobile aman ✅ Selesai
+    - Desktop aman ✅ Selesai
+    - Tidak ada broken route ✅ Selesai
+    - Tidak ada visual drift besar ✅ Selesai
 34. Na Now News MVP v1.62 sudah selesai diterapkan, dipoles, dipush untuk Vercel Preview, dimerge ke `main`, dan production QA lulus. ✅ Selesai
 35. Scope Na Now News MVP v1.62 dikunci sebagai static Markdown news portal di `src/content/news/`. ✅ Selesai
 36. Na Now News tidak memakai database, CMS besar, admin dashboard, auth, newsletter, comments, atau search engine pada MVP ini. ✅ Selesai
 37. Route Na Now News sudah tersedia:
-    - `/news` ✅
-    - `/news/[slug]` ✅
-    - `/news/category/[categorySlug]` ✅
-    - `/news/tag/[tagSlug]` ✅
+    - `/news` ✅ Selesai
+    - `/news/[slug]` ✅ Selesai
+    - `/news/category/[categorySlug]` ✅ Selesai
+    - `/news/tag/[tagSlug]` ✅ Selesai
 38. Article schema minimum sudah diterapkan:
-    - `title`
-    - `slug`
-    - `excerpt`
-    - `date`
-    - `updated`
-    - `author`
-    - `status`
-    - `primaryCategory`
-    - `categories`
-    - `tags`
-    - `coverImage`
-      ✅ Selesai
+    - `title` ✅ Selesai
+    - `slug` ✅ Selesai
+    - `excerpt` ✅ Selesai
+    - `date` ✅ Selesai
+    - `updated` ✅ Selesai
+    - `author` ✅ Selesai
+    - `status` ✅ Selesai
+    - `primaryCategory` ✅ Selesai
+    - `categories` ✅ Selesai
+    - `tags` ✅ Selesai
+    - `coverImage` ✅ Selesai
 39. Article status behavior sudah diterapkan:
-    - `published`
-    - `draft`
-    - `unlisted`
-    - `archived`
-      ✅ Selesai
+    - `published` ✅ Selesai
+    - `draft` ✅ Selesai
+    - `unlisted` ✅ Selesai
+    - `archived` ✅ Selesai
 40. Category taxonomy Na Now News sudah diterapkan. ✅ Selesai
 41. Multi-category support dan tag pages sudah diterapkan. ✅ Selesai
 42. Markdown renderer artikel sudah mendukung kebutuhan MVP. ✅ Selesai
 43. Standalone media URL embed sudah ditambahkan:
-    - YouTube iframe embed ✅
-    - Vimeo iframe embed ✅
-    - Instagram/Facebook/X external media card ✅
+    - YouTube iframe embed ✅ Selesai
+    - Vimeo iframe embed ✅ Selesai
+    - Instagram/Facebook/X external media card ✅ Selesai
 44. Cover image display sudah dipoles:
-    - card thumbnail seragam di `/news` ✅
-    - card thumbnail seragam di category pages ✅
-    - card thumbnail seragam di tag pages ✅
-    - article hero cover seragam di `/news/[slug]` ✅
+    - card thumbnail seragam di `/news` ✅ Selesai
+    - card thumbnail seragam di category pages ✅ Selesai
+    - card thumbnail seragam di tag pages ✅ Selesai
+    - article hero cover seragam di `/news/[slug]` ✅ Selesai
 45. Artikel awal Na Now News sudah diperbaiki ke format baru, termasuk full English, kategori/tag, path image, dan copy yang lebih aman. ✅ Selesai
 46. Artikel publik tentang proses pengembangan BANANOW LAND sudah disusun. ✅ Selesai
 47. Cover image artikel pengembangan BANANOW LAND sudah dibuat dan digunakan. ✅ Selesai
@@ -179,23 +176,23 @@ Keterangan status:
 56. Phase 1 audit tidak meninggalkan perubahan source, content, config, dependency, commit, push, atau merge. ✅ Selesai
 57. Phase 2A Safe Maintenance Hygiene Patch sudah selesai. ✅ Selesai
 58. Phase 2A mencakup:
-    - Markdown optional link title parser ✅
-    - `rel="noopener noreferrer"` untuk `target="_blank"` ✅
-    - Embassy `console.log` cleanup ✅
-    - cleanup import `process.title` di Layout dan Redirect ✅
-    - typo `sfont-bold` → `font-bold` ✅
-    - tracked `.DS_Store` cleanup ✅
+    - Markdown optional link title parser ✅ Selesai
+    - `rel="noopener noreferrer"` untuk `target="_blank"` ✅ Selesai
+    - Embassy `console.log` cleanup ✅ Selesai
+    - cleanup import `process.title` di Layout dan Redirect ✅ Selesai
+    - typo `sfont-bold` → `font-bold` ✅ Selesai
+    - tracked `.DS_Store` cleanup ✅ Selesai
 59. Phase 2A sudah direview manual, dicommit, dimerge ke `main`, dan QA sukses. ✅ Selesai
 60. Phase 2B Brand / Legal / Content Risk Review sudah selesai sebagai report-only. ✅ Selesai
 61. Phase 2B tidak mengubah file, dependency, commit, push, atau merge. ✅ Selesai
 62. Phase 2C Approved Brand / Legal / Content Patch sudah selesai. ✅ Selesai
 63. Phase 2C mencakup:
-    - rewrite TheHeads NFT/utility wording agar lebih aman ✅
-    - rewrite FAQ NFT wording agar tidak investment-framing ✅
-    - rewrite global site description agar tidak revenue-framing ✅
-    - update Terms Na Now News official door ke `/news/` ✅
-    - normalisasi “The Green Print” wording ✅
-    - align public taxonomy `The Brands` → `The Crops` dan `Older Brands` → `Earlier Crops` ✅
+    - rewrite TheHeads NFT/utility wording agar lebih aman ✅ Selesai
+    - rewrite FAQ NFT wording agar tidak investment-framing ✅ Selesai
+    - rewrite global site description agar tidak revenue-framing ✅ Selesai
+    - update Terms Na Now News official door ke `/news/` ✅ Selesai
+    - normalisasi “The Green Print” wording ✅ Selesai
+    - align public taxonomy `The Brands` → `The Crops` dan `Older Brands` → `Earlier Crops` ✅ Selesai
 64. Phase 2C sudah direview manual, dicommit, dimerge ke `main`, dan production QA sukses. ✅ Selesai
 65. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 selesai dan tidak menghalangi tahap berikutnya. ✅ Selesai
 66. Sisa temuan non-blocker dipindahkan ke backlog:
