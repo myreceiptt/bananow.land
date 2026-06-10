@@ -64,7 +64,11 @@ export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
 
         {tagItems.length ? (
           <div className="mx-auto max-w-5xl pt-10">
-            <NewsTaxonomyList basePath="/news/tag" items={tagItems} />
+            <NewsTaxonomyList
+              basePath="/news/tag"
+              variant="featuredInverted"
+              items={tagItems}
+            />
           </div>
         ) : null}
 
@@ -87,7 +91,7 @@ export const getStaticProps: GetStaticProps<NewsIndexProps> = async () => {
     props: {
       articles,
       tagItems: Array.from(tagMap.entries()).map(([slug, name]) => ({
-        name: `#${name}`,
+        name: `${name}`,
         slug,
       })),
     },
