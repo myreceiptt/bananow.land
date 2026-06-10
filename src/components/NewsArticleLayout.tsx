@@ -59,8 +59,9 @@ export default function NewsArticleLayout({ article }: NewsArticleLayoutProps) {
       <div className="pt-6">
         <NewsTaxonomyList
           basePath="/news/tag"
+          variant="featuredInverted"
           items={article.tags.map((tag, index) => ({
-            name: `#${tag}`,
+            name: `${tag}`,
             slug: article.tagSlugs[index],
           }))}
         />
