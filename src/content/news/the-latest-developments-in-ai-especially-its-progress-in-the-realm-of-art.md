@@ -18,7 +18,7 @@ tags:
   - "Creative Tools"
   - "Artists"
   - "Future Literacy"
-coverImage: "/images/news/latest-leap-in-ai-video-generation-0.webp"
+coverImage: "/images/news/latest-leap-in-ai-video-generation-0.png"
 ---
 
 Hi, OiOi Fams!

@@ -6,6 +6,9 @@ import useSound from "use-sound";
 import React from "react";
 import { oldBrands } from "../data/brands";
 
+const oldDescription =
+  "If you want to know more about what we did in the early times, here are our Earlier Crops.";
+
 export default function OldBrands() {
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(sound2Loc, { volume: 0.75 });
@@ -18,7 +21,7 @@ export default function OldBrands() {
   const [isHovering, setIsHovering] = React.useState(false);
 
   return (
-    <Layout>
+    <Layout title="Earlier Crops - BANANOW Land" description={oldDescription}>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
         id="oldbrands">
@@ -46,7 +49,8 @@ export default function OldBrands() {
           But time goes by. What is planted grows. What is born also grows to
           maturity. What is young grows old. What is old eventually fertilizes
           the soil, making everything planted can grow. If you want to know more
-          about what we did in the early times, click on our Earlier Crops below.
+          about what we did in the early times, click on our Earlier Crops
+          below.
         </p>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">

@@ -17,7 +17,7 @@ tags:
   - "DIY"
   - "Clean Energy"
   - "Future Literacy"
-coverImage: "/images/news/all-energy-generation-will-be-solar-0.jpg"
+coverImage: "/images/news/all-energy-generation-will-be-solar-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -52,7 +52,7 @@ A simple solar system may include:
 6. mounting hardware;
 7. safety switches or breakers.
 
-![In BANANOW Land All Energy Generation Will Be Solar](/images/news/all-energy-generation-will-be-solar-0.jpg)
+![In BANANOW Land All Energy Generation Will Be Solar](/images/news/all-energy-generation-will-be-solar-0.png)
 
 ## Grid-Tied and Off-Grid Systems
 

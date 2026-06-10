@@ -8,13 +8,17 @@ type LegalPageProps = {
   markdown: string;
 };
 
+const privacyDescription =
+  "Please read this Privacy Policy carefully before accessing or using our website.";
+
 export default function Privacy({ markdown }: LegalPageProps) {
   return (
-    <Layout>
+    <Layout
+      title="Privacy Policy - BANANOW Land"
+      description={privacyDescription}>
       <div
         className="bg-white dark:bg-neutral-900 w-full px-4 pt-32 pb-16"
-        id="privacy"
-      >
+        id="privacy">
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           Privacy Policy
         </h2>

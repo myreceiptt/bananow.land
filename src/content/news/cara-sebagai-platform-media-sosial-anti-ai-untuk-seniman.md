@@ -20,7 +20,7 @@ tags:
   - "Cara"
   - "NoAI"
   - "Creative Rights"
-coverImage: "/images/news/platform-media-sosial-anti-ai-untuk-seniman-0.jpg"
+coverImage: "/images/news/platform-media-sosial-anti-ai-untuk-seniman-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -45,7 +45,7 @@ The rise of AI art tools has created new possibilities, but it has also created 
 
 Cara exists because some creators want a Land of their own: not against all technology, but against being swallowed by technology without consent.
 
-![Cara Platform Media Sosial Anti AI Untuk Seniman](/images/news/platform-media-sosial-anti-ai-untuk-seniman-0.jpg)
+![Cara Platform Media Sosial Anti AI Untuk Seniman](/images/news/platform-media-sosial-anti-ai-untuk-seniman-0.png)
 
 ## A Human Space in a Machine Age
 

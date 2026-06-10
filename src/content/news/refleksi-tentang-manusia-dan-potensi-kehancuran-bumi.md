@@ -18,7 +18,7 @@ tags:
   - "Reflection"
   - "Small Actions"
   - "Social Care"
-coverImage: "/images/news/manusia-dan-potensi-kehancuran-bumi-0.jpg"
+coverImage: "/images/news/manusia-dan-potensi-kehancuran-bumi-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -43,7 +43,7 @@ None of these actions may feel world-ending when done once.
 
 But billions of small harms become a storm.
 
-![Consumerism can become one of our quiet enemies](/images/news/manusia-dan-potensi-kehancuran-bumi-1.jpg)
+![Consumerism can become one of our quiet enemies](/images/news/manusia-dan-potensi-kehancuran-bumi-1.png)
 
 ## The Threats We Create Ourselves
 
@@ -57,7 +57,7 @@ In the Land, everything is connected. Soil, water, seed, family, memory, and act
 
 When one part is poisoned, the whole field feels it.
 
-![Environmental neglect is one of the clearest threats](/images/news/manusia-dan-potensi-kehancuran-bumi-0.jpg)
+![Environmental neglect is one of the clearest threats](/images/news/manusia-dan-potensi-kehancuran-bumi-2.png)
 
 ## Turning Anxiety Into Action
 
@@ -74,14 +74,12 @@ Words can move people. Words can disturb comfort. Words can invite reflection. W
 Some messages may sound sharp:
 
 > One plastic bottle you throw away today may still exist when your great-grandchild is born.
->
 > Buying new clothes every week while throwing the old ones away is not only fashion. It is a footprint.
->
 > Food wasted in one place can become hunger in another.
 
 These words are not meant only to blame. They are meant to wake us up.
 
-![Small words can become a campaign of care](/images/news/manusia-dan-potensi-kehancuran-bumi-2.jpg)
+![Small words can become a campaign of care](/images/news/manusia-dan-potensi-kehancuran-bumi-3.png)
 
 ## Hope Is Still a Practice
 
@@ -106,6 +104,8 @@ The possible ruin of Earth is not only a science fiction fear. It is a mirror he
 But if small harms can accumulate, small care can accumulate too.
 
 That is the hope.
+
+![Hope is still a practice](/images/news/manusia-dan-potensi-kehancuran-bumi-4.png)
 
 ## Closing
 

@@ -15,10 +15,9 @@ type NewsArticlePageProps = {
 export default function NewsArticlePage({ article }: NewsArticlePageProps) {
   return (
     <Layout
-      title={article.title}
+      title={`Na Now News: ${article.title}`}
       description={article.excerpt}
-      image={article.coverImage}
-    >
+      image={article.coverImage}>
       <NewsArticleLayout article={article} />
     </Layout>
   );

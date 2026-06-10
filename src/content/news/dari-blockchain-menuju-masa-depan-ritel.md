@@ -19,7 +19,7 @@ tags:
   - "Retail"
   - "Business Model"
   - "Digital Ownership"
-coverImage: "/images/news/dari-blockchain-menuju-masa-depan-ritel-0.jpg"
+coverImage: "/images/news/dari-blockchain-menuju-masa-depan-ritel-0.png"
 ---
 
 Hi, OiOi Fams!

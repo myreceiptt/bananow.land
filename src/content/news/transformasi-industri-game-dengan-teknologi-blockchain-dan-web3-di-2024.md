@@ -19,7 +19,7 @@ tags:
   - "Digital Ownership"
   - "Game Economy"
   - "Play Culture"
-coverImage: "/images/news/transformasi-industri-game-di-2024-0.jpg"
+coverImage: "/images/news/transformasi-industri-game-di-2024-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -54,7 +54,7 @@ That does not mean every sword, shoe, banana, or spaceship must become an NFT.
 
 It means ownership can become more flexible when used carefully.
 
-![Transformasi Industri Game di 2024](/images/news/transformasi-industri-game-di-2024-0.jpg)
+![Transformasi Industri Game di 2024](/images/news/transformasi-industri-game-di-2024-0.png)
 
 ## The Onboarding Problem
 

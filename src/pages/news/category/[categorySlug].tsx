@@ -22,7 +22,7 @@ export default function NewsCategoryPage({
 }: NewsCategoryPageProps) {
   return (
     <Layout
-      title={`${category.name} | Na Now News`}
+      title={`Na Now News Categorized ${category.name} - BANANOW Land`}
       description={category.description}>
       <div className="bg-white px-4 pb-16 pt-32 dark:bg-neutral-900">
         <div className="mx-auto max-w-7xl text-center">

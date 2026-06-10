@@ -24,11 +24,13 @@ export default function NewsTagPage({
   const description = `Na Now News articles tagged ${tagName}.`;
 
   return (
-    <Layout title={`${tagName} | Na Now News`} description={description}>
+    <Layout
+      title={`Na Now News Tagged ${tagName} - BANANOW Land`}
+      description={description}>
       <div className="bg-white px-4 pb-16 pt-32 dark:bg-neutral-900">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="font-judul text-4xl font-bold text-neutral-900 dark:text-white">
-            #{tagName}
+            {tagName}
           </h1>
           <p className="mx-auto max-w-2xl pt-6 text-base text-dark-now dark:text-white-now">
             {description}
