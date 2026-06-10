@@ -27,7 +27,7 @@ export const skoolPaths = [
       "Availability may vary by location and partner",
     ],
     cta: "Join a Program",
-    href: "#embassy",
+    href: "#skool-programs",
   },
   {
     title: "Partners",

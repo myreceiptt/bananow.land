@@ -197,7 +197,7 @@ export default function Footer() {
           href="/"
           className="text-white-now text-sm hover:text-yellow-now">
           <span className="text-yellow-now font-bold">BANANOW</span>{" "}
-          <span className="text-green-now font-bold">Land</span> &copy;
+          <span className="text-green-now font-bold">Land </span>&copy;
           Copyright {new Date().getFullYear()}. All Rights Reserved.
         </Link>
       </div>
