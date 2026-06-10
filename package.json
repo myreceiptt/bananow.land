@@ -1,6 +1,6 @@
 {
   "name": "bananow-land",
-  "version": "1.74",
+  "version": "1.74.2",
   "private": true,
   "scripts": {
     "dev": "next dev",

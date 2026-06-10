@@ -4,6 +4,7 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
 import { ctaLinks } from "../data/site";
+import ReadMoreModal from "./ui/ReadMoreModal";
 
 const products = [
   {
@@ -187,6 +188,11 @@ const products = [
 type BillingInterval = "0101" | "Reality";
 
 export default function TheHeads() {
+  const [activeDescription, setActiveDescription] = useState<{
+    title: string;
+    description: string;
+  } | null>(null);
+
   const sound2Loc = "/sounds/tinggg.mp3";
   const [play2] = useSound(sound2Loc, { volume: 0.75 });
   const sound2Click = () => {
@@ -206,6 +212,16 @@ export default function TheHeads() {
 
   const [billingInterval, setBillingInterval] =
     useState<BillingInterval>("Reality");
+
+  const getDescriptionPreview = (description: string) => {
+    const maxLength = 118;
+
+    if (description.length <= maxLength) {
+      return description;
+    }
+
+    return `${description.slice(0, maxLength).trim()}...`;
+  };
 
   return (
     <div className="bg-white dark:bg-neutral-900" id="theheads">
@@ -295,8 +311,17 @@ export default function TheHeads() {
                   </p>
                 )}
 
-                <p className="px-6 mt-4 leading-6 text-dark-now dark:text-white-now">
-                  {description}
+                <p className="px-6 mt-4 min-h-36 leading-6 text-dark-now dark:text-white-now">
+                  {getDescriptionPreview(description)}{" "}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      play3();
+                      setActiveDescription({ title, description });
+                    }}
+                    className="font-semibold text-green-now hover:underline dark:text-yellow-now">
+                    read more
+                  </button>
                 </p>
                 <div className="mt-2 p-6 -mx-6">
                   <p className="px-6 font-medium flex place-items-end">
@@ -343,6 +368,12 @@ export default function TheHeads() {
           },
         )}
       </div>
+      <ReadMoreModal
+        title={activeDescription?.title || ""}
+        isOpen={Boolean(activeDescription)}
+        onClose={() => setActiveDescription(null)}>
+        <p>{activeDescription?.description}</p>
+      </ReadMoreModal>
     </div>
   );
 }
