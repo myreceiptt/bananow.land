@@ -48,7 +48,9 @@ Aturan utama:
 | 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                |
 | 9   | Na Now News MVP                                   | v1.62      | ✅ Selesai                                |
 | 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | ✅ Selesai                                |
-| 10  | Skool Now MVP                                     | v1.74      | 🔜 Berikutnya                             |
+| 10  | Skool Now MVP                                     | v1.74      | ✅ Selesai                                |
+| 10A | Global Navigation & Visual Polish                 | v1.75      | 🔜 Berikutnya                             |
+| 10B | Skool Now & TSX Organization Cleanup              | v1.76      | ⏳ Ditahan                                |
 | 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
 | 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
 | 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
@@ -202,7 +204,20 @@ Keterangan status:
     - DOCSNOW historical cleanup
     - editorial byline guide
     - marketplace-specific NFT terms
-67. Tahap berikutnya adalah **Skool Now MVP v1.74**. 🔜 Berikutnya
+67. Skool Now MVP v1.74 sudah discope, diimplementasikan, dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+68. `/skool/` sudah menjadi static landing page Skool Now dengan struktur visual mengikuti homepage BANANOW existing. ✅ Selesai
+69. Skool Now memakai struktur section: `SkoolHero`, `SkoolPaths`, `SkoolPrograms`, `SkoolHowItWorks`, `SkoolPartners`, `SkoolFaq`, dan `Embassy`. ✅ Selesai
+70. Skool Now mengunci `Skool Now` sebagai umbrella Crop dan `Skate Skool Now` sebagai first program. ✅ Selesai
+71. Skool Now three-layer model sudah dikunci:
+    - Participants / Packages, ✅ Selesai
+    - Partners, ✅ Selesai
+    - Sponsors / Investors. ✅ Selesai
+72. CTA SkoolPaths sudah diarahkan ke Embassy/contact:
+    - `Join a Program`, ✅ Selesai
+    - `Become a Partner`, ✅ Selesai
+    - `Sponsor or Invest`. ✅ Selesai
+73. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer dan tidak lagi menjadi blocker. ✅ Selesai
+74. Tahap berikutnya adalah **Item Sisipan 10A — Global Navigation & Visual Polish v1.75**. 🔜 Berikutnya
 
 ---
 
@@ -764,72 +779,300 @@ Item Sisipan 9A tidak menambah fitur baru. Item ini sudah membersihkan maintenan
 
 Target: **v1.74**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
 Tujuan:
 
-Membangun Skool Now sebagai Crop pendidikan/program BANANOW Land yang menjadi pintu awal untuk program belajar, komunitas, partner, sponsor, dan future literacy.
+Membangun Skool Now sebagai Crop pendidikan/program BANANOW Land yang menjadi pintu awal untuk program belajar, komunitas, partner, sponsor, investor, dan future literacy.
 
-Arah awal yang sudah diketahui:
+Scope final yang dikunci:
 
-1. Skool Now berada di route `/skool/`.
-2. Skool Now menjadi brand/program layer BANANOW untuk pendidikan, latihan, hobi, olahraga, dan skill-building.
-3. Program awal yang mungkin diprioritaskan:
-   - Skate Now Skate Skool,
-   - Skate Skool Now,
-   - atau nama final lain yang diputuskan sebelum implementasi.
-4. Skool Now dapat berkembang menjadi pola “XXXX Skool Now” untuk program olahraga, team, hobby, skill, dan community learning lain.
-5. Skool Now perlu mendukung arah:
-   - B2C participants/packages,
-   - B2B partners,
-   - investor/sponsor layer,
-   - future literacy positioning.
-6. Skool Now tidak boleh masuk ke sistem pembayaran, form kompleks, database, admin dashboard, atau dynamic program management sebelum MVP scope dikunci.
+1. `/skool/` adalah static landing page.
+2. Struktur, rhythm, style, warna, font, dan section flow mengikuti homepage BANANOW existing.
+3. `homepage-bananow.png` menjadi source of truth visual/layout/style.
+4. `bananow-skool-now.png` hanya menjadi inspirasi content/concept.
+5. Implementasi memakai komponen dan data khusus Skool.
+6. Skool Now tidak mengganggu homepage existing.
+7. Skool Now menjadi umbrella Crop.
+8. Skate Skool Now menjadi first program.
+9. SkoolPaths menjadi three-layer business model:
+   - Participants / Packages,
+   - Partners,
+   - Sponsors / Investors.
+10. Public copy boleh menyebut commercial partnership, sponsorship placement, activation package, program-level investment, Skool Now-level investment, capital structure, revenue sharing, dan negotiated agreement.
+11. Public copy tidak boleh menjanjikan guaranteed profit, guaranteed return, guaranteed revenue, guaranteed benefit, guaranteed sponsor result, guaranteed investment outcome, atau public investment offering.
+12. Setiap SkoolPaths card memiliki CTA ke Embassy/contact.
+13. Tidak ada payment, booking, registration system, database, auth, admin dashboard, certificate, attendance tracker, program detail route, sponsor dashboard, partner login, marketplace work, atau Claps work pada v1.74.
 
-Persiapan yang harus dilakukan sebelum Agent Now implementation:
+Hasil:
 
-1. Review existing placeholder `/skool`.
-2. Tentukan scope Skool Now MVP v1.74.
-3. Tentukan apakah MVP cukup landing page statis dulu atau perlu program detail page.
-4. Tentukan nama program pertama:
-   - Skool Now,
-   - Skate Now Skate Skool,
-   - Skate Skool Now,
-   - atau kombinasi naming final.
-5. Tentukan struktur konten MVP:
-   - hero,
-   - what is Skool Now,
-   - who it is for,
-   - first program,
-   - participant path,
-   - partner path,
-   - sponsor/investor path,
-   - safety/age/guardian note jika relevan,
-   - CTA/contact.
-6. Tentukan data/config yang perlu masuk ke `src/data/`.
-7. Tentukan apakah content statis cukup di component/data atau perlu `src/content/skool/`.
-8. Susun Skool Now MVP Task Spec.
-9. Susun prompt Agent Now implementation hanya setelah scope dikunci.
+1. Placeholder `/skool` sudah diganti menjadi static landing page Skool Now.
+2. Page `/skool/` sudah memakai struktur:
+   - `SkoolHero`,
+   - `SkoolPaths`,
+   - `SkoolPrograms`,
+   - `SkoolHowItWorks`,
+   - `SkoolPartners`,
+   - `SkoolFaq`,
+   - `Embassy`.
+3. Data Skool Now sudah dipisahkan ke `src/data/skool.ts`.
+4. Komponen Skool Now sudah dibuat di area komponen Skool.
+5. `SkoolHero` menjelaskan Skool Now sebagai rumah program belajar, komunitas olahraga, real-world growth, dan future literacy.
+6. `SkoolPaths` menjelaskan Participants / Packages, Partners, dan Sponsors / Investors.
+7. CTA SkoolPaths sudah disiapkan:
+   - `Join a Program`,
+   - `Become a Partner`,
+   - `Sponsor or Invest`.
+8. `SkoolPrograms` menampilkan Skate Skool Now sebagai program pertama.
+9. Basket Skool Now dan Futsal Skool Now dapat tampil sebagai coming soon/placeholder program.
+10. `SkoolHowItWorks` menjelaskan flow:
+    - Choose a Program,
+    - Join & Learn,
+    - Track Progress,
+    - Connect & Share,
+    - Make an Impact.
+11. `SkoolPartners` memakai area partner yang aman dan tidak memakai logo palsu jika belum ada partner resmi.
+12. `SkoolFaq` mencakup FAQ umum dan safety/guardian note.
+13. Existing Embassy/contact section tetap digunakan sebagai tujuan kontak untuk participant, partner, sponsor, dan investor.
+14. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer.
+15. Lint dan build sudah lulus setelah perbaikan manual issue `LAND`.
+16. Local QA sudah lulus.
+17. Vercel Preview QA sudah lulus.
+18. Branch Skool Now sudah dicommit.
+19. Branch sudah dimerge manual ke `main`.
+20. Production QA sudah lulus.
 
-Gate sementara:
+Gate selesai:
 
-- [ ] Existing placeholder `/skool` direview.
-- [ ] Scope Skool Now MVP v1.74 dikunci.
-- [ ] Naming program awal diputuskan.
-- [ ] Struktur konten landing page disetujui.
-- [ ] B2C/B2B/sponsor layer disusun secara aman dan tidak overclaim.
-- [ ] Data/config strategy diputuskan.
-- [ ] Product/Task Spec Skool Now disusun.
-- [ ] Prompt Agent Now implementation disusun.
-- [ ] Jangan masuk ke payment, database, auth, admin dashboard, marketplace, atau Claps implementation sebelum scope Skool Now MVP dikunci.
+- [x] Existing placeholder `/skool` direview.
+- [x] Scope Skool Now MVP v1.74 dikunci.
+- [x] Naming program awal diputuskan.
+- [x] Struktur konten landing page disetujui.
+- [x] B2C/B2B/sponsor-investor layer disusun secara aman.
+- [x] Data/config strategy diputuskan.
+- [x] Product/Task Spec Skool Now disusun.
+- [x] Prompt Agent Now implementation disusun.
+- [x] Branch Skool Now dibuat dari latest `main`.
+- [x] `/skool/` static landing page dibuat.
+- [x] `src/data/skool.ts` dibuat.
+- [x] Komponen Skool Now dibuat.
+- [x] CTA ke Embassy/contact tersedia.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Local QA lulus.
+- [x] Vercel Preview QA lulus.
+- [x] Commit selesai.
+- [x] Merge manual ke `main` selesai.
+- [x] Production QA lulus.
+- [x] Skool Now MVP v1.74 selesai dan tidak menghalangi tahap berikutnya.
 
 Catatan:
 
-Skool Now adalah tahap berikutnya setelah Repo-Wide Audit & Maintenance Review v1.63 selesai. Fase ini sebaiknya dimulai dari diskusi produk dan copy terlebih dahulu, bukan langsung implementasi.
+1. Skool Now MVP v1.74 sudah selesai sebagai static landing page.
+2. Reorganisasi file `.tsx`, folder Skool Now, redirect pages, dan komponen tidak dilakukan pada v1.74.
+3. Perbaikan organisasi file akan ditahan untuk **Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76**.
+4. Setelah Skool Now selesai, sebelum masuk Marketplace, perlu Item Sisipan 10A untuk memperbaiki navigasi dan tampilan global yang mulai terasa perlu setelah Homepage, Na Now News, dan Skool Now hidup.
 
 ---
 
-## 14. Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet
+## 14. Item Sisipan 10A — Global Navigation & Visual Polish
+
+Target: **v1.75**
+
+Status: 🔜 Berikutnya.
+
+Alasan disisipkan:
+
+Setelah Homepage, Na Now News, dan Skool Now hidup, navigasi dan beberapa tampilan global perlu dipoles sebelum masuk ke BANANOW NFT Marketplace Testnet. Item ini disisipkan agar struktur menu, alignment homepage, dan alignment NewsCard lebih rapi tanpa masuk ke fitur dinamis baru.
+
+Harus diselesaikan sebelum lanjut ke:
+
+- Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet.
+
+Scope final sementara:
+
+1. NavBar dropdown / nested navigation.
+2. Homepage `<TheHeads />` internal card alignment polish.
+3. Reusable read-more modal untuk deskripsi card.
+4. News page `<NewsCard />` internal alignment polish.
+5. Remove tags dari NewsCard list/card view.
+6. Tidak membuat route baru.
+7. Tidak mengubah konten artikel Markdown.
+8. Tidak mengubah halaman detail artikel.
+9. Tidak mengorganisir ulang file Skool Now atau file `.tsx`.
+10. Tidak masuk marketplace, Claps, payment, booking, database, auth, atau admin dashboard.
+
+### 14.1. NavBar Dropdown / Nested Navigation
+
+Tujuan:
+
+Mengubah data dan tampilan NavBar agar mendukung main menu dan submenu/dropdown.
+
+Arah menu:
+
+1. `Land` menuju `/`.
+   - Submenu anchor homepage:
+     - Features,
+     - The Crops,
+     - Community,
+     - Farmers,
+     - F.A.Q.,
+     - Embassy.
+2. `News` menuju `/news`.
+   - Submenu category:
+     - LAND,
+     - Technology,
+     - Web3,
+     - Arts,
+     - Community,
+     - Education,
+     - Business,
+     - Markets,
+     - Gaming,
+     - Opinion,
+     - Reviews.
+3. `Skool` menuju `/skool`.
+   - Submenu anchor Skool Now:
+     - Programs,
+     - How It Works,
+     - Partners,
+     - F.A.Q.,
+     - Embassy.
+4. `Claps` menuju `/claps`.
+5. `NFTs` menuju `/nfts`.
+6. `Privacy` menuju `/privacy`.
+7. `Terms` menuju `/terms`.
+
+Catatan:
+
+1. Skool submenu memakai anchor dulu, bukan route baru:
+   - `/skool#programs`,
+   - `/skool#how-it-works`,
+   - `/skool#partners`,
+   - `/skool#faq`,
+   - `/skool#embassy`.
+2. `/skool/programs` tidak dibuat pada v1.75.
+3. Desktop harus mendukung hover/focus dropdown.
+4. Mobile harus tetap usable tanpa hover.
+5. Klik main menu tetap menuju halaman utama menu tersebut.
+
+### 14.2. Homepage `<TheHeads />` Visual Polish
+
+Masalah:
+
+Card-card pada section `<TheHeads />` sudah sejajar, tetapi komponen di dalam card belum sejajar karena panjang deskripsi berbeda. Tombol `Be a Sprout`, `Be a Lover`, `Be a Head`, dan `Be a Farmer` turun-naik karena tinggi deskripsi berbeda.
+
+Solusi:
+
+1. Deskripsi di setiap card dibuat sebagai preview dengan panjang/line clamp yang konsisten.
+2. Preview diakhiri dengan `... read more`.
+3. Klik `read more` membuka modal berisi deskripsi lengkap.
+4. Modal dibuat reusable agar bisa dipakai di card/section lain nanti.
+5. CTA button di dalam card harus sejajar secara visual.
+6. Card tetap mempertahankan style existing BANANOW.
+7. Tidak mengubah meaning legal/content TheHeads yang sudah dipoles pada v1.63 Phase 2C.
+
+Komponen baru yang mungkin dibuat:
+
+- `src/components/common/ReadMoreModal.tsx`, atau
+- `src/components/ui/ReadMoreModal.tsx`
+
+Pilih berdasarkan struktur repo existing.
+
+### 14.3. News Page `<NewsCard />` Visual Polish
+
+Masalah:
+
+News cards sudah sama tinggi, tetapi isi di bawah thumbnail tidak sejajar karena panjang judul, excerpt, dan jumlah tags berbeda.
+
+Solusi:
+
+1. Thumbnail tetap seragam.
+2. Category/date tetap konsisten.
+3. Judul dibuat line-clamp konsisten.
+4. Excerpt dibuat line-clamp konsisten.
+5. Tags dihapus dari NewsCard list/card view.
+6. Klik thumbnail, title, atau card tetap membuka halaman artikel.
+7. Tidak perlu modal di NewsCard.
+8. Tidak mengubah halaman detail artikel.
+9. Tidak mengubah Markdown/frontmatter artikel.
+10. Tidak mengubah taxonomy category/tag.
+
+Gate sementara:
+
+- [ ] Scope 10A dikunci.
+- [ ] Prompt Agent Now v1.75 disusun.
+- [ ] Branch baru dibuat dari latest `main`.
+- [ ] Navigation data mendukung submenu/children.
+- [ ] Desktop dropdown QA lulus.
+- [ ] Mobile navigation QA lulus.
+- [ ] TheHeads card internal alignment lulus.
+- [ ] Read-more modal bekerja dan reusable.
+- [ ] NewsCard internal alignment lulus.
+- [ ] Tags tidak tampil di NewsCard list/card view.
+- [ ] Klik NewsCard tetap menuju artikel.
+- [ ] Tidak ada route baru dibuat.
+- [ ] Tidak ada perubahan content/meaning tidak perlu.
+- [ ] Lint lulus.
+- [ ] Build lulus.
+- [ ] Local route QA lulus.
+- [ ] Vercel Preview QA lulus.
+- [ ] Merge manual ke `main` selesai.
+- [ ] Production QA lulus.
+
+Catatan:
+
+Item Sisipan 10A adalah polish visual/navigation. Jangan menjadikannya refactor besar. Reorganisasi file `.tsx`, Skool Now, redirect pages, dan components ditahan untuk Item Sisipan 10B.
+
+---
+
+## 15. Item Sisipan 10B — Skool Now & TSX Organization Cleanup
+
+Target: **v1.76**
+
+Status: ⏳ Ditahan.
+
+Alasan disisipkan:
+
+Setelah Skool Now MVP v1.74 dan visual/navigation polish v1.75 selesai, perlu tahap khusus untuk merapikan organisasi file `.tsx`, terutama file Skool Now dan file lain seperti redirect pages dan components. Item ini sengaja dipisah dari 10A agar visual polish tidak bercampur dengan refactor struktur file.
+
+Harus diselesaikan setelah:
+
+- Item Sisipan 10A — Global Navigation & Visual Polish v1.75.
+
+Scope awal:
+
+1. Review organisasi file Skool Now.
+2. Review organisasi file `.tsx` di pages dan components.
+3. Review redirect pages dan apakah bisa lebih rapi tanpa mengubah behavior.
+4. Review komponen mana yang perlu dipindahkan, dipecah, atau disatukan.
+5. Susun organization cleanup plan sebelum implementasi.
+6. Jangan melakukan refactor besar tanpa report-first.
+7. Jaga route behavior agar tetap sama.
+8. Jaga lint/build/QA tetap lulus.
+
+Gate sementara:
+
+- [ ] 10A selesai.
+- [ ] Audit organisasi file `.tsx` dilakukan.
+- [ ] Plan cleanup disusun.
+- [ ] Farmer menyetujui subset perubahan.
+- [ ] Implementation prompt disusun.
+- [ ] Branch baru dibuat dari latest `main`.
+- [ ] Cleanup dilakukan bertahap.
+- [ ] Lint lulus.
+- [ ] Build lulus.
+- [ ] Route QA lulus.
+- [ ] Vercel Preview QA lulus.
+- [ ] Merge manual ke `main` selesai.
+- [ ] Production QA lulus.
+
+Catatan:
+
+Item 10B bukan fitur baru. Ini adalah maintenance/refactor terarah agar struktur repo lebih nyaman untuk tahap Marketplace, Claps, dan modul berikutnya.
+
+---
+## 16. Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet
 
 Target: **v1.85**
 
@@ -839,7 +1082,7 @@ Tentative sampai marketplace technical spec final.
 
 ---
 
-## 15. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
+## 17. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
 
 Target: **v1.92**
 
@@ -849,7 +1092,7 @@ Tentative sampai testnet marketplace benar-benar lulus.
 
 ---
 
-## 16. Item Urutan Besar 13 — Claps Alpha
+## 18. Item Urutan Besar 13 — Claps Alpha
 
 Target: **v2.00**
 
@@ -859,7 +1102,7 @@ Tentative sampai Claps Safety and Product Spec selesai.
 
 ---
 
-## 17. Item Urutan Besar 14 — Admin Dashboard Perluasan
+## 19. Item Urutan Besar 14 — Admin Dashboard Perluasan
 
 Target: **v2.05**
 
@@ -869,7 +1112,7 @@ Tentative sampai minimal dua modul dinamis berjalan.
 
 ---
 
-## 18. Item Urutan Besar 15 — BANANOW Land Operating Portal
+## 20. Item Urutan Besar 15 — BANANOW Land Operating Portal
 
 Target: **v2.11**
 
@@ -879,7 +1122,7 @@ Tentative sampai semua modul utama punya MVP yang stabil.
 
 ---
 
-## 19. Aturan Item Sisipan
+## 21. Aturan Item Sisipan
 
 Item Sisipan dibuat jika terjadi sesuatu di luar rencana.
 
@@ -923,59 +1166,56 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 ---
 
-## 20. Next Action yang Paling Dekat
+## 22. Next Action yang Paling Dekat
 
 Next action:
 
-**Mulai Item Urutan Besar 10 — Skool Now MVP v1.74.**
+**Mulai Item Sisipan 10A — Global Navigation & Visual Polish v1.75.**
 
 Alasan:
 
-Na Now News MVP v1.62 sudah selesai. Repo-Wide Audit & Maintenance Review v1.63 juga sudah selesai melalui Phase 1 audit, Phase 2A safe maintenance hygiene patch, Phase 2B brand/legal/content review, dan Phase 2C approved content patch. Phase 2C sudah dicommit, dimerge ke `main`, dan production QA sukses. Dengan demikian gate untuk melanjutkan ke Skool Now MVP v1.74 sudah terbuka.
+Skool Now MVP v1.74 sudah selesai, dicommit, dimerge manual ke `main`, dan production QA lulus. Issue build/news terkait `unknown primaryCategory: LAND` juga sudah diperbaiki manual oleh Farmer dan tidak lagi menjadi blocker. Dengan demikian gate untuk masuk ke tahap polish navigasi dan tampilan global sudah terbuka.
 
 Urutan kerja paling dekat:
 
-1. Review kondisi placeholder `/skool`.
-2. Kunci scope Skool Now MVP v1.74.
-3. Tentukan naming final:
-   - Skool Now,
-   - Skate Now Skate Skool,
-   - Skate Skool Now,
-   - atau struktur brand/program lain.
-4. Tentukan struktur konten landing page.
-5. Tentukan participant path, partner path, dan sponsor/investor path.
-6. Tentukan safety/guardian note jika program menyentuh anak, keluarga, atau peserta muda.
-7. Tentukan data/config strategy.
-8. Susun Skool Now MVP Product/Task Spec.
-9. Susun prompt Agent Now implementation.
-10. Eksekusi bertahap di branch baru dari latest `main`.
-11. Lint/build/local QA.
-12. Vercel Preview QA.
-13. Merge manual ke `main`.
-14. Production QA.
+1. Kunci scope Item Sisipan 10A.
+2. Susun Product/Task Spec 10A jika diperlukan.
+3. Susun prompt Agent Now v1.75.
+4. Eksekusi branch baru dari latest `main`.
+5. Implementasi NavBar dropdown / nested navigation.
+6. Implementasi TheHeads read-more modal dan internal alignment polish.
+7. Implementasi NewsCard alignment polish dan remove tags dari NewsCard list/card view.
+8. Pastikan tidak ada route baru, content rewrite, marketplace work, Claps work, database, auth, atau admin dashboard.
+9. Lint/build/local QA.
+10. Vercel Preview QA.
+11. Merge manual ke `main`.
+12. Production QA.
 
-Status next action: **Skool Now MVP v1.74 — 🔜 Berikutnya**
+Status next action: **Item Sisipan 10A — Global Navigation & Visual Polish v1.75 — 🔜 Berikutnya**
 
 ---
 
-## 21. Catatan Review Terakhir
+## 23. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah Repo-Wide Audit & Maintenance Review v1.63 selesai. Phase 1 audit, Phase 2A safe maintenance hygiene patch, Phase 2B brand/legal/content review, dan Phase 2C approved content patch sudah tuntas. Phase 2C sudah dicommit, dimerge ke `main`, dan production QA sukses.
+Dokumen ini sudah diperbarui setelah Skool Now MVP v1.74 selesai. Skool Now sudah diimplementasikan sebagai static landing page, branch sudah dicommit, Vercel Preview QA lulus, merge manual ke `main` selesai, dan production QA lulus. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer.
 
 Status final saat ini:
 
-1. Item Urutan Besar 1 sampai 9 sudah ✅ Selesai.
+1. Item Urutan Besar 1 sampai 10 sudah ✅ Selesai.
 2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 sudah ✅ Selesai.
-3. Item Urutan Besar 10 — Skool Now MVP v1.74 adalah 🔜 Berikutnya.
-4. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
-5. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
-6. Maintenance hygiene paling aman sudah diterapkan.
-7. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
-8. Public taxonomy website sudah lebih selaras dengan The Green Print:
-   - `The Brands` → `The Crops`,
-   - `Older Brands` → `Earlier Crops`.
-9. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
-10. Sisa temuan non-blocker dari audit v1.63 dipindahkan ke backlog:
+3. Item Urutan Besar 10 — Skool Now MVP v1.74 sudah ✅ Selesai.
+4. Item Sisipan 10A — Global Navigation & Visual Polish v1.75 adalah 🔜 Berikutnya.
+5. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 adalah ⏳ Ditahan sampai 10A selesai.
+6. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
+7. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
+8. Skool Now sudah menjadi Crop publik aktif untuk program belajar, olahraga, komunitas, partner, sponsor, dan investor inquiry.
+9. Maintenance hygiene paling aman sudah diterapkan.
+10. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
+11. Public taxonomy website sudah lebih selaras dengan The Green Print:
+    - `The Brands` → `The Crops`,
+    - `Older Brands` → `Earlier Crops`.
+12. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
+13. Sisa temuan non-blocker dari audit v1.63 tetap berada di backlog:
     - stale `News.tsx` cleanup,
     - `api/hello.ts` cleanup,
     - dependency cleanup/update,
@@ -984,7 +1224,10 @@ Status final saat ini:
     - marketplace-specific NFT terms,
     - explicit marketplace disclaimers,
     - advanced Markdown/MDX-like renderer jika dibutuhkan.
-11. Dokumen ini siap menjadi pegangan untuk memulai Skool Now MVP v1.74.
+14. Tambahan backlog terarah setelah Skool Now:
+    - Global Navigation & Visual Polish v1.75,
+    - Skool Now & TSX Organization Cleanup v1.76.
+15. Dokumen ini siap menjadi pegangan untuk memulai Item Sisipan 10A sebelum masuk ke BANANOW NFT Marketplace Testnet.
 
 ---
 
