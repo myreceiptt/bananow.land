@@ -4,7 +4,7 @@ slug: "identitas-satoshi-nakamoto-akhirnya-terungkap"
 excerpt: "An archival BANANOW reflection on the pre-release conversation around a documentary claiming to explore the identity of Bitcoin creator Satoshi Nakamoto."
 date: "2024-10-04"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.11"
 status: "archived"
 primaryCategory: "Web3"
 categories:
@@ -71,7 +71,7 @@ In a strange way, Satoshi’s absence became one of Bitcoin’s strongest myths.
 
 ## BANANOW’s Reflection
 
-In BANANOW LAND, we care about origin stories. Seeds matter. Roots matter. But a seed is not the whole tree.
+In BANANOW Land, we care about origin stories. Seeds matter. Roots matter. But a seed is not the whole tree.
 
 Satoshi planted something that grew beyond one name.
 

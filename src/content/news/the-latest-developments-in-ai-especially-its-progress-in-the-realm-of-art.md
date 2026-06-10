@@ -4,7 +4,7 @@ slug: "the-latest-developments-in-ai-especially-its-progress-in-the-realm-of-art
 excerpt: "A BANANOW reflection on AI video generation, OpenAI Sora, creative tools, artists, and the tension between possibility and responsibility."
 date: "2024-02-29"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.00"
 status: "published"
 primaryCategory: "Arts"
 categories:
@@ -23,7 +23,7 @@ coverImage: "/images/news/latest-leap-in-ai-video-generation-0.webp"
 
 Hi, OiOi Fams!
 
-Even in BANANOW LAND, where the bananas are playful and the soil remembers strange things, we cannot ignore the rapid development of AI in the world of art.
+Even in BANANOW Land, where the bananas are playful and the soil remembers strange things, we cannot ignore the rapid development of AI in the world of art.
 
 One of the biggest conversations in early 2024 was OpenAI’s Sora, a text-to-video model that showed how quickly generative tools were moving from still images into motion, scene, camera, atmosphere, and cinematic imagination.
 
@@ -61,7 +61,7 @@ A tool may be impressive and still raise hard questions.
 
 A model may create beauty and still depend on the labor, style, memory, and archives of human creators.
 
-BANANOW LAND sees this tension clearly: future literacy must include both skill and conscience.
+BANANOW Land sees this tension clearly: future literacy must include both skill and conscience.
 
 ## Possibility and Responsibility
 
@@ -79,9 +79,9 @@ BANANOW is playful, but not blind.
 
 We can enjoy creative tools while still respecting artists. We can experiment with AI while still defending human dignity. We can use technology while still asking where it came from, whose work trained it, and who benefits from it.
 
-The LAND does not want a future where creativity becomes only a prompt economy controlled by giant platforms.
+The Land does not want a future where creativity becomes only a prompt economy controlled by giant platforms.
 
-The LAND wants a future where tools help people create without making people invisible.
+The Land wants a future where tools help people create without making people invisible.
 
 ## A New Creative Literacy
 
@@ -105,6 +105,6 @@ AI video generation is a powerful seed. It can grow into a helpful tool, a noisy
 
 The outcome depends on how humans use it, question it, regulate it, and teach one another about it.
 
-In BANANOW LAND, the answer is not to run away from AI.
+In BANANOW Land, the answer is not to run away from AI.
 
 The answer is to face it with care, play, and responsibility.

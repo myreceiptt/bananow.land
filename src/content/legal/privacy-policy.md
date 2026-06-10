@@ -4,22 +4,22 @@ Last updated: June 2026
 
 ## Overview
 
-This website is operated by BANANOW FAMILY. Throughout this Privacy Policy, the terms “BANANOW”, “BANANOW LAND”, “BANANOW.LAND”, “we”, “us”, and “our” refer to BANANOW FAMILY and the BANANOW LAND ecosystem.
+This website is operated by BANANOW FAMILY. Throughout this Privacy Policy, the terms “BANANOW”, “BANANOW Land”, “BANANOW.Land”, “we”, “us”, and “our” refer to BANANOW FAMILY and the BANANOW Land ecosystem.
 
-BANANOW LAND offers this website, its pages, information, content, community links, Crops, Web3/NFT-related experiences, AI-related features, forms, tools, and future services to you, the user, conditioned upon your acceptance of this Privacy Policy and any other applicable terms, notices, or policies.
+BANANOW Land offers this website, its pages, information, content, community links, Crops, Web3/NFT-related experiences, AI-related features, forms, tools, and future services to you, the user, conditioned upon your acceptance of this Privacy Policy and any other applicable terms, notices, or policies.
 
-By visiting or using BANANOW LAND, you engage with our services and agree to the collection, use, processing, storage, and disclosure of information as described in this Privacy Policy.
+By visiting or using BANANOW Land, you engage with our services and agree to the collection, use, processing, storage, and disclosure of information as described in this Privacy Policy.
 
-Please read this Privacy Policy carefully before accessing or using our website. If you do not agree with this Privacy Policy, please do not use BANANOW LAND.
+Please read this Privacy Policy carefully before accessing or using our website. If you do not agree with this Privacy Policy, please do not use BANANOW Land.
 
-We may update, change, or replace any part of this Privacy Policy by posting updates on our website. It is your responsibility to check this page periodically. Your continued use of or access to BANANOW LAND after any changes are posted constitutes acceptance of those changes.
+We may update, change, or replace any part of this Privacy Policy by posting updates on our website. It is your responsibility to check this page periodically. Your continued use of or access to BANANOW Land after any changes are posted constitutes acceptance of those changes.
 
 ## 1. Scope of This Privacy Policy
 
-This Privacy Policy applies generally to BANANOW LAND and its related services, including but not limited to:
+This Privacy Policy applies generally to BANANOW Land and its related services, including but not limited to:
 
-1. the BANANOW LAND website;
-2. official BANANOW LAND pages and links;
+1. the BANANOW Land website;
+2. official BANANOW Land pages and links;
 3. The Green Print and related documentation;
 4. Na Now News and content-related pages;
 5. Skool Now and future program-related pages;
@@ -27,7 +27,7 @@ This Privacy Policy applies generally to BANANOW LAND and its related services, 
 7. Claps and future AI-related features;
 8. community, social, and communication channels;
 9. forms, inquiries, collaboration requests, and support requests;
-10. future Crops, tools, campaigns, or services connected to BANANOW LAND.
+10. future Crops, tools, campaigns, or services connected to BANANOW Land.
 
 Specific Crops, programs, campaigns, marketplace features, AI features, or third-party services may have additional privacy notices or terms. Please read the specific information provided for each Crop or activity before participating.
 
@@ -35,7 +35,7 @@ Specific Crops, programs, campaigns, marketplace features, AI features, or third
 
 “Personal Data” means information that identifies you or can reasonably be used to identify you, either directly or indirectly, alone or in combination with other information.
 
-Depending on how you interact with BANANOW LAND, we may collect or process the following categories of information.
+Depending on how you interact with BANANOW Land, we may collect or process the following categories of information.
 
 ### 2.1. Information You Provide Voluntarily
 
@@ -51,11 +51,11 @@ When you contact us, fill out a form, send an inquiry, join a community channel,
 8. support request details;
 9. information you choose to submit through forms, email, or official communication channels.
 
-Please do not submit unnecessary sensitive personal data through BANANOW LAND forms or messages.
+Please do not submit unnecessary sensitive personal data through BANANOW Land forms or messages.
 
 ### 2.2. Forms and Inquiry Data
 
-BANANOW LAND may provide forms or contact flows for:
+BANANOW Land may provide forms or contact flows for:
 
 1. general contact;
 2. program interest;
@@ -70,7 +70,7 @@ Submitting a form or inquiry does not automatically create acceptance, partnersh
 
 ### 2.3. Web3 and NFT Data
 
-If you interact with BANANOW LAND’s Web3/NFT-related pages, links, tools, collections, marketplaces, or blockchain-connected services, we may process information such as:
+If you interact with BANANOW Land’s Web3/NFT-related pages, links, tools, collections, marketplaces, or blockchain-connected services, we may process information such as:
 
 1. wallet address;
 2. public blockchain data;
@@ -82,11 +82,11 @@ If you interact with BANANOW LAND’s Web3/NFT-related pages, links, tools, coll
 8. marketplace interaction data where applicable;
 9. public records available from blockchain networks or NFT marketplaces.
 
-Blockchain data is generally public, permanent, and not fully controlled by BANANOW LAND. We may not be able to delete, alter, or hide data that has already been recorded on a public blockchain, blockchain explorer, marketplace, wallet provider, or third-party Web3 service. We can only delete, correct, or limit data that we control.
+Blockchain data is generally public, permanent, and not fully controlled by BANANOW Land. We may not be able to delete, alter, or hide data that has already been recorded on a public blockchain, blockchain explorer, marketplace, wallet provider, or third-party Web3 service. We can only delete, correct, or limit data that we control.
 
 ### 2.4. AI / Claps Data
 
-If BANANOW LAND provides Claps or other AI-related features, we may process:
+If BANANOW Land provides Claps or other AI-related features, we may process:
 
 1. chat input;
 2. prompts;
@@ -103,7 +103,7 @@ Claps is not a substitute for professional medical, psychological, legal, emerge
 
 ### 2.5. News and Content Data
 
-If you interact with Na Now News or any BANANOW LAND content-related feature, we may process:
+If you interact with Na Now News or any BANANOW Land content-related feature, we may process:
 
 1. author or admin data;
 2. submitted content;
@@ -124,11 +124,11 @@ If you interact with Skool Now or future program-related pages, we may process:
 6. safety-related information where necessary;
 7. registration-related information if a specific program opens registration.
 
-More specific program terms, privacy notices, consent flows, safety rules, refund rules, or participation requirements may apply to specific Skool Now programs or other BANANOW LAND activities.
+More specific program terms, privacy notices, consent flows, safety rules, refund rules, or participation requirements may apply to specific Skool Now programs or other BANANOW Land activities.
 
 ### 2.7. Technical, Cookies, and Analytics Data
 
-When you use BANANOW LAND, we may automatically collect technical and usage information such as:
+When you use BANANOW Land, we may automatically collect technical and usage information such as:
 
 1. IP address;
 2. device information;
@@ -146,7 +146,7 @@ When you use BANANOW LAND, we may automatically collect technical and usage info
 14. security logs;
 15. error logs.
 
-We may use cookies, local storage, and similar technologies to operate the website, remember preferences, improve user experience, understand traffic, maintain security, and develop BANANOW LAND.
+We may use cookies, local storage, and similar technologies to operate the website, remember preferences, improve user experience, understand traffic, maintain security, and develop BANANOW Land.
 
 You may be able to control cookies or local storage through your browser settings. Some features may not work properly if certain cookies or storage functions are disabled.
 
@@ -154,7 +154,7 @@ You may be able to control cookies or local storage through your browser setting
 
 We may use collected information to:
 
-1. operate and maintain BANANOW LAND;
+1. operate and maintain BANANOW Land;
 2. respond to inquiries, messages, and support requests;
 3. provide website features, content, and tools;
 4. manage community, program, partner, sponsor, or collaboration requests;
@@ -167,7 +167,7 @@ We may use collected information to:
 11. communicate updates, announcements, or service-related information;
 12. comply with legal obligations;
 13. enforce our Terms & Conditions and other applicable rules;
-14. protect BANANOW LAND, its Crops, the FAMILY, users, partners, and the integrity of the LAND.
+14. protect BANANOW Land, its Crops, the FAMILY, users, partners, and the integrity of the Land.
 
 ## 4. Legal Bases and Consent
 
@@ -177,7 +177,7 @@ Depending on your location and the applicable law, we may process Personal Data 
 2. the need to provide or operate services you request;
 3. legitimate interests such as security, maintenance, fraud prevention, analytics, communication, and service improvement;
 4. compliance with legal obligations;
-5. protection of rights, safety, and the integrity of BANANOW LAND.
+5. protection of rights, safety, and the integrity of BANANOW Land.
 
 Where consent is required, we will seek consent in an appropriate manner. You may withdraw consent where applicable by contacting us at `land@endhonesa.com`.
 
@@ -187,7 +187,7 @@ Withdrawal of consent may affect your ability to use certain features.
 
 We may disclose or share information:
 
-1. with service providers that help us operate BANANOW LAND;
+1. with service providers that help us operate BANANOW Land;
 2. with hosting, database, analytics, form, email, security, documentation, AI, payment, wallet, blockchain, marketplace, or infrastructure providers where applicable;
 3. with community or communication platforms when you choose to interact through those platforms;
 4. with blockchain networks, blockchain explorers, or NFT marketplaces when you use Web3/NFT-related features;
@@ -200,7 +200,7 @@ We do not control public blockchain networks, third-party marketplaces, wallet p
 
 ## 6. Third-Party Services
 
-BANANOW LAND may use third-party services to operate, publish, host, analyze, communicate, secure, or improve the website and related services.
+BANANOW Land may use third-party services to operate, publish, host, analyze, communicate, secure, or improve the website and related services.
 
 These third-party services may include, but are not limited to:
 
@@ -222,13 +222,13 @@ Examples may include Base, Ethereum, Polygon, Tezos, BaseScan, EtherScan, Polygo
 
 Third-party services have their own privacy policies, terms, security practices, account rules, and data processing practices. We encourage you to review their policies before using them.
 
-Once you leave BANANOW LAND or interact with a third-party website, blockchain network, marketplace, social platform, wallet provider, AI provider, or application, you may no longer be governed by this Privacy Policy.
+Once you leave BANANOW Land or interact with a third-party website, blockchain network, marketplace, social platform, wallet provider, AI provider, or application, you may no longer be governed by this Privacy Policy.
 
 ## 7. Official Channels and External Links
 
-BANANOW LAND may provide official links, redirect pages, social links, NFT-related links, documentation links, marketplace links, explorer links, and community links.
+BANANOW Land may provide official links, redirect pages, social links, NFT-related links, documentation links, marketplace links, explorer links, and community links.
 
-Official links may include current BANANOW LAND pages, current or BANANOW-related NFT doors, and historical or legacy NFT doors. Historical, legacy, or deprecated links are part of BANANOW’s memory and should not be treated as current active programs, current official campaigns, or current NFT instructions unless clearly stated by BANANOW.
+Official links may include current BANANOW Land pages, current or BANANOW-related NFT doors, and historical or legacy NFT doors. Historical, legacy, or deprecated links are part of BANANOW’s memory and should not be treated as current active programs, current official campaigns, or current NFT instructions unless clearly stated by BANANOW.
 
 Always verify official URLs before connecting wallets, signing transactions, sending information, joining communities, or interacting with NFT-related pages.
 
@@ -238,11 +238,11 @@ We are not responsible for the privacy practices of third-party websites, market
 
 Your information may be processed, stored, or transferred in countries other than your country of residence.
 
-Third-party providers used by BANANOW LAND may operate servers, infrastructure, or service providers in different jurisdictions. Those jurisdictions may have different data protection laws.
+Third-party providers used by BANANOW Land may operate servers, infrastructure, or service providers in different jurisdictions. Those jurisdictions may have different data protection laws.
 
 Where required by applicable law, we will rely on appropriate safeguards, contractual protections, consent, or other lawful transfer mechanisms.
 
-By using BANANOW LAND and submitting information, you acknowledge that your information may be processed, stored, or transferred as described in this Privacy Policy.
+By using BANANOW Land and submitting information, you acknowledge that your information may be processed, stored, or transferred as described in this Privacy Policy.
 
 ## 9. Data Retention
 
@@ -268,11 +268,11 @@ However, no method of transmission over the Internet, blockchain, wallet infrast
 
 You are responsible for protecting your own device, wallet, private key, recovery phrase, email account, social account, and login credentials.
 
-BANANOW LAND will never ask for your private key or wallet recovery phrase.
+BANANOW Land will never ask for your private key or wallet recovery phrase.
 
 ## 11. Children and Sensitive Information
 
-BANANOW LAND may include content, programs, or future features related to family, parenting, learning, and community. However, users should not submit unnecessary sensitive information about children or minors.
+BANANOW Land may include content, programs, or future features related to family, parenting, learning, and community. However, users should not submit unnecessary sensitive information about children or minors.
 
 If a specific Crop, program, Skool activity, or Claps feature involves children or minors, additional notices, consent requirements, safety rules, or guardian/parent involvement may apply.
 
@@ -301,7 +301,7 @@ Some data may not be deleted or changed if it is:
 1. public blockchain data;
 2. held by third-party platforms outside our control;
 3. required for legal, accounting, security, dispute, fraud prevention, or abuse prevention purposes;
-4. necessary to protect BANANOW LAND, its users, the LAND, the Crops, the FAMILY, or operational continuity;
+4. necessary to protect BANANOW Land, its users, the Land, the Crops, the FAMILY, or operational continuity;
 5. retained in backups or logs for a limited period.
 
 We will respond to requests in accordance with applicable law.
@@ -313,7 +313,7 @@ We may create de-identified, aggregated, or anonymized information from Personal
 We may use this information to:
 
 1. understand website usage;
-2. improve BANANOW LAND;
+2. improve BANANOW Land;
 3. develop future Crops;
 4. create internal reports;
 5. support safety, analytics, and operational decisions;
@@ -325,9 +325,9 @@ This information does not identify you personally.
 
 We may update this Privacy Policy from time to time.
 
-Changes will take effect when posted on BANANOW LAND, unless otherwise stated. If we make material changes, we may provide notice through the website, official channels, or other reasonable means.
+Changes will take effect when posted on BANANOW Land, unless otherwise stated. If we make material changes, we may provide notice through the website, official channels, or other reasonable means.
 
-Your continued use of BANANOW LAND after changes are posted means you accept the updated Privacy Policy.
+Your continued use of BANANOW Land after changes are posted means you accept the updated Privacy Policy.
 
 ## 15. Contact
 

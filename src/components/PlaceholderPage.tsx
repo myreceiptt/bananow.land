@@ -42,7 +42,7 @@ export default function PlaceholderPage({
             href="/"
             className="inline-block bg-dark-now dark:bg-white-now text-white dark:text-neutral-900 text-base rounded-full px-16 p-3 font-medium dark:hover:bg-yellow-now hover:bg-green-now hover:text-neutral-900 dark:hover:text-white"
           >
-            Back to BANANOW LAND
+            Back to BANANOW Land
           </Link>
         </div>
       </div>

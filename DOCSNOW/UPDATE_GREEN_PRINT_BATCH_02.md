@@ -4,7 +4,7 @@
 
 ### 🍌 The Roots
 
-Every LAND has roots before it has Crops.
+Every Land has roots before it has Crops.
 
 BANANOW did not appear as a perfect plan.
 
@@ -39,7 +39,7 @@ BANANOW’s soil comes from many places:
 
 This is why BANANOW does not try to sound too polished.
 
-The LAND is not built to impress people with cold words.
+The Land is not built to impress people with cold words.
 
 It is built to invite people into a field where growth can feel playful, useful, and human.
 
@@ -81,7 +81,7 @@ The **0101 Universe** is the digital world: websites, wallets, AI tools, blockch
 
 The **Universe of Reality** is the physical world: families, bodies, homes, streets, schools, shops, events, sports, work, and everyday life.
 
-BANANOW LAND stands between them.
+BANANOW Land stands between them.
 
 It does not ask people to escape reality.
 
@@ -91,7 +91,7 @@ That is why BANANOW is not only a Web3 project.
 
 It is also not only an AI project.
 
-BANANOW is a LAND for future literacy, creative economy, family support, and real-world growth.
+BANANOW is a Land for future literacy, creative economy, family support, and real-world growth.
 
 #### Earlier Crops as Roots
 
@@ -117,11 +117,11 @@ Some may become references.
 
 Some may remain as roots.
 
-A crop does not need to be loud every season to remain part of the LAND.
+A crop does not need to be loud every season to remain part of the Land.
 
 #### Why the Roots Matter
 
-Roots keep the LAND from forgetting itself.
+Roots keep the Land from forgetting itself.
 
 Without roots, BANANOW would become only a website.
 
@@ -143,7 +143,7 @@ We learn because the future is confusing.
 
 We work because care needs form.
 
-We grow because the LAND is not finished.
+We grow because the Land is not finished.
 
 ---
 
@@ -157,7 +157,7 @@ The Crops are what BANANOW grows.
 
 The FAMILY is who grows with it.
 
-Together, they form the field of BANANOW LAND.
+Together, they form the field of BANANOW Land.
 
 This ecosystem is not a rigid corporate chart.
 
@@ -173,7 +173,7 @@ Some parts live in the Universe of Reality.
 
 Some parts move between both.
 
-That is how the LAND grows.
+That is how the Land grows.
 
 #### The Crops
 
@@ -195,22 +195,22 @@ That makes them alive.
 
 The FAMILY is the human layer of BANANOW.
 
-It includes people who visit, learn, support, hold, build, care, and help the LAND stay warm.
+It includes people who visit, learn, support, hold, build, care, and help the Land stay warm.
 
 The FAMILY includes:
 
 - **Sprouts** — newcomers, curious visitors, and early participants.
 - **Lovers** — active supporters and warm community members.
 - **Heads** — BANANOW NFT holders and Web3 identity participants.
-- **Farmers** — caretakers and operators of the LAND.
+- **Farmers** — caretakers and operators of the Land.
 
 These roles are not meant to make people feel higher or lower.
 
 They are participation signals.
 
-A person may begin as a Sprout, become a Lover, hold a BANANOW NFT as a Head, help as a Farmer, rest for a while, return later, or simply enjoy the LAND from the edge of the field.
+A person may begin as a Sprout, become a Lover, hold a BANANOW NFT as a Head, help as a Farmer, rest for a while, return later, or simply enjoy the Land from the edge of the field.
 
-The LAND has room for many rhythms.
+The Land has room for many rhythms.
 
 #### Future Literacy Layer (Web3 & AI)
 
@@ -260,7 +260,7 @@ That is the field.
 
 That is the banana.
 
-That is the LAND.
+That is the Land.
 
 ---
 
@@ -268,7 +268,7 @@ That is the LAND.
 
 ### 🍌 The Crops
 
-In BANANOW LAND, **Crops** are the brands, programs, media, tools, services, and experiments that grow from the soil.
+In BANANOW Land, **Crops** are the brands, programs, media, tools, services, and experiments that grow from the soil.
 
 A Crop can be a publication.
 
@@ -303,7 +303,7 @@ For The Green Print, BANANOW Crops are grouped into two main categories:
 - **Future Proof Crops**
 - **Earlier Crops**
 
-This grouping helps visitors understand what BANANOW is focusing on now and what has shaped the LAND from earlier seasons.
+This grouping helps visitors understand what BANANOW is focusing on now and what has shaped the Land from earlier seasons.
 
 #### Future Proof Crops
 
@@ -317,7 +317,7 @@ Current Future Proof Crops include:
 - **Skool Now**
 - **Claps**
 - **BANANOW NFT / Heads**
-- future programs that may grow when the LAND is ready
+- future programs that may grow when the Land is ready
 
 These Crops are not promises that every idea will become a finished product immediately.
 
@@ -345,7 +345,7 @@ Some may stay as references.
 
 Some may merge into Future Proof Crops.
 
-Some may only exist as part of the LAND’s history and language.
+Some may only exist as part of the Land’s history and language.
 
 Earlier Crops include:
 
@@ -391,7 +391,7 @@ It explains the meaning of the field.
 
 #### The Crop Principle
 
-A healthy Crop should help the LAND become more:
+A healthy Crop should help the Land become more:
 
 - playful,
 - useful,
@@ -423,7 +423,7 @@ They are part of the soil.
 
 Some Earlier Crops may stay quiet for a long time.
 
-Some may return when the LAND needs them.
+Some may return when the Land needs them.
 
 Some may merge into new Crops.
 
@@ -431,7 +431,7 @@ Some may simply remain as roots, references, and memory.
 
 That is okay.
 
-A LAND does not throw away its roots just because a new season has started.
+A Land does not throw away its roots just because a new season has started.
 
 Earlier Crops help explain where BANANOW came from, what it tried, what it cared about, and how its language became what it is today.
 
@@ -441,7 +441,7 @@ Earlier Crops help explain where BANANOW came from, what it tried, what it cared
 
 It carries the spirit of speaking up, singing, chatting, sharing, laughing, and not staying silent.
 
-In the LAND, 90’s Vibes represents the playful memory of people making noise together before everything became too polished.
+In the Land, 90’s Vibes represents the playful memory of people making noise together before everything became too polished.
 
 It is the crop of warm chaos.
 
@@ -505,7 +505,7 @@ Not every opportunity arrives in a clean shape.
 
 Agent Now represents the operator layer: the work of matching needs with people, tasks with capacity, and ideas with execution.
 
-In the LAND, this Crop reminds BANANOW that community also needs coordination.
+In the Land, this Crop reminds BANANOW that community also needs coordination.
 
 Vibes are not enough.
 
@@ -519,7 +519,7 @@ It carries the engine room energy.
 
 The place where BANANOW can think about infrastructure, philosophy, blockchain, digital identity, AI, community design, and the strange relationship between humans and machines.
 
-This Crop reminds the LAND that playful does not mean shallow.
+This Crop reminds the Land that playful does not mean shallow.
 
 A banana can be funny and still carry a serious system inside it.
 
@@ -551,9 +551,9 @@ And what was planted before may still feed what grows next.
 
 ### 🍌 The FAMILY
 
-The **FAMILY** is the human layer of BANANOW LAND.
+The **FAMILY** is the human layer of BANANOW Land.
 
-It is made of people who visit, read, ask, learn, share, hold, build, support, care, and help the LAND stay alive.
+It is made of people who visit, read, ask, learn, share, hold, build, support, care, and help the Land stay alive.
 
 BANANOW uses the word FAMILY not to make everything formal, perfect, or always sweet.
 
@@ -586,7 +586,7 @@ These roles are not a rigid hierarchy.
 
 They are participation signals.
 
-They help describe how someone may relate to the LAND at a certain time.
+They help describe how someone may relate to the Land at a certain time.
 
 A person can be new.
 
@@ -604,7 +604,7 @@ BANANOW does not need every person to participate in the same way.
 
 **Sprouts** are newcomers, curious visitors, and early participants.
 
-They may just be discovering BANANOW, Web3, AI, the Crops, or the LAND itself.
+They may just be discovering BANANOW, Web3, AI, the Crops, or the Land itself.
 
 Sprouts remind BANANOW that every big field begins with tiny green things.
 
@@ -616,7 +616,7 @@ They like the BANANOW energy.
 
 They share the vibe.
 
-They join, invite, attend, learn, give feedback, and help the LAND feel alive.
+They join, invite, attend, learn, give feedback, and help the Land feel alive.
 
 Lovers remind BANANOW that culture grows through warmth, not only through systems.
 
@@ -628,13 +628,13 @@ They carry a BANANOW signal on-chain.
 
 Being a Head is not a guarantee of profit, revenue, marketplace performance, future access, or special benefits.
 
-It is a cultural and Web3 participation signal connected to BANANOW NFT and the LAND.
+It is a cultural and Web3 participation signal connected to BANANOW NFT and the Land.
 
 Heads remind BANANOW that memory, identity, and community can also live in the 0101 Universe.
 
 #### Farmers
 
-**Farmers** are caretakers and operators of the LAND.
+**Farmers** are caretakers and operators of the Land.
 
 They help maintain the soil, tend the Crops, guide the rhythm, protect the tone, and keep BANANOW healthy, fair, playful, and useful.
 
@@ -656,9 +656,9 @@ In the Universe of Reality, FAMILY may appear through classes, events, sports, p
 
 BANANOW needs both.
 
-The LAND is not alive only because it is online.
+The Land is not alive only because it is online.
 
-The LAND is alive because people carry it.
+The Land is alive because people carry it.
 
 #### The FAMILY Principle
 
@@ -683,7 +683,7 @@ BANANOW may use media, programs, and digital tools.
 
 But the FAMILY is the reason those tools matter.
 
-No people, no LAND.
+No people, no Land.
 
 No care, no Crop.
 

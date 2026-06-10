@@ -1,6 +1,6 @@
-# BANANOW LAND Update Task Spec — Website Update v1.47
+# BANANOW Land Update Task Spec — Website Update v1.47
 
-Dokumen ini adalah **instruction package fix** untuk eksekusi pembaruan awal BANANOW LAND.
+Dokumen ini adalah **instruction package fix** untuk eksekusi pembaruan awal BANANOW Land.
 
 Scope dokumen ini hanya untuk **Website Update v1.47**. Dokumen ini tidak dipakai untuk mencatat status pekerjaan setelah eksekusi. Status aktual dicatat di **DAFTAR_RUNUT.md**.
 
@@ -10,7 +10,7 @@ Tidak membangun fitur besar seperti News CMS, Skool forms, NFT marketplace contr
 
 ## 1. Objective
 
-Update BANANOW LAND agar sesuai dengan arah terbaru project tanpa mengubah style visual utama, layout besar, font, color system, dan button sound yang sudah ada.
+Update BANANOW Land agar sesuai dengan arah terbaru project tanpa mengubah style visual utama, layout besar, font, color system, dan button sound yang sudah ada.
 
 Target update:
 
@@ -258,7 +258,7 @@ Here are BANANOW's Old Brands
 Suggested intro copy:
 
 ```text
-Our FAMILY is actually trying the best to always maintain the fertility of each of the plantation crops on this LAND. Make this space a healthy, fair, and fun place to grow.
+Our FAMILY is actually trying the best to always maintain the fertility of each of the plantation crops on this Land. Make this space a healthy, fair, and fun place to grow.
 
 But time goes by. What is planted grows. What is born also grows to maturity. What is young grows old. What is old eventually dies and fertilizes the soil, making everything planted can grow.
 

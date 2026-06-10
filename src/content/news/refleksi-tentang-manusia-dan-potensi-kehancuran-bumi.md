@@ -4,13 +4,13 @@ slug: "refleksi-tentang-manusia-dan-potensi-kehancuran-bumi"
 excerpt: "A reflective BANANOW essay about small harmful habits, environmental neglect, social apathy, and the need to turn anxiety into action."
 date: "2023-11-12"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA 10.74"
 status: "published"
 primaryCategory: "Opinion"
 categories:
   - "Opinion"
   - "Community"
-  - "LAND"
+  - "Land"
 tags:
   - "Earth"
   - "Humanity"
@@ -53,7 +53,7 @@ Overconsumption is another threat. Buying what we do not need, wasting what othe
 
 Social apathy also matters. When people stop caring about injustice, inequality, loneliness, hunger, and the pain of others, society becomes brittle. A divided society cannot respond well to shared danger.
 
-In the LAND, everything is connected. Soil, water, seed, family, memory, and action.
+In the Land, everything is connected. Soil, water, seed, family, memory, and action.
 
 When one part is poisoned, the whole field feels it.
 
@@ -109,7 +109,7 @@ That is the hope.
 
 ## Closing
 
-BANANOW LAND is playful, but play does not mean careless. A healthy LAND needs a healthy Earth. A healthy FAMILY needs a healthy way of living with others.
+BANANOW Land is playful, but play does not mean careless. A healthy Land needs a healthy Earth. A healthy FAMILY needs a healthy way of living with others.
 
 Maybe we cannot save everything alone.
 

@@ -6,11 +6,11 @@
 
 Good morning, OiOi Fams.
 
-Welcome to **The Green Print**, the root document of **BANANOW LAND**.
+Welcome to **The Green Print**, the root document of **BANANOW Land**.
 
-This document explains the soil, the seeds, the Crops, the FAMILY, and the direction of BANANOW as a playful LAND for creators, families, learners, builders, and everyday people who want to grow with future technology without losing their human warmth.
+This document explains the soil, the seeds, the Crops, the FAMILY, and the direction of BANANOW as a playful Land for creators, families, learners, builders, and everyday people who want to grow with future technology without losing their human warmth.
 
-BANANOW LAND grows around one simple spirit:
+BANANOW Land grows around one simple spirit:
 
 #### Freedom to Play, Learn, and Work for Our Legacy
 
@@ -18,7 +18,7 @@ The Green Print is not a legal document, not a financial promise, not a marketpl
 
 It is a canonical document.
 
-It helps every Sprout, Lover, Head, Farmer, visitor, partner, and future friend understand what BANANOW is trying to grow, why the LAND exists, and how BANANOW keeps its playful direction while moving through the changing digital world.
+It helps every Sprout, Lover, Head, Farmer, visitor, partner, and future friend understand what BANANOW is trying to grow, why the Land exists, and how BANANOW keeps its playful direction while moving through the changing digital world.
 
 BANANOW plays, learns, and works across:
 
@@ -41,16 +41,16 @@ BANANOW does not treat these technologies as hype. BANANOW treats them as tools 
 
 Inside this Green Print, you will find:
 
-- **BANANOW LAND** — the field where everything grows.
-- **The Roots** — the first seeds and the soil behind the LAND.
+- **BANANOW Land** — the field where everything grows.
+- **The Roots** — the first seeds and the soil behind the Land.
 - **The Mission** — Playing, Learning, and Working.
-- **The Map** — how the LAND, Crops, FAMILY, NFT layer, and Future Literacy Layer connect.
+- **The Map** — how the Land, Crops, FAMILY, NFT layer, and Future Literacy Layer connect.
 - **The Ecosystem** — the Crops and the FAMILY.
 - **BANANOW NFT** — the collectible and Web3 identity layer connected to Heads.
 - **The Embassy** — the official doors into BANANOW.
 - **Final Note** — the closing seed of this canonical document.
 
-The LAND may keep growing.
+The Land may keep growing.
 
 The Crops may change with the season.
 
@@ -60,7 +60,7 @@ But the root stays here:
 
 **Let’s play. Let’s learn. Let’s work. Let’s grow together.**
 
-Welcome to BANANOW LAND.
+Welcome to BANANOW Land.
 
 ---
 
@@ -72,7 +72,7 @@ The digital world keeps growing, but not everyone feels invited to grow with it.
 
 For many creators, families, small communities, and everyday people, digital transformation can feel intimidating. New tools appear too fast. Platforms change their rules. Algorithms move quietly. Creative work becomes content. Community becomes traffic. People are asked to adapt, but not always given a friendly field to understand what is happening.
 
-BANANOW LAND exists as a playful answer to that problem.
+BANANOW Land exists as a playful answer to that problem.
 
 It is not here to make technology feel colder.
 
@@ -107,7 +107,7 @@ BANANOW’s current direction grows through several Future Proof Crops:
 - **Claps** — a parenting and family support crop that explores AI as a care and learning companion.
 - **BANANOW NFT / Heads** — a Web3 identity and collectible crop connected to community participation and on-chain memory.
 
-Earlier Crops also remain part of the LAND. They are not failed brands. They are seeds from earlier seasons: part of the soil, part of the roots, and possible to grow again when the LAND needs them.
+Earlier Crops also remain part of the Land. They are not failed brands. They are seeds from earlier seasons: part of the soil, part of the roots, and possible to grow again when the Land needs them.
 
 The Green Print explains all of this as BANANOW’s root document.
 
@@ -117,9 +117,9 @@ It explains the direction.
 
 It protects the meaning.
 
-It keeps the LAND readable.
+It keeps the Land readable.
 
-BANANOW LAND is a field for people who still want to play, learn, and work while the world becomes more digital, more automated, more decentralized, and sometimes more confusing.
+BANANOW Land is a field for people who still want to play, learn, and work while the world becomes more digital, more automated, more decentralized, and sometimes more confusing.
 
 So we peel the banana slowly.
 
@@ -131,19 +131,19 @@ And we grow together.
 
 ## FILE: bananow-land/README.md
 
-### 🍌 BANANOW LAND
+### 🍌 BANANOW Land
 
-**BANANOW LAND** is the world, field, and portal where BANANOW grows.
+**BANANOW Land** is the world, field, and portal where BANANOW grows.
 
 It is a playful place for creative people, families, learners, builders, Web3-curious humans, AI-curious humans, and everyday people who want to understand the future without leaving their warmth behind.
 
-The LAND is not only a website.
+The Land is not only a website.
 
 It is a growing field of culture, community, education, technology, and real-world programs.
 
-BANANOW uses words like LAND, soil, seed, crop, Sprout, Head, and Farmer because growth takes care. Nothing healthy grows only because it is announced. It needs time, rhythm, water, sunlight, patience, and people who are willing to tend the field.
+BANANOW uses words like Land, soil, seed, crop, Sprout, Head, and Farmer because growth takes care. Nothing healthy grows only because it is announced. It needs time, rhythm, water, sunlight, patience, and people who are willing to tend the field.
 
-In BANANOW LAND, the digital world and the real world are not enemies.
+In BANANOW Land, the digital world and the real world are not enemies.
 
 The digital world is where stories, tools, communities, wallets, AI assistants, on-chain records, and media can live.
 
@@ -155,7 +155,7 @@ We sometimes call the digital world the **0101 Universe**.
 
 We call the physical world the **Universe of Reality**.
 
-BANANOW LAND stands between them as a playful bridge.
+BANANOW Land stands between them as a playful bridge.
 
 Yes, Web3 this, Web3 that.
 
@@ -169,14 +169,14 @@ BANANOW is not here to push people into technology with fear, pressure, or hype.
 
 BANANOW is here to make the next layers of the web feel as friendly as peeling a banana.
 
-The LAND grows through the **Future Literacy Layer (Web3 & AI)**:
+The Land grows through the **Future Literacy Layer (Web3 & AI)**:
 
 - AI for thinking, creating, learning, assisting, and caring.
 - Web3 and blockchain for verifying, owning, recording, coordinating, and decentralizing participation.
 
-But technology is not the whole LAND.
+But technology is not the whole Land.
 
-The LAND also grows through:
+The Land also grows through:
 
 - stories,
 - classes,
@@ -188,7 +188,7 @@ The LAND also grows through:
 - community rituals,
 - and real-world participation.
 
-BANANOW LAND wants to become a friendly neighborhood from the future layers of the web.
+BANANOW Land wants to become a friendly neighborhood from the future layers of the web.
 
 A place where people can play without feeling childish.
 
@@ -214,7 +214,7 @@ Human first, always.
 
 ### 🍌 The Map
 
-The LAND grows through a simple map:
+The Land grows through a simple map:
 
 Roots → Mission → Crops → FAMILY → Future Literacy Layer (Web3 & AI) → Real-World and Digital Programs
 
@@ -230,7 +230,7 @@ Some roots are visible.
 
 Some roots stay under the soil.
 
-But every healthy LAND needs roots before it can grow new Crops.
+But every healthy Land needs roots before it can grow new Crops.
 
 The Earlier Crops belong here too. They may be quiet now, but they still feed the soil.
 
@@ -242,11 +242,11 @@ BANANOW grows through three mission pillars:
 - **Learning**
 - **Working**
 
-Playing keeps the LAND curious.
+Playing keeps the Land curious.
 
-Learning keeps the LAND awake.
+Learning keeps the Land awake.
 
-Working keeps the LAND useful.
+Working keeps the Land useful.
 
 Together, they protect BANANOW from becoming only entertainment, only education, only technology, or only business.
 
@@ -277,7 +277,7 @@ It includes:
 - **Sprouts** — newcomers and curious visitors.
 - **Lovers** — active supporters and warm community members.
 - **Heads** — BANANOW NFT holders and Web3 identity participants.
-- **Farmers** — caretakers and operators of the LAND.
+- **Farmers** — caretakers and operators of the Land.
 
 These roles are participation signals, not a rigid hierarchy.
 
@@ -289,7 +289,7 @@ BANANOW does not only play, learn, and work around blockchain.
 
 BANANOW also plays, learns, and works around AI.
 
-That is why the LAND uses the term **Future Literacy Layer (Web3 & AI)**.
+That is why the Land uses the term **Future Literacy Layer (Web3 & AI)**.
 
 This layer has three connected parts:
 
@@ -323,7 +323,7 @@ BANANOW keeps the banana in the hand, not just on the chain.
 
 #### 6. Real-World and Digital Programs
 
-The LAND grows in both the 0101 Universe and the Universe of Reality.
+The Land grows in both the 0101 Universe and the Universe of Reality.
 
 In the 0101 Universe, BANANOW can grow through websites, media, articles, AI tools, NFTs, wallets, communities, and digital records.
 
@@ -345,7 +345,7 @@ BANANOW should grow carefully.
 
 Resources should be handled responsibly.
 
-The LAND should stay playful without becoming careless.
+The Land should stay playful without becoming careless.
 
 ---
 
@@ -371,17 +371,17 @@ Future Proof Crops help BANANOW play, learn, and work across culture, media, edu
 
 **Na Now News** is BANANOW’s media and storytelling crop.
 
-It helps the LAND speak.
+It helps the Land speak.
 
 It can become a place for stories, updates, notes, reflections, articles, public memory, and digital culture.
 
 Na Now News is not just about being loud.
 
-It is about documenting the LAND while it grows.
+It is about documenting the Land while it grows.
 
-A LAND without memory becomes confusing.
+A Land without memory becomes confusing.
 
-A LAND with stories becomes easier to visit, understand, and return to.
+A Land with stories becomes easier to visit, understand, and return to.
 
 #### Skool Now
 
@@ -405,7 +405,7 @@ It is about giving people friendly ways to practice, fail safely, grow slowly, a
 
 **Claps** is BANANOW’s parenting and family support crop.
 
-It belongs to the AI-aware side of the LAND.
+It belongs to the AI-aware side of the Land.
 
 Claps explores how AI can support care, reflection, learning, and communication inside family life without replacing human responsibility.
 
@@ -435,13 +435,13 @@ It is not a promise of marketplace performance.
 
 It is not a guarantee of future benefits.
 
-It is a Web3 participation signal connected to the LAND and the FAMILY.
+It is a Web3 participation signal connected to the Land and the FAMILY.
 
 Any access, activity, utility, or participation connected to BANANOW NFT should only be understood as official when it is clearly announced through official BANANOW channels.
 
 #### Future Programs
 
-Future Proof Crops may also grow into other programs when the LAND is ready.
+Future Proof Crops may also grow into other programs when the Land is ready.
 
 They may involve sports, art, family activities, education, creative economy, Web3 literacy, AI literacy, or new forms that BANANOW has not named yet.
 
@@ -457,11 +457,11 @@ The role of BANANOW is to keep the soil ready.
 
 ### 🍌 BANANOW NFT
 
-**BANANOW NFT** is the Web3 collectible and identity layer of BANANOW LAND.
+**BANANOW NFT** is the Web3 collectible and identity layer of BANANOW Land.
 
 It is connected to **Heads**, the FAMILY role for BANANOW NFT holders.
 
-Inside the LAND, BANANOW NFT can be understood as:
+Inside the Land, BANANOW NFT can be understood as:
 
 - a collectible,
 - a community signal,
@@ -469,7 +469,7 @@ Inside the LAND, BANANOW NFT can be understood as:
 - a Web3 identity marker,
 - and one of the ways people can carry the BANANOW symbol in the 0101 Universe.
 
-BANANOW NFT is part of the **Future Literacy Layer (Web3 & AI)** through the Web3 side of the LAND.
+BANANOW NFT is part of the **Future Literacy Layer (Web3 & AI)** through the Web3 side of the Land.
 
 It helps people learn about wallets, NFT ownership, blockchain records, digital identity, community participation, and the idea of carrying culture on-chain.
 
@@ -489,7 +489,7 @@ BANANOW NFT may connect to selected community activities, access, recognition, o
 
 Until then, the safest way to understand BANANOW NFT is simple:
 
-It is a collectible banana head from the LAND.
+It is a collectible banana head from the Land.
 
 It is a cultural signal.
 
@@ -501,7 +501,7 @@ It is a way to be a Head.
 
 Heads are BANANOW NFT holders.
 
-They are part of the FAMILY and connected to the Web3 identity layer of BANANOW LAND.
+They are part of the FAMILY and connected to the Web3 identity layer of BANANOW Land.
 
 Being a Head does not make someone higher than other members of the FAMILY.
 
@@ -509,7 +509,7 @@ It means they carry a specific on-chain signal connected to BANANOW.
 
 Sprouts, Lovers, Heads, and Farmers all matter.
 
-The LAND needs many kinds of people to stay alive.
+The Land needs many kinds of people to stay alive.
 
 #### Official Links and Safety
 

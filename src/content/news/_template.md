@@ -4,7 +4,7 @@ slug: "article-title"
 excerpt: "Short description for listing and SEO."
 date: "2026-06-08"
 updated: "2026-06-08"
-author: "BANANOW LAND"
+author: "BANANOW Land"
 status: "published"
 primaryCategory: "Technology"
 categories:

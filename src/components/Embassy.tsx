@@ -168,7 +168,7 @@ export default function Embassy() {
               <input type="hidden" {...register("subject")} />
               <input
                 type="hidden"
-                value="BANANOW LAND"
+                value="BANANOW Land"
                 {...register("from_name")}
               />
               <input

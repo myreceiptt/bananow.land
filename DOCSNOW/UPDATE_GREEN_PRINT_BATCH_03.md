@@ -4,13 +4,13 @@
 
 ### 🍌 Sprouts
 
-**Sprouts** are the newcomers, curious visitors, and early participants of BANANOW LAND.
+**Sprouts** are the newcomers, curious visitors, and early participants of BANANOW Land.
 
 They may be here for the first time.
 
 They may only be reading.
 
-They may be wondering what BANANOW is, why everything sounds like a banana field, what Web3 means, what AI has to do with family support, or why this LAND keeps talking about Playing, Learning, and Working.
+They may be wondering what BANANOW is, why everything sounds like a banana field, what Web3 means, what AI has to do with family support, or why this Land keeps talking about Playing, Learning, and Working.
 
 That is perfectly fine.
 
@@ -20,14 +20,14 @@ Every visitor does not need to understand everything on the first day.
 
 Sprouts are important because they remind BANANOW to stay friendly.
 
-If the LAND becomes too complex for a Sprout to enter, then the LAND has forgotten how to grow.
+If the Land becomes too complex for a Sprout to enter, then the Land has forgotten how to grow.
 
 #### What Sprouts Do
 
 Sprouts can:
 
 - read the Green Print,
-- visit the LAND,
+- visit the Land,
 - follow the Crops,
 - ask questions,
 - join conversations,
@@ -62,7 +62,7 @@ That is enough.
 
 A Sprout does not need to rush.
 
-The LAND has time.
+The Land has time.
 
 #### Why Sprouts Matter
 
@@ -80,7 +80,7 @@ Sprouts are not lower than anyone.
 
 They are the beginning of growth.
 
-Without Sprouts, the LAND becomes closed.
+Without Sprouts, the Land becomes closed.
 
 Without new curiosity, the Crops stop breathing.
 
@@ -100,9 +100,9 @@ That is already a seed.
 
 ### 🍌 Lovers
 
-**Lovers** are the warm supporters of BANANOW LAND.
+**Lovers** are the warm supporters of BANANOW Land.
 
-They are the people who feel the vibe, share the energy, join the conversation, support the Crops, and help the LAND feel alive.
+They are the people who feel the vibe, share the energy, join the conversation, support the Crops, and help the Land feel alive.
 
 A Lover may not hold a BANANOW NFT.
 
@@ -114,9 +114,9 @@ But a Lover carries something important:
 
 presence.
 
-Lovers show that a LAND is not alive only because it has pages, links, contracts, or systems.
+Lovers show that a Land is not alive only because it has pages, links, contracts, or systems.
 
-A LAND is alive because people care enough to return.
+A Land is alive because people care enough to return.
 
 #### What Lovers Do
 
@@ -131,7 +131,7 @@ Lovers may support BANANOW by:
 - encouraging others,
 - learning together,
 - helping the vibe travel,
-- and keeping the LAND warm in both the 0101 Universe and the Universe of Reality.
+- and keeping the Land warm in both the 0101 Universe and the Universe of Reality.
 
 Some Lovers may love the media.
 
@@ -159,7 +159,7 @@ BANANOW NFT / Heads needs a wider community that understands culture beyond owne
 
 Earlier Crops need people who still remember the first seasons.
 
-Future Proof Crops need people who believe the LAND can keep growing.
+Future Proof Crops need people who believe the Land can keep growing.
 
 Lovers do not need to force anything.
 
@@ -195,7 +195,7 @@ Lovers protect BANANOW from becoming only a project.
 
 They keep it as a culture.
 
-They remind the LAND that warmth is infrastructure too.
+They remind the Land that warmth is infrastructure too.
 
 Without Lovers, everything becomes too technical.
 
@@ -203,13 +203,13 @@ Without Lovers, even the best Crop can feel empty.
 
 Without Lovers, the banana loses its smile.
 
-So if you love the LAND, support the Crops, share the stories, join the rhythm, and help others feel welcome:
+So if you love the Land, support the Crops, share the stories, join the rhythm, and help others feel welcome:
 
 you are already part of the FAMILY.
 
 You are a Lover.
 
-And the LAND is warmer because of you.
+And the Land is warmer because of you.
 
 ---
 
@@ -221,7 +221,7 @@ And the LAND is warmer because of you.
 
 A Head carries a BANANOW signal on-chain.
 
-That signal may appear as a collectible, a community marker, a cultural symbol, and a piece of digital memory connected to BANANOW LAND.
+That signal may appear as a collectible, a community marker, a cultural symbol, and a piece of digital memory connected to BANANOW Land.
 
 But this must be clear:
 
@@ -247,7 +247,7 @@ A BANANOW NFT can be a collectible.
 
 It can be a signal.
 
-It can be a way to say, “I was here in this LAND.”
+It can be a way to say, “I was here in this Land.”
 
 It can help people learn about wallets, NFT ownership, blockchain records, and Web3 participation.
 
@@ -269,7 +269,7 @@ Heads matter.
 
 Farmers matter.
 
-Each role helps the LAND in a different way.
+Each role helps the Land in a different way.
 
 A Head may also be a Lover.
 
@@ -283,7 +283,7 @@ Or not.
 
 BANANOW does not reduce people into one label.
 
-The role only explains one way someone relates to the LAND.
+The role only explains one way someone relates to the Land.
 
 #### Heads and Future Literacy
 
@@ -333,7 +333,7 @@ A wiser Head carries it with care.
 
 Heads help BANANOW remember that the digital world can hold culture.
 
-They help the LAND explore Web3 without forgetting people.
+They help the Land explore Web3 without forgetting people.
 
 They carry a signal that says BANANOW exists not only as a website, not only as a story, and not only as a vibe.
 
@@ -357,7 +357,7 @@ But keep your wallet awake.
 
 ### 🍌 Farmers
 
-**Farmers** are the caretakers and operators of BANANOW LAND.
+**Farmers** are the caretakers and operators of BANANOW Land.
 
 They help maintain the soil, tend the Crops, guide the rhythm, protect the tone, and keep BANANOW healthy, fair, playful, and useful.
 
@@ -389,7 +389,7 @@ Farmers may help BANANOW by:
 - protecting the tone,
 - connecting people,
 - caring for the Crops,
-- and helping the LAND stay readable.
+- and helping the Land stay readable.
 
 Some Farmers may work on media.
 
@@ -403,7 +403,7 @@ Some may work on real-world programs.
 
 Some may simply keep the field from becoming messy in the wrong way.
 
-A healthy LAND needs many kinds of care.
+A healthy Land needs many kinds of care.
 
 #### Farmers and the Crops
 
@@ -417,7 +417,7 @@ They help new ideas find the right soil.
 
 They help old ideas rest when needed.
 
-They help the LAND choose rhythm over panic.
+They help the Land choose rhythm over panic.
 
 That matters.
 
@@ -445,7 +445,7 @@ They help Lovers stay connected.
 
 They help Heads understand the Web3 layer safely.
 
-They help other Farmers coordinate without turning the LAND into a cold machine.
+They help other Farmers coordinate without turning the Land into a cold machine.
 
 Farmers should protect the playful warmth of BANANOW.
 
@@ -465,7 +465,7 @@ They should help people understand AI without fear and without blind worship.
 
 They should help people understand Web3 without hype and without reckless promises.
 
-They should remind the LAND that:
+They should remind the Land that:
 
 - AI is a tool, not a replacement for care.
 - Blockchain is a tool, not a shortcut to trust.
@@ -476,7 +476,7 @@ A Farmer’s responsibility is to keep the banana human.
 
 #### Why Farmers Matter
 
-Without Farmers, the LAND becomes wild in the wrong way.
+Without Farmers, the Land becomes wild in the wrong way.
 
 Not wild like creativity.
 
@@ -500,7 +500,7 @@ To care for the Crops.
 
 To make sure BANANOW can keep Playing, Learning, and Working without losing its soul.
 
-The LAND does not need perfect Farmers.
+The Land does not need perfect Farmers.
 
 It needs present ones.
 

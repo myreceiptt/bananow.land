@@ -6,19 +6,19 @@
 
 Welcome to **The Embassy**.
 
-This is where visitors, Sprouts, Lovers, Heads, Farmers, partners, and future friends can find the official doors into BANANOW LAND.
+This is where visitors, Sprouts, Lovers, Heads, Farmers, partners, and future friends can find the official doors into BANANOW Land.
 
 Before entering any BANANOW-related page, link, NFT page, community channel, or external platform, please slow down and double-check where you are going.
 
-The LAND is playful.
+The Land is playful.
 
 The internet is not always friendly.
 
 #### Official Doors
 
-The official home of BANANOW LAND is:
+The official home of BANANOW Land is:
 
-- **BANANOW LAND Website**
+- **BANANOW Land Website**
   `https://land.endhonesa.com`
 
 The official Green Print lives here:
@@ -26,11 +26,11 @@ The official Green Print lives here:
 - **The Green Print**
   `https://bananowgp.endhonesa.com`
 
-These are the main doors for understanding BANANOW’s public direction, LAND, Crops, FAMILY, and Future Literacy Layer (Web3 & AI).
+These are the main doors for understanding BANANOW’s public direction, Land, Crops, FAMILY, and Future Literacy Layer (Web3 & AI).
 
 #### Main Crops
 
-BANANOW LAND may grow through several Future Proof Crops.
+BANANOW Land may grow through several Future Proof Crops.
 
 When available, official crop pages should be accessed only through BANANOW’s official website and official links.
 
@@ -52,7 +52,7 @@ If a crop link, NFT page, marketplace page, claim page, community link, or campa
 
 #### Contact and Community
 
-For contact, collaboration, community participation, or public communication, visitors should start from the official BANANOW LAND website.
+For contact, collaboration, community participation, or public communication, visitors should start from the official BANANOW Land website.
 
 Official contact and community links may include:
 
@@ -66,7 +66,7 @@ Official contact and community links may include:
 
 The Green Print does not list every possible link forever.
 
-The LAND may grow.
+The Land may grow.
 
 The official website should remain the main starting point.
 
@@ -78,7 +78,7 @@ These may still be part of BANANOW’s roots, memory, and soil.
 
 But historical links should not automatically be treated as current active programs, current official campaigns, or current NFT instructions.
 
-When in doubt, return to the official BANANOW LAND website first.
+When in doubt, return to the official BANANOW Land website first.
 
 #### Safety Note
 
@@ -111,7 +111,7 @@ The Embassy is not a wall.
 
 It is a door.
 
-A door into the LAND.
+A door into the Land.
 
 A door into the Crops.
 
@@ -135,13 +135,13 @@ And welcome to the field.
 
 ### 🍌 Final Note
 
-The Green Print is the root document of BANANOW LAND.
+The Green Print is the root document of BANANOW Land.
 
-It is here to explain the soil, the seeds, the Crops, the FAMILY, and the direction of the LAND.
+It is here to explain the soil, the seeds, the Crops, the FAMILY, and the direction of the Land.
 
 It is not here to freeze BANANOW forever.
 
-A LAND must be allowed to grow.
+A Land must be allowed to grow.
 
 Crops may change.
 
@@ -163,7 +163,7 @@ That is part of being alive.
 
 The Green Print protects the meaning of BANANOW.
 
-It reminds the LAND that BANANOW is not only a website.
+It reminds the Land that BANANOW is not only a website.
 
 Not only a brand.
 
@@ -217,7 +217,7 @@ A program can become digital.
 
 A community can become global.
 
-But the LAND must still remember the hand that planted it.
+But the Land must still remember the hand that planted it.
 
 #### No Overpromise
 
@@ -245,9 +245,9 @@ Any future product, program, NFT activity, marketplace feature, AI tool, communi
 
 Until then, The Green Print remains the root.
 
-#### The LAND Keeps Growing
+#### The Land Keeps Growing
 
-BANANOW LAND may grow through Na Now News, Skool Now, Claps, BANANOW NFT / Heads, Earlier Crops, and future programs that have not been named yet.
+BANANOW Land may grow through Na Now News, Skool Now, Claps, BANANOW NFT / Heads, Earlier Crops, and future programs that have not been named yet.
 
 Some of them may live in the 0101 Universe.
 
@@ -255,7 +255,7 @@ Some of them may live in the Universe of Reality.
 
 Some of them may move between both.
 
-That is why the LAND needs roots.
+That is why the Land needs roots.
 
 Without roots, growth becomes noise.
 
@@ -265,7 +265,7 @@ With roots, even strange bananas can become a field.
 
 So this is the closing seed of The Green Print:
 
-Let the LAND stay playful.
+Let the Land stay playful.
 
 Let the Crops grow with care.
 

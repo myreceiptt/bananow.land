@@ -4,7 +4,7 @@ slug: "curahan-hatiku-ketika-dia-mengancam-masa-depanku"
 excerpt: "A reflective story from the voice of a search engine facing the rise of conversational AI, SEO change, and the future of how people discover information."
 date: "2024-09-30"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.11"
 status: "draft"
 primaryCategory: "Technology"
 categories:
@@ -99,9 +99,9 @@ I can evolve. I can learn to answer better. I can learn to guide better. I can b
 
 And maybe people will learn too: fast answers are beautiful, but verified understanding is still a treasure.
 
-## A Note From the LAND
+## A Note From the Land
 
-BANANOW LAND does not see this as a simple fight between search engines and AI. We see it as part of future literacy.
+BANANOW Land does not see this as a simple fight between search engines and AI. We see it as part of future literacy.
 
 People need to know how to ask, how to check, how to compare, how to doubt, how to trust carefully, and how to remain human while machines become louder.
 

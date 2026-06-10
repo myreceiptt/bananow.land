@@ -1,14 +1,14 @@
-# BANANOW LAND Legal Update Minimum Task Spec v1.51
+# BANANOW Land Legal Update Minimum Task Spec v1.51
 
-This document is the instruction package for updating BANANOW LAND Privacy Policy and Terms & Conditions after The Green Print Finalization v1.50.
+This document is the instruction package for updating BANANOW Land Privacy Policy and Terms & Conditions after The Green Print Finalization v1.50.
 
-This is a minimum legal update. It must stay general, future-safe, and aligned with the current BANANOW LAND direction. It must not go into detailed operational terms for each Crop, program, marketplace, AI feature, or future service.
+This is a minimum legal update. It must stay general, future-safe, and aligned with the current BANANOW Land direction. It must not go into detailed operational terms for each Crop, program, marketplace, AI feature, or future service.
 
 ---
 
 ## 1. Objective
 
-Update BANANOW LAND legal pages so they are aligned with:
+Update BANANOW Land legal pages so they are aligned with:
 
 1. Website Update v1.47.
 2. The Green Print Finalization v1.50.
@@ -51,7 +51,7 @@ src/pages/terms.tsx
 Replace old contact email:
 
 ```text
-EMBASSY@BANANOW.LAND
+EMBASSY@BANANOW.Land
 ```
 
 with:
@@ -76,7 +76,7 @@ The Privacy Policy must cover these categories at a general level.
 
 ### 4.1. General Website and Contact Data
 
-Mention that BANANOW LAND may collect:
+Mention that BANANOW Land may collect:
 
 1. name,
 2. email address,
@@ -114,7 +114,7 @@ Mention:
 
 Add blockchain limitation:
 
-Public blockchain data may be visible to anyone and may not be deletable or changeable by BANANOW LAND. BANANOW can only delete, correct, or limit data it controls.
+Public blockchain data may be visible to anyone and may not be deletable or changeable by BANANOW Land. BANANOW can only delete, correct, or limit data it controls.
 
 ### 4.4. AI / Claps Data
 
@@ -225,7 +225,7 @@ The Terms must cover these subjects at a general level.
 
 ### 5.1. General Scope
 
-The Terms apply to BANANOW LAND, its website, content, pages, Crops, community links, future tools, Web3/NFT-related pages, AI-related features, forms, and official channels.
+The Terms apply to BANANOW Land, its website, content, pages, Crops, community links, future tools, Web3/NFT-related pages, AI-related features, forms, and official channels.
 
 ### 5.2. Official URLs / Official Doors
 
@@ -234,25 +234,25 @@ Add an official links section.
 Primary official doors:
 
 ```text
-BANANOW LAND Website:
+BANANOW Land Website:
 https://land.endhonesa.com/
 
-BANANOW LAND Green Print:
+BANANOW Land Green Print:
 https://bananowgp.endhonesa.com/
 
-BANANOW LAND Na Now News Prototype:
+BANANOW Land Na Now News Prototype:
 https://news.endhonesa.com/
 
-BANANOW.LAND Discord Server:
+BANANOW.Land Discord Server:
 https://land.endhonesa.com/discord/
 
-BANANOW.LAND X Account:
+BANANOW.Land X Account:
 https://land.endhonesa.com/twitter/
 
-BANANOW.LAND Instagram Profile:
+BANANOW.Land Instagram Profile:
 https://land.endhonesa.com/instagram/
 
-BANANOW.LAND YouTube Channel:
+BANANOW.Land YouTube Channel:
 https://land.endhonesa.com/youtube/
 ```
 
@@ -304,13 +304,13 @@ Users must verify URLs before connecting wallets or interacting with NFT-related
 
 Add a clause:
 
-BANANOW LAND may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
+BANANOW Land may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
 
 Conflict rule:
 
 If there is any conflict between these general Terms and crop-specific terms, campaign rules, program terms, marketplace terms, official announcements, or third-party terms, the more specific or more recent official terms will apply for that specific activity.
 
-Where interpretation is required, BANANOW LAND may interpret and apply its terms in the way that best protects the LAND, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
+Where interpretation is required, BANANOW Land may interpret and apply its terms in the way that best protects the Land, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
 
 Nothing in these Terms limits any non-waivable rights granted by applicable law.
 
@@ -368,7 +368,7 @@ Add:
 2. It is not professional advice.
 3. BANANOW may edit, remove, archive, or update content.
 4. User or author submissions may be reviewed before publication.
-5. BANANOW may refuse content that violates rules or harms the LAND/FAMILY.
+5. BANANOW may refuse content that violates rules or harms the Land/FAMILY.
 
 ### 5.8. Skool / Program Disclaimer
 
@@ -472,7 +472,7 @@ Use this email for:
 2. Data access, correction, deletion, or consent withdrawal requests.
 3. Terms questions.
 4. Legal notices.
-5. General official BANANOW LAND contact.
+5. General official BANANOW Land contact.
 
 ### 3. Older Brands Label
 
@@ -525,11 +525,11 @@ The seat of arbitration shall be Jakarta, Indonesia. The language of the arbitra
 Use this hierarchy clause in Terms:
 
 ```text
-BANANOW LAND may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
+BANANOW Land may grow through different Crops, programs, pages, tools, campaigns, NFT-related experiences, AI features, media channels, community spaces, and real-world activities. Specific Crops or activities may have additional terms, rules, notices, program details, or disclaimers. Users should read the specific information provided for each Crop or activity before participating.
 
 If there is any conflict between these general Terms and crop-specific terms, campaign rules, program terms, marketplace terms, official announcements, or third-party terms, the more specific or more recent official terms will apply for that specific activity.
 
-Where interpretation is required, BANANOW LAND may interpret and apply its terms in the way that best protects the LAND, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
+Where interpretation is required, BANANOW Land may interpret and apply its terms in the way that best protects the Land, the Crops, the FAMILY, and BANANOW’s operational continuity, to the fullest extent permitted by applicable law.
 
 Nothing in these Terms limits any non-waivable rights granted by applicable law.
 ```

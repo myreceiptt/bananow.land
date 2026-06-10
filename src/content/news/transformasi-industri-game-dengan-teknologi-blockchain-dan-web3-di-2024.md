@@ -4,7 +4,7 @@ slug: "transformasi-industri-game-dengan-teknologi-blockchain-dan-web3-di-2024"
 excerpt: "A BANANOW overview of Web3 gaming, digital ownership, play culture, onboarding challenges, and the search for healthier blockchain game design."
 date: "2024-08-15"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v11.11"
 status: "published"
 primaryCategory: "Gaming"
 categories:
@@ -36,7 +36,7 @@ The difference matters.
 
 Early Web3 gaming was often dominated by Play-to-Earn narratives. The promise was simple: play the game, earn tokens, make money.
 
-That story attracted attention, but it also exposed a problem. When financial extraction becomes the center of a game, the game can stop being fun. Players become workers. Communities become markets. Game design becomes token design. The LAND becomes a factory.
+That story attracted attention, but it also exposed a problem. When financial extraction becomes the center of a game, the game can stop being fun. Players become workers. Communities become markets. Game design becomes token design. The Land becomes a factory.
 
 Many builders have since moved toward healthier models: play-and-earn, play-to-own, digital collectibles, player identity, and community-driven game economies.
 
@@ -90,7 +90,7 @@ A game economy must be designed with care. If rewards are too aggressive, the sy
 
 ## What BANANOW Wants to See
 
-BANANOW LAND wants a healthier future for games:
+BANANOW Land wants a healthier future for games:
 
 1. games that are fun before they are financial;
 2. ownership that respects players;

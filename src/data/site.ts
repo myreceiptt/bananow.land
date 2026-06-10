@@ -1,6 +1,6 @@
 export const site = {
-  name: "BANANOW LAND",
-  title: "BANANOW LAND - A Web3 Supportive Family",
+  name: "BANANOW Land",
+  title: "BANANOW Land - A Web3 Supportive Family",
   description:
     "BANANOW is a playful, non-intimidating, supportive Web3-friendly family where people can play, learn, work, create, and grow together through future literacy, community, and shared culture.",
   baseUrl: "https://land.endhonesa.com",

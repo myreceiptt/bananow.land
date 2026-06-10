@@ -4,7 +4,7 @@ slug: "guide-to-spot-trading-cryptocurrency-using-limit-orders"
 excerpt: "A simple education-first guide to spot trading, limit orders, fees, breakeven thinking, and basic risk management in cryptocurrency markets."
 date: "2023-10-20"
 updated: "2026-06-08"
-author: "Prof. NOTA"
+author: "Prof. NOTA v10.74"
 status: "unlisted"
 primaryCategory: "Education"
 categories:
@@ -119,4 +119,4 @@ Spot trading is one of the simpler ways to interact with crypto markets, and lim
 
 Still, the market is not a playground without consequence. Learn first. Test small. Understand the rules. Protect your account. Protect your wallet. Protect your mind.
 
-In the LAND, education comes before action.
+In the Land, education comes before action.
