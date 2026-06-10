@@ -4,11 +4,12 @@ import ThemeSwitchButton from "./ThemeSwitchButton";
 
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
 import React from "react";
-import { primaryNavigation } from "../data/navigation";
+import { NavigationItem, primaryNavigation } from "../data/navigation";
 import { ctaLinks, site } from "../data/site";
 
 function classNames(...classes: any) {
@@ -16,6 +17,11 @@ function classNames(...classes: any) {
 }
 
 export default function Navbar() {
+  const [openDropdown, setOpenDropdown] = React.useState<string | null>(null);
+  const [openMobileSubmenu, setOpenMobileSubmenu] = React.useState<
+    string | null
+  >(null);
+
   const sound0Loc = "/sounds/tiuing.mp3";
   const [play0] = useSound(sound0Loc, { volume: 0.75 });
   const sound0Click = () => {
@@ -37,6 +43,129 @@ export default function Navbar() {
   const sound4Loc = "/sounds/ngung-ngung.mp3";
   const [play4, { stop }] = useSound(sound4Loc, { volume: 1.25 });
   const [isHovering, setIsHovering] = React.useState(false);
+
+  const closeDropdownOnBlur = (event: React.FocusEvent<HTMLDivElement>) => {
+    if (!event.currentTarget.contains(event.relatedTarget)) {
+      setOpenDropdown(null);
+    }
+  };
+
+  const renderDesktopNavigationItem = (item: NavigationItem) => {
+    const hasChildren = Boolean(item.children?.length);
+    const isOpen = openDropdown === item.name;
+
+    return (
+      <div
+        key={item.name}
+        className="relative"
+        onMouseEnter={() => setOpenDropdown(item.name)}
+        onMouseLeave={() => setOpenDropdown(null)}
+        onFocus={() => setOpenDropdown(item.name)}
+        onBlur={closeDropdownOnBlur}>
+        <Link
+          onClick={sound1Click}
+          href={item.href}
+          className={classNames(
+            item.current
+              ? "text-neutral-900 dark:text-white "
+              : "text-dark-now dark:text-white-now hover:underline hover:text-neutral-900 dark:hover:text-white",
+            "inline-flex items-center gap-1 xl:text-base xl:font-medium text-sm font-normal",
+          )}
+          aria-current={item.current ? "page" : undefined}
+          aria-haspopup={hasChildren ? "true" : undefined}
+          aria-expanded={hasChildren ? isOpen : undefined}>
+          {item.name}
+          {hasChildren && (
+            <ChevronDownIcon
+              className={`h-4 w-4 transition-transform ${
+                isOpen ? "rotate-180" : ""
+              }`}
+              aria-hidden="true"
+            />
+          )}
+        </Link>
+
+        {hasChildren && isOpen && (
+          <div className="absolute left-0 top-full z-30 min-w-52 pt-3">
+            <div className="rounded-lg border border-neutral-200 dark:border-neutral-700 bg-white/95 dark:bg-neutral-900/95 px-2 py-2 shadow-lg backdrop-blur-sm">
+              {item.children?.map((child) => (
+                <Link
+                  onClick={sound1Click}
+                  key={child.name}
+                  href={child.href}
+                  className="block rounded-md px-3 py-2 text-sm font-medium text-dark-now dark:text-white-now hover:bg-white-now hover:text-neutral-900 dark:hover:bg-dark-now dark:hover:text-white">
+                  {child.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const renderMobileNavigationItem = (item: NavigationItem) => {
+    const hasChildren = Boolean(item.children?.length);
+    const isOpen = openMobileSubmenu === item.name;
+    const submenuId = `mobile-submenu-${item.name
+      .toLowerCase()
+      .replace(/\W+/g, "-")}`;
+
+    return (
+      <div
+        key={item.name}
+        className="border-b border-neutral-200 dark:border-neutral-700">
+        <div className="flex items-center justify-between">
+          <Disclosure.Button
+            onClick={sound1Click}
+            as="a"
+            href={item.href}
+            className={classNames(
+              item.current
+                ? "text-neutral-900 dark:text-white"
+                : "text-dark-now dark:text-white-now",
+              "block flex-1 py-4 text-base font-medium",
+            )}
+            aria-current={item.current ? "page" : undefined}>
+            {item.name}
+          </Disclosure.Button>
+          {hasChildren && (
+            <button
+              onClick={() => {
+                sound1Click();
+                setOpenMobileSubmenu(isOpen ? null : item.name);
+              }}
+              type="button"
+              className="ml-3 flex h-10 w-10 items-center justify-center rounded-md text-dark-now hover:bg-white-now hover:text-neutral-900 dark:text-white-now dark:hover:bg-dark-now dark:hover:text-white"
+              aria-controls={submenuId}
+              aria-expanded={isOpen}
+              aria-label={`Toggle ${item.name} submenu`}>
+              <ChevronDownIcon
+                className={`h-5 w-5 transition-transform ${
+                  isOpen ? "rotate-180" : ""
+                }`}
+                aria-hidden="true"
+              />
+            </button>
+          )}
+        </div>
+        {hasChildren && isOpen ? (
+          <div id={submenuId} className="pb-3 pl-4">
+            {item.children?.map((child) => (
+              <Disclosure.Button
+                onClick={sound1Click}
+                key={child.name}
+                as="a"
+                href={child.href}
+                className="block rounded-md py-2 pl-4 pr-3 text-sm font-medium text-dark-now dark:text-white-now hover:bg-white-now hover:text-neutral-900 dark:hover:bg-dark-now dark:hover:text-white">
+                {child.name}
+              </Disclosure.Button>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    );
+  };
 
   return (
     <Disclosure
@@ -71,21 +200,7 @@ export default function Navbar() {
 
                 <div className="hidden lg:ml-6 lg:block">
                   <div className="flex space-x-5 items-center">
-                    {primaryNavigation.map((item) => (
-                      <Link
-                        onClick={sound1Click}
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "text-neutral-900 dark:text-white "
-                            : "text-dark-now dark:text-white-now hover:underline hover:text-neutral-900 dark:hover:text-white",
-                          "xl:text-base xl:font-medium text-sm font-normal",
-                        )}
-                        aria-current={item.current ? "page" : undefined}>
-                        {item.name}
-                      </Link>
-                    ))}
+                    {primaryNavigation.map(renderDesktopNavigationItem)}
                   </div>
                 </div>
 
@@ -128,22 +243,7 @@ export default function Navbar() {
 
           <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-4 min-h-screen border-t border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900">
-              {primaryNavigation.map((item) => (
-                <Disclosure.Button
-                  onClick={sound1Click}
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "text-neutral-900 dark:text-white"
-                      : "text-dark-now dark:text-white-now",
-                    "block py-4 text-base font-medium border-b border-neutral-200 dark:border-neutral-700",
-                  )}
-                  aria-current={item.current ? "page" : undefined}>
-                  {item.name}
-                </Disclosure.Button>
-              ))}
+              {primaryNavigation.map(renderMobileNavigationItem)}
               <Link
                 onClick={sound2Click}
                 href={ctaLinks.beAHead}

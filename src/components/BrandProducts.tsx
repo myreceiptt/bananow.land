@@ -24,7 +24,7 @@ export function BrandProducts() {
           <span className="text-green-now dark:text-yellow-now font-extrabold">
             BANANOW
           </span>
-          's Growing Brands
+          's Growing Crops
         </h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
@@ -38,7 +38,7 @@ export function BrandProducts() {
           </span>
           . Make this space a healthy, fair, and fun place to grow. If you want
           to know more about what we do, which is updated regularly, click on
-          our brands below.
+          our crops below.
         </p>
       </div>
 
