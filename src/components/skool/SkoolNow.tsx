@@ -125,7 +125,7 @@ export function SkoolPaths() {
     <div className="bg-white dark:bg-neutral-900" id="skool-paths">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-32 pb-16">
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
-          Three Paths to Grow With{" "}
+          Three Layers to Grow With{" "}
           <span className="text-yellow-now dark:text-green-now font-extrabold">
             Skool Now
           </span>

@@ -9,8 +9,8 @@ export const skoolHero = {
     href: "#skool-programs",
   },
   secondaryCta: {
-    label: "Become a Partner",
-    href: "#skool-partners",
+    label: "Explore Layers",
+    href: "#skool-paths",
   },
   image: "/images/hero/hero.svg",
   imageAlt: "BANANOW Land learning and community illustration",
