@@ -36,26 +36,26 @@ Aturan utama:
 
 ### 1.1. Urutan Besar Induk
 
-| No. | Item Urutan Besar                                 | Target     | Status                                    |
-| --- | ------------------------------------------------- | ---------- | ----------------------------------------- |
-| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai                                |
-| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai                                |
-| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai                                |
-| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai                                |
-| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai                                |
-| 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai                                |
-| 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai                                |
-| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai                                |
-| 9   | Na Now News MVP                                   | v1.62      | ✅ Selesai                                |
-| 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | ✅ Selesai                                |
-| 10  | Skool Now MVP                                     | v1.74      | ✅ Selesai                                |
-| 10A | Global Navigation & Visual Polish                 | v1.75      | 🔜 Berikutnya                             |
-| 10B | Skool Now & TSX Organization Cleanup              | v1.76      | ⏳ Ditahan                                |
-| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai                            |
-| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai                            |
-| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai                            |
-| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai                            |
-| 15  | BANANOW Land Operating Portal                     | v2.11      | ⏳ Belum mulai                            |
+| No. | Item Urutan Besar                                 | Target     | Status         |
+| --- | ------------------------------------------------- | ---------- | -------------- |
+| 1   | Kunci Arah dan Dokumen Kerja                      | Pre-v1.47  | ✅ Selesai     |
+| 2   | Audit Repo dan Lingkungan Kerja                   | v1.47-prep | ✅ Selesai     |
+| 3   | Dependency Update Aman                            | v1.47-prep | ✅ Selesai     |
+| 4   | Pembaruan Website Dasar                           | v1.47      | ✅ Selesai     |
+| 5   | Redirect Audit dan Browser QA                     | v1.47      | ✅ Selesai     |
+| 6   | The Green Print Finalization                      | v1.50      | ✅ Selesai     |
+| 7   | Legal Update Minimum                              | v1.51      | ✅ Selesai     |
+| 8   | App Foundation dan Struktur Data Terpusat         | v1.51      | ✅ Selesai     |
+| 9   | Na Now News MVP                                   | v1.62      | ✅ Selesai     |
+| 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | ✅ Selesai     |
+| 10  | Skool Now MVP                                     | v1.74      | ✅ Selesai     |
+| 10A | Global Navigation & Visual Polish                 | v1.75      | ✅ Selesai     |
+| 10B | Skool Now & TSX Organization Cleanup              | v1.76      | 🔜 Berikutnya  |
+| 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai |
+| 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai |
+| 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai |
+| 14  | Admin Dashboard Perluasan                         | v2.05      | ⏳ Belum mulai |
+| 15  | BANANOW Land Operating Portal                     | v2.11      | ⏳ Belum mulai |
 
 Keterangan status:
 
@@ -209,13 +209,13 @@ Keterangan status:
 69. Skool Now memakai struktur section: `SkoolHero`, `SkoolPaths`, `SkoolPrograms`, `SkoolHowItWorks`, `SkoolPartners`, `SkoolFaq`, dan `Embassy`. ✅ Selesai
 70. Skool Now mengunci `Skool Now` sebagai umbrella Crop dan `Skate Skool Now` sebagai first program. ✅ Selesai
 71. Skool Now three-layer model sudah dikunci:
-    - Participants / Packages, ✅ Selesai
-    - Partners, ✅ Selesai
-    - Sponsors / Investors. ✅ Selesai
+    - Participants / Packages,
+    - Partners,
+    - Sponsors / Investors.
 72. CTA SkoolPaths sudah diarahkan ke Embassy/contact:
-    - `Join a Program`, ✅ Selesai
-    - `Become a Partner`, ✅ Selesai
-    - `Sponsor or Invest`. ✅ Selesai
+    - `Join a Program`,
+    - `Become a Partner`,
+    - `Sponsor or Invest`.
 73. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer dan tidak lagi menjadi blocker. ✅ Selesai
 74. Tahap berikutnya adalah **Item Sisipan 10A — Global Navigation & Visual Polish v1.75**. 🔜 Berikutnya
 
@@ -879,7 +879,7 @@ Catatan:
 
 Target: **v1.75**
 
-Status: 🔜 Berikutnya.
+Status: ✅ Selesai.
 
 Alasan disisipkan:
 
@@ -887,9 +887,10 @@ Setelah Homepage, Na Now News, dan Skool Now hidup, navigasi dan beberapa tampil
 
 Harus diselesaikan sebelum lanjut ke:
 
-- Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet.
+- Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76.
+- Setelah 10B selesai, lanjut ke Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet.
 
-Scope final sementara:
+Scope final:
 
 1. NavBar dropdown / nested navigation.
 2. Homepage `<TheHeads />` internal card alignment polish.
@@ -902,127 +903,208 @@ Scope final sementara:
 9. Tidak mengorganisir ulang file Skool Now atau file `.tsx`.
 10. Tidak masuk marketplace, Claps, payment, booking, database, auth, atau admin dashboard.
 
+Eksekusi dilakukan bertahap dalam tiga branch/sub-stage terpisah:
+
+1. 10A-1 — NavBar Dropdown / Nested Navigation.
+2. 10A-2 — Homepage `<TheHeads />` Visual Alignment.
+3. 10A-3 — News `<NewsCard />` Visual Alignment.
+
 ### 14.1. NavBar Dropdown / Nested Navigation
+
+Status: ✅ Selesai.
 
 Tujuan:
 
 Mengubah data dan tampilan NavBar agar mendukung main menu dan submenu/dropdown.
 
-Arah menu:
+Hasil:
 
-1. `Land` menuju `/`.
-   - Submenu anchor homepage:
-     - Features,
-     - The Crops,
-     - Community,
-     - Farmers,
-     - F.A.Q.,
-     - Embassy.
-2. `News` menuju `/news`.
-   - Submenu category:
-     - LAND,
-     - Technology,
-     - Web3,
-     - Arts,
-     - Community,
-     - Education,
-     - Business,
-     - Markets,
-     - Gaming,
-     - Opinion,
-     - Reviews.
-3. `Skool` menuju `/skool`.
-   - Submenu anchor Skool Now:
-     - Programs,
-     - How It Works,
-     - Partners,
-     - F.A.Q.,
-     - Embassy.
-4. `Claps` menuju `/claps`.
-5. `NFTs` menuju `/nfts`.
-6. `Privacy` menuju `/privacy`.
-7. `Terms` menuju `/terms`.
+1. Primary NavBar dikunci menjadi:
+   - `Land`,
+   - `News`,
+   - `Skool`,
+   - `Claps`,
+   - `NFTs`.
+2. `Privacy` dan `Terms` tidak lagi tampil di primary NavBar.
+3. `Privacy` dan `Terms` tetap tersedia melalui footer/legal links.
+4. `src/data/navigation.ts` sudah mendukung nested navigation / children submenu.
+5. `Navbar` sudah mendukung dropdown pada desktop.
+6. Desktop navigation mendukung hover/focus dropdown.
+7. Mobile navigation tetap usable tanpa hover.
+8. Klik main menu tetap menuju halaman utama menu tersebut.
+9. Land submenu berisi anchor homepage:
+   - Features,
+   - The Crops,
+   - Community,
+   - Farmers,
+   - F.A.Q.,
+   - Embassy.
+10. News submenu berisi category links:
+    - LAND,
+    - Technology,
+    - Web3,
+    - Arts,
+    - Community,
+    - Education,
+    - Business,
+    - Markets,
+    - Gaming,
+    - Opinion,
+    - Reviews.
+11. Skool submenu berisi anchor Skool Now:
+    - Programs,
+    - How It Works,
+    - Partners,
+    - F.A.Q.,
+    - Embassy.
+12. `/skool/programs` tidak dibuat pada v1.75.
+13. Skool submenu anchor mismatch sudah diperbaiki manual oleh Farmer sebelum commit.
+14. Lint dan build lulus.
+15. Vercel Preview QA lulus.
+16. Merge manual ke `main` selesai.
+17. Production QA lulus.
 
-Catatan:
+Gate selesai:
 
-1. Skool submenu memakai anchor dulu, bukan route baru:
-   - `/skool#programs`,
-   - `/skool#how-it-works`,
-   - `/skool#partners`,
-   - `/skool#faq`,
-   - `/skool#embassy`.
-2. `/skool/programs` tidak dibuat pada v1.75.
-3. Desktop harus mendukung hover/focus dropdown.
-4. Mobile harus tetap usable tanpa hover.
-5. Klik main menu tetap menuju halaman utama menu tersebut.
+- [x] Branch baru dibuat dari latest `main`.
+- [x] Navigation data mendukung submenu/children.
+- [x] Primary NavBar hanya menampilkan `Land | News | Skool | Claps | NFTs`.
+- [x] Privacy/Terms tetap tersedia di footer/legal links.
+- [x] Desktop dropdown QA lulus.
+- [x] Mobile navigation QA lulus.
+- [x] Main menu click tetap menuju halaman utama.
+- [x] Submenu links bekerja.
+- [x] Skool anchor mismatch diperbaiki.
+- [x] Tidak ada route baru dibuat.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Local QA lulus.
+- [x] Vercel Preview QA lulus.
+- [x] Merge manual ke `main` selesai.
+- [x] Production QA lulus.
 
 ### 14.2. Homepage `<TheHeads />` Visual Polish
+
+Status: ✅ Selesai.
 
 Masalah:
 
 Card-card pada section `<TheHeads />` sudah sejajar, tetapi komponen di dalam card belum sejajar karena panjang deskripsi berbeda. Tombol `Be a Sprout`, `Be a Lover`, `Be a Head`, dan `Be a Farmer` turun-naik karena tinggi deskripsi berbeda.
 
-Solusi:
+Hasil:
 
-1. Deskripsi di setiap card dibuat sebagai preview dengan panjang/line clamp yang konsisten.
+1. Deskripsi di setiap card dibuat sebagai preview dengan tinggi/line area yang konsisten.
 2. Preview diakhiri dengan `... read more`.
 3. Klik `read more` membuka modal berisi deskripsi lengkap.
-4. Modal dibuat reusable agar bisa dipakai di card/section lain nanti.
-5. CTA button di dalam card harus sejajar secara visual.
-6. Card tetap mempertahankan style existing BANANOW.
-7. Tidak mengubah meaning legal/content TheHeads yang sudah dipoles pada v1.63 Phase 2C.
+4. Modal dibuat reusable di `src/components/ui/ReadMoreModal.tsx`.
+5. Modal dapat ditutup dengan close button, backdrop, dan Escape key.
+6. Modal memakai dialog semantics dasar dan tetap mobile-safe.
+7. CTA button di dalam card sudah sejajar secara visual.
+8. Card tetap mempertahankan style existing BANANOW.
+9. Meaning legal/content TheHeads yang sudah dipoles pada v1.63 Phase 2C tetap dipertahankan.
+10. Manual visual QA Farmer untuk desktop dan mobile lulus.
+11. Lint dan build lulus.
+12. Vercel Preview QA lulus.
+13. Merge manual ke `main` selesai.
+14. Production QA lulus.
 
-Komponen baru yang mungkin dibuat:
+Gate selesai:
 
-- `src/components/common/ReadMoreModal.tsx`, atau
-- `src/components/ui/ReadMoreModal.tsx`
-
-Pilih berdasarkan struktur repo existing.
+- [x] Branch baru dibuat dari latest `main`.
+- [x] Existing `<TheHeads />` direview.
+- [x] Read-more modal reusable dibuat.
+- [x] Preview deskripsi konsisten.
+- [x] Full description tetap accessible melalui modal.
+- [x] CTA `Be a Sprout`, `Be a Lover`, `Be a Head`, dan `Be a Farmer` sejajar.
+- [x] Mobile modal QA lulus.
+- [x] Desktop visual QA lulus.
+- [x] Tidak ada NavBar work.
+- [x] Tidak ada NewsCard work.
+- [x] Tidak ada Skool file organization.
+- [x] Tidak ada dependency baru.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Local QA lulus.
+- [x] Vercel Preview QA lulus.
+- [x] Merge manual ke `main` selesai.
+- [x] Production QA lulus.
 
 ### 14.3. News Page `<NewsCard />` Visual Polish
+
+Status: ✅ Selesai.
 
 Masalah:
 
 News cards sudah sama tinggi, tetapi isi di bawah thumbnail tidak sejajar karena panjang judul, excerpt, dan jumlah tags berbeda.
 
-Solusi:
+Hasil:
 
-1. Thumbnail tetap seragam.
-2. Category/date tetap konsisten.
-3. Judul dibuat line-clamp konsisten.
-4. Excerpt dibuat line-clamp konsisten.
-5. Tags dihapus dari NewsCard list/card view.
-6. Klik thumbnail, title, atau card tetap membuka halaman artikel.
-7. Tidak perlu modal di NewsCard.
-8. Tidak mengubah halaman detail artikel.
-9. Tidak mengubah Markdown/frontmatter artikel.
-10. Tidak mengubah taxonomy category/tag.
+1. `NewsCard` internal layout diperbaiki.
+2. Card wrapper memakai layout yang membuat isi lebih konsisten.
+3. Thumbnail tetap seragam.
+4. Category/date tetap konsisten.
+5. Judul dibuat line-clamp konsisten.
+6. Excerpt dibuat line-clamp konsisten.
+7. Tags dihapus dari NewsCard list/card view.
+8. Tags tidak dihapus dari data artikel.
+9. Tag routes tetap berfungsi.
+10. Article detail tags tetap tampil melalui `NewsArticleLayout` jika sebelumnya memang tampil.
+11. Klik thumbnail tetap membuka halaman artikel.
+12. Klik title tetap membuka halaman artikel.
+13. Navigation memang diputuskan tetap melalui thumbnail dan title saja, bukan seluruh card.
+14. Tidak ada modal di NewsCard.
+15. Tidak mengubah halaman detail artikel.
+16. Tidak mengubah Markdown/frontmatter artikel.
+17. Tidak mengubah taxonomy category/tag.
+18. Manual visual QA Farmer untuk News list/category/tag pages lulus.
+19. Lint dan build lulus.
+20. Vercel Preview QA lulus.
+21. Merge manual ke `main` selesai.
+22. Production QA lulus.
 
-Gate sementara:
+Gate selesai:
 
-- [ ] Scope 10A dikunci.
-- [ ] Prompt Agent Now v1.75 disusun.
-- [ ] Branch baru dibuat dari latest `main`.
-- [ ] Navigation data mendukung submenu/children.
-- [ ] Desktop dropdown QA lulus.
-- [ ] Mobile navigation QA lulus.
-- [ ] TheHeads card internal alignment lulus.
-- [ ] Read-more modal bekerja dan reusable.
-- [ ] NewsCard internal alignment lulus.
-- [ ] Tags tidak tampil di NewsCard list/card view.
-- [ ] Klik NewsCard tetap menuju artikel.
-- [ ] Tidak ada route baru dibuat.
-- [ ] Tidak ada perubahan content/meaning tidak perlu.
-- [ ] Lint lulus.
-- [ ] Build lulus.
-- [ ] Local route QA lulus.
-- [ ] Vercel Preview QA lulus.
-- [ ] Merge manual ke `main` selesai.
-- [ ] Production QA lulus.
+- [x] Branch baru dibuat dari latest `main`.
+- [x] Existing `NewsCard` direview.
+- [x] NewsCard internal alignment lulus.
+- [x] Title clamp/height konsisten.
+- [x] Excerpt clamp/height konsisten.
+- [x] Tags tidak tampil di NewsCard list/card view.
+- [x] Tags tetap ada di data/routes/detail page.
+- [x] Klik thumbnail menuju artikel.
+- [x] Klik title menuju artikel.
+- [x] Tidak ada NavBar work.
+- [x] Tidak ada TheHeads work.
+- [x] Tidak ada Skool file organization.
+- [x] Tidak ada route baru dibuat.
+- [x] Tidak ada dependency baru.
+- [x] Tidak ada perubahan content/meaning tidak perlu.
+- [x] Lint lulus.
+- [x] Build lulus.
+- [x] Local route QA lulus.
+- [x] Vercel Preview QA lulus.
+- [x] Merge manual ke `main` selesai.
+- [x] Production QA lulus.
+
+Gate selesai Item Sisipan 10A:
+
+- [x] Scope 10A dikunci.
+- [x] Eksekusi dipisah menjadi tiga branch/sub-stage.
+- [x] 10A-1 NavBar Dropdown / Nested Navigation selesai.
+- [x] 10A-2 Homepage `<TheHeads />` Visual Alignment selesai.
+- [x] 10A-3 News `<NewsCard />` Visual Alignment selesai.
+- [x] Tidak ada route baru dibuat.
+- [x] Tidak ada perubahan content/meaning tidak perlu.
+- [x] Tidak ada marketplace, Claps, payment, booking, database, auth, atau admin dashboard.
+- [x] Lint/build/local QA lulus pada setiap sub-stage.
+- [x] Vercel Preview QA lulus pada setiap sub-stage.
+- [x] Merge manual ke `main` selesai pada setiap sub-stage.
+- [x] Production QA lulus pada setiap sub-stage.
+- [x] Item Sisipan 10A selesai dan tidak menghalangi tahap berikutnya.
 
 Catatan:
 
-Item Sisipan 10A adalah polish visual/navigation. Jangan menjadikannya refactor besar. Reorganisasi file `.tsx`, Skool Now, redirect pages, dan components ditahan untuk Item Sisipan 10B.
+Item Sisipan 10A adalah polish visual/navigation. Item ini tidak menjadi refactor besar. Reorganisasi file `.tsx`, Skool Now, redirect pages, dan components tetap ditahan untuk Item Sisipan 10B.
 
 ---
 
@@ -1030,7 +1112,7 @@ Item Sisipan 10A adalah polish visual/navigation. Jangan menjadikannya refactor 
 
 Target: **v1.76**
 
-Status: ⏳ Ditahan.
+Status: 🔜 Berikutnya.
 
 Alasan disisipkan:
 
@@ -1053,7 +1135,7 @@ Scope awal:
 
 Gate sementara:
 
-- [ ] 10A selesai.
+- [x] 10A selesai.
 - [ ] Audit organisasi file `.tsx` dilakukan.
 - [ ] Plan cleanup disusun.
 - [ ] Farmer menyetujui subset perubahan.
@@ -1072,6 +1154,7 @@ Catatan:
 Item 10B bukan fitur baru. Ini adalah maintenance/refactor terarah agar struktur repo lebih nyaman untuk tahap Marketplace, Claps, dan modul berikutnya.
 
 ---
+
 ## 16. Item Urutan Besar 11 — BANANOW NFT Marketplace Testnet
 
 Target: **v1.85**
@@ -1170,52 +1253,60 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 Next action:
 
-**Mulai Item Sisipan 10A — Global Navigation & Visual Polish v1.75.**
+**Mulai Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76.**
 
 Alasan:
 
-Skool Now MVP v1.74 sudah selesai, dicommit, dimerge manual ke `main`, dan production QA lulus. Issue build/news terkait `unknown primaryCategory: LAND` juga sudah diperbaiki manual oleh Farmer dan tidak lagi menjadi blocker. Dengan demikian gate untuk masuk ke tahap polish navigasi dan tampilan global sudah terbuka.
+Item Sisipan 10A — Global Navigation & Visual Polish v1.75 sudah selesai dalam tiga sub-stage terpisah: NavBar Dropdown / Nested Navigation, Homepage `<TheHeads />` Visual Alignment, dan News `<NewsCard />` Visual Alignment. Ketiganya sudah dicommit, melewati Vercel Preview QA, dimerge manual ke `main`, dan production QA lulus.
+
+Dengan demikian gate untuk masuk ke tahap organisasi file `.tsx` dan cleanup struktur repo sudah terbuka.
 
 Urutan kerja paling dekat:
 
-1. Kunci scope Item Sisipan 10A.
-2. Susun Product/Task Spec 10A jika diperlukan.
-3. Susun prompt Agent Now v1.75.
-4. Eksekusi branch baru dari latest `main`.
-5. Implementasi NavBar dropdown / nested navigation.
-6. Implementasi TheHeads read-more modal dan internal alignment polish.
-7. Implementasi NewsCard alignment polish dan remove tags dari NewsCard list/card view.
-8. Pastikan tidak ada route baru, content rewrite, marketplace work, Claps work, database, auth, atau admin dashboard.
-9. Lint/build/local QA.
-10. Vercel Preview QA.
-11. Merge manual ke `main`.
-12. Production QA.
+1. Kunci scope Item Sisipan 10B.
+2. Audit organisasi file Skool Now.
+3. Audit organisasi file `.tsx` di `pages` dan `components`.
+4. Audit redirect pages dan reusable components.
+5. Susun report/plan cleanup terlebih dahulu sebelum implementasi.
+6. Farmer memilih subset perubahan yang aman.
+7. Susun prompt Agent Now implementation untuk subset yang disetujui.
+8. Eksekusi branch baru dari latest `main`.
+9. Cleanup dilakukan bertahap tanpa mengubah behavior route.
+10. Pastikan tidak ada marketplace work, Claps work, payment, booking, database, auth, atau admin dashboard.
+11. Lint/build/local QA.
+12. Vercel Preview QA.
+13. Merge manual ke `main`.
+14. Production QA.
 
-Status next action: **Item Sisipan 10A — Global Navigation & Visual Polish v1.75 — 🔜 Berikutnya**
+Status next action: **Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 — 🔜 Berikutnya**
 
 ---
 
 ## 23. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah Skool Now MVP v1.74 selesai. Skool Now sudah diimplementasikan sebagai static landing page, branch sudah dicommit, Vercel Preview QA lulus, merge manual ke `main` selesai, dan production QA lulus. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer.
+Dokumen ini sudah diperbarui setelah Item Sisipan 10A — Global Navigation & Visual Polish v1.75 selesai. 10A dieksekusi dalam tiga sub-stage terpisah: NavBar Dropdown / Nested Navigation, Homepage `<TheHeads />` Visual Alignment, dan News `<NewsCard />` Visual Alignment. Semua sub-stage sudah dicommit, Vercel Preview QA lulus, merge manual ke `main` selesai, dan production QA lulus.
 
 Status final saat ini:
 
 1. Item Urutan Besar 1 sampai 10 sudah ✅ Selesai.
 2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 sudah ✅ Selesai.
 3. Item Urutan Besar 10 — Skool Now MVP v1.74 sudah ✅ Selesai.
-4. Item Sisipan 10A — Global Navigation & Visual Polish v1.75 adalah 🔜 Berikutnya.
-5. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 adalah ⏳ Ditahan sampai 10A selesai.
+4. Item Sisipan 10A — Global Navigation & Visual Polish v1.75 sudah ✅ Selesai.
+5. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 adalah 🔜 Berikutnya.
 6. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
 7. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
 8. Skool Now sudah menjadi Crop publik aktif untuk program belajar, olahraga, komunitas, partner, sponsor, dan investor inquiry.
-9. Maintenance hygiene paling aman sudah diterapkan.
-10. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
-11. Public taxonomy website sudah lebih selaras dengan The Green Print:
+9. Primary NavBar sudah dipoles menjadi `Land | News | Skool | Claps | NFTs` dengan dropdown/nested navigation.
+10. Privacy dan Terms tetap tersedia melalui footer/legal links.
+11. Homepage `<TheHeads />` sudah memakai read-more modal dan internal CTA alignment sudah rapi.
+12. NewsCard list/card view sudah lebih sejajar; tags dihapus dari card tetapi data/tag routes/detail tags tetap aman.
+13. Maintenance hygiene paling aman sudah diterapkan.
+14. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
+15. Public taxonomy website sudah lebih selaras dengan The Green Print:
     - `The Brands` → `The Crops`,
     - `Older Brands` → `Earlier Crops`.
-12. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
-13. Sisa temuan non-blocker dari audit v1.63 tetap berada di backlog:
+16. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
+17. Sisa temuan non-blocker dari audit v1.63 tetap berada di backlog:
     - stale `News.tsx` cleanup,
     - `api/hello.ts` cleanup,
     - dependency cleanup/update,
@@ -1224,10 +1315,9 @@ Status final saat ini:
     - marketplace-specific NFT terms,
     - explicit marketplace disclaimers,
     - advanced Markdown/MDX-like renderer jika dibutuhkan.
-14. Tambahan backlog terarah setelah Skool Now:
-    - Global Navigation & Visual Polish v1.75,
+18. Tambahan backlog terarah setelah Skool Now dan 10A:
     - Skool Now & TSX Organization Cleanup v1.76.
-15. Dokumen ini siap menjadi pegangan untuk memulai Item Sisipan 10A sebelum masuk ke BANANOW NFT Marketplace Testnet.
+19. Dokumen ini siap menjadi pegangan untuk memulai Item Sisipan 10B sebelum masuk ke BANANOW NFT Marketplace Testnet.
 
 ---
 
