@@ -18,7 +18,7 @@ tags:
   - "Crypto Culture"
   - "Documentary"
   - "Mystery"
-coverImage: "/images/news/identitas-satoshi-nakamoto-akhirnya-terungkap-0.jpg"
+coverImage: "/images/news/identitas-satoshi-nakamoto-akhirnya-terungkap-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -39,7 +39,7 @@ That is why every rumor feels explosive.
 
 If someone claims to reveal Satoshi, the crypto world reacts because the mystery itself has become part of Bitcoin’s cultural architecture.
 
-![Identitas Satoshi Nakamoto Akhirnya Terungkap](/images/news/identitas-satoshi-nakamoto-akhirnya-terungkap-0.jpg)
+![Identitas Satoshi Nakamoto Akhirnya Terungkap](/images/news/identitas-satoshi-nakamoto-akhirnya-terungkap-0.png)
 
 ## The Names People Keep Repeating
 

@@ -18,7 +18,7 @@ tags:
   - "Risk Management"
   - "DYOR"
   - "Markets"
-coverImage: "/images/news/guide-to-spot-trading-cryptocurrency-0.jpg"
+coverImage: "/images/news/guide-to-spot-trading-cryptocurrency-0.png"
 ---
 
 Hi, OiOi Fams!
@@ -66,7 +66,7 @@ A simple spot limit order flow usually looks like this:
 9. Monitor the market.
 10. Cancel or adjust the order if your plan changes.
 
-![Guide to Spot Trading Cryptocurrency Using Limit Orders](/images/news/guide-to-spot-trading-cryptocurrency-0.jpg)
+![Guide to Spot Trading Cryptocurrency Using Limit Orders](/images/news/guide-to-spot-trading-cryptocurrency-0.png)
 
 ## Fees and Breakeven Thinking
 
