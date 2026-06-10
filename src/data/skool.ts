@@ -12,7 +12,7 @@ export const skoolHero = {
     label: "Explore Layers",
     href: "#skool-paths",
   },
-  image: "/images/hero/hero.svg",
+  image: "/images/hero/skool-hero.svg",
   imageAlt: "BANANOW Land learning and community illustration",
 } as const;
 
