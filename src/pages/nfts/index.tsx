@@ -1,4 +1,4 @@
-import PlaceholderPage from "../components/ui/PlaceholderPage";
+import PlaceholderPage from "../../components/ui/PlaceholderPage";
 
 export default function Nfts() {
   return (
