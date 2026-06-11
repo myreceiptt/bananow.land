@@ -9,8 +9,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
 import React from "react";
-import { NavigationItem, primaryNavigation } from "../data/navigation";
-import { ctaLinks, site } from "../data/site";
+import { NavigationItem, primaryNavigation } from "../../data/navigation";
+import { ctaLinks, site } from "../../data/site";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");

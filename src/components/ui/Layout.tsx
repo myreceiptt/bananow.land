@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Prefooter from "./Prefooter";
-import { site } from "../data/site";
-import { getSeoMeta } from "../lib/seo";
+import { site } from "../../data/site";
+import { getSeoMeta } from "../../lib/seo";
 
 const Layout = (props: any) => {
   const { children, ...customMeta } = props;

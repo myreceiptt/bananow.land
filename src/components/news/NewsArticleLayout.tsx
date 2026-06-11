@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import type { NewsArticle } from "../lib/news";
+import type { NewsArticle } from "../../lib/news";
 import NewsMarkdown from "./NewsMarkdown";
 import NewsTaxonomyList from "./NewsTaxonomyList";
 
@@ -40,6 +40,7 @@ export default function NewsArticleLayout({ article }: NewsArticleLayoutProps) {
             alt={article.title}
             fill
             priority
+            loading="eager"
             sizes="(min-width: 1024px) 896px, calc(100vw - 2rem)"
             className="object-cover object-center"
           />

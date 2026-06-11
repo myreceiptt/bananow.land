@@ -4,8 +4,8 @@ import Link from "next/link";
 
 import useSound from "use-sound";
 
-import type { RedirectConfig } from "../data/redirects";
-import Layout from "./Layout";
+import type { RedirectConfig } from "../../data/redirects";
+import Layout from "../ui/Layout";
 import RedirectLayout from "./Redirect";
 
 type RedirectPageProps = {

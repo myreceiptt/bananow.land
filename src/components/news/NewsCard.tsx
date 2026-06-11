@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import type { NewsArticle } from "../lib/news";
+import type { NewsArticle } from "../../lib/news";
 
 type NewsCardProps = {
   article: NewsArticle;

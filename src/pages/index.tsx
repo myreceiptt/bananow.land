@@ -1,6 +1,6 @@
-import Embassy from "../components/Embassy";
+import Embassy from "../components/ui/Embassy";
 import { Hero } from "../components/land/Hero";
-import Layout from "../components/Layout";
+import Layout from "../components/ui/Layout";
 import TheHeads from "../components/land/TheHeads";
 import { Features } from "../components/land/Features";
 import { BrandProducts } from "../components/land/BrandProducts";

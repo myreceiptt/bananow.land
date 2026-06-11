@@ -164,7 +164,7 @@ export const skoolHowItWorks = [
     title: "Track & Share Progress",
     description:
       "Share milestones, community stories, program updates, and lessons learned as each path keeps improving.",
-    image: "/images/works/2.png",
+    image: "/images/works/5.png",
     imageAlt: "BANANOW progress sharing illustration",
     imageWidth: 1322,
     imageHeight: 1190,
@@ -173,7 +173,7 @@ export const skoolHowItWorks = [
     title: "Make an Impact",
     description:
       "Turn learning, partnership, and support into practical skills, stronger community, and future literacy.",
-    image: "/images/works/2.png",
+    image: "/images/works/6.png",
     imageAlt: "BANANOW impact illustration",
     imageWidth: 1322,
     imageHeight: 1190,

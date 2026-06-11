@@ -33,7 +33,7 @@ export default function Farmers() {
         seriously.
       </p>
       <div className="mx-auto w-full max-w-4xl bg-white dark:bg-neutral-900">
-        <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+        <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
           {farmers.map((item) => (
             <Link
               onClick={sound0Click}

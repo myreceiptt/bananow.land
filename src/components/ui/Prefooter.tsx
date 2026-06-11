@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import useSound from "use-sound";
-import { ctaLinks } from "../data/site";
+import { ctaLinks } from "../../data/site";
 
 export default function Prefooter() {
   const sound2Loc = "/sounds/tinggg.mp3";

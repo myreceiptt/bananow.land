@@ -9,8 +9,8 @@ import {
 } from "@heroicons/react/24/outline";
 
 import useSound from "use-sound";
-import { footerSocialLinks } from "../data/footer";
-import { officialLinks } from "../data/officialLinks";
+import { footerSocialLinks } from "../../data/footer";
+import { officialLinks } from "../../data/officialLinks";
 
 type Info = {
   access_key: string;

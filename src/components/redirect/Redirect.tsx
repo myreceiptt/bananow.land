@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "../ui/Footer";
+import Navbar from "../ui/Navbar";
 
-import { site } from "../data/site";
-import { getSeoMeta } from "../lib/seo";
+import { site } from "../../data/site";
+import { getSeoMeta } from "../../lib/seo";
 
 const Redirect = (props: any) => {
   const { children, ...customMeta } = props;

@@ -9,8 +9,8 @@ import {
   footerBrandLinks,
   footerLegalLinks,
   footerSocialLinks,
-} from "../data/footer";
-import { site } from "../data/site";
+} from "../../data/footer";
+import { site } from "../../data/site";
 
 const socialIcons = {
   discord: (
