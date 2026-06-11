@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import useSound from "use-sound";
 import React from "react";
-import { farmers } from "../data/farmers";
+import { farmers } from "../../data/farmers";
 
 export default function Farmers() {
   const sound0Loc = "/sounds/tiuing.mp3";
@@ -33,7 +33,7 @@ export default function Farmers() {
         seriously.
       </p>
       <div className="mx-auto w-full max-w-4xl bg-white dark:bg-neutral-900">
-        <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
+        <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
           {farmers.map((item) => (
             <Link
               onClick={sound0Click}

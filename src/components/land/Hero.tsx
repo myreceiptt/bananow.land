@@ -22,14 +22,13 @@ export function Hero() {
             <span className="text-yellow-now dark:text-green-now font-extrabold">
               Land
             </span>{" "}
-            of Nutrition
+            of Nutrition.
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 text-dark-now dark:text-white-now">
             Welcome to the{" "}
             <span className="text-green-now dark:text-yellow-now font-bold">
               BANANOW
-            </span>
-            .
+            </span>{" "}
             <span className="text-yellow-now dark:text-green-now font-bold">
               Land
             </span>

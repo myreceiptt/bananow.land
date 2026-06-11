@@ -3,8 +3,8 @@ import { useState } from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
 
 import useSound from "use-sound";
-import { ctaLinks } from "../data/site";
-import ReadMoreModal from "./ui/ReadMoreModal";
+import { ctaLinks } from "../../data/site";
+import ReadMoreModal from "../ui/ReadMoreModal";
 
 const products = [
   {

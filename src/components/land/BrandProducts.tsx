@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import useSound from "use-sound";
 import React from "react";
-import { activeBrands } from "../data/brands";
+import { activeBrands } from "../../data/brands";
 
 export function BrandProducts() {
   const sound0Loc = "/sounds/tiuing.mp3";

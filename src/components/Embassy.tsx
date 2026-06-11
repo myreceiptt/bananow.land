@@ -85,7 +85,6 @@ export default function Embassy() {
           <span className="text-green-now dark:text-yellow-now font-extrabold">
             BANANOW
           </span>
-          .
         </h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">

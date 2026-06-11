@@ -1,11 +1,11 @@
 import Embassy from "../components/Embassy";
-import { Hero } from "../components/Hero";
+import { Hero } from "../components/land/Hero";
 import Layout from "../components/Layout";
-import TheHeads from "../components/TheHeads";
-import { Features } from "../components/Features";
-import { BrandProducts } from "../components/BrandProducts";
-import Faq from "../components/Faq";
-import Farmers from "../components/Farmers";
+import TheHeads from "../components/land/TheHeads";
+import { Features } from "../components/land/Features";
+import { BrandProducts } from "../components/land/BrandProducts";
+import Faq from "../components/land/Faq";
+import Farmers from "../components/land/Farmers";
 
 export default function Land() {
   return (

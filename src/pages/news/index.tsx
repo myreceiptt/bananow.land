@@ -6,6 +6,7 @@ import NewsTaxonomyList from "../../components/NewsTaxonomyList";
 import { activeBrands } from "../../data/brands";
 import { newsCategories } from "../../data/newsCategories";
 import { getPublishedNewsArticles, type NewsArticle } from "../../lib/news";
+import Embassy from "@/components/Embassy";
 
 type NewsIndexProps = {
   articles: NewsArticle[];
@@ -72,6 +73,7 @@ export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
           </div>
         ) : null}
       </div>
+      <Embassy />
     </Layout>
   );
 }
