@@ -50,7 +50,8 @@ Aturan utama:
 | 9A  | Repo-Wide Audit & Maintenance Review              | v1.63      | ✅ Selesai     |
 | 10  | Skool Now MVP                                     | v1.74      | ✅ Selesai     |
 | 10A | Global Navigation & Visual Polish                 | v1.75      | ✅ Selesai     |
-| 10B | Skool Now & TSX Organization Cleanup              | v1.76      | 🔜 Berikutnya  |
+| 10B | Skool Now & TSX Organization Cleanup              | v1.76      | ✅ Selesai     |
+| 10C | Type Safety, ESLint & Tailwind Cleanup            | v1.77      | 🔜 Berikutnya  |
 | 11  | BANANOW NFT Marketplace Testnet                   | v1.85      | ⏳ Belum mulai |
 | 12  | BANANOW NFT Marketplace Mainnet Controlled Launch | v1.92      | ⏳ Belum mulai |
 | 13  | Claps Alpha                                       | v2.00      | ⏳ Belum mulai |
@@ -197,27 +198,88 @@ Keterangan status:
     - align public taxonomy `The Brands` → `The Crops` dan `Older Brands` → `Earlier Crops` ✅ Selesai
 64. Phase 2C sudah direview manual, dicommit, dimerge ke `main`, dan production QA sukses. ✅ Selesai
 65. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 selesai dan tidak menghalangi tahap berikutnya. ✅ Selesai
-66. Sisa temuan non-blocker dipindahkan ke backlog:
-    - stale `News.tsx` cleanup
-    - `api/hello.ts` cleanup
-    - dependency cleanup/update
-    - DOCSNOW historical cleanup
-    - editorial byline guide
-    - marketplace-specific NFT terms
+66. Sisa temuan non-blocker dari Item Sisipan 9A dipindahkan ke backlog, dan sebagian sudah diselesaikan pada Item Sisipan 10B:
+    - stale `News.tsx` cleanup ✅ Selesai di 10B
+    - `api/hello.ts` cleanup ✅ Selesai di 10B
+    - dependency cleanup/update ⏳ Backlog
+    - DOCSNOW historical cleanup ⏳ Backlog
+    - editorial byline guide ⏳ Backlog
+    - marketplace-specific NFT terms ⏳ Backlog
 67. Skool Now MVP v1.74 sudah discope, diimplementasikan, dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
 68. `/skool/` sudah menjadi static landing page Skool Now dengan struktur visual mengikuti homepage BANANOW existing. ✅ Selesai
 69. Skool Now memakai struktur section: `SkoolHero`, `SkoolPaths`, `SkoolPrograms`, `SkoolHowItWorks`, `SkoolPartners`, `SkoolFaq`, dan `Embassy`. ✅ Selesai
 70. Skool Now mengunci `Skool Now` sebagai umbrella Crop dan `Skate Skool Now` sebagai first program. ✅ Selesai
 71. Skool Now three-layer model sudah dikunci:
-    - Participants / Packages,
-    - Partners,
-    - Sponsors / Investors.
+    - Participants / Packages, ✅ Selesai
+    - Partners, ✅ Selesai
+    - Sponsors / Investors. ✅ Selesai
 72. CTA SkoolPaths sudah diarahkan ke Embassy/contact:
-    - `Join a Program`,
-    - `Become a Partner`,
-    - `Sponsor or Invest`.
+    - `Join a Program`, ✅ Selesai
+    - `Become a Partner`, ✅ Selesai
+    - `Sponsor or Invest`. ✅ Selesai
 73. Issue build/news terkait `unknown primaryCategory: LAND` sudah diperbaiki manual oleh Farmer dan tidak lagi menjadi blocker. ✅ Selesai
-74. Tahap berikutnya adalah **Item Sisipan 10A — Global Navigation & Visual Polish v1.75**. 🔜 Berikutnya
+74. Item Sisipan 10A — Global Navigation & Visual Polish v1.75 selesai dalam tiga sub-stage terpisah. ✅ Selesai
+75. 10A-1 — NavBar Dropdown / Nested Navigation selesai:
+    - primary NavBar menjadi `Land | News | Skool | Claps | NFTs`, ✅ Selesai
+    - Privacy dan Terms tetap tersedia melalui footer/legal links, ✅ Selesai
+    - dropdown desktop dan mobile navigation lulus QA, ✅ Selesai
+    - branch dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+76. 10A-2 — Homepage `<TheHeads />` Visual Alignment selesai:
+    - reusable `ReadMoreModal` ditambahkan, ✅ Selesai
+    - deskripsi card dibuat preview dengan `... read more`, ✅ Selesai
+    - CTA `Be a Sprout`, `Be a Lover`, `Be a Head`, dan `Be a Farmer` sudah sejajar, ✅ Selesai
+    - branch dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+77. 10A-3 — News `<NewsCard />` Visual Alignment selesai:
+    - title dan excerpt card dibuat lebih konsisten, ✅ Selesai
+    - tags dihapus dari NewsCard list/card view tanpa menghapus tag data/routes/detail tags, ✅ Selesai
+    - branch dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+78. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 juga sudah dieksekusi, dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+79. 10B-1 — Skool Hero Visual & Copy Alignment selesai:
+    - headline Skool Hero diperkuat menjadi `LEARN. MOVE.` / `GROW. TOGETHER.`, ✅ Selesai
+    - copy hero diperpanjang agar lebih dekat dengan rhythm homepage hero, ✅ Selesai
+    - branch dicommit, dimerge ke `main`, dan production QA lulus. ✅ Selesai
+80. Cleanup kode usang selesai:
+    - `src/components/News.tsx` dihapus, ✅ Selesai
+    - `src/pages/api/hello.ts` dihapus. ✅ Selesai
+81. Cleanup asset farmers selesai:
+    - `src/data/farmers.ts` memakai SVG farmers, ✅ Selesai
+    - PNG farmers yang sudah tidak dipakai dihapus dari `public/images/farmers`. ✅ Selesai
+82. Cleanup asset redirects selesai:
+    - redirect person/farmer di `src/data/redirects.ts` memakai SVG dari `public/images/farmers`, ✅ Selesai
+    - asset redirect yang tidak dipakai dihapus sesuai daftar, ✅ Selesai
+    - `etherscan.svg` dan `nftindonesia.svg` tetap disimpan sesuai instruksi. ✅ Selesai
+83. Struktur `src/components` sudah dirapikan:
+    - global/shared UI dipindah ke `src/components/ui`, ✅ Selesai
+    - redirect components dipindah ke `src/components/redirect`, ✅ Selesai
+    - news components dipindah ke `src/components/news`, ✅ Selesai
+    - legal markdown dipindah ke `src/components/legal`, ✅ Selesai
+    - land dan skool tetap punya folder domain masing-masing. ✅ Selesai
+84. `src/components/skool/SkoolNow.tsx` sudah dipecah menjadi section components:
+    - `SkoolHero.tsx`, ✅ Selesai
+    - `SkoolPaths.tsx`, ✅ Selesai
+    - `SkoolHowItWorks.tsx`, ✅ Selesai
+    - `SkoolPrograms.tsx`, ✅ Selesai
+    - `SkoolPartners.tsx`, ✅ Selesai
+    - `SkoolFaq.tsx`, ✅ Selesai
+    - `SkoolShared.tsx`. ✅ Selesai
+85. Route page untuk area yang akan berkembang sudah dirapikan:
+    - `src/pages/skool.tsx` → `src/pages/skool/index.tsx`, ✅ Selesai
+    - `src/pages/nfts.tsx` → `src/pages/nfts/index.tsx`, ✅ Selesai
+    - `src/pages/claps.tsx` → `src/pages/claps/index.tsx`, ✅ Selesai
+    - route publik tetap sama: `/skool`, `/nfts`, dan `/claps`. ✅ Selesai
+86. Performa image artikel dipoles dengan `loading="eager"` pada cover image di `src/components/news/NewsArticleLayout.tsx` untuk merespons warning LCP. ✅ Selesai
+87. Validasi 10B lulus beberapa kali:
+    - `npm run lint` passed, ✅ Selesai
+    - `npm run build` passed, ✅ Selesai
+    - `next-env.d.ts` sempat berubah otomatis saat build tetapi selalu direstore agar tidak ikut diff. ✅ Selesai
+88. Sisa temuan setelah 10B dipindahkan ke backlog baru:
+    - penggunaan `any` masih cukup banyak,
+    - `eslint.config.mjs` masih mematikan `no-unused-vars`,
+    - small Tailwind/class cleanup,
+    - `autoComplete="false"` perlu diganti ke nilai valid seperti `off` jika memang ingin disable autocomplete,
+    - `target="_target"` perlu diganti ke target standar jika masih ada,
+    - Tailwind v4 CSS-first `@theme` migration ditahan sebagai future backlog terpisah karena blast radius lebih besar.
+89. Tahap berikutnya adalah **Item Sisipan 10C — Type Safety, ESLint & Tailwind Cleanup v1.77**. 🔜 Berikutnya
 
 ---
 
@@ -760,14 +822,14 @@ Gate selesai:
 
 Backlog non-blocker dari Item Sisipan 9A:
 
-1. Stale `News.tsx` cleanup.
-2. `api/hello.ts` cleanup.
-3. Dependency cleanup/update.
-4. DOCSNOW historical cleanup.
-5. Editorial byline guide.
-6. Marketplace-specific NFT terms.
-7. Explicit marketplace disclaimers untuk listing, minting, trading, royalties, dan third-party marketplace behavior.
-8. Advanced Markdown/MDX-like renderer jika dibutuhkan nanti.
+1. Stale `News.tsx` cleanup. ✅ Selesai pada Item Sisipan 10B.
+2. `api/hello.ts` cleanup. ✅ Selesai pada Item Sisipan 10B.
+3. Dependency cleanup/update. ⏳ Backlog.
+4. DOCSNOW historical cleanup. ⏳ Backlog.
+5. Editorial byline guide. ⏳ Backlog.
+6. Marketplace-specific NFT terms. ⏳ Backlog.
+7. Explicit marketplace disclaimers untuk listing, minting, trading, royalties, dan third-party marketplace behavior. ⏳ Backlog.
+8. Advanced Markdown/MDX-like renderer jika dibutuhkan nanti. ⏳ Backlog.
 
 Catatan:
 
@@ -1165,7 +1227,7 @@ Tentative sampai marketplace technical spec final.
 
 ---
 
-## 17. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
+## 18. Item Urutan Besar 12 — BANANOW NFT Marketplace Mainnet Controlled Launch
 
 Target: **v1.92**
 
@@ -1175,7 +1237,7 @@ Tentative sampai testnet marketplace benar-benar lulus.
 
 ---
 
-## 18. Item Urutan Besar 13 — Claps Alpha
+## 19. Item Urutan Besar 13 — Claps Alpha
 
 Target: **v2.00**
 
@@ -1185,7 +1247,7 @@ Tentative sampai Claps Safety and Product Spec selesai.
 
 ---
 
-## 19. Item Urutan Besar 14 — Admin Dashboard Perluasan
+## 20. Item Urutan Besar 14 — Admin Dashboard Perluasan
 
 Target: **v2.05**
 
@@ -1195,7 +1257,7 @@ Tentative sampai minimal dua modul dinamis berjalan.
 
 ---
 
-## 20. Item Urutan Besar 15 — BANANOW Land Operating Portal
+## 21. Item Urutan Besar 15 — BANANOW Land Operating Portal
 
 Target: **v2.11**
 
@@ -1205,7 +1267,7 @@ Tentative sampai semua modul utama punya MVP yang stabil.
 
 ---
 
-## 21. Aturan Item Sisipan
+## 22. Aturan Item Sisipan
 
 Item Sisipan dibuat jika terjadi sesuatu di luar rencana.
 
@@ -1249,42 +1311,43 @@ Item Sisipan tidak boleh menjadi alasan untuk menambah fitur baru yang tidak per
 
 ---
 
-## 22. Next Action yang Paling Dekat
+## 23. Next Action yang Paling Dekat
 
 Next action:
 
-**Mulai Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76.**
+**Mulai Item Sisipan 10C — Type Safety, ESLint & Tailwind Cleanup v1.77.**
 
 Alasan:
 
-Item Sisipan 10A — Global Navigation & Visual Polish v1.75 sudah selesai dalam tiga sub-stage terpisah: NavBar Dropdown / Nested Navigation, Homepage `<TheHeads />` Visual Alignment, dan News `<NewsCard />` Visual Alignment. Ketiganya sudah dicommit, melewati Vercel Preview QA, dimerge manual ke `main`, dan production QA lulus.
+Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 sudah selesai. Skool Hero sudah dipoles, struktur komponen sudah dirapikan, stale files sudah dihapus, asset farmers/redirects sudah dibersihkan, Skool components sudah dipecah, route page `/skool`, `/nfts`, dan `/claps` sudah dipindah ke folder index tanpa mengubah public route, dan production QA sudah lulus.
 
-Dengan demikian gate untuk masuk ke tahap organisasi file `.tsx` dan cleanup struktur repo sudah terbuka.
+Namun setelah 10B masih ada sisa temuan teknis non-blocker yang lebih aman diselesaikan sebagai cleanup kecil sebelum masuk ke BANANOW NFT Marketplace Testnet.
 
 Urutan kerja paling dekat:
 
-1. Kunci scope Item Sisipan 10B.
-2. Audit organisasi file Skool Now.
-3. Audit organisasi file `.tsx` di `pages` dan `components`.
-4. Audit redirect pages dan reusable components.
-5. Susun report/plan cleanup terlebih dahulu sebelum implementasi.
+1. Kunci scope Item Sisipan 10C.
+2. Audit penggunaan `any` yang paling mudah dikurangi.
+3. Audit unused vars/imports setelah mempertimbangkan tightening ESLint.
+4. Audit small Tailwind/class cleanup.
+5. Susun report/plan cleanup terlebih dahulu.
 6. Farmer memilih subset perubahan yang aman.
 7. Susun prompt Agent Now implementation untuk subset yang disetujui.
 8. Eksekusi branch baru dari latest `main`.
-9. Cleanup dilakukan bertahap tanpa mengubah behavior route.
-10. Pastikan tidak ada marketplace work, Claps work, payment, booking, database, auth, atau admin dashboard.
-11. Lint/build/local QA.
-12. Vercel Preview QA.
-13. Merge manual ke `main`.
-14. Production QA.
+9. Cleanup dilakukan kecil dan bertahap tanpa mengubah behavior route.
+10. Pastikan tidak ada Tailwind CSS-first `@theme` migration pada tahap ini.
+11. Pastikan tidak ada Marketplace work, Claps work, payment, booking, database, auth, atau admin dashboard.
+12. Lint/build/local QA.
+13. Vercel Preview QA.
+14. Merge manual ke `main`.
+15. Production QA.
 
-Status next action: **Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 — 🔜 Berikutnya**
+Status next action: **Item Sisipan 10C — Type Safety, ESLint & Tailwind Cleanup v1.77 — 🔜 Berikutnya**
 
 ---
 
-## 23. Catatan Review Terakhir
+## 24. Catatan Review Terakhir
 
-Dokumen ini sudah diperbarui setelah Item Sisipan 10A — Global Navigation & Visual Polish v1.75 selesai. 10A dieksekusi dalam tiga sub-stage terpisah: NavBar Dropdown / Nested Navigation, Homepage `<TheHeads />` Visual Alignment, dan News `<NewsCard />` Visual Alignment. Semua sub-stage sudah dicommit, Vercel Preview QA lulus, merge manual ke `main` selesai, dan production QA lulus.
+Dokumen ini sudah diperbarui setelah Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 selesai. 10B mencakup Skool Hero Visual & Copy Alignment, cleanup kode usang, cleanup asset farmers dan redirects, reorganisasi struktur `src/components`, split Skool components, route page folder index cleanup untuk `/skool`, `/nfts`, dan `/claps`, serta polish performa cover image artikel. Semua perubahan sudah dicommit, Vercel Preview QA lulus, merge manual ke `main` selesai, dan production QA lulus.
 
 Status final saat ini:
 
@@ -1292,32 +1355,41 @@ Status final saat ini:
 2. Item Sisipan 9A — Repo-Wide Audit & Maintenance Review v1.63 sudah ✅ Selesai.
 3. Item Urutan Besar 10 — Skool Now MVP v1.74 sudah ✅ Selesai.
 4. Item Sisipan 10A — Global Navigation & Visual Polish v1.75 sudah ✅ Selesai.
-5. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 adalah 🔜 Berikutnya.
-6. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
-7. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
-8. Skool Now sudah menjadi Crop publik aktif untuk program belajar, olahraga, komunitas, partner, sponsor, dan investor inquiry.
-9. Primary NavBar sudah dipoles menjadi `Land | News | Skool | Claps | NFTs` dengan dropdown/nested navigation.
-10. Privacy dan Terms tetap tersedia melalui footer/legal links.
-11. Homepage `<TheHeads />` sudah memakai read-more modal dan internal CTA alignment sudah rapi.
-12. NewsCard list/card view sudah lebih sejajar; tags dihapus dari card tetapi data/tag routes/detail tags tetap aman.
-13. Maintenance hygiene paling aman sudah diterapkan.
-14. Wording publik paling berisiko terkait NFT/utility/revenue framing sudah diperbaiki sebelum masuk Skool Now.
-15. Public taxonomy website sudah lebih selaras dengan The Green Print:
-    - `The Brands` → `The Crops`,
-    - `Older Brands` → `Earlier Crops`.
-16. Terms sudah mengarah ke official door Na Now News saat ini di `/news/`.
-17. Sisa temuan non-blocker dari audit v1.63 tetap berada di backlog:
+5. Item Sisipan 10B — Skool Now & TSX Organization Cleanup v1.76 sudah ✅ Selesai.
+6. Item Sisipan 10C — Type Safety, ESLint & Tailwind Cleanup v1.77 adalah 🔜 Berikutnya.
+7. Item Urutan Besar 11 dan seterusnya tetap belum mulai.
+8. Na Now News sudah menjadi Crop publik aktif untuk artikel/news BANANOW Land.
+9. Skool Now sudah menjadi Crop publik aktif untuk program belajar, olahraga, komunitas, partner, sponsor, dan investor inquiry.
+10. Primary NavBar sudah dipoles menjadi `Land | News | Skool | Claps | NFTs` dengan dropdown/nested navigation.
+11. Privacy dan Terms tetap tersedia melalui footer/legal links.
+12. Homepage `<TheHeads />` sudah memakai read-more modal dan internal CTA alignment sudah rapi.
+13. NewsCard list/card view sudah lebih sejajar; tags dihapus dari card tetapi data/tag routes/detail tags tetap aman.
+14. Skool Hero sudah lebih dekat dengan rhythm homepage hero.
+15. Struktur repo lebih rapi setelah 10B:
+    - global/shared UI di `src/components/ui`,
+    - redirect components di `src/components/redirect`,
+    - news components di `src/components/news`,
+    - legal markdown di `src/components/legal`,
+    - land dan skool tetap punya folder domain masing-masing.
+16. Skool components sudah dipecah menjadi section components.
+17. Public routes `/skool`, `/nfts`, dan `/claps` tetap sama setelah route page dipindah ke folder index.
+18. Sisa temuan non-blocker dari audit v1.63 yang sudah selesai:
     - stale `News.tsx` cleanup,
-    - `api/hello.ts` cleanup,
-    - dependency cleanup/update,
+    - `api/hello.ts` cleanup.
+19. Sisa backlog teknis yang diarahkan ke 10C:
+    - penggunaan `any` yang masih cukup banyak,
+    - unused vars/imports belum terlihat karena `no-unused-vars` masih dimatikan,
+    - small Tailwind/class cleanup,
+    - validasi `autoComplete` dan `target`.
+20. Future backlog yang tidak masuk 10C:
+    - Tailwind v4 CSS-first `@theme` migration,
+    - dependency cleanup/update yang lebih besar,
     - DOCSNOW historical cleanup,
     - editorial byline guide,
     - marketplace-specific NFT terms,
     - explicit marketplace disclaimers,
     - advanced Markdown/MDX-like renderer jika dibutuhkan.
-18. Tambahan backlog terarah setelah Skool Now dan 10A:
-    - Skool Now & TSX Organization Cleanup v1.76.
-19. Dokumen ini siap menjadi pegangan untuk memulai Item Sisipan 10B sebelum masuk ke BANANOW NFT Marketplace Testnet.
+21. Dokumen ini siap menjadi pegangan untuk memulai Item Sisipan 10C sebelum masuk ke BANANOW NFT Marketplace Testnet.
 
 ---
 
