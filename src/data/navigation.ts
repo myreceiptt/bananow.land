@@ -40,8 +40,8 @@ export const primaryNavigation: NavigationItem[] = [
     href: "/skool",
     children: [
       { name: "Layers", href: "/skool#skool-paths" },
-      { name: "Programs", href: "/skool#skool-programs" },
       { name: "How It Works", href: "/skool#skool-how-it-works" },
+      { name: "Programs", href: "/skool#skool-programs" },
       { name: "Partners", href: "/skool#skool-partners" },
       { name: "F.A.Q.", href: "/skool#skool-faq" },
       { name: "Embassy", href: "/skool#embassy" },

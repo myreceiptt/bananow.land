@@ -65,38 +65,51 @@ function CtaLink({
 export function SkoolHero() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="skool-hero">
-      <div className="max-w-7xl mx-auto pt-32 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-28">
+      <div className="max-w-7xl mx-auto pt-32 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="pt-6 sm:pt-8 justify-start sm:text-start">
-          <p className="font-judul font-bold text-lg text-dark-now dark:text-white-now">
+          {/* <p className="font-judul font-bold text-lg text-dark-now dark:text-white-now">
             {skoolHero.eyebrow}
-          </p>
-          <h1 className="mt-4 text-5xl font-bold text-neutral-900 dark:text-white font-judul">
-            <Emphasis>SKOOL</Emphasis>{" "}
-            <span className="text-yellow-now dark:text-green-now font-extrabold">
-              NOW
-            </span>
+          </p> */}
+          <h1 className="text-5xl font-bold text-neutral-900 dark:text-white font-judul">
+            {skoolHero.titleLines[0]}
+            <br />
+            <Emphasis>{skoolHero.titleLines[1]}</Emphasis>
+            {skoolHero.titleLines[2]}
           </h1>
-          <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 text-dark-now dark:text-white-now">
-            <span className="text-green-now dark:text-yellow-now font-bold">
-              BANANOW
+          <p className="pt-6 text-base leading-7 w-auto sm:w-10/12 md:w-10/12 text-dark-now dark:text-white-now">
+            {skoolHero.descriptionLead1}{" "}
+            <span className="text-yellow-now dark:text-green-now font-bold">
+              LEARNING
             </span>
-            &apos;s home for learning programs, sports communities, and
-            real-world growth.
+            {skoolHero.descriptionLead2.replace("LEARNING", "")}
             <br />
             <br />
-            <span className="text-yellow-now dark:text-green-now font-bold">
-              Learn.
-            </span>{" "}
+            {skoolHero.descriptionBody1}{" "}
             <span className="text-green-now dark:text-yellow-now font-bold">
-              Move.
+              LEARN
             </span>{" "}
+            {skoolHero.descriptionBody2.replace("LEARN", "")}
+            <br />
+            <br />
+            {skoolHero.descriptionClose.intro}{" "}
             <span className="text-yellow-now dark:text-green-now font-bold">
-              Grow.
+              {skoolHero.descriptionClose.program}
             </span>{" "}
-            Together.
+            {skoolHero.descriptionClose.suffix}{" "}
+            <span className="text-green-now dark:text-yellow-now font-bold">
+              {skoolHero.descriptionClose.action}
+            </span>
+            , {skoolHero.descriptionClose.ending}{" "}
+            <span className="text-yellow-now dark:text-green-now font-bold">
+              {skoolHero.descriptionClose.brand}
+            </span>
+            .
           </p>
           <div className="flex flex-wrap pt-10 gap-2 min-w-87.5 justify-start">
-            <CtaLink href={skoolHero.primaryCta.href} label={skoolHero.primaryCta.label} />
+            <CtaLink
+              href={skoolHero.primaryCta.href}
+              label={skoolHero.primaryCta.label}
+            />
             <CtaLink
               href={skoolHero.secondaryCta.href}
               label={skoolHero.secondaryCta.label}
@@ -127,7 +140,10 @@ export function SkoolPaths() {
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           Three Layers to Grow With{" "}
           <span className="text-yellow-now dark:text-green-now font-extrabold">
-            Skool Now
+            Skool
+          </span>{" "}
+          <span className="text-green-now dark:text-yellow-now font-extrabold">
+            Now
           </span>
         </h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
@@ -200,7 +216,7 @@ export function SkoolPrograms() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 text-center">
         <h2 className="text-4xl font-judul font-bold text-neutral-900 dark:text-white">
           Our{" "}
-          <span className="text-green-now dark:text-yellow-now font-extrabold">
+          <span className="text-yellow-now dark:text-green-now font-extrabold">
             Programs
           </span>
         </h2>
@@ -210,17 +226,18 @@ export function SkoolPrograms() {
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         {skoolPrograms.map((program, index) => (
           <div
             key={program.title}
             className="rounded-lg border border-light-now dark:border-light-now p-6 flex flex-col">
-            <div className="h-44 flex items-center justify-center">
+            <div className="h-80 flex items-center justify-center">
               <Image
                 src={program.image}
                 alt={program.imageAlt}
-                width={360}
-                height={220}
+                width={program.imageWidth}
+                height={program.imageHeight}
+                className="max-h-full w-auto max-w-full object-contain"
                 quality={75}
                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
               />
@@ -265,32 +282,42 @@ export function SkoolHowItWorks() {
         <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           How{" "}
           <span className="text-yellow-now dark:text-green-now font-extrabold">
-            Skool Now
+            Skool
+          </span>{" "}
+          <span className="text-green-now dark:text-yellow-now font-extrabold">
+            Now
           </span>{" "}
           Works
         </h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
-          A simple journey for learning new skills, joining sessions, growing
-          with community, sharing progress, and building confidence.
+          A simple path for participants, partners, sponsors, and investors to
+          learn, build, support, share progress, and grow impact together.
         </p>
 
-        <div className="pt-16 grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="pt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {skoolHowItWorks.map((step, index) => (
-            <div key={step.title} className="relative">
-              <div className="rounded-lg border border-light-now dark:border-light-now p-6 h-full">
-                <p className="font-judul font-bold text-4xl text-green-now dark:text-yellow-now">
-                  {index + 1}
-                </p>
-                <h3 className="pt-6 text-lg font-judul font-bold text-neutral-900 dark:text-white">
-                  {step.title}
-                </h3>
-                <p className="pt-4 text-base text-dark-now dark:text-white-now">
-                  {step.description}
-                </p>
+            <div key={step.title} className="h-full px-4">
+              <div className="h-40 flex items-center justify-center mx-auto">
+                <Image
+                  src={step.image}
+                  alt={step.imageAlt}
+                  width={step.imageWidth}
+                  height={step.imageHeight}
+                  className="max-h-full w-auto max-w-full object-contain"
+                  quality={75}
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                />
               </div>
-              {index < skoolHowItWorks.length - 1 && (
-                <ArrowRightIcon className="hidden lg:block absolute -right-4 top-1/2 h-5 w-5 text-light-now" />
-              )}
+              <h3 className="pt-6 text-lg font-judul font-bold text-center text-neutral-900 dark:text-white">
+                (
+                <span className="text-green-now dark:text-yellow-now">
+                  {index + 1}
+                </span>
+                ) {step.title}
+              </h3>
+              <p className="pt-4 text-base text-center text-dark-now dark:text-white-now">
+                {step.description}
+              </p>
             </div>
           ))}
         </div>
@@ -307,7 +334,10 @@ export function SkoolPartners() {
       <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
         Partners of{" "}
         <span className="text-green-now dark:text-yellow-now font-extrabold">
-          Skool Now
+          Skool
+        </span>{" "}
+        <span className="text-yellow-now dark:text-green-now font-extrabold">
+          Now
         </span>
       </h2>
 
@@ -352,8 +382,11 @@ export function SkoolFaq() {
       id="skool-faq">
       <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
         F.A.Q. About{" "}
+        <span className="text-green-now dark:text-yellow-now font-extrabold">
+          Skool
+        </span>{" "}
         <span className="text-yellow-now dark:text-green-now font-extrabold">
-          Skool Now
+          Now
         </span>
       </h2>
 
@@ -409,8 +442,8 @@ export default function SkoolNow() {
     <>
       <SkoolHero />
       <SkoolPaths />
-      <SkoolPrograms />
       <SkoolHowItWorks />
+      <SkoolPrograms />
       <SkoolPartners />
       <SkoolFaq />
     </>

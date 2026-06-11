@@ -1,11 +1,12 @@
 import type { GetStaticProps } from "next";
 
-import Layout from "../../components/Layout";
-import NewsCard from "../../components/NewsCard";
-import NewsTaxonomyList from "../../components/NewsTaxonomyList";
+import Layout from "../../components/ui/Layout";
+import NewsCard from "../../components/news/NewsCard";
+import NewsTaxonomyList from "../../components/news/NewsTaxonomyList";
 import { activeBrands } from "../../data/brands";
 import { newsCategories } from "../../data/newsCategories";
 import { getPublishedNewsArticles, type NewsArticle } from "../../lib/news";
+import Embassy from "@/components/ui/Embassy";
 
 type NewsIndexProps = {
   articles: NewsArticle[];
@@ -72,6 +73,7 @@ export default function NewsIndex({ articles, tagItems }: NewsIndexProps) {
           </div>
         ) : null}
       </div>
+      <Embassy />
     </Layout>
   );
 }

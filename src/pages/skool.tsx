@@ -1,5 +1,5 @@
-import Embassy from "../components/Embassy";
-import Layout from "../components/Layout";
+import Embassy from "../components/ui/Embassy";
+import Layout from "../components/ui/Layout";
 import SkoolNow from "../components/skool/SkoolNow";
 
 export default function Skool() {

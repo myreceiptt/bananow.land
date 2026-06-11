@@ -1,8 +1,8 @@
 import type { GetStaticPaths, GetStaticProps } from "next";
 import Link from "next/link";
 
-import Layout from "../../../components/Layout";
-import NewsCard from "../../../components/NewsCard";
+import Layout from "../../../components/ui/Layout";
+import NewsCard from "../../../components/news/NewsCard";
 import {
   getKnownTagName,
   getNewsTagPaths,

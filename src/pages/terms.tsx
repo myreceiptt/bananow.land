@@ -1,8 +1,8 @@
 import fs from "fs";
 import type { GetStaticProps } from "next";
 import path from "path";
-import LegalMarkdown from "../components/LegalMarkdown";
-import Layout from "../components/Layout";
+import LegalMarkdown from "../components/legal/LegalMarkdown";
+import Layout from "../components/ui/Layout";
 
 type LegalPageProps = {
   markdown: string;

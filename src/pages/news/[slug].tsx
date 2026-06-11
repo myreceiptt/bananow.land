@@ -1,7 +1,7 @@
 import type { GetStaticPaths, GetStaticProps } from "next";
 
-import Layout from "../../components/Layout";
-import NewsArticleLayout from "../../components/NewsArticleLayout";
+import Layout from "../../components/ui/Layout";
+import NewsArticleLayout from "../../components/news/NewsArticleLayout";
 import {
   getNewsArticleBySlug,
   getNewsArticlePaths,
