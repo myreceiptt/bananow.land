@@ -54,8 +54,8 @@ export default function Farmers() {
                 className="h-auto w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
                 src={item.src}
                 alt={item.alt}
-                width={150}
-                height={150}
+                width={178}
+                height={260}
                 quality={75}
                 sizes="100vw"
               />

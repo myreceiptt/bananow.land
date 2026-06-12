@@ -16,6 +16,7 @@ export function SkoolHowItWorks() {
           </span>{" "}
           Works
         </h2>
+
         <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           A simple path for participants, partners, sponsors, and investors to
           learn, build, support, share progress, and grow impact together.

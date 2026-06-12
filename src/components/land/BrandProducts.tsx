@@ -18,8 +18,8 @@ export function BrandProducts() {
 
   return (
     <div className="bg-white dark:bg-neutral-900" id="brandproducts">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 text-center">
-        <h2 className="text-4xl font-judul font-bold text-neutral-900 dark:text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-32 pb-16">
+        <h2 className="text-4xl font-judul font-bold text-center text-neutral-900 dark:text-white">
           Here are{" "}
           <span className="text-green-now dark:text-yellow-now font-extrabold">
             BANANOW
@@ -27,7 +27,7 @@ export function BrandProducts() {
           's Growing Crops
         </h2>
 
-        <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
+        <p className="pt-6 text-base max-w-2xl text-center m-auto text-dark-now dark:text-white-now">
           Our{" "}
           <span className="text-green-now dark:text-yellow-now font-bold">
             FAMILY
@@ -40,40 +40,40 @@ export function BrandProducts() {
           to know more about what we do, which is updated regularly, click on
           our crops below.
         </p>
-      </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid lg:grid-cols-3 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
-        {activeBrands.map((brand) => (
-          <div key={brand.name}>
-            <div className="h-32 w-32 flex justify-center mx-auto hover:scale-110 transition">
-              <Link onClick={sound0Click} href={brand.url} title={brand.name}>
-                <Image
-                  onMouseEnter={() => {
-                    setIsHovering(true);
-                    play4();
-                  }}
-                  onMouseLeave={() => {
-                    setIsHovering(false);
-                    stop();
-                  }}
-                  src={brand.icon}
-                  alt={brand.name}
-                  width={130}
-                  height={130}
-                  quality={75}
-                  sizes="100vw"
-                  priority
-                />
-              </Link>
+        <div className="pt-16 grid lg:grid-cols-3 gap-6">
+          {activeBrands.map((brand) => (
+            <div key={brand.name} className="h-full px-4">
+              <div className="h-40 flex items-center justify-center mx-auto hover:scale-110 transition">
+                <Link onClick={sound0Click} href={brand.url} title={brand.name}>
+                  <Image
+                    onMouseEnter={() => {
+                      setIsHovering(true);
+                      play4();
+                    }}
+                    onMouseLeave={() => {
+                      setIsHovering(false);
+                      stop();
+                    }}
+                    src={brand.icon}
+                    alt={brand.name}
+                    width={178}
+                    height={260}
+                    quality={75}
+                    sizes="100vw"
+                    priority
+                  />
+                </Link>
+              </div>
+              <h3 className="pt-6 text-lg font-judul font-bold text-center text-neutral-900 dark:text-white">
+                {brand.name}
+              </h3>
+              <p className="pt-4 text-base text-center text-dark-now dark:text-white-now">
+                {brand.description}
+              </p>
             </div>
-            <h2 className="font-judul font-bold text-lg text-center text-neutral-900 dark:text-white">
-              {brand.name}
-            </h2>
-            <p className="pt-2 text-base text-center text-dark-now dark:text-white-now">
-              {brand.description}
-            </p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
